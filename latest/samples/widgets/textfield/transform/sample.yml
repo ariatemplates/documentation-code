@@ -1,0 +1,7 @@
+title: TextField Transform Bindings
+template: ariadoc.samples.widgets.textfield.transform.Transforms
+description: It shows the Trasform feature of the TextField Widget.
+data:
+  value: "Some Line Of Plain Text..."
+sources:
+- Transforms.tpl

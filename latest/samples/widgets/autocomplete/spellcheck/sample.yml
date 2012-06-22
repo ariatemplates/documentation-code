@@ -1,0 +1,7 @@
+title: AutoComplete Widget - Spell Check
+template: ariadoc.samples.widgets.autocomplete.spellcheck.Main
+description: It shows how the spellcheck works with the autocomplete. It gives suggestions if the user makes errors, like doubling a letter in a word.
+sources:
+- Main.tpl
+- MainScript.js
+- ../../../common/autocomplete/SpellCheckResourceHandler.js

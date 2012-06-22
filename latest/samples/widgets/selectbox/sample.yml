@@ -1,0 +1,25 @@
+title: SelectBox Field Widget - Sample usage
+template: ariadoc.samples.widgets.selectbox.SampleUsage
+description: It shows the SelectBox Widget in different configuration (default, read-only, disabled).
+data:
+  widgets:
+    country: "ES"
+  countries:
+  - value: "FR"
+    label: "France"
+  - value: "CH"
+    label: "Switzerland"
+  - value: "UK"
+    label: "United Kingdom"
+  - value: "US"
+    label: "United States"
+  - value: "ES"
+    label: "Spain"
+  - value: "PL"
+    label: "Poland"
+  - value: "SE"
+    label: "Sweden"
+  - value : "USA"
+    label: "United States of America"
+sources:
+- SampleUsage.tpl

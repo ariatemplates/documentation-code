@@ -1,0 +1,7 @@
+title: Template Widget  - Sample
+template: ariadoc.samples.widgets.template.TemplateSample
+description: It shows the Template Widget.
+sources:
+- TemplateSample.tpl
+- FirstSubTemplate.tpl
+- SecondSubTemplate.tpl

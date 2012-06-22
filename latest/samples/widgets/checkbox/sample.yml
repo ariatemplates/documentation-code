@@ -1,0 +1,6 @@
+title: Checkbox Widget
+template: ariadoc.samples.widgets.checkbox.SimpleCheckbox
+description: It shows a simple Checkbox Widget with the onchange event attached to it.
+sources:
+- SimpleCheckbox.tpl
+- SimpleCheckboxScript.js

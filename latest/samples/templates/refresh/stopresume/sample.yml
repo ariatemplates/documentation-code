@@ -1,0 +1,13 @@
+title: Stop/Resume refreshes
+template: ariadoc.samples.templates.refresh.stopresume.StopResume
+description: It shows how the stop and resume refresh works in aria templates.
+sources:
+- StopResume.tpl
+- StopResumeScript.js
+- RefreshCSS.tpl.css
+data:
+  teams:
+  - name: 'England'
+    score: 0
+  - name: 'France'
+    score: 0

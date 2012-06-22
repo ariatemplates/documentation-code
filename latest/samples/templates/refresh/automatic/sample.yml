@@ -1,0 +1,13 @@
+title: Automatic Refresh
+template: ariadoc.samples.templates.refresh.automatic.AutomaticRefresh
+description: It shows how the Automatic Refresh works in aria templates.
+sources:
+- AutomaticRefresh.tpl
+- AutomaticRefreshScript.js
+- RefreshCSS.tpl.css
+data:
+  teams:
+  - name: 'England'
+    score: 0
+  - name: 'France'
+    score: 0

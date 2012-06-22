@@ -1,0 +1,13 @@
+title: Repeater
+template: ariadoc.samples.templates.refresh.repeater.Repeater
+description: It shows how the Repeater statement works, creating refreshable sections.
+sources:
+- Repeater.tpl
+- RepeaterScript.js
+- RefreshCSS.tpl.css
+data:
+  teams:
+  - name: 'England'
+    score: 0
+  - name: 'France'
+    score: 0

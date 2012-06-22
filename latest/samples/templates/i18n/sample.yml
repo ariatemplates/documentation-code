@@ -1,0 +1,19 @@
+title: Localization and internazionalization (18n)
+template: ariadoc.samples.templates.i18n.LocalizedTemplate
+description: It shows how the Localization works in aria templates.
+data:
+  selectedLocale: en_US
+  locales:
+  - value: "fr_FR"
+    label: "French (fr_FR)"
+  - value: "en_US"
+    label: "English (en_US)"
+  - value: "sv_SE"
+    label: "Swedish (sv_SE)"
+  - value: "pl_PL"
+    label: "Polish (pl_PL)"
+  - value: "it_IT"
+    label: "Italian (it_IT)"
+sources:
+- LocalizedTemplate.tpl
+- LocalizedTemplateScript.js

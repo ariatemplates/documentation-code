@@ -1,0 +1,6 @@
+title: Dialog sample usage
+template: ariadoc.samples.widgets.dialog.action.DialogActionSample
+description: It shows how the actions work with the Dialog.
+sources:
+- DialogActionSample.tpl
+- DialogActionSampleSrcipt.js

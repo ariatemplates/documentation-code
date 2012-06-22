@@ -1,0 +1,47 @@
+{CSSTemplate {
+	$classpath : "ariadoc.samples.widgets.widgetlibs.slider.widget.SliderCSS"
+}}
+
+	{macro main()}
+
+div.sampleLibSlider {
+	position: relative;
+	margin: 1px;
+	height: 15px;
+	background: url("${cssFolderPath}/lineMiddle.png");
+}
+
+div.sampleLibSlider span {
+	position: absolute;
+}
+
+div.sampleLibSlider span.sliderBegin {
+	width: 2px;
+	left: 0px;
+	background: url("${cssFolderPath}/lineEdges.png");
+}
+
+div.sampleLibSlider span.sliderEnd {
+	width: 2px;
+	right: 0px;
+	background: url("${cssFolderPath}/lineEdges.png");
+	background-position: -2px 0px;
+}
+
+div.sampleLibSlider span.sliderButton {
+	width: 14px;
+	height: 15px;
+	background: url("${cssFolderPath}/button.png");
+}
+
+div.sampleLibSlider span.sliderButton.highlighted {
+	background-position: -16px 0px;
+}
+
+div.sampleLibSlider span.sliderButton.down {
+	background-position: -32px 0px;
+}
+
+	{/macro}
+
+{/CSSTemplate}

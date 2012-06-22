@@ -1,0 +1,6 @@
+title: Widget Bindings with Transform
+template: ariadoc.samples.widgets.bindings.transform.Transform
+data:
+  value: "Some Line Of Plain Text..."
+sources:
+- Transform.tpl

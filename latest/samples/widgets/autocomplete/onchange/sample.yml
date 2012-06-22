@@ -1,0 +1,8 @@
+title: AutoComplete Widget - OnChange Action
+template: ariadoc.samples.widgets.autocomplete.onchange.OnChange
+description: It shows how the onchange callback works inside the autocomplete widget.
+sources:
+- OnChange.tpl
+- OnChangeScript.js
+- OnChangeStyle.tpl.css
+- ../../../common/autocomplete/AutoCompleteResourceHandler.js

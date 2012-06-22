@@ -1,0 +1,7 @@
+title: ErrorList Widget - Customized template usage
+template: ariadoc.samples.widgets.errorlist.custom.ErrorListCustomizedTemplate
+description: It shows a customized ErrorList Widget.
+sources:
+- ErrorListCustomizedTemplate.tpl
+- CustomizedErrorListTemplate.tpl
+- CustomizedErrorListTemplateScript.js

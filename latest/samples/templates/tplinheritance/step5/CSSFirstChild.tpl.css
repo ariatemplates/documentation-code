@@ -1,0 +1,15 @@
+{CSSTemplate {
+  $classpath : "ariadoc.samples.templates.tplinheritance.step5.CSSFirstChild"
+}}
+
+{macro main()}
+
+  h1 {
+    color: #4776A7;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #A5CA39;
+  }
+
+{/macro}
+
+{/CSSTemplate}

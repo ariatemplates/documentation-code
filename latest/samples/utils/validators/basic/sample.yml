@@ -1,0 +1,10 @@
+title: Validators
+template: ariadoc.samples.utils.validators.basic.Basic
+moduleCtrl: ariadoc.samples.utils.validators.basic.BasicCtrl
+description: It shows the default aria templates Validator.
+sources:
+- Basic.tpl
+- BasicCtrl.js
+- IBasicCtrl.js
+- CustomizedErrorList.tpl
+- CustomizedErrorListScript.js

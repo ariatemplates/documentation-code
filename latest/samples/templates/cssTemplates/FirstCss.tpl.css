@@ -1,0 +1,70 @@
+{CSSTemplate {
+	$classpath : "ariadoc.samples.templates.cssTemplates.FirstCss"
+}}
+  {var itemColor = "white" /}
+  {macro main ()}
+    div.mainDiv {
+      padding: 15px;
+      width: 400px;
+      height: 200px;
+      background: url(${cssFolderPath}/images/squares.png) repeat 0 0 scroll transparent;
+    }
+
+    div.mainDiv h1 {
+      color: #666;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: Tahoma;
+      border: 0px;
+      padding-bottom: 15px;
+      margin: 0px;
+    }
+
+    div.shoppingNote {
+      color: ${itemColor};
+      background: black;
+      padding: 10px;
+      {call roundedCorners(5) /}
+      {call opacity(0.5) /}
+      float: left;
+      margin-right: 10px;
+    }
+
+    div.shoppingNote h2 {
+      border-bottom: 1px solid ${itemColor};
+      color: ${itemColor};
+      padding: 0px 0px 5px 0px;
+    }
+
+    div.shoppingNote ul, li {
+	    list-style-type: none;
+	    list-style-image: none;
+	    margin-left: 0;
+    }
+
+    li.shoppingItemTaken {
+      text-decoration: line-through;
+    }
+  {/macro}
+
+
+  {macro opacity (value)}
+    {if aria.core.Browser.isIE}
+      filter: alpha(opacity=${100*value});
+    {else/}
+      opacity: ${value};
+    {/if}
+  {/macro}
+
+
+  {macro roundedCorners(radius)}
+    {if aria.core.Browser.isFirefox}
+      -moz-border-radius: ${radius}px;
+    {elseif aria.core.Browser.isChrome || aria.core.Browser.isSafari /}
+      -webkit-border-radius: ${radius}px;
+    {else/}
+      border-radius: ${radius}px;
+    {/if}
+  {/macro}
+
+{/CSSTemplate}

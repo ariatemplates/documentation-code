@@ -1,0 +1,42 @@
+{CSSTemplate {
+	$classpath : "ariadoc.samples.templates.refresh.stopresume.RefreshCSS"
+}}
+
+  {macro main ()}
+
+    td span {
+      display: inline-block;
+    }
+    span.ball {
+      width: 16px;
+      height:16px;
+      background: url(${cssFolderPath}/images/rugby_ball.png) no-repeat scroll 0 0 transparent;
+    }
+
+    span.myLink {
+      cursor: pointer;
+      padding: 5px;
+      border: 1px solid #4776A7;
+    }
+
+    span.score {
+      min-width: 200px;
+      min-height: 16px;
+      padding-left: 5px;
+    }
+
+    span.teamName {
+      min-width: 80px;
+      font-weight: bold;
+      padding-left: 5px;
+    }
+
+    tr.oddRow {
+      background-color: #bbbbbb;
+    }
+    tr.evenRow {
+      background-color: #dddddd;
+    }
+{/macro}
+
+{/CSSTemplate}

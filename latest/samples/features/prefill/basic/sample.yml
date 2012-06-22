@@ -1,0 +1,9 @@
+title: Basic Prefill Feature
+template: ariadoc.samples.features.prefill.basic.PrefillSample
+description: It shows the basic prefill feature applied to TextInput-based widgets.
+sources:
+- PrefillSample.tpl
+- PrefillSampleScript.js
+- PrefillSampleCSS.tpl.css
+
+

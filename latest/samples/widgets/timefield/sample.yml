@@ -1,0 +1,5 @@
+title: TimeField Sample Usage
+template: ariadoc.samples.widgets.timefield.SampleUsage
+description: It shows the TimeField Widget usage.
+sources:
+- SampleUsage.tpl

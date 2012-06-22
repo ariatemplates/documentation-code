@@ -1,0 +1,7 @@
+title: Widget Bindings
+template: ariadoc.samples.widgets.bindings.Default
+data:
+  name: "Bob"
+sources:
+- Default.tpl
+- DefaultScript.js

@@ -1,0 +1,30 @@
+{CSSTemplate {
+    $classpath : "ariadoc.guides.treeview.view.MainStyle"
+}}
+
+    {macro main()}
+      .mainMenu {
+        margin-top:20px;
+      }
+
+      li.tv {
+        padding:1px;
+      }
+
+      span.tvIcon {
+        cursor:hand;
+        padding:1px 1px 1px 20px;
+        background-repeat: no-repeat;
+        background-position: 0px 1px;
+      }
+
+      span.tvOpen {
+        background-image: url(view/imgs/open.png);
+      }
+
+      span.tvClosed {
+        background-image: url(view/imgs/closed.png);
+      }
+    {/macro}
+
+{/CSSTemplate}

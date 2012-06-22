@@ -1,0 +1,6 @@
+title: Click handler
+template: 'ariadoc.samples.templates.templateScripts.clickhandler.ClickSample'
+description: It shows how the Click handler works.
+sources:
+- ClickSample.tpl
+- ClickSampleScript.js

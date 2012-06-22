@@ -1,0 +1,44 @@
+title: Paginating data with views
+template: ariadoc.samples.templates.views.pagination.PagingTemplate
+description: It shows how the View class handle the paginating operation.
+sources:
+- PagingTemplate.tpl
+- PagingTemplateScript.js
+data:
+  vHotels:
+  - name: "Royal Saint Michel"
+    price:
+      currency: "EUR"
+      value: 30
+  - name: "Exclusive Albe Saint Michel"
+    price:
+      currency: "EUR"
+      value: 130
+  - name: "Relais Hotel Vieux Paris"
+    price:
+      currency: "EUR"
+      value: 50
+  - name: "Another Hotel in Paris"
+    price:
+      currency: "EUR"
+      value: 80
+  - name: "Exclusive AAAA Saint Michel"
+    price:
+      currency: "EUR"
+      value: 75
+  - name: "Relais BBBB Vieux Paris"
+    price:
+      currency: "EUR"
+      value: 65
+  - name: "CCCC Hotel in Paris"
+    price:
+      currency: "EUR"
+      value: 75
+  - name: "Exclusive DDDD Saint Michel"
+    price:
+      currency: "EUR"
+      value: 125
+  - name: "Relais EEEE Paris"
+    price:
+      currency: "EUR"
+      value: 115

@@ -1,0 +1,11 @@
+title: Focus handling
+template: ariadoc.samples.templates.domInteractions.focushandling.MainTemplate
+description: It shows how the focus handling works, using two different subtemplates.
+sources:
+- MainTemplate.tpl
+- MainTemplateScript.js
+- MainTemplateCSS.tpl.css
+- ATemplate.tpl
+- ATemplateScript.js
+- BTemplate.tpl
+

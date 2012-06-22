@@ -1,0 +1,1 @@
+/* * Copyright Amadeus */Aria.tplScriptDefinition({	$classpath : 'ariadoc.samples.widgets.tooltip.TemplateTooltipScript',	$prototype : {				refreshSection : function (evt, args) {			this.$refresh(args);		}	}});

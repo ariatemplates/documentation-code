@@ -1,0 +1,25 @@
+// Note that rules in widgets are not prefixed
+{CSSTemplate {
+	$classpath : "ariadoc.samples.html.custom.gallery.GalleryWidgetStyle"
+}}
+{macro main()}
+.wGalleryContainer {
+	position : relative;
+}
+
+.wGalleryDescription {
+	position: relative;
+	height : 30px;
+	top : -35px;
+	background: black;
+	color: white;
+	width : 100%;
+	opacity : 0.6;
+	filter:alpha(opacity=60);
+	padding-top : 4px;
+	display : block;
+	text-align : center;
+}
+
+{/macro}
+{/CSSTemplate}

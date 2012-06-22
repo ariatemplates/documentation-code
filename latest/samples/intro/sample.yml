@@ -1,0 +1,12 @@
+title: Sgt Greeters
+template: ariadoc.samples.intro.SgtGreeters
+description: It shows a very basic sample to display stuff with aria templates.
+sources:
+- SgtGreeters.tpl
+data:
+  greeting: 'Hello'
+  people:
+  - Ringo
+  - John
+  - Paul
+  - George

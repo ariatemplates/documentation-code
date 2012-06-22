@@ -1,0 +1,7 @@
+title: Controller Case Study
+template: ariadoc.samples.modules.standard.MyView
+moduleCtrl: ariadoc.samples.modules.standard.MyModuleController
+sources:
+- MyView.tpl
+- MyModuleController.js
+- IMyModuleController.js

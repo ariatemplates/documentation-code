@@ -1,0 +1,21 @@
+{CSSTemplate {
+  $classpath : "ariadoc.samples.features.prefill.basic.PrefillSampleCSS"
+}}
+
+  {macro main ()}
+  .sampleDiv {
+    border-top : 1px solid gray;
+    padding-top: 15px;
+    margin-top: 15px;
+  }
+
+  .title {
+    padding-bottom: 10px;
+  }
+  .sampleTable table td {
+    width: 200px;
+  }
+  {/macro}
+
+
+{/CSSTemplate}

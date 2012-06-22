@@ -1,0 +1,7 @@
+title: Keymaps assigned at application level
+template: ariadoc.samples.templates.keyboardnavigation.applicationLevelKeyMap.KeyMap
+description: It shows how a Key Map defined at global level works, using different sections.
+sources:
+- KeyMap.tpl
+- KeyMapScript.js
+

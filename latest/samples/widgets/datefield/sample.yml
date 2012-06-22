@@ -1,0 +1,5 @@
+title: Datefield Widget
+template: ariadoc.samples.widgets.datefield.TemplateDateField
+description: It shows the Datefield Widget.
+sources:
+- TemplateDateField.tpl

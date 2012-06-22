@@ -1,0 +1,12 @@
+{Library {
+	$classpath: 'ariadoc.samples.templates.tplinheritance.step3.LibParentOverridden'
+}}
+
+	{macro overriddenMacro()}
+		This is overriddenMacro in Lib<b>Parent</b>Overridden
+	{/macro}
+
+	{macro justAnotherMacro()}
+		This is just another macro
+	{/macro}
+{/Library}

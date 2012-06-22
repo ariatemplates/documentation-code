@@ -1,0 +1,6 @@
+title: Macro inheritance
+template: 'ariadoc.samples.templates.tplinheritance.step1.ChildTemplate'
+description: This sample shows the inheritance between macros.
+sources:
+- ChildTemplate.tpl
+- ParentTemplate.tpl

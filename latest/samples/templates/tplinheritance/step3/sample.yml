@@ -1,0 +1,9 @@
+title: Macro libraries inheritance
+template: 'ariadoc.samples.templates.tplinheritance.step3.ChildTemplate'
+description: This sample shows the inheritance between macro libraries.
+sources:
+- ChildTemplate.tpl
+- ParentTemplate.tpl
+- LibParent.tml
+- LibParentOverridden.tml
+- LibChildOverridden.tml

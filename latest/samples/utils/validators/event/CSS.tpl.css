@@ -1,0 +1,21 @@
+{CSSTemplate {
+  $classpath : "ariadoc.samples.utils.validators.event.CSS"
+}}
+
+  {macro main ()}
+  .sampleDiv {
+    border-top : 1px solid gray;
+    padding-top: 15px;
+    margin-top: 15px;
+  }
+
+  .title {
+    padding-bottom: 10px;
+  }
+  .sampleTable table td {
+    width: 400px;
+  }
+  {/macro}
+
+
+{/CSSTemplate}

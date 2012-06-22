@@ -1,0 +1,37 @@
+ ////#CallBegin
+ {
+   step: "CallBegin" /* (in) */,
+   method:           /* (in) method name in the interface */,
+   args:             /* (in/out) array of the arguments which will be used for the call of the method */,
+   cancelDefault:    /* (out) if set to true, the call to the method is canceled, and the wrapper returns returnValue. */,
+   returnValue:      /* (out) if cancelDefault is true, this is the value returned by the wrapper */
+ }
+ ////#CallBegin
+
+ ////#CallEnd
+ {
+   step: "CallEnd" /* (in) */,
+   method:         /* (in) method name in the interface */,
+   args:           /* (in) array of the arguments which were used for the call of the method */,
+   returnValue:    /* (in/out) the value returned by the method, and the one which will be returned by the wrapper */
+ }
+ ////#CallEnd
+
+ ////#Callback
+ {
+   step: "Callback" /* (in) */,
+   method:          /* (in) method name in the interface */,
+   args:            /* (in) array of the arguments which were used for the call of the method */,
+   callbackResult:  /* (in/out) the value received as the first parameter of the wrapper callback
+                       and to be sent as the first parameter of the real callback */
+   cancelDefault:   /* (out) if set to true, the call of the real callback is canceled, and the wrapper callback
+                       returns returnValue. */,
+   returnValue:     /* (out) if cancelDefault is true, this is the value returned by the wrapper callback */
+   callback:        /* (in) This parameter contains the real callback specified by the caller
+                       (may also be a callback wrapper to notify next interceptor, if several interceptors are registered). 
+                       It can be used by the interceptor if it needs to do some asynchronous action at the end of the asynchronous
+                       action from the module controller.
+                       "If the interceptor uses this callback, it must set cancelDefault to true, so that the callback is not
+                       called twice (both by the framework and the interceptor)." */,
+ }
+ ////#Callback

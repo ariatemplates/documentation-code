@@ -1,0 +1,86 @@
+{CSSTemplate {
+    $classpath : "ariadoc.guides.msgconsole.view.MainStyle"
+}}
+
+    {macro main()}
+      {set prioColors=[
+        "#FFFFFF","#000000","orange","#FFFFFF","#FFFFFF","#FFFFFF"
+      ]/}
+      {set prioBkgColors=[
+        "red","orange","#595959","#595959","#595959","#595959"
+      ]/}
+
+      {for var i=1;6>i;i++}
+        td.sev${i} {
+          color:${prioColors[i-1]};
+          background-color:${prioBkgColors[i-1]};
+        }
+      {/for}
+
+      .listcontainer td {
+        padding:3px 4px 2px 3px;
+      }
+	  .start a {
+		cursor: pointer;
+		text-decoration: underline;
+	  }
+	  
+      div.msgContainer {
+        height:270px;
+      }
+
+      td.idx{
+        width:35px;
+      }
+
+      td.prio{
+        text-align:center;
+        width:20px;
+      }
+
+      td.date{
+        width:75px;
+      }
+
+      td.cat{
+        width:50px;
+      }
+
+      td.loc{
+        width:70px
+      }
+
+      td.desc{
+        width:250px
+      }
+
+      td.auth{
+        width:100px;
+      }
+
+      .msglist {
+        //width:500px;
+        border-spacing:1px;
+      }
+
+      .toppanel {
+        vertical-align:top;
+        padding:3px;
+        height:50px;
+        margin-bottom:5px;
+      }
+
+      td.topmsg {
+        width:540px;
+      }
+
+      .listcontainer {
+        width:670px;
+        height:495px;
+        overflow-y:auto;
+		position:relative;
+      }
+
+    {/macro}
+
+{/CSSTemplate}

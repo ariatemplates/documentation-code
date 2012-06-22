@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>Simple treeview response generator</title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+var startIdx=0;
+var nbrOfMessages=2;
+
+var data={
+    count:1,
+    text: ["Lorem Ipsum","Sed ut perspiciatis","Nemo enim ipsam","Veritatis et quasi",
+           "Ut labore","Voluptas nulla pariatur","Ullam corporis suscipit",
+           "Eos qui ratione","Doloremque laudantium","Duis aute irure","Excepteur sint occaecat"]
+}
+
+var getData=function(type) {
+  var idx=Math.floor(Math.random()*data[type].length);
+  return data[type][idx];
+}
+
+var getNumber=function(base,minlength) {
+  var s=''+ Math.floor(Math.random()*base)
+  while (s.length<minlength) s="0"+s;
+  return s;
+}
+
+var getInt=function(base,minlength) {
+  return Math.floor(Math.random()*base)
+}
+
+var generateMenuItem=function(depth) {
+  if (depth==null) depth=0;
+
+  // subMenu generation
+  var submenus='';
+  if (depth==0 || (depth<3 && getInt(5)!=2)) {
+    var max=3+getInt(4);
+    var arr=[];
+    for (var i=0;max>i;i++) arr.push(generateMenuItem(depth+1))
+
+    submenus=",menus:["+arr.join(',')+"]"
+  }
+
+  return [
+      '{',
+      'id:',data.count++,',',
+      'text:"',getData('text'),'"',
+      submenus,
+      '}'
+   ].join('');
+}
+
+var generateResponse=function() {
+  var msgs=[];
+
+  var arr=[
+    '<aria-response>',
+    '<data><![CDATA[',
+    '{',
+      'menu:',
+      generateMenuItem(0),
+    '}',
+    ']]>',
+    '</data>',
+    '</aria-response>'
+    ]
+  return arr.join('\n');
+}
+
+prompt('data.xml',generateResponse());
+
+
+
+
+</script>
+
+</body>
+</html>

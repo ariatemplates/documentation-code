@@ -1,0 +1,54 @@
+{CSSTemplate {
+    $classpath : "ariadoc.guides.hello.sample_2.view.HelloStyle"
+}}
+
+    {macro main()}
+      div.mainList {
+        background-color:#999;
+        padding:10px;
+        margin:5px
+      }
+
+      div.travelerForm {
+        background-color:#EEE;
+        padding:10px;
+        margin:7px
+      }
+
+      div.formHelpMsg {
+        margin-bottom:5px;
+        font-weight:bold;
+      }
+
+      div.david {
+        color:orange;
+        font-size:25px;
+      }
+
+      div.person {
+        font-size:13px;
+        margin-bottom:2px;
+      }
+
+      span.footnote {
+        font-style:italic;
+        color:white;
+      }
+
+      div.pnodetail {
+        margin-left:5px;
+		width:70px;
+		cursor:pointer;
+      }
+
+      div.pwdetails {
+        margin-left:5px;
+        color:orange;
+        font-weight:bold;
+		width:145px;
+		cursor:pointer;
+      }
+
+    {/macro}
+
+{/CSSTemplate}

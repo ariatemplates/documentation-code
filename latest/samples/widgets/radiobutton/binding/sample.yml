@@ -1,0 +1,6 @@
+title: RadioButton Widget - Binding usage
+template: ariadoc.samples.widgets.radiobutton.binding.RadioButtonBinding
+description: It shows RadioButton Widgets bound to the data model.
+sources:
+- RadioButtonBinding.tpl
+- RadioButtonBindingScript.js

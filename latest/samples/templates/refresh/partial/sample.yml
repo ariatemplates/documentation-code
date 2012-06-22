@@ -1,0 +1,13 @@
+title: Partial Refresh
+template: ariadoc.samples.templates.refresh.partial.PartialRefresh
+description: It shows the manual partial template refresh in aria templates
+sources:
+- PartialRefresh.tpl
+- PartialRefreshScript.js
+- RefreshCSS.tpl.css
+data:
+  teams:
+  - name: 'England'
+    score: 0
+  - name: 'France'
+    score: 0

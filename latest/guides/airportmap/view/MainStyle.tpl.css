@@ -1,0 +1,12 @@
+{CSSTemplate {
+    $classpath : "ariadoc.guides.airportmap.view.MainStyle"
+}}
+
+    {macro main()}
+      div.toplinks {
+        margin-bottom:20px;
+		cursor:pointer;
+      }
+    {/macro}
+
+{/CSSTemplate}

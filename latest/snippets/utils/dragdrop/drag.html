@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <title>Aria Templates example</title>
+        <script type="text/javascript" src="aria/aria-templates-1.1-26.js"></script>
+        <script type="text/javascript" src="css/atdefskin-1.1-26.js"></script>
+    </head>
+
+    <body>
+
+        <!-- ////#drag1html -->
+        <div id="dragElement">
+            <h1 id="dragHeading">This element is draggable</h1>
+            <p>and can be moved anywhere in the page<p>
+        </div>
+        <!-- ////#drag1html -->
+
+        <!-- ////#drag2html -->
+        <div id="dialog-container">
+            <div id="dialog-title">
+                <span id="dialog-message">My Dialog</span> <a href="#" role="button"> <span>X</span></a>
+            </div>
+
+            <div id="dialog-message">
+                <p>This is the Aria-Templates Draggable Dialog.</p>
+            </div>
+
+            <div id="dialog-button">
+                <div>
+                    <button type="button" role="button">
+                        <span><b>Ok</b></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- ////#drag2html -->
+
+    <script type="text/javascript">
+            ////#drag1js
+            drag = new aria.utils.dragdrop.Drag("dragElement");
+            ////#drag1js
+            ////#drag2js
+            drag = new aria.utils.dragdrop.Drag("dialog-container", {
+                handle : "dialog-title"
+            });
+            ////#drag2js
+            ////#drag3js
+            drag = new aria.utils.dragdrop.Drag("dragElement", {
+                proxy: {
+                        type : "Overlay"
+                }
+            });
+            ////#drag3js
+            ////#drag4js
+            drag = new aria.utils.dragdrop.Drag("dragElement", {
+                proxy: {
+                    type : "CloneOverlay",
+                    cfg : {
+                        opacity : 0.5
+                    }
+                });
+            });
+            ////#drag4js
+        </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,13 @@
+{Library {
+    $classpath : "ariadoc.snippets.templates.macros.Library"
+}}
+
+{macro printMult(one, two)}
+   {for var i=0; i < two ; i++ }
+      + ${one} <br/>
+   {/for}
+   ------ <br/>
+   Result: ${ one * two }
+{/macro}
+
+{/Library}

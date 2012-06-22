@@ -1,0 +1,19 @@
+title: List Widget  - Styling sample
+template: ariadoc.samples.widgets.list.styling.ListStyle
+description: It shows a List Widget with different styles applied.
+data:
+  items:
+  - value: 1
+    label: "Option B"
+  - value: 2
+    label: "Option C"
+  - value: 0
+    label: "Option A"
+  - value: 4
+    label: "Option E"
+  - value: 3
+    label: "Option D"
+sources:
+- ListStyle.tpl
+- CustomTemplate.tpl
+- CustomTemplateScript.js

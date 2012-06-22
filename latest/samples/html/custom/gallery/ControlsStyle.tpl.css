@@ -1,0 +1,82 @@
+{CSSTemplate {
+	$classpath : "ariadoc.samples.html.custom.gallery.ControlsStyle"
+}}
+
+{macro main()}
+.controls {
+	position : relative;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 26px;
+}
+
+.thumbnails {
+	display: inline;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	height: 26px;
+}
+
+ul {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 26px;
+}
+
+li, .next, .prev {
+	margin-right: 5px;
+	position: relative;
+	list-style: none;
+	display: inline;
+	float: left;
+	overflow: hidden;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #EEE;
+	text-shadow: 0 1px 0 #222;
+	background: #333;
+	background: -webkit-gradient(linear, 0 top, 0 bottom, from(#333), to(black));
+	background: -moz-linear-gradient(#333, black);
+	background: -webkit-gradient(linear, 0 top, 0 bottom, from(#333), to(black));
+	border: 1px solid #111;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.button {
+	left: 5px;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+
+li:hover {
+	color:#FFF;
+	text-shadow: 0 1px 0 #888;
+	background-color:#CCC;
+	background:-moz-linear-gradient(#CCC, #999);
+	background:-webkit-gradient(linear, 0 top, 0 bottom, from(#CCC), to(#999));
+}
+
+li.visible {
+	color: black;
+	text-shadow: 0 1px 0 white;
+	background: #E0E0E0;
+	background: -webkit-gradient(linear, 0 top, 0 bottom, from(white), to(#E0E0E0));
+	background: -moz-linear-gradient(white, #E0E0E0);
+	background: -webkit-gradient(linear, 0 top, 0 bottom, from(white), to(#E0E0E0));
+	cursor: default;
+}
+
+{/macro}
+{/CSSTemplate}

@@ -1,0 +1,35 @@
+title: CSS templates
+template: ariadoc.samples.templates.cssTemplates.MainTemplate
+description: This sample shows how the CSS Templates work, giving some different styles to elements.
+sources:
+- MainTemplate.tpl
+- MainTemplateScript.js
+- FirstCss.tpl.css
+data:
+  notes:
+    Fruit:
+    - name: "apples"
+      taken: false
+    - name: "pears"
+      taken: false
+    - name: "bananas"
+      taken: false
+    - name: "peaches"
+      taken: true
+    - name: "oranges"
+      taken: false
+    Clothes:
+    - name: "shirts"
+      taken: false
+    - name: "trousers"
+      taken: false
+    Vegetables:
+    - name: "eggplants"
+      taken: false
+    - name: "tomatoes"
+      taken: false
+    - name: "salad"
+      taken: true
+    - name: "peppers"
+      taken: false
+  

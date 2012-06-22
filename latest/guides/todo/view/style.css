@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+a {
+    cursor: pointer;
+}
+
+body {
+    background: none repeat scroll 0 0 #eee;
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+
+input {
+    font-size: 24px;
+}
+
+.editBox {
+    padding: 0;
+    margin: -4px;
+    margin-left: 1em;
+}
+
+#todo-app {
+    background: none repeat scroll 0 0 white;
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 auto 40px;
+    padding: 20px;
+    width: 480px;
+    border-radius: 0 0 5px 5px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 20px 0 30px;
+    text-align: center;
+}
+
+.todo-input {
+    border: 1px solid #999;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    font-family: inherit;
+    font-size: 24px;
+    line-height: 1.4em;
+    outline: medium none;
+    padding: 6px;
+    width: 466px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.todo-input:focus {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2) inset, 0 0 3px 1px #C6F972;
+}
+
+li {
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 24px;
+    line-height: 1.1em;
+    padding: 12px 20px 11px 0;
+}
+
+a.remove {
+    background: url(imgs/destroy.png) no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 20px;
+    opacity: 0.6;
+    width: 20px;
+    float: right;
+    margin-top: 5px;
+}
+
+li a.remove {
+    display: none;
+}
+
+li:hover a.remove {
+    display: inline-block;
+}
+
+li:hover a.remove:hover {
+    opacity: 1;
+}
+
+.todo-done {
+    color: #666;
+    text-decoration: line-through;
+}
+
+.todo-status {
+    background: none repeat scroll 0 0 #F4FCE8;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px solid #EDEDED;
+    color: #555;
+    line-height: 36px;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+strong {
+    color: #333333;
+    font-weight: bold;
+}
+
+.todo-clear {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+    color: #555;
+    display: block;
+    float: right;
+    font-size: 11px;
+    line-height: 20px;
+    margin-top: 8px;
+    padding: 0 10px 1px;
+    text-decoration: none;
+}
+
+.todo-markall label {
+    background: #F4FCE8;
+    color: #555;
+}

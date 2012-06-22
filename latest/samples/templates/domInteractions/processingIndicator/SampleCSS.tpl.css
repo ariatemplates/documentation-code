@@ -1,0 +1,69 @@
+{CSSTemplate {
+  $classpath : "ariadoc.samples.templates.domInteractions.processingIndicator.SampleCSS"
+}}
+
+  {macro main ()}
+    div.myMenu, div.myMenu span.myMenuItem {
+      width: 130px;
+      display: inline-block;
+      float: left;
+    }
+
+    div.myMenu {
+      margin-right: 10px;
+    }
+
+    div.myMenu span.myMenuItem span {
+      padding: 5px;
+      float: left;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      cursor: pointer;
+      font-family: Tahoma;
+      font-weight: bold;
+    }
+
+    span.half {
+      width: 50px;
+    }
+
+    span.whole {
+      width: 115px;
+    }
+
+    div.myContent {
+      width: 400px;
+      display: inline-block;
+    }
+
+    div.myContent span{
+      width: 400px;
+      height: 90px;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+
+    span.colorOne {
+      background-color : #9BA8CF;
+    }
+
+    span.colorTwo {
+      background-color : #9BCFCF;
+    }
+
+    span.colorThree {
+      background-color : #CBCF9B;
+    }
+
+    span.colorFour {
+      background-color : #CFB29B;
+    }
+
+    span.colorFive {
+      background-color : #CF9B9B;
+    }
+
+
+  {/macro}
+
+{/CSSTemplate}

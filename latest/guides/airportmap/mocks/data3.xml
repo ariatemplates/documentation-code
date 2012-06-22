@@ -1,0 +1,43 @@
+<aria-response>\
+  <data><![CDATA[
+{
+  layers:{
+    flights:{
+      items:{
+        DAB84: {
+          positions:[
+            {
+              time:100001,
+              x:860,
+              y:135,
+              angle:-100,
+              speed:{
+                value:90,
+                dx:-10,
+                dy:0
+              }
+            }
+          ]
+        },
+        DABX1: {
+          positions:[
+            {
+              time:100001,
+              x:1050,
+              y:150,
+              angle:-10,
+              speed:{
+                value:90,
+                dx:-10,
+                dy:0
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+
+}
+    ]]></data>
+</aria-response>
