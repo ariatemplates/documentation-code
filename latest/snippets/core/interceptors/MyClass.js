@@ -1,7 +1,7 @@
 Aria.classDefinition({
-	$classpath : 'x.z.MyClass',
+	$classpath : 'snippets.core.interceptors.MyClass',
 	$constructor : function () {},
-	$implements : ['x.z.MyInterface'],
+	$implements : ['snippets.core.interceptors.MyInterface'],
 	$prototype : {
 		mySimpleFunction : function () {
 			alert('mySimpleFunction is called.');

@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath : "ariadoc.snippets.core.classes.DynamicDeps",
+	$classpath : "snippets.core.classes.DynamicDeps",
 
 	$dependencies : [ "aria.utils.String" /* just one static dep */ ],
 	

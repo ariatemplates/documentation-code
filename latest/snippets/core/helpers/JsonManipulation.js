@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$claspath: 'ariadoc.snippets.core.helpers.JsonManipulation',
+	$classpath: 'snippets.core.helpers.JsonManipulation',
 	$dependencies: [
 		'aria.utils.Json',
 		'aria.utils.Object'

@@ -1,12 +1,12 @@
 ////#stub
 Aria.classDefinition({
-	$classpath : 'ariadoc.snippets.core.classes.Fruit',
+	$classpath : 'snippets.core.classes.Fruit',
 ////#stub
 	$implements : [
-		'ariadoc.snippets.core.classes.ColorfulObject'
+		'snippets.core.classes.IColorfulObject'
 	],
 	$dependencies : [
-		'ariadoc.snippets.core.classes.Gardener'
+		'snippets.core.classes.Gardener'
 	],
 	$constructor : function () {
 		// ...
@@ -15,7 +15,7 @@ Aria.classDefinition({
 		// ...
 	},
 	$statics : {
-		DEFAULT_COLOR : "White"					// used for fade out ... 
+		DEFAULT_COLOR : "White"					// used for fade out ...
 	},
 	$events : {
 		"squeeze" : {
@@ -31,7 +31,7 @@ Aria.classDefinition({
 			// ...
 		},
 		setColor : function (color, customCB) {
-			var cb = customCB || this.__setColorDefaultCB; 
+			var cb = customCB || this.__setColorDefaultCB;
 			// ...
 			this.$raiseEvent("colorChange");	// defined at interface level
 		},

@@ -1,5 +1,5 @@
 Aria.classDefinition({
-    $classpath: "ariadoc.snippets.core.classes.Vehicle",
+    $classpath: "snippets.core.classes.Vehicle",
 
     $statics: {
         DEFAULT_COLOR: "black"

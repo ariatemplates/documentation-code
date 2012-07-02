@@ -1,5 +1,5 @@
 Aria.interfaceDefinition({
-	$classpath : 'x.z.MyInterface',
+	$classpath : 'snippets.core.interceptors.MyInterface',
 	$interface : {
 		mySimpleFunction : function () {},
 		myAsynchronousFunction : {

@@ -1,5 +1,5 @@
 Aria.interfaceDefinition({
-	$classpath : "ariadoc.snippets.core.classes.IObject",
+	$classpath : "snippets.core.classes.IObject",
 	
 	$interface : {
 		// methods and members goes here ...

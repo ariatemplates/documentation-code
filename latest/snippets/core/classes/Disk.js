@@ -1,6 +1,6 @@
 Aria.classDefinition({
-	$classpath : "ariadoc.snippets.core.classes.Disk",
-	$extends : "ariadoc.snippets.core.classes.Device",
+	$classpath : "snippets.core.classes.Disk",
+	$extends : "snippets.core.classes.Device",
 
 	$constructor : function (id, size) {
 		this.$Disk.constructor.call(this, id); // call superclass constructor

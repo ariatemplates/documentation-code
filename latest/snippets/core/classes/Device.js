@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath : "ariadoc.snippets.core.classes.Device",
+	$classpath : "snippets.core.classes.Device",
 
 	$constructor : function (id) {
 		this.__id = id;

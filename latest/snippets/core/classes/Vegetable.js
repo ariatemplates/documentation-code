@@ -1,6 +1,6 @@
 Aria.classDefinition({
-	$classpath : 'ariadoc.snippets.core.classes.Vegetable',
-	$extends : 'ariadoc.snippets.core.classes.Plant',
+	$classpath : 'snippets.core.classes.Vegetable',
+	$extends : 'snippets.core.classes.Plant',
 
 	$constructor : function (myArg) {
 		var parentArg = "some argument for the parent constructor";

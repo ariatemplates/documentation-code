@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath: 'ariadoc.snippets.core.filters.MyFilterHelper',
+	$classpath: 'snippets.core.filters.MyFilterHelper',
 	$singleton: true,
 	$dependencies: [
 		'aria.core.IOFiltersMgr'
@@ -7,20 +7,20 @@ Aria.classDefinition({
 	$prototype: {
 		////#attachFilter
 		attachFilters: function() {
-			aria.core.IOFiltersMgr.addFilter('ariadoc.snippets.core.filters.IOFilter');
+			aria.core.IOFiltersMgr.addFilter('snippets.core.filters.IOFilter');
 		},
 		////#attachFilter
 
 		////#detachFilter
 		dettachFilters: function() {
-			aria.core.IOFiltersMgr.removeFilter('ariadoc.snippets.core.filters.IOFilter');
+			aria.core.IOFiltersMgr.removeFilter('snippets.core.filters.IOFilter');
 		},
 		////#detachFilter
 
 		////#delayFilter
 		attachWithDelay: function() {
 			aria.core.IOFiltersMgr.addFilter({
-				classpath: 'ariadoc.snippets.core.filters.IoDelayFilter',
+				classpath: 'snippets.core.filters.IoDelayFilter',
 				initArgs: {
 					requestDelay : 1000,
 					responseDelay : 1000

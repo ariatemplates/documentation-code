@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath: 'ariadoc.snippets.core.filters.IoFilter',
+	$classpath: 'snippets.core.filters.IoFilter',
 	$extends: 'aria.core.IOFilter',
 	$constructor: function() {
 		this.$IOFilter.constructor.call(this, args);

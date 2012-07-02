@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath : "ariadoc.snippets.core.classes.MainClass",
+	$classpath : "snippets.core.classes.MainClass",
 	$singleton : true,
 	$events : {
 		"logLevelChange" : {

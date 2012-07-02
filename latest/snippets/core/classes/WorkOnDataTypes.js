@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath : "ariadoc.snippets.core.classes.WorkOnDataTypes",
+	$classpath : "snippets.core.classes.WorkOnDataTypes",
 
 	$dependencies : [
 		"aria.utils.String",

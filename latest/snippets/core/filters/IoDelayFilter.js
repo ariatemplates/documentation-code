@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath: 'ariadoc.snippets.core.filters.IoDelayFilter',
+	$classpath: 'snippets.core.filters.IoDelayFilter',
 	$extends: 'aria.core.IOFilter',
 
 	////#delayFilterConstructor
@@ -9,7 +9,7 @@ Aria.classDefinition({
 		this.responseDelay = 6000;
 	},
 	////#delayFilterConstructor
-	
+
 	$prototype: {
 		/**
 		 * Method called before a request is sent to get a chance to change its arguments
@@ -21,11 +21,11 @@ Aria.classDefinition({
 			request.delay = this.requestDelay;
 			// Some code
 		},
-		
+
 		// //#delayFilter
-		
+
 		/**
-		 * Method called when a response is received to change the result values before 
+		 * Method called when a response is received to change the result values before
 		 * the callback is called
 		 * @param {aria.core.CfgBeans.IOAsyncRequestCfg} request
 		 */
@@ -35,7 +35,7 @@ Aria.classDefinition({
 			response.delay = this.responseDelay;
 			// Some code
 		}
-		
+
 		////#delayFilter
 	}
 });

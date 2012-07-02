@@ -1,9 +1,9 @@
 Aria.interfaceDefinition({
-	$classpath : "ariadoc.snippets.core.classes.ColorfulObject",
-	
+	$classpath : "snippets.core.classes.IColorfulObject",
+
 	// single interface inheritance only ...
-	$extends : "ariadoc.snippets.core.classes.IObject",
-	
+	$extends : "snippets.core.classes.IObject",
+
 	$events : {
 		"colorChange" : {
 			description : "The color of the fruit has been changed.",

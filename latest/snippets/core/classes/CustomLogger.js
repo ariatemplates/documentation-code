@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath : "ariadoc.snippets.core.classes.CustomLogger",
+	$classpath : "snippets.core.classes.CustomLogger",
 	$singleton : true,
 	
 	$statics : {

@@ -1,5 +1,5 @@
 Aria.beanDefinitions({
-	$package : "ariadoc.snippets.core.beans.BaseContactBeans",
+	$package : "snippets.core.beans.BaseContactBeans",
 	$description : "Definition of the basic beans used for contacts",
 	$namespaces : {
 		"json" : "aria.core.JsonTypes"

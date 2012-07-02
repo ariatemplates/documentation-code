@@ -1,12 +1,12 @@
 Aria.classDefinition({
-	$claspath: 'ariadoc.snippets.core.asynchronous.Async',
+	$classpath: 'snippets.core.asynchronous.Async',
 	$constructor: function() {
 		this.path = this.$package.replace(/\./ig, "/");
-		
+
 		////#notWorking
 		var myTxt = this.fetchResourceFromServer("empty.txt");
 		////#notWorking
-		
+
 		////#sampleCallbackObject
 		var myCallbackObject = {
 			fn: "myMethodName",
@@ -16,24 +16,24 @@ Aria.classDefinition({
 			}
 		};
 		////#sampleCallbackObject
-		
+
 	},
 	$prototype: {
-	
+
 		////#playingAsynchronous
 		playingAsynchronous: function() {
 			this.$logDebug("Hi there!");
 			this.fetchResourceFromServer("empty.txt", {
 				fn: function(response, args) {
 					this.$logDebug("Is there anybody in here?");
-				}, 
+				},
 				scope: this
 			});
 			this.$logDebug("Yes, I'm here! there's me.");
 		},
 		////#playingAsynchronous
-		
-	
+
+
 		simpleSyncMethod: function() {
 			var myObjectReference = {};
 			//do some stuff
@@ -42,19 +42,19 @@ Aria.classDefinition({
 			return myObjectReference;
 			////#sampleSyncReturn
 		},
-		
+
 		simpleAsyncMethod: function() {
 			////#sampleAsyncReturn
 			var myCallback = {
 				fn: "myMethodName",
 				scope: this
 			};
-			
+
 			// Asynchronous Aria Templates 'return' statement
 			this.$callback(myCallback);
 			////#sampleAsyncReturn
 		},
-		
+
 		////#propagatingCallback
 		/**
 		 * This method retrieves a resource file on the server
@@ -75,7 +75,7 @@ Aria.classDefinition({
 				}
 			});
 		},
-		
+
 		/**
 		 * @private
 		 * Internal callback when a resource has been fetched with fetchResourceFromServer
@@ -86,11 +86,11 @@ Aria.classDefinition({
 			// We retrieve our callback object from the args object
 			var callback = args.callback;
 			// Do some stuff with the response content
-			
+
 			// We are done, finally calling back the caller!
 			this.$callback(callback);
 		}
 		////#propagatingCallback
-	
+
 	}
 });

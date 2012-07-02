@@ -1,5 +1,5 @@
 Aria.beanDefinitions({
-	$package : "ariadoc.snippets.core.beans.AnotherSimpleBean",
+	$package : "snippets.core.beans.AnotherSimpleBean",
 	$description : "Definition of a simple bean",
 	$namespaces : {
 		"json" : "aria.core.JsonTypes"

@@ -4,9 +4,9 @@
  * @singleton
  */
 Aria.classDefinition({
-	$classpath : 'ariadoc.snippets.core.beans.GroupManager',
+	$classpath : 'snippets.core.beans.GroupManager',
 	$singleton : true,
-	$dependencies : ["ariadoc.snippets.core.beans.ContactBeans"],
+	$dependencies : ["snippets.core.beans.ContactBeans"],
 	$constructor : function () {
 
 		/**
@@ -38,7 +38,7 @@ Aria.classDefinition({
 			try {
 				aria.core.JsonValidator.normalize({
 					json : person,
-					beanName : "ariadoc.snippets.core.beans.ContactBeans.Person"
+					beanName : "snippets.core.beans.ContactBeans.Person"
 				}, true);
 			} catch (ex) {
 				// The person object does not match the bean
@@ -57,7 +57,7 @@ Aria.classDefinition({
 			try {
 				aria.core.JsonValidator.normalize({
 					json : animal,
-					beanName : "ariadoc.snippets.core.beans.ContactBeans.Animal"
+					beanName : "snippets.core.beans.ContactBeans.Animal"
 				}, true);
 			} catch (ex) {
 				// The person object does not match the bean
