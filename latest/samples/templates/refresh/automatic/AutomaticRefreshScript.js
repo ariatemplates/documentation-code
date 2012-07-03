@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.refresh.automatic.AutomaticRefreshScript',
+	$classpath : 'latest.samples.templates.refresh.automatic.AutomaticRefreshScript',
 	$prototype : {
 
 		/**
