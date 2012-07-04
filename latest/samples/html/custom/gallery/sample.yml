@@ -4,6 +4,9 @@ description: It shows an example of an image gallery.
 sources:
 - Images.tpl
 - ImagesScript.js
+- GalleryWidget.js
+- GalleryWidgetStyle.tpl.css
+- ImageLibrary.js
 data:
   visible: 0
   images:
