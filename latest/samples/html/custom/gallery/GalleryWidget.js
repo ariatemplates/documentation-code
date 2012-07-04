@@ -2,8 +2,7 @@ Aria.classDefinition({
 	$classpath : "samples.html.custom.gallery.GalleryWidget",
 	$extends : "aria.html.Element",
 	$statics : {
-		SELF_CLOSING_ONLY : "Gallery Widget can only be used as a self closing widget.",
-		ROOT : "samples/html/gallery/"
+		SELF_CLOSING_ONLY : "Gallery Widget can only be used as a self closing widget."
 	},
 	$css : ["samples.html.custom.gallery.GalleryWidgetStyle"],
 	$constructor : function (cfg, ctxt, lineNumber) {
@@ -43,7 +42,7 @@ Aria.classDefinition({
 			var visible = this.images[this.visible];
 
 			out.write("<div class='wGalleryContainer'>");
-			out.write("<img id='" + this._id + "' src='" + this.ROOT + visible.url + "' />");
+			out.write("<img id='" + this._id + "' src='" + visible.url + "' />");
 			out.write("<div class='wGalleryDescription' id='" + this._id + "_desc'>" + visible.desc + "</div>");
 			out.write("</div>");
 		},
