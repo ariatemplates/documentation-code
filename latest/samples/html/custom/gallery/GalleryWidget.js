@@ -83,7 +83,7 @@ Aria.classDefinition({
 
 				var visible = this.images[this.visible];
 
-				this._domElt.src = this.ROOT + visible.url;
+				this._domElt.src = visible.url;
 				this._domDesc.innerHTML = visible.desc;
 			}
 		}
