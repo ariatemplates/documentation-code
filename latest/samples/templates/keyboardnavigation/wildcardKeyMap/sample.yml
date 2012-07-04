@@ -1,5 +1,5 @@
 title: Wildcard character in a keymap
-template: ariadoc.samples.templates.keyboardnavigation.wildcardKeyMap.KeyMap
+template: samples.templates.keyboardnavigation.wildcardKeyMap.KeyMap
 description: It shows how to use the wildcard character in a Key Map with different sections.
 sources:
 - KeyMap.tpl

@@ -1,5 +1,5 @@
 Aria.beanDefinitions({
-	$package : "ariadoc.samples.widgets.widgetlibs.slider.widget.SliderCfgBeans",
+	$package : "samples.widgets.widgetlibs.slider.widget.SliderCfgBeans",
 	$description : "Slider config beans",
 	$namespaces : {
 		"json" : "aria.core.JsonTypes"

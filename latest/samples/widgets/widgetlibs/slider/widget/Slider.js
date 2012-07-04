@@ -2,14 +2,14 @@
  * Sample widget: a basic slider.
  */
 Aria.classDefinition({
-	$classpath : 'ariadoc.samples.widgets.widgetlibs.slider.widget.Slider',
+	$classpath : 'samples.widgets.widgetlibs.slider.widget.Slider',
 
 	// All widgets must (directly or indirectly) extend the following base class:
 	$extends : 'aria.widgetLibs.BaseWidget',
 
 	// The CSS for the slider (defined below) will automatically be loaded in the DOM when instances of this class are
 	// created, and will automatically be removed when all instances are disposed
-	$css : ['ariadoc.samples.widgets.widgetlibs.slider.widget.SliderCSS'],
+	$css : ['samples.widgets.widgetlibs.slider.widget.SliderCSS'],
 
 	$statics : {
 		/**
@@ -24,7 +24,7 @@ Aria.classDefinition({
 		 */
 		BUTTON_WIDTH : 14
 	},
-	$dependencies : ['ariadoc.samples.widgets.widgetlibs.slider.widget.SliderCfgBeans', 'aria.utils.Event', 'aria.DomEvent'],
+	$dependencies : ['samples.widgets.widgetlibs.slider.widget.SliderCfgBeans', 'aria.utils.Event', 'aria.DomEvent'],
 
 	/**
 	 * Create an instance of the slider.
@@ -40,7 +40,7 @@ Aria.classDefinition({
 
 		// Check the configuration and add default values:
 		var normalizeArg = {
-			beanName : "ariadoc.samples.widgets.widgetlibs.slider.widget.SliderCfgBeans.SliderCfg",
+			beanName : "samples.widgets.widgetlibs.slider.widget.SliderCfgBeans.SliderCfg",
 			json : this._cfg
 		};
 		try {

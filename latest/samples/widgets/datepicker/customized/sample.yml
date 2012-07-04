@@ -1,5 +1,5 @@
 title: DatePicker Widget customized template - Sample
-template: ariadoc.samples.widgets.datepicker.customized.CustomizedDatePicker
+template: samples.widgets.datepicker.customized.CustomizedDatePicker
 description: It shows a DatePicker Widget with a customized layout.
 sources:
 - CustomizedDatePicker.tpl

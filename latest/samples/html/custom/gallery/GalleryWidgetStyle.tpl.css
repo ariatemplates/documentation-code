@@ -1,6 +1,6 @@
 // Note that rules in widgets are not prefixed
 {CSSTemplate {
-	$classpath : "ariadoc.samples.html.custom.gallery.GalleryWidgetStyle"
+	$classpath : "samples.html.custom.gallery.GalleryWidgetStyle"
 }}
 {macro main()}
 .wGalleryContainer {

@@ -1,7 +1,7 @@
 {Template {
-  $classpath: "ariadoc.samples.templates.refresh.stopresume.StopResume",
+  $classpath: "samples.templates.refresh.stopresume.StopResume",
   $hasScript: true,
-  $css: ["ariadoc.samples.templates.refresh.stopresume.RefreshCSS"]
+  $css: ["samples.templates.refresh.stopresume.RefreshCSS"]
 }}
     {var mySectionPrefix = "mySection" /}
     {macro main ()}

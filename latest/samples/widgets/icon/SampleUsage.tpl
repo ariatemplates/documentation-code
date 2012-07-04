@@ -1,5 +1,5 @@
 {Template {
-	$classpath : 'ariadoc.samples.widgets.icon.SampleUsage' } }
+	$classpath : 'samples.widgets.icon.SampleUsage' } }
 
 	{macro main ( )}
 		<h5> Inline Icons </h5>

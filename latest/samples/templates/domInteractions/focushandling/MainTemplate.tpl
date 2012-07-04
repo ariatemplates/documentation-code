@@ -1,7 +1,7 @@
 {Template {
-  $classpath:'ariadoc.samples.templates.domInteractions.focushandling.MainTemplate',
+  $classpath:'samples.templates.domInteractions.focushandling.MainTemplate',
   $hasScript: true,
-  $css:['ariadoc.samples.templates.domInteractions.focushandling.MainTemplateCSS']
+  $css:['samples.templates.domInteractions.focushandling.MainTemplateCSS']
 }}
 
 	{macro main()}
@@ -27,14 +27,14 @@
 		<div class="templateContainer">
 		{@aria:Template {
 				id : "A",
-				defaultTemplate : 'ariadoc.samples.templates.domInteractions.focushandling.ATemplate',
+				defaultTemplate : 'samples.templates.domInteractions.focushandling.ATemplate',
 				width : 300
 		} /}
 		</div>
 		<div class="templateContainer">
 		{@aria:Template {
 				id : "B",
-				defaultTemplate : 'ariadoc.samples.templates.domInteractions.focushandling.BTemplate',
+				defaultTemplate : 'samples.templates.domInteractions.focushandling.BTemplate',
 				width : 300
 		} /}
 		</div>

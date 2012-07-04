@@ -1,5 +1,5 @@
 title: Fieldset Widget Event bubble - Sample usage
-template: ariadoc.samples.widgets.fieldset.action.FieldsetAction
+template: samples.widgets.fieldset.action.FieldsetAction
 description: It shows Fieldset Widgets executing callback actions.
 sources:
 - FieldsetAction.tpl

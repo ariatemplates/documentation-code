@@ -1,5 +1,5 @@
 {Template {
-	$classpath : 'ariadoc.samples.widgets.timefield.SampleUsage' } }
+	$classpath : 'samples.widgets.timefield.SampleUsage' } }
 
 	{macro main ( )}
 		<div class = "panel dates" >

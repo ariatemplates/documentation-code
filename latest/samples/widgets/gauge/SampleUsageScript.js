@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.widgets.gauge.SampleUsageScript',
+	$classpath : 'samples.widgets.gauge.SampleUsageScript',
 	$prototype : {
 
 		startGauge : function (arg) {

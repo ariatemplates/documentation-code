@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.widgets.checkbox.binding.BindableCheckbox',
+  $classpath : 'samples.widgets.checkbox.binding.BindableCheckbox',
   $hasScript : true } }
 
   {macro main ( )}

@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : "ariadoc.samples.widgets.iconbutton.binding.IconButtonBindingScript",
+	$classpath : "samples.widgets.iconbutton.binding.IconButtonBindingScript",
 	$prototype : {
 		/**
 		 * Callback for the click event on the first button.

@@ -1,5 +1,5 @@
 title: Automatic Refresh
-template: latest.samples.templates.refresh.automatic.AutomaticRefresh
+template: samples.templates.refresh.automatic.AutomaticRefresh
 description: It shows how the Automatic Refresh works in aria templates.
 sources:
 - AutomaticRefresh.tpl

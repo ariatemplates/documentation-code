@@ -1,5 +1,5 @@
 title: Dialog sample usage
-template: ariadoc.samples.widgets.dialog.TemplateDialog
+template: samples.widgets.dialog.TemplateDialog
 description: It shows the default Dialog popping out after a mouse click.
 sources:
 - TemplateDialog.tpl

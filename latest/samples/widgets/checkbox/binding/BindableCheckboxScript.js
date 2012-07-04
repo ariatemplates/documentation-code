@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.widgets.checkbox.binding.BindableCheckboxScript',
+	$classpath : 'samples.widgets.checkbox.binding.BindableCheckboxScript',
 	$prototype : {
 		initVariables : function () {
 			this.data.isCheckMe = true;

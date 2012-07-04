@@ -1,5 +1,5 @@
 {Template {
-  $classpath : "ariadoc.samples.utils.validators.basic.CustomizedErrorList",
+  $classpath : "samples.utils.validators.basic.CustomizedErrorList",
   $hasScript : true
 }}
 

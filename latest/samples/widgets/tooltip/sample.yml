@@ -1,5 +1,5 @@
 title: Tooltip Widget  - Sample
-template: ariadoc.samples.widgets.tooltip.TemplateTooltip
+template: samples.widgets.tooltip.TemplateTooltip
 description: It shows the Tooltip Widget used in different contexts.
 sources:
 - TemplateTooltip.tpl

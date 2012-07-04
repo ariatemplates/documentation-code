@@ -1,5 +1,5 @@
 title: TextField Bindings
-template: ariadoc.samples.widgets.textfield.binding.Bindings
+template: samples.widgets.textfield.binding.Bindings
 description: It shows some TextField Widgets bound to the data model.
 data:
   value: "Some Line Of Plain Text..."

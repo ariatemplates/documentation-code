@@ -1,9 +1,9 @@
 {Template {
-  $classpath: "ariadoc.samples.widgets.button.binding.Binding"
+  $classpath: "samples.widgets.button.binding.Binding"
 }}
 
   {macro main()}
-  
+
     {@aria:Button {
       label : "This button has bindings",
       bind : {
@@ -21,9 +21,9 @@
         }
       }
     }/}
-    
+
     <br /><br />
-    
+
     // Control fields
     {@aria:CheckBox {
       label : "Toggle disabled on button",

@@ -1,5 +1,5 @@
 title: RadioButton Widget - Styling usage
-template: ariadoc.samples.widgets.radiobutton.styling.StyledRadioButton
+template: samples.widgets.radiobutton.styling.StyledRadioButton
 description: It shows the RadioButton Widget with different styles applied.
 sources:
 - StyledRadioButton.tpl

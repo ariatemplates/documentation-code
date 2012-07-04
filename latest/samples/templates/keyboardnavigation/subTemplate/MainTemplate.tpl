@@ -1,5 +1,5 @@
 {Template {
-    $classpath:'ariadoc.samples.templates.keyboardnavigation.subTemplate.MainTemplate'
+    $classpath:'samples.templates.keyboardnavigation.subTemplate.MainTemplate'
 }}
 
     {macro main()}
@@ -10,7 +10,7 @@
                 {@aria:Template {
                         id:"myFirstTemplate",
                         baseTabIndex:100,
-                        defaultTemplate: 'ariadoc.samples.templates.keyboardnavigation.subTemplate.FirstSubTemplate'
+                        defaultTemplate: 'samples.templates.keyboardnavigation.subTemplate.FirstSubTemplate'
                 } /}
             </li>
             <li>
@@ -18,7 +18,7 @@
                 {@aria:Template {
                         id:"mySecondTemplate",
                         baseTabIndex:200,
-                        defaultTemplate: "ariadoc.samples.templates.keyboardnavigation.subTemplate.SecondSubTemplate"
+                        defaultTemplate: "samples.templates.keyboardnavigation.subTemplate.SecondSubTemplate"
                 } /}
             </li>
         </ul>

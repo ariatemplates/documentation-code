@@ -1,5 +1,5 @@
 title: Link sample
-template: ariadoc.samples.widgets.link.LinkWgtSample
+template: samples.widgets.link.LinkWgtSample
 description: It shows how the Link Widget works, calling a user defined callback after a click.
 sources:
 - LinkWgtSample.tpl

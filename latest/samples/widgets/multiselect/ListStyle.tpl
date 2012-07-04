@@ -1,5 +1,5 @@
 {Template {
-  $classpath: "ariadoc.ariadoc.samples.widgets.list.ListStyle"
+  $classpath: "samples.widgets.list.ListStyle"
 }}
 
   {macro main()}
@@ -14,7 +14,7 @@
                 listDisplay : "code",
                 tableMode : false
             },
-            defaultTemplate : "ariadoc.ariadoc.samples.widgets.list.CustomTemplate"
+            defaultTemplate : "samples.widgets.list.CustomTemplate"
         }/}
 
         <p>Sample List widget with flowOrientation horizontal</p>
@@ -26,7 +26,7 @@
                 listDisplay : "label",
                 tableMode : false
             },
-            defaultTemplate : "ariadoc.ariadoc.samples.widgets.list.CustomTemplate"
+            defaultTemplate : "samples.widgets.list.CustomTemplate"
         }/}
         <p>Sample List widget with tableMode true</p>
         {@aria:List {
@@ -37,14 +37,14 @@
                 listDisplay : "both",
                 tableMode : true
             },
-            defaultTemplate : "ariadoc.ariadoc.samples.widgets.list.CustomTemplate"
+            defaultTemplate : "samples.widgets.list.CustomTemplate"
         }/}
         <p>Sample List widget sorted</p>
         {@aria:List {
             items : data.items,
             minWidth:100,
             activateSort:true,
-            defaultTemplate : "ariadoc.ariadoc.samples.widgets.list.CustomTemplate"
+            defaultTemplate : "samples.widgets.list.CustomTemplate"
         }/}
     {/macro}
 

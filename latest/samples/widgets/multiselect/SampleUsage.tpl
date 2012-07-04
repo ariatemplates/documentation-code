@@ -1,5 +1,5 @@
 {Template {
-	$classpath : 'ariadoc.samples.widgets.multiselect.SampleUsage',
+	$classpath : 'samples.widgets.multiselect.SampleUsage',
 	$hasScript : true
 }}
 	{macro main()}
@@ -21,8 +21,8 @@
 				flowOrientation : 'horizontal',
 				listDisplay : "both",
 				displayFooter : true
-			},			
-			items : data.items,	
+			},
+			items : data.items,
 			bind : {
 				value : {
 					to : 'value',
@@ -33,7 +33,7 @@
 		</p><br/ ><br/ >
 
 		<h3>Table Mode</h3>
-		<p>Here we list all items in 1 colum and use "table mode" to break columns out of pipe (|) seperated data</p> 
+		<p>Here we list all items in 1 colum and use "table mode" to break columns out of pipe (|) seperated data</p>
 		<p>
 		{@aria:MultiSelect {
 			activateSort : true,
@@ -48,7 +48,7 @@
 			displayOptions : {
 				flowOrientation :'horizontal',
 				tableMode : true,
-				listDisplay : "both"		
+				listDisplay : "both"
 			},
 			items : data.tableItems
 		}/}
@@ -69,10 +69,10 @@
 			numberOfColumns : 1,
 			displayOptions : {
 				flowOrientation : 'vertical',
-				listDisplay : "code"		
+				listDisplay : "code"
 			},
 			items : data.items
-		}/} 
+		}/}
 		</p><br/ ><br/ >
 
 		<h3>Vertical Orientation with 1 Column displaying code and label</h3>
@@ -90,10 +90,10 @@
 			numberOfColumns : 1,
 			displayOptions : {
 				flowOrientation : 'vertical',
-				listDisplay : "both"		
+				listDisplay : "both"
 			},
 			items : data.items
-		}/} 
+		}/}
 		</p>
 
 	{/macro}

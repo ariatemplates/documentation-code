@@ -3,7 +3,7 @@
  */
 
 Aria.tplScriptDefinition({
-	$classpath:'ariadoc.samples.widgets.dialog.binding.DialogBindingSampleScript',
+	$classpath:'samples.widgets.dialog.binding.DialogBindingSampleScript',
 	$prototype:{
 
 		openPopup: function(evt, args) {

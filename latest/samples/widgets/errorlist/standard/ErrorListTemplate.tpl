@@ -1,5 +1,5 @@
 {Template {
-  $classpath: "ariadoc.samples.widgets.errorlist.standard.ErrorListTemplate"
+  $classpath: "samples.widgets.errorlist.standard.ErrorListTemplate"
 }}
 
   {macro main()}

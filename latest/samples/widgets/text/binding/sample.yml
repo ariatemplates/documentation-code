@@ -1,5 +1,5 @@
 title: Text Widget - Binding Sample
-template: ariadoc.samples.widgets.text.binding.TextWgtBinding
+template: samples.widgets.text.binding.TextWgtBinding
 description: It shows the Text Widget with properties bound to another element.
 sources:
 - TextWgtBinding.tpl

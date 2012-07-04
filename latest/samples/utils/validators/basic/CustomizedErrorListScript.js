@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.utils.validators.basic.CustomizedErrorListScript',
+	$classpath : 'samples.utils.validators.basic.CustomizedErrorListScript',
 	$dependencies : ['aria.utils.Data'],
 	$statics : {
 		/**

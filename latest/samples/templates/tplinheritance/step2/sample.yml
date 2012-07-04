@@ -1,5 +1,5 @@
 title: Script methods inheritance
-template: 'ariadoc.samples.templates.tplinheritance.step2.ChildTemplate'
+template: 'samples.templates.tplinheritance.step2.ChildTemplate'
 description: This sample shows the inheritance between script methods.
 sources:
 - ChildTemplate.tpl

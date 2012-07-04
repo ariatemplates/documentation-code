@@ -1,7 +1,7 @@
 Aria.classDefinition({
-	$classpath : 'ariadoc.samples.utils.validators.basic.BasicCtrl',
+	$classpath : 'samples.utils.validators.basic.BasicCtrl',
 	$extends : 'aria.templates.ModuleCtrl',
-	$implements : ['ariadoc.samples.utils.validators.basic.IBasicCtrl'],
+	$implements : ['samples.utils.validators.basic.IBasicCtrl'],
 	$dependencies : [
 		'aria.utils.validators.Email',
 		'aria.utils.validators.Phone',
@@ -25,7 +25,7 @@ Aria.classDefinition({
 		this.myDataUtil = aria.utils.Data;
 	},
 	$prototype : {
-		$publicInterfaceName : "ariadoc.samples.utils.validators.basic.IBasicCtrl",
+		$publicInterfaceName : "samples.utils.validators.basic.IBasicCtrl",
 		init : function (arg, cb) {
 			var validatorPkg = aria.utils.validators;
 

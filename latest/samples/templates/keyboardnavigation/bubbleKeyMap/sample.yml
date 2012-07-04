@@ -1,5 +1,5 @@
 title: Keyboard event bubble sample
-template: ariadoc.samples.templates.keyboardnavigation.bubbleKeyMap.KeyMap
+template: samples.templates.keyboardnavigation.bubbleKeyMap.KeyMap
 description: It shows how to propagate a Key Map between sections.
 sources:
 - KeyMap.tpl

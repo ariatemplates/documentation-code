@@ -1,10 +1,10 @@
 {Library {
-    $classpath: "ariadoc.samples.templates.macros.simpleMacro.Lib2",
+    $classpath: "samples.templates.macros.simpleMacro.Lib2",
     $hasScript : true
 }}
 
 	{macro shoutHello(name)}
 		Hello, ${shout(name)}!
 	{/macro}
-	
+
 {/Library}

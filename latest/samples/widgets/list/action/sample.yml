@@ -1,6 +1,6 @@
 title: List Widget  - Action sample
-template: ariadoc.samples.widgets.list.action.ListAction
-description: It shows a List Widget with different action linked, like onMouseOver, onClick, onKeyevent and onChange. 
+template: samples.widgets.list.action.ListAction
+description: It shows a List Widget with different action linked, like onMouseOver, onClick, onKeyevent and onChange.
 data:
   items:
   - value: 1

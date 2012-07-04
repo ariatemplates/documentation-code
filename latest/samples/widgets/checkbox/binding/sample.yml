@@ -1,5 +1,5 @@
 title: Checkbox Widget - Bindings
-template: ariadoc.samples.widgets.checkbox.binding.BindableCheckbox
+template: samples.widgets.checkbox.binding.BindableCheckbox
 description: It shows different modes to bing a Checkbox Widget, using the data model for example.
 sources:
 - BindableCheckbox.tpl

@@ -1,5 +1,5 @@
 {Template {
-  $classpath : "ariadoc.samples.widgets.autocomplete.spellcheck.Main",
+  $classpath : "samples.widgets.autocomplete.spellcheck.Main",
   $hasScript : true
 }}
 

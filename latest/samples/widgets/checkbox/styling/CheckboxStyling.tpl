@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.widgets.checkbox.styling.CheckboxStyling'} }
+  $classpath : 'samples.widgets.checkbox.styling.CheckboxStyling'} }
 
   {macro main ( )}
     <p><strong> Checkbox with label positioned to the right </strong></p>

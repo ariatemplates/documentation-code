@@ -1,5 +1,5 @@
 {Template {
-	$classpath:'ariadoc.samples.templates.domInteractions.focushandling.BTemplate'
+	$classpath:'samples.templates.domInteractions.focushandling.BTemplate'
 }}
 
 	{macro main()}

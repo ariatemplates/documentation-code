@@ -1,5 +1,5 @@
 {Template {
-  $classpath: "ariadoc.samples.templates.templateScripts.clickhandler.ClickSample",
+  $classpath: "samples.templates.templateScripts.clickhandler.ClickSample",
   $hasScript: true
 }}
 

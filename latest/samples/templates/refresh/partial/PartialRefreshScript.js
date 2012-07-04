@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.refresh.partial.PartialRefreshScript',
+	$classpath : 'samples.templates.refresh.partial.PartialRefreshScript',
 	$prototype : {
 
 		/**

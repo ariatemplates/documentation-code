@@ -1,5 +1,5 @@
 {Template {
-	$classpath:'ariadoc.samples.templates.tplinheritance.step2.ParentTemplate',
+	$classpath:'samples.templates.tplinheritance.step2.ParentTemplate',
 	$hasScript: true
 }}
 
@@ -10,20 +10,20 @@
 			<li style="list-style: square;">{call overriddenMacro()/}</li>
 		</ul>
 	{/macro}
-	
+
 	{macro parentMacro()}
 		This is parentMacro, which uses scriptParentMethod.
 		<ul>
   			<li style="list-style: circle;">${scriptParentMethod()}</li>
 		</ul>
 	{/macro}
-	
+
 	{macro overriddenMacro()}
 		This is parent overriddenMacro, which uses scriptOverriddenMethod.
 		<ul>
   			<li style="list-style: disc;">${scriptOverriddenMethod()}</li>
 		</ul>
 	{/macro}
-	
+
 
 {/Template}

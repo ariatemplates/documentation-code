@@ -1,8 +1,8 @@
 /**
- * @class ariadoc.samples.templates.views.pagination.PagingTemplateScript
+ * @class samples.templates.views.pagination.PagingTemplateScript
  */
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.views.pagination.PagingTemplateScript',
+	$classpath : 'samples.templates.views.pagination.PagingTemplateScript',
 	$prototype : {
 		/**
 		 * Initializes the variables in the data model

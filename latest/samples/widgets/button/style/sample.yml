@@ -1,5 +1,5 @@
 title: Button Widget - Style
-template: ariadoc.samples.widgets.button.style.Simple
+template: samples.widgets.button.style.Simple
 description: It shows how Buttons with style look like.
 sources:
 - Simple.tpl

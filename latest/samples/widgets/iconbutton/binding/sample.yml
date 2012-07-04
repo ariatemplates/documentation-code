@@ -1,5 +1,5 @@
 title: IconButton Widget Binding - Sample usage
-template: ariadoc.samples.widgets.iconbutton.binding.IconButtonBinding
+template: samples.widgets.iconbutton.binding.IconButtonBinding
 description: It shows an IconButton Widget bound to a checkbox that manage the icon button enabled state.
 sources:
 - IconButtonBinding.tpl

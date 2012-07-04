@@ -1,8 +1,8 @@
 /**
- * @class ariadoc.samples.templates.views.sorting.SortingTemplateScript
+ * @class samples.templates.views.sorting.SortingTemplateScript
  */
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.views.sorting.SortingTemplateScript',
+	$classpath : 'samples.templates.views.sorting.SortingTemplateScript',
 	$prototype : {
 		/**
 		 * Callback function to get the sort key for every element.

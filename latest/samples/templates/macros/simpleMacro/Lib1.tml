@@ -1,9 +1,9 @@
 {Library {
-    $classpath: "ariadoc.samples.templates.macros.simpleMacro.Lib1"
+    $classpath: "samples.templates.macros.simpleMacro.Lib1"
 }}
 
 	{macro sayHello(name)}
 		Hello, ${name}!
 	{/macro}
-	
+
 {/Library}

@@ -1,5 +1,5 @@
 title: AutoSelect Feature
-template: ariadoc.samples.features.autoselect.AutoSelect
+template: samples.features.autoselect.AutoSelect
 description: This sample shows how the autoselect works for a specific input widget (TextField, NumberField).
 sources:
 - AutoSelect.tpl

@@ -1,5 +1,5 @@
 title: Subsections inherit the behavior of their parent section
-template: ariadoc.samples.templates.keyboardnavigation.tableNavigationInherit.TableNavInherit
+template: samples.templates.keyboardnavigation.tableNavigationInherit.TableNavInherit
 description: It shows a Table Navigation with focusable items and a subsection that inherits the tab navigation.
 sources:
 - TableNavInherit.tpl

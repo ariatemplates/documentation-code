@@ -1,5 +1,5 @@
 {Template {
-    $classpath : "ariadoc.samples.widgets.datepicker.customized.CustomizedCalendar",
+    $classpath : "samples.widgets.datepicker.customized.CustomizedCalendar",
     $hasScript : true,
     $res : {
         "res" : "aria.widgets.calendar.CalendarRes"

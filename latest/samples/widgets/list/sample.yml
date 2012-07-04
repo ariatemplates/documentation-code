@@ -1,5 +1,5 @@
 title: List Widget  - Sample
-template: ariadoc.samples.widgets.list.Simple
+template: samples.widgets.list.Simple
 description: It shows a List Widget in normal mode and disabled.
 data:
   items:

@@ -1,5 +1,5 @@
 {Template {
-    $classpath : "ariadoc.samples.widgets.dialog.movable.TemplateMovableDialog",
+    $classpath : "samples.widgets.dialog.movable.TemplateMovableDialog",
     $hasScript : true
 }}
 

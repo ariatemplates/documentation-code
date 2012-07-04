@@ -1,5 +1,5 @@
 {Template {
-  $classpath: "ariadoc.samples.widgets.calendar.Samples"
+  $classpath: "samples.widgets.calendar.Samples"
 }}
 
   {macro main()}
@@ -10,20 +10,20 @@
 	</tr>
 	<tr valign="top">
 		<td>
-			{@aria:Calendar { 
-				numberOfUnits: 1 
-			}/}	
+			{@aria:Calendar {
+				numberOfUnits: 1
+			}/}
 		</td>
 		<td>
-			{@aria:Calendar { 
+			{@aria:Calendar {
 				numberOfUnits: 1,
-				dayOfWeekLabelFormat:"EEE" 
+				dayOfWeekLabelFormat:"EEE"
 			}/}
 		</td>
 	</tr>
 </table>
-		
-		
+
+
   {/macro}
 
-{/Template}		
+{/Template}
