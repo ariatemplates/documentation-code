@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.domInteractions.focushandling.MainTemplateScript',
+	$classpath : 'samples.templates.domInteractions.focushandling.MainTemplateScript',
 	$prototype : {
 
 		giveFocusTo : function (evt, args) {

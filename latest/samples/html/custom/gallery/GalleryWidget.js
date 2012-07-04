@@ -1,11 +1,11 @@
 Aria.classDefinition({
-	$classpath : "ariadoc.samples.html.custom.gallery.GalleryWidget",
+	$classpath : "samples.html.custom.gallery.GalleryWidget",
 	$extends : "aria.html.Element",
 	$statics : {
 		SELF_CLOSING_ONLY : "Gallery Widget can only be used as a self closing widget.",
 		ROOT : "samples/html/gallery/"
 	},
-	$css : ["ariadoc.samples.html.custom.gallery.GalleryWidgetStyle"],
+	$css : ["samples.html.custom.gallery.GalleryWidgetStyle"],
 	$constructor : function (cfg, ctxt, lineNumber) {
 		cfg.tagName = "div";
 

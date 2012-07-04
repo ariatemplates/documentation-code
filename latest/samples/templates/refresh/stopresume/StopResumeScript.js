@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.refresh.stopresume.StopResumeScript',
+	$classpath : 'samples.templates.refresh.stopresume.StopResumeScript',
 	$prototype : {
 
 		/**

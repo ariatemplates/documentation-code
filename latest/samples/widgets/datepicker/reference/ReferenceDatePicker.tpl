@@ -1,5 +1,5 @@
 {Template {
-    $classpath : 'ariadoc.samples.widgets.datepicker.reference.ReferenceDatePicker',
+    $classpath : 'samples.widgets.datepicker.reference.ReferenceDatePicker',
     $hasScript : false
 }}
     {macro main()}

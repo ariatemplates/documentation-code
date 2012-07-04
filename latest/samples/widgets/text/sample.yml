@@ -1,5 +1,5 @@
 title: Text Widget - Sample
-template: ariadoc.samples.widgets.text.TextWgtSample
+template: samples.widgets.text.TextWgtSample
 description: It shows the Text Widget with different properties set.
 sources:
 - TextWgtSample.tpl

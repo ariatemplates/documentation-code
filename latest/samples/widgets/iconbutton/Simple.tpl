@@ -1,5 +1,5 @@
 {Template {
-  $classpath: "ariadoc.samples.widgets.iconbutton.Simple",
+  $classpath: "samples.widgets.iconbutton.Simple",
   $hasScript: true
 }}
 

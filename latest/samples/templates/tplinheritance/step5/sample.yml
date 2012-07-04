@@ -1,5 +1,5 @@
 title: Overriding CSS
-template: 'ariadoc.samples.templates.tplinheritance.step5.FirstChildTemplate'
+template: 'samples.templates.tplinheritance.step5.FirstChildTemplate'
 description: This sample shows how to override the CSS in a child template.
 sources:
 - FirstChildTemplate.tpl

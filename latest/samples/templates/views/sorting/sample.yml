@@ -1,5 +1,5 @@
 title: Sorting data with views
-template: ariadoc.samples.templates.views.sorting.SortingTemplate
+template: samples.templates.views.sorting.SortingTemplate
 description: It shows how the View class handle the sorting operation.
 sources:
 - SortingTemplate.tpl

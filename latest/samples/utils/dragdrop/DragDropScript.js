@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : "ariadoc.samples.utils.dragdrop.DragDropScript",
+	$classpath : "samples.utils.dragdrop.DragDropScript",
 	$dependencies : ["aria.utils.Mouse", "aria.utils.dragdrop.Drag"],
 	$destructor : function () {
 		this._dialog.$dispose();

@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.widgets.template.TemplateSample',
+  $classpath : 'samples.widgets.template.TemplateSample',
   $hasScript : false } }
 
 	{macro main ( )}
@@ -8,13 +8,13 @@
             <li>
                 <div style="color:green"><strong>First subtemplate:</strong></div>
                 {@aria:Template {
-                        defaultTemplate: 'ariadoc.samples.widgets.template.FirstSubTemplate'
+                        defaultTemplate: 'samples.widgets.template.FirstSubTemplate'
                 } /}
             </li>
             <li>
                 <div style="color:green"><strong>Second subtemplate receiving data from the parent:</strong></div>
                 {@aria:Template {
-                        defaultTemplate: "ariadoc.samples.widgets.template.SecondSubTemplate",
+                        defaultTemplate: "samples.widgets.template.SecondSubTemplate",
                         data: {myMessage : "This is just a message from the parent template."}
                 } /}
             </li>

@@ -1,5 +1,5 @@
 {Template {
-	$classpath : "ariadoc.samples.widgets.bindings.transform.Transform" } }
+	$classpath : "samples.widgets.bindings.transform.Transform" } }
 
 	{macro main ( )}
 		<p>

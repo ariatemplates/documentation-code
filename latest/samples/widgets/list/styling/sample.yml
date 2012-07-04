@@ -1,5 +1,5 @@
 title: List Widget  - Styling sample
-template: ariadoc.samples.widgets.list.styling.ListStyle
+template: samples.widgets.list.styling.ListStyle
 description: It shows a List Widget with different styles applied.
 data:
   items:

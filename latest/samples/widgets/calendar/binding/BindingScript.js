@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : "ariadoc.samples.widgets.calendar.binding.BindingScript",
+	$classpath : "samples.widgets.calendar.binding.BindingScript",
 	$dependencies : ["aria.utils.Json", "aria.utils.Date"],
 	$prototype : {
 		dateSelected : function () {

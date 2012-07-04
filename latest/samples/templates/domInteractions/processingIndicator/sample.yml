@@ -1,5 +1,5 @@
 title: Processing indicators
-template: ariadoc.samples.templates.domInteractions.processingIndicator.Sample
+template: samples.templates.domInteractions.processingIndicator.Sample
 description: It shows how the processing indicator works, using it with different sections and with the whole page.
 sources:
 - Sample.tpl

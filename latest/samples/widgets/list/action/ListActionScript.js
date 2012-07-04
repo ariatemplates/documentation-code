@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : "ariadoc.samples.widgets.list.action.ListActionScript",
+	$classpath : "samples.widgets.list.action.ListActionScript",
 	$prototype : {
 		listOnChange : function (evt) {
 			alert("onChange callback event fired");

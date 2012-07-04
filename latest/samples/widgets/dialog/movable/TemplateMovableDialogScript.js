@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.widgets.dialog.movable.TemplateMovableDialogScript',
+	$classpath : 'samples.widgets.dialog.movable.TemplateMovableDialogScript',
 	$destructor : function () {
 		this.$json.removeListener(this.data, "view:Dialog", this._changeHandler);
 		this._changeHandler = null;

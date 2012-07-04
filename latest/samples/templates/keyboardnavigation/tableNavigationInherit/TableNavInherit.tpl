@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.templates.keyboardnavigation.tableNavigationInherit.TableNavInherit' } }
+  $classpath : 'samples.templates.keyboardnavigation.tableNavigationInherit.TableNavInherit' } }
 
   {macro main ( )}
     <p> This table and the widgets can be navigated with the keyboard only. You must use the arrows with the CTRL

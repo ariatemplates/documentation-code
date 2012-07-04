@@ -1,7 +1,7 @@
 {Template {
-	$classpath: "ariadoc.samples.widgets.calendar.binding.CustomizedCalendar",
+	$classpath: "samples.widgets.calendar.binding.CustomizedCalendar",
 	$hasScript: true,
-	$res: { 
+	$res: {
 		"res" : "aria.widgets.calendar.CalendarRes"
 	}
 }}
@@ -9,7 +9,7 @@
 	{var calendar=data.calendar/}
 	{var settings=data.settings/}
 	{var skin=data.skin/}
-	
+
 	{macro main()}
 		{if settings.displayUnit == "M"}
 			{@aria:Div {
@@ -25,7 +25,7 @@
 					<span style="display: inline-block; vertical-align: top; margin: 2px;">
 						{call renderMonth(calendar.months[index],index == startIndex, index == endIndex)/}
 					</span>
-				{/for}	
+				{/for}
 				<div style="text-align: center; margin: 2px;">
 					<a title="${calendar.today|dateformat:settings.completeDateLabelFormat}" tabIndex="-1" href="javascript:;" {on click {fn: "navigate", scope: moduleCtrl, args: {date:calendar.today}}/}>${res.today}</a>
 					{if settings.value}
@@ -35,7 +35,7 @@
 			{/@aria:Div}
 		{/if}
 	{/macro}
-	
+
 	{macro renderMonth(month,first,last)}
 		<table class="${skin.baseCSS}month" cellspacing="0" style="width: 128px;">
 			<thead>
@@ -75,7 +75,7 @@
 			</tbody>
 		</table>
 	{/macro}
-	
+
 	{macro renderDay(day, month)}
 		{var jsDate=day.jsDate/}
 		{if day.monthKey==month.monthKey}

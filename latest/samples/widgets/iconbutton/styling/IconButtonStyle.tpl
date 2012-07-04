@@ -1,5 +1,5 @@
 {Template {
-  $classpath: "ariadoc.samples.widgets.iconbutton.styling.IconButtonStyle"
+  $classpath: "samples.widgets.iconbutton.styling.IconButtonStyle"
 }}
 
   {macro main()}

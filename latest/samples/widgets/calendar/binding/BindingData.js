@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath : 'ariadoc.ariadoc.samples.widgets.calendar.BindingData',
+	$classpath : 'samples.widgets.calendar.BindingData',
 	$singleton : true,
 	$constructor : function () {},
 

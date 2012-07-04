@@ -1,5 +1,5 @@
 {CSSTemplate {
-  $classpath : "ariadoc.samples.features.autoselect.AutoSelectCSS"
+  $classpath : "samples.features.autoselect.AutoSelectCSS"
 }}
 
   {macro main ()}
@@ -11,7 +11,7 @@
 
   .title {
     padding-bottom: 10px;
-  } 
+  }
   .sampleTable table td {
     width: 200px;
   }

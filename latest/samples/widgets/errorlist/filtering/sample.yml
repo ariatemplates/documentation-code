@@ -1,5 +1,5 @@
 title: ErrorList Widget - Sample usage
-template: ariadoc.samples.widgets.errorlist.filtering.ErrorListFilterTemplate
+template: samples.widgets.errorlist.filtering.ErrorListFilterTemplate
 description: It shows the different message layouts for the ErrorList Widget (Information, Success, Error, Warning).
 sources:
 - ErrorListFilterTemplate.tpl

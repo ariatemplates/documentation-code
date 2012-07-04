@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.domInteractions.processingIndicator.SampleScript',
+	$classpath : 'samples.templates.domInteractions.processingIndicator.SampleScript',
 	$prototype : {
 
 		/**

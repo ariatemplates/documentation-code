@@ -1,10 +1,10 @@
 {Template {
-	$classpath : 'ariadoc.samples.widgets.gauge.SampleUsage',
+	$classpath : 'samples.widgets.gauge.SampleUsage',
 	$hasScript : true,
 	$width : {min: 500}
 }}
 
-	
+
 	{macro main()}
 
 		{@aria:TextField {
@@ -84,7 +84,7 @@
 					args: 100
 				}
 		}/}
-		
+
 		{@aria:Button {
 				id: "btnClear",
 				label: "Clear",

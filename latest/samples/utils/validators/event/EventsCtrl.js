@@ -1,7 +1,7 @@
 Aria.classDefinition({
-	$classpath : 'ariadoc.samples.utils.validators.event.EventsCtrl',
+	$classpath : 'samples.utils.validators.event.EventsCtrl',
 	$extends : 'aria.templates.ModuleCtrl',
-	$implements : ['ariadoc.samples.utils.validators.event.IEventsCtrl'],
+	$implements : ['samples.utils.validators.event.IEventsCtrl'],
 	$dependencies : ['aria.utils.validators.Mandatory','aria.utils.validators.AlphaInternational','aria.utils.validators.MultipleValidator','aria.utils.Data'],
 	$events : {},
 	$constructor : function () {
@@ -18,7 +18,7 @@ Aria.classDefinition({
 		this.myDataUtil = aria.utils.Data;
 	},
 	$prototype : {
-		$publicInterfaceName : "ariadoc.samples.utils.validators.event.IEventsCtrl",
+		$publicInterfaceName : "samples.utils.validators.event.IEventsCtrl",
 		init : function (arg, cb) {
 			var validatorPkg = aria.utils.validators;
 

@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.cssTemplates.MainTemplateScript',
+	$classpath : 'samples.templates.cssTemplates.MainTemplateScript',
 	$prototype : {
 
 		/**

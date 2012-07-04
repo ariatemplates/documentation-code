@@ -1,6 +1,6 @@
 {Template {
-	$classpath: 'ariadoc.samples.templates.tplinheritance.step4.ParentTemplate',
-	$css: ['ariadoc.samples.templates.tplinheritance.step4.CSSParent']
+	$classpath: 'samples.templates.tplinheritance.step4.ParentTemplate',
+	$css: ['samples.templates.tplinheritance.step4.CSSParent']
 }}
 
 	{macro main()}

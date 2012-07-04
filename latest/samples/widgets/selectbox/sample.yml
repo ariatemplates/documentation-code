@@ -1,5 +1,5 @@
 title: SelectBox Field Widget - Sample usage
-template: ariadoc.samples.widgets.selectbox.SampleUsage
+template: samples.widgets.selectbox.SampleUsage
 description: It shows the SelectBox Widget in different configuration (default, read-only, disabled).
 data:
   widgets:

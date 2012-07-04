@@ -1,5 +1,5 @@
 {Template {
-  $classpath : "ariadoc.samples.features.prefill.usecase.PrefillSample",
+  $classpath : "samples.features.prefill.usecase.PrefillSample",
   $hasScript : true
 }}
 

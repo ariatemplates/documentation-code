@@ -1,5 +1,5 @@
 title: Image Gallery
-template: ariadoc.samples.html.custom.gallery.Images
+template: samples.html.custom.gallery.Images
 description: It shows an example of an image gallery.
 sources:
 - Images.tpl

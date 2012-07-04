@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.widgets.fieldset.action.FieldsetActionScript',
+	$classpath : 'samples.widgets.fieldset.action.FieldsetActionScript',
 	$prototype : {
 		fieldsetSubmit : function () {
 			alert("onSubmit callback on the root fieldset.");

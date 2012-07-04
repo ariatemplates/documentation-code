@@ -1,7 +1,7 @@
 Aria.classDefinition({
-	$classpath : 'ariadoc.samples.utils.validators.group.GroupsCtrl',
+	$classpath : 'samples.utils.validators.group.GroupsCtrl',
 	$extends : 'aria.templates.ModuleCtrl',
-	$implements : ['ariadoc.samples.utils.validators.group.IGroupsCtrl'],
+	$implements : ['samples.utils.validators.group.IGroupsCtrl'],
 	$dependencies : ['aria.utils.validators.Mandatory', 'aria.utils.Data'],
 	$events : {},
 	$constructor : function () {
@@ -16,7 +16,7 @@ Aria.classDefinition({
 		this.myDataUtil = aria.utils.Data;
 	},
 	$prototype : {
-		$publicInterfaceName : "ariadoc.samples.utils.validators.group.IGroupsCtrl",
+		$publicInterfaceName : "samples.utils.validators.group.IGroupsCtrl",
 		init : function (arg, cb) {
 			var validatorPkg = aria.utils.validators;
 			// add single validator to data model

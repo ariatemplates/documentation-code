@@ -1,5 +1,5 @@
 {Template {
-	$classpath : "ariadoc.samples.widgets.textfield.binding.Bindings" } }
+	$classpath : "samples.widgets.textfield.binding.Bindings" } }
 
 	{macro main ( )}
 
@@ -64,7 +64,7 @@
 		}/}
 
 		<p> Bind the label to the datamodel </p>
-		<br /> 
+		<br />
 		{@aria:TextField {
 			label : "Label",
 			labelPos : "left",

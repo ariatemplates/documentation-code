@@ -1,5 +1,5 @@
 {Template {
-  $classpath: "ariadoc.samples.widgets.calendar.binding.Binding",
+  $classpath: "samples.widgets.calendar.binding.Binding",
   $hasScript : true
 }}
 
@@ -13,12 +13,12 @@
 				}
 			}
 		} /}
-  
+
 
 <table>
 	<tr>
-		<td>  
-			{@aria:Calendar { 
+		<td>
+			{@aria:Calendar {
 				numberOfUnits: 1,
 				onchange: dateSelected,
 				bind : {
@@ -37,7 +37,7 @@
 			{@aria:Calendar {
 				onchange: dateSelected,
 				numberOfUnits: 1,
-				defaultTemplate: "ariadoc.samples.widgets.calendar.binding.CustomizedCalendar",			
+				defaultTemplate: "samples.widgets.calendar.binding.CustomizedCalendar",
 				bind : {
 					startDate: {
 						to: "startDate",
@@ -54,4 +54,4 @@
 </table>
   {/macro}
 
-{/Template}		
+{/Template}

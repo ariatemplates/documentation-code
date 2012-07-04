@@ -1,6 +1,6 @@
 Aria.tplScriptDefinition({
-	$classpath : "ariadoc.samples.widgets.autocomplete.spellcheck.MainScript",
-	$dependencies : ["ariadoc.samples.common.autocomplete.SpellCheckResourceHandler"],
+	$classpath : "samples.widgets.autocomplete.spellcheck.MainScript",
+	$dependencies : ["samples.common.autocomplete.SpellCheckResourceHandler"],
 	$prototype : {
 		/**
 		 * Returns the resources using a common handler for all samples containing an AutoComplete.
@@ -8,7 +8,7 @@ Aria.tplScriptDefinition({
 		 * @returns
 		 */
 		getNationsHandler : function (threshold) {
-			var spellCheckResourceHandler = new ariadoc.samples.common.autocomplete.SpellCheckResourceHandler(threshold);
+			var spellCheckResourceHandler = new samples.common.autocomplete.SpellCheckResourceHandler(threshold);
 			return spellCheckResourceHandler;
 		}
 	}

@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.widgets.errorlist.custom.CustomizedErrorListTemplateScript',
+	$classpath : 'samples.widgets.errorlist.custom.CustomizedErrorListTemplateScript',
 	$prototype : {
 		$dataReady : function (){
 			this.data = {

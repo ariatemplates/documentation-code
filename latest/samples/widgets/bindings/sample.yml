@@ -1,5 +1,5 @@
 title: Widget Bindings
-template: ariadoc.samples.widgets.bindings.Default
+template: samples.widgets.bindings.Default
 data:
   name: "Bob"
 sources:

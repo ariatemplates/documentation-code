@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.tplinheritance.step2.ChildTemplateScript',
+	$classpath : 'samples.templates.tplinheritance.step2.ChildTemplateScript',
 	$prototype : {
 		scriptChildMethod : function () {
 			return "This is scriptChildMethod, which calls scriptParentMethod: " + this.scriptParentMethod();

@@ -1,5 +1,5 @@
 title: Div Widget - Styling usage
-template: ariadoc.samples.widgets.div.styling.DivWidgetStyling
+template: samples.widgets.div.styling.DivWidgetStyling
 description: It shows different uses of the 'sclass' property with the Div Widget.
 sources:
 - DivWidgetStyling.tpl

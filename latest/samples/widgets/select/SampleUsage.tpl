@@ -1,5 +1,5 @@
 {Template {
-	$classpath : 'ariadoc.samples.widgets.select.SampleUsage'
+	$classpath : 'samples.widgets.select.SampleUsage'
 }}
 
 	{macro main ( )}

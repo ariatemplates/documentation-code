@@ -1,13 +1,13 @@
 Aria.classDefinition({
-	$classpath : "ariadoc.samples.modules.standard.MyModuleController",
+	$classpath : "samples.modules.standard.MyModuleController",
 	$extends : "aria.templates.ModuleCtrl",
-	$implements : ["ariadoc.samples.modules.standard.IMyModuleController"],
+	$implements : ["samples.modules.standard.IMyModuleController"],
 	$dependencies : ["aria.utils.Json"],
 	$constructor : function () {
-		
+
 		// call parent constructor
 		this.$ModuleCtrl.constructor.call(this);
-		
+
 		/**
 		 * The Data Model
 		 * @protected
@@ -19,7 +19,7 @@ Aria.classDefinition({
 	},
 	$prototype : {
 		// specify the public interface for this module
-		$publicInterfaceName : "ariadoc.samples.modules.standard.IMyModuleController",
+		$publicInterfaceName : "samples.modules.standard.IMyModuleController",
 
 		/**
 		 * Increment the value of the counter inside the data model.

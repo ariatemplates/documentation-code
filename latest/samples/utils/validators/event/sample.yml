@@ -1,6 +1,6 @@
 title: Validators Event
-template: ariadoc.samples.utils.validators.event.Events
-moduleCtrl: ariadoc.samples.utils.validators.event.EventsCtrl
+template: samples.utils.validators.event.Events
+moduleCtrl: samples.utils.validators.event.EventsCtrl
 description: It shows the Validator used with the events.
 sources:
 - Events.tpl
