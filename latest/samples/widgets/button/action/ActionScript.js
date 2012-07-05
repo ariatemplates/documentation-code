@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : "ariadoc.samples.widgets.button.action.ActionScript",
+	$classpath : "samples.widgets.button.action.ActionScript",
 	$prototype : {
 		/**
 		 * Callback for the click event on the first button.
@@ -8,7 +8,7 @@ Aria.tplScriptDefinition({
 		buttonClick : function (evt) {
 			alert("I felt your click");
 		},
-		
+
 		/**
 		 * Callback for the click event on the first button.
 		 * @param {aria.DomEvent} evt Click event
@@ -16,7 +16,7 @@ Aria.tplScriptDefinition({
 		 */
 		countClicks : function (evt, args) {
 			args.times += 1;
-			
+
 			alert("You clicked me " + args.times + " times");
 		}
 	}

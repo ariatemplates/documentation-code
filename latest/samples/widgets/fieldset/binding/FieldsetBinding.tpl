@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.widgets.fieldset.binding.FieldsetBinding',
+  $classpath : 'samples.widgets.fieldset.binding.FieldsetBinding',
   $hasScript : false } }
 
   {macro main ( )}

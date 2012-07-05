@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.widgets.radiobutton.SimpleRadioButton'} }
+  $classpath : 'samples.widgets.radiobutton.SimpleRadioButton'} }
 
   {macro main ( )}
     <h2> Simple RadioButton widget by default belongs to seperate group</h2>

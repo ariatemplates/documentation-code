@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.widgets.datefield.TemplateDateField',
+  $classpath : 'samples.widgets.datefield.TemplateDateField',
   $hasScript : false } }
 
   {macro main ( )}

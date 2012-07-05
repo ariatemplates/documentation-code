@@ -1,10 +1,10 @@
 {Template {
-	$classpath : "ariadoc.samples.html.custom.gallery.Images",
+	$classpath : "samples.html.custom.gallery.Images",
 	$wlibs : {
-		image : "ariadoc.samples.html.custom.gallery.ImageLibrary"
+		image : "samples.html.custom.gallery.ImageLibrary"
 	},
 	$hasScript : true,
-	$css : ["ariadoc.samples.html.custom.gallery.ControlsStyle"]
+	$css : ["samples.html.custom.gallery.ControlsStyle"]
 }}
 
 {macro main()}

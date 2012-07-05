@@ -1,5 +1,5 @@
 {Template {
-    $classpath : 'ariadoc.samples.widgets.datepicker.customized.CustomizedDatePicker'
+    $classpath : 'samples.widgets.datepicker.customized.CustomizedDatePicker'
 }}
     {macro main()}
 
@@ -10,7 +10,7 @@
     {@aria:DatePicker {
         minValue: minDate,
         maxValue: maxDate,
-        calendarTemplate: "ariadoc.samples.widgets.datepicker.customized.CustomizedCalendar"
+        calendarTemplate: "samples.widgets.datepicker.customized.CustomizedCalendar"
     }/}
 
 

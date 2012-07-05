@@ -1,5 +1,5 @@
 {Template {
-  $classpath: "ariadoc.samples.widgets.fieldset.nested.FieldsetNested"
+  $classpath: "samples.widgets.fieldset.nested.FieldsetNested"
 }}
 
   {macro main()}

@@ -1,5 +1,5 @@
 title: Localization and internazionalization (18n)
-template: ariadoc.samples.templates.i18n.LocalizedTemplate
+template: samples.templates.i18n.LocalizedTemplate
 description: It shows how the Localization works in aria templates.
 data:
   selectedLocale: en_US

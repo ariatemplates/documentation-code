@@ -2,7 +2,7 @@
  * Copyright Amadeus
  */
 {Template {
-	$classpath : 'ariadoc.samples.widgets.link.LinkWgtSample',
+	$classpath : 'samples.widgets.link.LinkWgtSample',
 	$hasScript : true } }
 	{macro main ( )}
 	   <p>Click on the link will invoke userdefined callback function</p>

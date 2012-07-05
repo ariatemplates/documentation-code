@@ -1,6 +1,6 @@
 title: Validators Groups
-template: ariadoc.samples.utils.validators.group.Groups
-moduleCtrl: ariadoc.samples.utils.validators.group.GroupsCtrl
+template: samples.utils.validators.group.Groups
+moduleCtrl: samples.utils.validators.group.GroupsCtrl
 description: It shows how to group the Validators.
 sources:
 - Groups.tpl

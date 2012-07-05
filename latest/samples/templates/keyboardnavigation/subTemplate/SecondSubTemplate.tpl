@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.templates.keyboardnavigation.subTemplate.SecondSubTemplate' } }
+  $classpath : 'samples.templates.keyboardnavigation.subTemplate.SecondSubTemplate' } }
 
   {macro main ( )}
     {@aria:TextField {

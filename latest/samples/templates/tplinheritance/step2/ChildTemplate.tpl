@@ -1,6 +1,6 @@
 {Template {
-	$classpath:'ariadoc.samples.templates.tplinheritance.step2.ChildTemplate',
-	$extends:'ariadoc.samples.templates.tplinheritance.step2.ParentTemplate',
+	$classpath:'samples.templates.tplinheritance.step2.ChildTemplate',
+	$extends:'samples.templates.tplinheritance.step2.ParentTemplate',
 	$hasScript: true
 }}
 
@@ -14,7 +14,7 @@
 		<li style="list-style: circle;">{call childMacro()/}</li>
 		</ul>
 	{/macro}
-	
+
 	{macro childMacro()}
 		This is childMacro, which uses the scriptChildMethod, and calls parentMacro.<br/>
 		<ul>

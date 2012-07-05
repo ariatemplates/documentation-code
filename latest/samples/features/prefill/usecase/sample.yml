@@ -1,5 +1,5 @@
 title: Basic Prefill Feature
-template: ariadoc.samples.features.prefill.usecase.PrefillSample
+template: samples.features.prefill.usecase.PrefillSample
 description: It shows the basic prefill feature used in a specific use case like the reservation of a multiple segment trip.
 sources:
 - PrefillSample.tpl

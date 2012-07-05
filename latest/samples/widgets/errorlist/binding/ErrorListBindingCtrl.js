@@ -1,8 +1,8 @@
 
 Aria.classDefinition({
-	$classpath : 'ariadoc.samples.widgets.errorlist.binding.ErrorListBindingCtrl',
+	$classpath : 'samples.widgets.errorlist.binding.ErrorListBindingCtrl',
 	$extends : 'aria.templates.ModuleCtrl',
-	$implements : ['ariadoc.samples.widgets.errorlist.binding.IErrorListBindingCtrl'],
+	$implements : ['samples.widgets.errorlist.binding.IErrorListBindingCtrl'],
 	$dependencies : ['aria.utils.validators.Email', 'aria.utils.validators.Phone', 'aria.utils.validators.Alpha',
 			'aria.utils.validators.AlphaInternational', 'aria.utils.validators.AlphaNum', 'aria.utils.Data',
 			'aria.utils.validators.MultipleValidator', 'aria.utils.validators.Mandatory'],
@@ -18,7 +18,7 @@ Aria.classDefinition({
 		this.myDataUtil = aria.utils.Data;
 	},
 	$prototype : {
-		$publicInterfaceName : "ariadoc.samples.widgets.errorlist.binding.IErrorListBindingCtrl",
+		$publicInterfaceName : "samples.widgets.errorlist.binding.IErrorListBindingCtrl",
 		init : function (arg, cb) {
 			var validatorPkg = aria.utils.validators;
 

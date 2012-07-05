@@ -1,5 +1,5 @@
 title: Div Widget - Sample usage
-template: ariadoc.samples.widgets.div.DivWgtSample
+template: samples.widgets.div.DivWgtSample
 description: It shows how a Div Widget look like.
 sources:
 - DivWgtSample.tpl

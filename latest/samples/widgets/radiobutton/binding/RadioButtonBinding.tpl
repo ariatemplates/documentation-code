@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.widgets.radiobutton.binding.RadioButtonBinding',
+  $classpath : 'samples.widgets.radiobutton.binding.RadioButtonBinding',
   $hasScript: true } }
 
   {macro main ( )}

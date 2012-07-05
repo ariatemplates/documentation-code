@@ -1,5 +1,5 @@
 {Template {
-    $classpath:'ariadoc.samples.templates.keyboardnavigation.tableNavigation.TableNavigation'
+    $classpath:'samples.templates.keyboardnavigation.tableNavigation.TableNavigation'
 }}
 {macro main()}
     <p>This table and the widgets can be navigated with the keyboard only. You must use the up and down arrows with the CTRL modifier.</p>

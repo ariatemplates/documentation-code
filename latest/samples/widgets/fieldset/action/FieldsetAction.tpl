@@ -1,5 +1,5 @@
 {Template {
-  $classpath: "ariadoc.samples.widgets.fieldset.action.FieldsetAction",
+  $classpath: "samples.widgets.fieldset.action.FieldsetAction",
   $hasScript: true
 }}
 

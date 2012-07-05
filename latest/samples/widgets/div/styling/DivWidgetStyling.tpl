@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.widgets.div.styling.DivWidgetStyling',
+  $classpath : 'samples.widgets.div.styling.DivWidgetStyling',
   $hasScript : false } }
 
   {macro main ( )}

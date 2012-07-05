@@ -1,5 +1,5 @@
 title: Simple Macro Usage
-template: ariadoc.samples.templates.macros.simpleMacro.MyTemplate
+template: samples.templates.macros.simpleMacro.MyTemplate
 description: It shows how to use Macro Libraries in aria templates.
 sources:
 - MyTemplate.tpl

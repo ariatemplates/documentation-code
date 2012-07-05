@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.widgets.datefield.binding.DateFieldBindable',
+  $classpath : 'samples.widgets.datefield.binding.DateFieldBindable',
   $hasScript : false } }
 
   {macro main ( )}

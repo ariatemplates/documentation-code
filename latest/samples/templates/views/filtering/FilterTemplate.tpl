@@ -1,6 +1,6 @@
 // This template is used in aria templates tutorial to demonstrate views.
 {Template {
-    $classpath: "ariadoc.samples.templates.views.filtering.FilterTemplate",
+    $classpath: "samples.templates.views.filtering.FilterTemplate",
     $hasScript: true
 }}
 

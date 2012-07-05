@@ -2,7 +2,7 @@
  * Sample widget library.
  */
 Aria.classDefinition({
-	$classpath : 'ariadoc.samples.widgets.widgetlibs.SampleWidgetLib',
+	$classpath : 'samples.widgets.widgetlibs.SampleWidgetLib',
 	$extends : 'aria.widgetLibs.WidgetLib',
 	$singleton : true,
 	$prototype : {
@@ -12,7 +12,7 @@ Aria.classDefinition({
 		 * @type {Object}
 		 */
 		widgets : {
-			"Slider" : "ariadoc.samples.widgets.widgetlibs.slider.widget.Slider"
+			"Slider" : "samples.widgets.widgetlibs.slider.widget.Slider"
 		}
 	}
 });

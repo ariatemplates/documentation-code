@@ -1,5 +1,5 @@
 title: Tab Widget - Sample
-template: ariadoc.samples.widgets.tab.TabWgtSample
+template: samples.widgets.tab.TabWgtSample
 description: It shows the Tab Widget.
 sources:
 - TabWgtSample.tpl

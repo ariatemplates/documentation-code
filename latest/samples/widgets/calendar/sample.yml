@@ -1,5 +1,5 @@
 title: Calendar Widget - Samples
-template: ariadoc.samples.widgets.calendar.Samples
+template: samples.widgets.calendar.Samples
 description: It shows how the Calendar Widget looks like with different label format.
 sources:
-- ariadoc.samples.tpl
+- samples.tpl

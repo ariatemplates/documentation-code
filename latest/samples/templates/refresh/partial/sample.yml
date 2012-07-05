@@ -1,5 +1,5 @@
 title: Partial Refresh
-template: ariadoc.samples.templates.refresh.partial.PartialRefresh
+template: samples.templates.refresh.partial.PartialRefresh
 description: It shows the manual partial template refresh in aria templates
 sources:
 - PartialRefresh.tpl

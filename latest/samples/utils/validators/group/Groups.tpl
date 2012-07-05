@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.utils.validators.group.Groups'
+  $classpath : 'samples.utils.validators.group.Groups'
 }}
 
 {var titleMessage = null /}

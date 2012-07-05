@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.widgets.tab.styling.TabWgtStyle',
+  $classpath : 'samples.widgets.tab.styling.TabWgtStyle',
   $hasScript : false } }
 
   {macro main ( )}

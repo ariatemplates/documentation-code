@@ -1,5 +1,5 @@
 title: Fieldset Widget Binding - Sample usage
-template: ariadoc.samples.widgets.fieldset.binding.FieldsetBinding
+template: samples.widgets.fieldset.binding.FieldsetBinding
 description: It shows a Fieldset Widget with the property tooltip bound to the data model.
 sources:
 - FieldsetBinding.tpl

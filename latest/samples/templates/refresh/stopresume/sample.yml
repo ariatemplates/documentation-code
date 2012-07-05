@@ -1,5 +1,5 @@
 title: Stop/Resume refreshes
-template: ariadoc.samples.templates.refresh.stopresume.StopResume
+template: samples.templates.refresh.stopresume.StopResume
 description: It shows how the stop and resume refresh works in aria templates.
 sources:
 - StopResume.tpl

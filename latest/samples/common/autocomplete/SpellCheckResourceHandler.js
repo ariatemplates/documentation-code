@@ -4,13 +4,13 @@
  * The list of corrections is inside $statics at the end of the file.
  */
 Aria.classDefinition({
-	$classpath : "ariadoc.samples.common.autocomplete.SpellCheckResourceHandler",
+	$classpath : "samples.common.autocomplete.SpellCheckResourceHandler",
 	$extends : "aria.resources.handlers.LCResourcesHandler",
-	$dependencies : ["ariadoc.samples.common.autocomplete.ListOfNations"],
+	$dependencies : ["samples.common.autocomplete.ListOfNations"],
 	$constructor : function (threshold) {
 		this.$LCResourcesHandler.constructor.call(this);
 		this.threshold = (threshold) ? threshold : 1;
-		this.setSuggestions(ariadoc.samples.common.autocomplete.ListOfNations.NATIONS);
+		this.setSuggestions(samples.common.autocomplete.ListOfNations.NATIONS);
 	},
 	$prototype : {
 		/**
@@ -70,7 +70,7 @@ Aria.classDefinition({
 		 * @return {String} template classpath
 		 */
 		getDefaultTemplate : function () {
-			return "ariadoc.samples.common.autocomplete.SpellCheckListTemplate";
+			return "samples.common.autocomplete.SpellCheckListTemplate";
 		}
 
 	},

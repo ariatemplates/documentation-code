@@ -1,5 +1,5 @@
 title: DatePicker Widget with date reference - Sample
-template: ariadoc.samples.widgets.datepicker.reference.ReferenceDatePicker
-description: It shows a DatePicker Widget with date reference. 
+template: samples.widgets.datepicker.reference.ReferenceDatePicker
+description: It shows a DatePicker Widget with date reference.
 sources:
 - ReferenceDatePicker.tpl

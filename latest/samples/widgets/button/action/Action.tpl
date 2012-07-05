@@ -1,21 +1,21 @@
 {Template {
-  $classpath: "ariadoc.samples.widgets.button.action.Action",
+  $classpath: "samples.widgets.button.action.Action",
   $hasScript : true
 }}
 
   {var counter = 0 /}
-  
+
   {macro main()}
-  
+
     {@aria:Button {
       label : "Click Me!",
       onclick : {
         fn : buttonClick
       }
     }/}
-    
+
     <br /><br />
-    
+
     {@aria:Button {
       label : "Click Me Too!",
       onclick : {
@@ -25,7 +25,7 @@
         }
       }
     }/}
-    
+
   {/macro}
 
 {/Template}

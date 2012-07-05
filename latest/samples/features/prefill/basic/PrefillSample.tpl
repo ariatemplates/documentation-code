@@ -1,7 +1,7 @@
 {Template {
-  $classpath : "ariadoc.samples.features.prefill.basic.PrefillSample",
+  $classpath : "samples.features.prefill.basic.PrefillSample",
   $hasScript : true,
-  $css : ["ariadoc.samples.features.prefill.basic.PrefillSampleCSS"],
+  $css : ["samples.features.prefill.basic.PrefillSampleCSS"],
   $dependencies : ['aria.utils.validators.AlphaInternational']
 }}
 

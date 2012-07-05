@@ -1,5 +1,5 @@
 title: Paginating data with views
-template: ariadoc.samples.templates.views.pagination.PagingTemplate
+template: samples.templates.views.pagination.PagingTemplate
 description: It shows how the View class handle the paginating operation.
 sources:
 - PagingTemplate.tpl

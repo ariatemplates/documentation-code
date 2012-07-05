@@ -1,8 +1,8 @@
 {Template {
-	$classpath: 'ariadoc.samples.templates.tplinheritance.step3.ParentTemplate',
+	$classpath: 'samples.templates.tplinheritance.step3.ParentTemplate',
 	$macrolibs: {
-		libParent: 'ariadoc.samples.templates.tplinheritance.step3.LibParent',
-		libOverridden: 'ariadoc.samples.templates.tplinheritance.step3.LibParentOverridden'
+		libParent: 'samples.templates.tplinheritance.step3.LibParent',
+		libOverridden: 'samples.templates.tplinheritance.step3.LibParentOverridden'
 	}
 }}
 

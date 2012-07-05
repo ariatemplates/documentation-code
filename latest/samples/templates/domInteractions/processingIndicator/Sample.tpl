@@ -1,7 +1,7 @@
 {Template {
-    $classpath : 'ariadoc.samples.templates.domInteractions.processingIndicator.Sample',
+    $classpath : 'samples.templates.domInteractions.processingIndicator.Sample',
     $hasScript : true,
-    $css : ["ariadoc.samples.templates.domInteractions.processingIndicator.SampleCSS"]
+    $css : ["samples.templates.domInteractions.processingIndicator.SampleCSS"]
 }}
     {macro main()}
         <div class="myMenu">

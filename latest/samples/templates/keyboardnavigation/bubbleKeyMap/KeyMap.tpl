@@ -1,5 +1,5 @@
 {Template {
-    $classpath:'ariadoc.samples.templates.keyboardnavigation.bubbleKeyMap.KeyMap',
+    $classpath:'samples.templates.keyboardnavigation.bubbleKeyMap.KeyMap',
     $hasScript: true
 }}
 

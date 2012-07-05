@@ -1,5 +1,5 @@
 title: SortIndicator Widget  - Sample
-template: ariadoc.samples.widgets.sortindicator.SortingTemplate
+template: samples.widgets.sortindicator.SortingTemplate
 description: It shows how the SortIndicator Widget works in aria templates.
 sources:
 - SortingTemplate.tpl
@@ -42,4 +42,3 @@ data:
     price:
       currency: "EUR"
       value: 115
-    
