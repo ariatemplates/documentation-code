@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.templateScripts.clickhandler.ClickSampleScript',
+	$classpath : 'samples.templates.templateScripts.clickhandler.ClickSampleScript',
 	$prototype : {
 
 		clickHandler : function () {

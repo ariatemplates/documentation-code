@@ -1,5 +1,5 @@
 title: CSS templates
-template: ariadoc.samples.templates.cssTemplates.MainTemplate
+template: samples.templates.cssTemplates.MainTemplate
 description: This sample shows how the CSS Templates work, giving some different styles to elements.
 sources:
 - MainTemplate.tpl
@@ -32,4 +32,3 @@ data:
       taken: true
     - name: "peppers"
       taken: false
-  

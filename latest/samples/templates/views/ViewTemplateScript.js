@@ -1,8 +1,8 @@
 /**
- * @class ariadoc.samples.templates.views.ViewTemplateScript
+ * @class samples.templates.views.ViewTemplateScript
  */
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.views.ViewTemplateScript',
+	$classpath : 'samples.templates.views.ViewTemplateScript',
 	$prototype : {
 		/**
 		 * Initializes the variables in the data model

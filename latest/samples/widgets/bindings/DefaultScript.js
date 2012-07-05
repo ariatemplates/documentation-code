@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : "ariadoc.samples.widgets.bindings.DefaultScript",
+	$classpath : "samples.widgets.bindings.DefaultScript",
 	$prototype : {
 		/**
 		 * Callback for the click event on the shout button.

@@ -1,5 +1,5 @@
 title: DatePicker Widget binding - Sample
-template: ariadoc.samples.widgets.datepicker.TemplateDatePicker
+template: samples.widgets.datepicker.TemplateDatePicker
 description: It shows the default DatePicker Widget.
 sources:
 - TemplateDatePicker.tpl

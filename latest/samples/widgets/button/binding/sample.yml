@@ -1,5 +1,5 @@
 title: Button Widget - Binding
-template: ariadoc.samples.widgets.button.binding.Binding
+template: samples.widgets.button.binding.Binding
 description: It shows a Button Widget bound to other widgets.
 sources:
 - Binding.tpl

@@ -1,6 +1,6 @@
 Aria.tplScriptDefinition({
-	$classpath : "ariadoc.samples.features.autoselect.AutoSelectScript",
-	$dependencies : ["ariadoc.samples.common.autocomplete.AutoCompleteResourceHandler"],
+	$classpath : "samples.features.autoselect.AutoSelectScript",
+	$dependencies : ["samples.common.autocomplete.AutoCompleteResourceHandler"],
 	$prototype : {
 		/**
 		 * Returns the resources using a common handler for all samples containing an AutoComplete.
@@ -8,7 +8,7 @@ Aria.tplScriptDefinition({
 		 * @returns
 		 */
 		getNationsHandler : function (threshold) {
-			var autoCompleteResourceHandler = ariadoc.samples.common.autocomplete.AutoCompleteResourceHandler;
+			var autoCompleteResourceHandler = samples.common.autocomplete.AutoCompleteResourceHandler;
 			return autoCompleteResourceHandler.getNationsHandler(threshold);
 		}
 	}

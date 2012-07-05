@@ -1,5 +1,5 @@
 title: DateField Widget with reference date - Sample
-template: ariadoc.samples.widgets.datefield.binding.DateFieldBindable
+template: samples.widgets.datefield.binding.DateFieldBindable
 description: It shows two Datefield Widgets bound to the data model.
 sources:
 - DateFieldBindable.tpl

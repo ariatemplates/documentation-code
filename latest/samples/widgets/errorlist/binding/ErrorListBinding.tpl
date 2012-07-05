@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.widgets.errorlist.binding.ErrorListBinding'
+  $classpath : 'samples.widgets.errorlist.binding.ErrorListBinding'
 }}
 
 {var titleMessage = null /}

@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.widgets.radiobutton.styling.StyledRadioButton'} }
+  $classpath : 'samples.widgets.radiobutton.styling.StyledRadioButton'} }
 
   {macro main ( )}
     <p> RadioButton widget labels aligned to "left", "right", "top" and "bottom"</p>

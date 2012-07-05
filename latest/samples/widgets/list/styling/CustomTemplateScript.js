@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.widgets.list.styling.CustomTemplateScript',
+	$classpath : 'samples.widgets.list.styling.CustomTemplateScript',
 	$constructor : function () {
 		/**
 		 * Name of the element containing the displayed list items

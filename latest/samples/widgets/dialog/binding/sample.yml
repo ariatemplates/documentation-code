@@ -1,5 +1,5 @@
 title: Dialog sample usage
-template: ariadoc.samples.widgets.dialog.binding.DialogBindingSample
+template: samples.widgets.dialog.binding.DialogBindingSample
 description: It shows which properties are bindable and how they work for the Dialog.
 sources:
 - DialogBindingSample.tpl

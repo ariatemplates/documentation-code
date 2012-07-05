@@ -1,11 +1,10 @@
 Aria.classDefinition({
-	$classpath : "ariadoc.samples.html.custom.gallery.GalleryWidget",
+	$classpath : "samples.html.custom.gallery.GalleryWidget",
 	$extends : "aria.html.Element",
 	$statics : {
-		SELF_CLOSING_ONLY : "Gallery Widget can only be used as a self closing widget.",
-		ROOT : "samples/html/gallery/"
+		SELF_CLOSING_ONLY : "Gallery Widget can only be used as a self closing widget."
 	},
-	$css : ["ariadoc.samples.html.custom.gallery.GalleryWidgetStyle"],
+	$css : ["samples.html.custom.gallery.GalleryWidgetStyle"],
 	$constructor : function (cfg, ctxt, lineNumber) {
 		cfg.tagName = "div";
 
@@ -43,7 +42,7 @@ Aria.classDefinition({
 			var visible = this.images[this.visible];
 
 			out.write("<div class='wGalleryContainer'>");
-			out.write("<img id='" + this._id + "' src='" + this.ROOT + visible.url + "' />");
+			out.write("<img id='" + this._id + "' src='" + visible.url + "' />");
 			out.write("<div class='wGalleryDescription' id='" + this._id + "_desc'>" + visible.desc + "</div>");
 			out.write("</div>");
 		},
@@ -84,7 +83,7 @@ Aria.classDefinition({
 
 				var visible = this.images[this.visible];
 
-				this._domElt.src = this.ROOT + visible.url;
+				this._domElt.src = visible.url;
 				this._domDesc.innerHTML = visible.desc;
 			}
 		}

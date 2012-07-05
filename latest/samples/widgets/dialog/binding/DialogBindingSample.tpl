@@ -1,5 +1,5 @@
 {Template {
-  $classpath : "ariadoc.samples.widgets.dialog.binding.DialogBindingSample",
+  $classpath : "samples.widgets.dialog.binding.DialogBindingSample",
   $hasScript : true } }
 
   {macro main ( )}

@@ -1,5 +1,5 @@
 title: RadioButton Widget - Styling usage
-template: ariadoc.samples.widgets.icon.library.SampleLibraryUsage
+template: samples.widgets.icon.library.SampleLibraryUsage
 description: It shows some different icons for many uses, like info, error, undo, redo, help, arrows, etc.
 sources:
 - SampleLibraryUsage.tpl

@@ -1,6 +1,6 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.features.prefill.basic.PrefillSampleScript',
-	$dependencies : ["ariadoc.samples.common.autocomplete.AutoCompleteResourceHandler"],
+	$classpath : 'samples.features.prefill.basic.PrefillSampleScript',
+	$dependencies : ["samples.common.autocomplete.AutoCompleteResourceHandler"],
 	$constructor : function () {
 		this._validator = new aria.utils.validators.AlphaInternational();
 	},
@@ -156,7 +156,7 @@ Aria.tplScriptDefinition({
 		 * @returns
 		 */
 		getNationsHandler : function (threshold) {
-			var autoCompleteResourceHandler = ariadoc.samples.common.autocomplete.AutoCompleteResourceHandler;
+			var autoCompleteResourceHandler = samples.common.autocomplete.AutoCompleteResourceHandler;
 			return autoCompleteResourceHandler.getNationsHandler(threshold);
 		}
 

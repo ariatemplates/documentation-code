@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath : 'ariadoc.ariadoc.samples.widgets.selectbox.SampleUsageData',
+	$classpath : 'samples.widgets.selectbox.SampleUsageData',
 	$constructor : function () {},
 	$prototype : {
 
@@ -32,7 +32,7 @@ Aria.classDefinition({
 			},{
 				value : "USA",
 				label : "United States of America"
-			}]			
+			}]
 		}
 	}
 });

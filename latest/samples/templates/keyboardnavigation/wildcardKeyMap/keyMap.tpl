@@ -1,5 +1,5 @@
 {Template {
-    $classpath:'ariadoc.samples.templates.keyboardnavigation.wildcardKeyMap.KeyMap',
+    $classpath:'samples.templates.keyboardnavigation.wildcardKeyMap.KeyMap',
     $hasScript: true
 }}
 

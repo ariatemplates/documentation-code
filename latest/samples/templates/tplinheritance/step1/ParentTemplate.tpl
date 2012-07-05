@@ -1,5 +1,5 @@
 {Template {
-	$classpath:'ariadoc.samples.templates.tplinheritance.step1.ParentTemplate'
+	$classpath:'samples.templates.tplinheritance.step1.ParentTemplate'
 }}
 
 	{macro main()}
@@ -9,14 +9,14 @@
 			<li style="list-style: square;">{call overriddenMacro()/}</li>
 		</ul>
 	{/macro}
-	
+
 	{macro parentMacro()}
 		This is parentMacro.<br/>
 	{/macro}
-	
+
 	{macro overriddenMacro()}
 		This is the parent overriddenMacro.<br/>
 	{/macro}
-	
+
 
 {/Template}

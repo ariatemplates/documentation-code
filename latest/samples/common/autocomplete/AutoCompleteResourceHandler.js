@@ -2,11 +2,11 @@
  * A common class used to handle the resources for any AutoComplete widget that is used within the application.
  */
 Aria.classDefinition({
-	$classpath : "ariadoc.samples.common.autocomplete.AutoCompleteResourceHandler",
+	$classpath : "samples.common.autocomplete.AutoCompleteResourceHandler",
 	$dependencies : [
 		"aria.resources.handlers.LCResourcesHandler",
-		"ariadoc.samples.common.autocomplete.ListOfNations",
-		"ariadoc.samples.common.autocomplete.ListOfCities"],
+		"samples.common.autocomplete.ListOfNations",
+		"samples.common.autocomplete.ListOfCities"],
 	$singleton : true,
 	$prototype : {
 		/**
@@ -17,7 +17,7 @@ Aria.classDefinition({
 		getNationsHandler : function (threshold) {
 			var handler = new aria.resources.handlers.LCResourcesHandler();
 			handler.threshold = threshold;
-			handler.setSuggestions(ariadoc.samples.common.autocomplete.ListOfNations.NATIONS);
+			handler.setSuggestions(samples.common.autocomplete.ListOfNations.NATIONS);
 			return handler;
 		},
 
@@ -29,7 +29,7 @@ Aria.classDefinition({
 		getCitiesHandler : function (threshold) {
 			var handler = new aria.resources.handlers.LCResourcesHandler();
 			handler.threshold = threshold;
-			handler.setSuggestions(ariadoc.samples.common.autocomplete.ListOfCities.CITIES);
+			handler.setSuggestions(samples.common.autocomplete.ListOfCities.CITIES);
 			return handler;
 		}
 	}

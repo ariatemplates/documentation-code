@@ -1,5 +1,5 @@
 title: Button Widget - User Action
-template: ariadoc.samples.widgets.button.action.Action
+template: samples.widgets.button.action.Action
 description: It shows how the actions work with the Button Widget, managing specific callbacks.
 sources:
 - Action.tpl

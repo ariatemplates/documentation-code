@@ -1,5 +1,5 @@
 {Template {
-  $classpath: "ariadoc.samples.widgets.list.action.ListAction",
+  $classpath: "samples.widgets.list.action.ListAction",
   $hasScript: true
 }}
 

@@ -1,5 +1,5 @@
 title: NumberField Sample Usage
-template: ariadoc.samples.widgets.numberfield.SampleUsage
+template: samples.widgets.numberfield.SampleUsage
 description: It shows how the NumberField Widget works in aria templates.
 sources:
 - SampleUsage.tpl

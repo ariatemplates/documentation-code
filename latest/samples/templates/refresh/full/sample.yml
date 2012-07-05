@@ -1,5 +1,5 @@
 title: Full Refresh
-template: ariadoc.samples.templates.refresh.full.FullRefresh
+template: samples.templates.refresh.full.FullRefresh
 description: It shows the manual full template refresh in aria templates.
 sources:
 - FullRefresh.tpl

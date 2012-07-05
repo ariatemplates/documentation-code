@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.templates.keyboardnavigation.subTemplate.FirstSubTemplate' } }
+  $classpath : 'samples.templates.keyboardnavigation.subTemplate.FirstSubTemplate' } }
 
   {macro main ( )}
 

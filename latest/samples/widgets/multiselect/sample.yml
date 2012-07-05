@@ -1,5 +1,5 @@
 title: MultiSelect Widget - Sample usage
-template: ariadoc.samples.widgets.multiselect.SampleUsage
+template: samples.widgets.multiselect.SampleUsage
 description: It shows the MultiSelect Widget with different layouts, like columns, table, etc.
 data:
   items:

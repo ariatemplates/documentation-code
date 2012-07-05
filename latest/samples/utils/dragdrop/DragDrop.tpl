@@ -1,6 +1,6 @@
 {Template {
-  $classpath : "ariadoc.samples.utils.dragdrop.DragDrop",
-  $css : ["ariadoc.samples.utils.dragdrop.style.TemplateDialogSkin", "ariadoc.samples.utils.dragdrop.style.DragDropCSS"],
+  $classpath : "samples.utils.dragdrop.DragDrop",
+  $css : ["samples.utils.dragdrop.style.TemplateDialogSkin", "samples.utils.dragdrop.style.DragDropCSS"],
   $hasScript : true
 } }
 

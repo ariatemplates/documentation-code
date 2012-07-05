@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.widgets.errorlist.filtering.ErrorListFilterTemplateScript',
+	$classpath : 'samples.widgets.errorlist.filtering.ErrorListFilterTemplateScript',
 	$prototype : {
 		$dataReady : function (){
 			var localisedMsg = {

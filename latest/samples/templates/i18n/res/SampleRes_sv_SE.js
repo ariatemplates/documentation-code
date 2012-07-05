@@ -1,5 +1,5 @@
 Aria.resourcesDefinition({
-	$classpath : 'ariadoc.samples.templates.i18n.res.SampleRes',
+	$classpath : 'samples.templates.i18n.res.SampleRes',
 	$resources : {
 		"buttons" : {
 			"label" : {

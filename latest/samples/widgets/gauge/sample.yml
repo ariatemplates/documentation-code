@@ -1,5 +1,5 @@
 title: Gauge Widget - Sample usage
-template: ariadoc.samples.widgets.gauge.SampleUsage
+template: samples.widgets.gauge.SampleUsage
 description: It shows the Gauge Widget working with a specific value or in searching mode.
 data:
   currentValue: 20

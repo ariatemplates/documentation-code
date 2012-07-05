@@ -1,5 +1,5 @@
 {CSSTemplate {
-	$classpath : "ariadoc.samples.templates.cssTemplates.FirstCss"
+	$classpath : "samples.templates.cssTemplates.FirstCss"
 }}
   {var itemColor = "white" /}
   {macro main ()}

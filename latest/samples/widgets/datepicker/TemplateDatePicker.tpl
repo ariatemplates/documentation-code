@@ -1,5 +1,5 @@
 {Template {
-    $classpath : 'ariadoc.samples.widgets.datepicker.TemplateDatePicker',
+    $classpath : 'samples.widgets.datepicker.TemplateDatePicker',
     $hasScript : false
 }}
     {macro main()}

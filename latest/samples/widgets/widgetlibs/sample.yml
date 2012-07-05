@@ -1,5 +1,5 @@
 title: Custom widgets
-template: ariadoc.samples.widgets.widgetlibs.slider.DemoTemplate
+template: samples.widgets.widgetlibs.slider.DemoTemplate
 description: It shows a Slider Widget with different configurations.
 sources:
 - slider/DemoTemplate.tpl

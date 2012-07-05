@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : "ariadoc.samples.widgets.link.LinkWgtSampleScript",
+	$classpath : "samples.widgets.link.LinkWgtSampleScript",
 	$prototype : {
 		/**
 		 * Callback for the click event on the first button.

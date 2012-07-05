@@ -1,5 +1,5 @@
 title: Select Field Widget - Sample usage
-template: ariadoc.samples.widgets.select.SampleUsage
+template: samples.widgets.select.SampleUsage
 description: It shows the Select Widget in different configuration (default, read-only, disabled).
 data:
   widgets:

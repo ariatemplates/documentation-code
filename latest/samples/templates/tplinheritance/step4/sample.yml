@@ -1,5 +1,5 @@
 title: CSS inheritance
-template: 'ariadoc.samples.templates.tplinheritance.step4.SecondChildTemplate'
+template: 'samples.templates.tplinheritance.step4.SecondChildTemplate'
 description: This sample shows the CSS inheritance.
 sources:
 - SecondChildTemplate.tpl

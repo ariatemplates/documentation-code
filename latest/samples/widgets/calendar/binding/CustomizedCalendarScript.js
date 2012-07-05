@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.widgets.calendar.binding.CustomizedCalendarScript',
+	$classpath : 'samples.widgets.calendar.binding.CustomizedCalendarScript',
 	$constructor : function () {
 		this.dateUtils = aria.utils.Date;
 	},
@@ -37,10 +37,10 @@ Aria.tplScriptDefinition({
 			var date = evt.target.getExpando("date");
 			if (date) {
 				var jsDate = new Date(parseInt(date));
-				this.moduleCtrl.dateClick({date: jsDate});				
+				this.moduleCtrl.dateClick({date: jsDate});
 			}
 		},
-		
+
 		getClassForDay : function (day) {
 			var res = [];
 			var baseCSS = this.skin.baseCSS;
@@ -58,7 +58,7 @@ Aria.tplScriptDefinition({
 			res.push(day.isSelectable ? baseCSS+"selectable" : baseCSS+"unselectable");
 			return res.join(' ');
 		},
-		
+
 		mouseOverDay : function (evt) {
 			var date = evt.target.getExpando("date");
 			if (date) {

@@ -1,5 +1,5 @@
 title: Tab Widget - Styling Sample
-template: ariadoc.samples.widgets.tab.styling.TabWgtStyle
+template: samples.widgets.tab.styling.TabWgtStyle
 description: It shows the Tab Widget with style applied.
 sources:
 - TabWgtStyle.tpl

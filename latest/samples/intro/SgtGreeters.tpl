@@ -1,5 +1,5 @@
 {Template {
-    $classpath: "ariadoc.samples.intro.SgtGreeters"
+    $classpath: "samples.intro.SgtGreeters"
 }}
 
     {macro main()}

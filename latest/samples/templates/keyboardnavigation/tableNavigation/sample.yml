@@ -1,5 +1,5 @@
 title: Table Navigation
-template: ariadoc.samples.templates.keyboardnavigation.tableNavigation.TableNavigation
+template: samples.templates.keyboardnavigation.tableNavigation.TableNavigation
 description: It shows a Table Navigation using a table and some widgets.
 sources:
 - TableNavigation.tpl

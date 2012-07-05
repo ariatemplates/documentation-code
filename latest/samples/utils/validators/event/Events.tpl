@@ -1,6 +1,6 @@
 {Template {
-  $classpath : 'ariadoc.samples.utils.validators.event.Events',
-  $css : ["ariadoc.samples.utils.validators.event.CSS"]
+  $classpath : 'samples.utils.validators.event.Events',
+  $css : ["samples.utils.validators.event.CSS"]
 }}
 
 {var titleMessage = null /}

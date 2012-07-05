@@ -1,5 +1,5 @@
 title: Sorting, filtering & paginating data with views
-template: ariadoc.samples.templates.views.ViewTemplate
+template: samples.templates.views.ViewTemplate
 description: It shows all the different operations (filtering, sorting and paginating) applied to the View class.
 sources:
 - ViewTemplate.tpl

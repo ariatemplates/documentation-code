@@ -1,7 +1,7 @@
 {Template {
-  $classpath: "ariadoc.samples.templates.refresh.automatic.AutomaticRefresh",
+  $classpath: "samples.templates.refresh.automatic.AutomaticRefresh",
   $hasScript: true,
-  $css: ["ariadoc.samples.templates.refresh.automatic.RefreshCSS"]
+  $css: ["samples.templates.refresh.automatic.RefreshCSS"]
 }}
     {var mySectionPrefix = "mySection" /}
     {macro main ()}

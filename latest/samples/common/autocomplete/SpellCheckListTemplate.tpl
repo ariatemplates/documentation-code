@@ -1,5 +1,5 @@
 {Template {
-  $classpath : "ariadoc.samples.common.autocomplete.SpellCheckListTemplate",
+  $classpath : "samples.common.autocomplete.SpellCheckListTemplate",
   $extends : "aria.widgets.form.list.templates.LCTemplate"
 }}
 

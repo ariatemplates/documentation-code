@@ -1,5 +1,5 @@
 {CSSTemplate {
-  $classpath : "ariadoc.samples.widgets.autocomplete.onchange.OnChangeStyle"
+  $classpath : "samples.widgets.autocomplete.onchange.OnChangeStyle"
 }}
 
 {var keyframe = "0%, 50%, 100% {opacity: 1;} 25%, 75% {opacity: 0;}" /}
@@ -21,24 +21,24 @@
   color : #F04155;
   font-weight: bold;
   text-shadow : 0 1px 0 rgba(0, 0, 0, .2);
-  
+
   margin : 0 auto;
   margin-bottom : 12px;
-  
+
   background-image: -webkit-linear-gradient(-45deg, rgba(255,255,255,0), rgba(255,255,255,.1) 60%, rgba(255,255,255,0) 60%);
   background-image: -moz-linear-gradient(-45deg, rgba(255,255,255,0), rgba(255,255,255,.1) 60%, rgba(255,255,255,0) 60%);
   background-image: linear-gradient(-45deg, rgba(255,255,255,0), rgba(255,255,255,.1) 60%, rgba(255,255,255,0) 60%);
 
   border-radius: 3px;
   border: 1px solid #FF823A;
-  
+
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.3);
 
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
   backface-visibility: hidden;
-  
+
   {foreach prefix inArray prefixes}
   ${prefix}${duration}
   ${prefix}${delay}
