@@ -1,5 +1,5 @@
 title: SortIndicator Widget  - Binding Sample
-template: ariadoc.samples.widgets.sortindicator.binding.SortingTemplateBinding
+template: samples.widgets.sortindicator.binding.SortingTemplateBinding
 description: It shows how the SortIndicator with the tooltip property bound to the data model works.
 sources:
 - SortingTemplateBinding.tpl
@@ -42,4 +42,3 @@ data:
     price:
       currency: "EUR"
       value: 115
-    

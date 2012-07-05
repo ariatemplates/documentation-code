@@ -1,5 +1,5 @@
 title: Filtering data with views
-template: ariadoc.samples.templates.views.filtering.FilterTemplate
+template: samples.templates.views.filtering.FilterTemplate
 description: It shows how the View class handle the filtering operation.
 sources:
 - FilterTemplate.tpl

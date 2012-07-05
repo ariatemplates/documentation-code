@@ -1,7 +1,7 @@
 {Template {
-  $classpath : "ariadoc.samples.features.autoselect.AutoSelect",
+  $classpath : "samples.features.autoselect.AutoSelect",
   $hasScript : true,
-  $css : ["ariadoc.samples.features.autoselect.AutoSelectCSS"]
+  $css : ["samples.features.autoselect.AutoSelectCSS"]
 }}
 
   {macro main ()}

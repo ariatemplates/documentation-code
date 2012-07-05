@@ -1,6 +1,6 @@
 title: Validators
-template: ariadoc.samples.utils.validators.basic.Basic
-moduleCtrl: ariadoc.samples.utils.validators.basic.BasicCtrl
+template: samples.utils.validators.basic.Basic
+moduleCtrl: samples.utils.validators.basic.BasicCtrl
 description: It shows the default aria templates Validator.
 sources:
 - Basic.tpl

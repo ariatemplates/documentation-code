@@ -1,5 +1,5 @@
 {Template {
-    $classpath:'ariadoc.samples.templates.keyboardnavigation.tableNavigationFocus.TableNavigationMultiFocusableItem'
+    $classpath:'samples.templates.keyboardnavigation.tableNavigationFocus.TableNavigationMultiFocusableItem'
 }}
 {macro main()}
     <p>This table and the widgets can be navigated with the keyboard only. You must use the arrows with the CTRL modifier.</p>

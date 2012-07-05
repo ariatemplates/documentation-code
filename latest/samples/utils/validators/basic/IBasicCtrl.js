@@ -1,9 +1,9 @@
 /**
  * Interface for the error list module.
- * @class ariadoc.samples.utils.validators.basic.IBasicCtrl
+ * @class samples.utils.validators.basic.IBasicCtrl
  */
 Aria.interfaceDefinition({
-	$classpath : 'ariadoc.samples.utils.validators.basic.IBasicCtrl',
+	$classpath : 'samples.utils.validators.basic.IBasicCtrl',
 	$extends : 'aria.templates.IModuleCtrl',
 	$interface : {
 		submit : function () {}

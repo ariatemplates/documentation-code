@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.i18n.LocalizedTemplateScript',
+	$classpath : 'samples.templates.i18n.LocalizedTemplateScript',
 
 	$prototype : {
 

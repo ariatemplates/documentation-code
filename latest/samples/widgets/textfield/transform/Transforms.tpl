@@ -1,5 +1,5 @@
 {Template {
-	$classpath : "ariadoc.samples.widgets.textfield.transform.Transforms" } }
+	$classpath : "samples.widgets.textfield.transform.Transforms" } }
 	{var localDataModel = { value : "Some Random Text..." }/}
 
 	{macro main ( )}

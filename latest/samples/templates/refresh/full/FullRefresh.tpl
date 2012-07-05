@@ -1,7 +1,7 @@
 {Template {
-  $classpath: "ariadoc.samples.templates.refresh.full.FullRefresh",
+  $classpath: "samples.templates.refresh.full.FullRefresh",
   $hasScript: true,
-  $css: ["ariadoc.samples.templates.refresh.full.RefreshCSS"]
+  $css: ["samples.templates.refresh.full.RefreshCSS"]
 }}
 
     {macro main ()}

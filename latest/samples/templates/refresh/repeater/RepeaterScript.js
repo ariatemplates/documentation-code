@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.refresh.repeater.RepeaterScript',
+	$classpath : 'samples.templates.refresh.repeater.RepeaterScript',
 	$prototype : {
 
 		/**

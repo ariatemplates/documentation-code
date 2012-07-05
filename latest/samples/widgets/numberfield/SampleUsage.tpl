@@ -1,5 +1,5 @@
 {Template {
-	$classpath : 'ariadoc.samples.widgets.numberfield.SampleUsage' } }
+	$classpath : 'samples.widgets.numberfield.SampleUsage' } }
 
 	{macro main ( )}
 		{@aria:NumberField {

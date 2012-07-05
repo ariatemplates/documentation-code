@@ -1,5 +1,5 @@
 title: Tab Navigation demo in mutliple Template
-template: ariadoc.samples.templates.keyboardnavigation.subTemplate.MainTemplate
+template: samples.templates.keyboardnavigation.subTemplate.MainTemplate
 description: It shows how Tab Navigation works in a template with subtemplates.
 sources:
 - MainTemplate.tpl

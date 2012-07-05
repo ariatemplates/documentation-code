@@ -1,6 +1,6 @@
 
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.keyboardnavigation.bubbleKeyMap.KeyMapScript',
+	$classpath : 'samples.templates.keyboardnavigation.bubbleKeyMap.KeyMapScript',
 	$prototype : {
 		$dataReady : function () {
 

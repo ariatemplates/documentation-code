@@ -1,5 +1,5 @@
 title: Keymaps at section level
-template: ariadoc.samples.templates.keyboardnavigation.sectionkeyMap.KeyMap
+template: samples.templates.keyboardnavigation.sectionkeyMap.KeyMap
 description: It shows the KeyMap functionality with a section, mapping the F3 key.
 sources:
 - KeyMap.tpl

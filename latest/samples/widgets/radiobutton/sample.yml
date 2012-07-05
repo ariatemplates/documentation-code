@@ -1,5 +1,5 @@
 title: RadioButton Widget - Sample usage
-template: ariadoc.samples.widgets.radiobutton.SimpleRadioButton
+template: samples.widgets.radiobutton.SimpleRadioButton
 description: It shows the default RadioButton widget.
 sources:
 - SimpleRadioButton.tpl

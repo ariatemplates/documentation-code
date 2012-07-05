@@ -1,6 +1,6 @@
 
 {Template {
-    $classpath: "ariadoc.samples.widgets.sortindicator.SortingTemplate",
+    $classpath: "samples.widgets.sortindicator.SortingTemplate",
     $hasScript: true
 }}
 

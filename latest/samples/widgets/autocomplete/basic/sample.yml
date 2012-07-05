@@ -1,5 +1,5 @@
 title: AutoComplete Widget - Basic Label-Code Resource Handler
-template: ariadoc.samples.widgets.autocomplete.basic.Basic
+template: samples.widgets.autocomplete.basic.Basic
 description: It shows the basic functionality of the autocomplete widget, using different thresholds.
 sources:
 - Basic.tpl

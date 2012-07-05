@@ -1,5 +1,5 @@
 {Template {
-  $classpath : "ariadoc.samples.widgets.passwordfield.Password"
+  $classpath : "samples.widgets.passwordfield.Password"
 }}
   {macro main()}
 
@@ -13,7 +13,7 @@
       },
       mandatory : true
     }/}
-    
+
   {/macro}
-  
+
 {/Template}

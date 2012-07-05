@@ -1,6 +1,6 @@
 
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.views.filtering.FilterTemplateScript',
+	$classpath : 'samples.templates.views.filtering.FilterTemplateScript',
 	$prototype : {
 		/**
 		 * Initializes the variables in the data model

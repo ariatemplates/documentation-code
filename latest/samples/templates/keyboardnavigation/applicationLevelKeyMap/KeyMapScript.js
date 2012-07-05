@@ -1,6 +1,6 @@
 
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.templates.keyboardnavigation.applicationLevelKeyMap.KeyMapScript',
+	$classpath : 'samples.templates.keyboardnavigation.applicationLevelKeyMap.KeyMapScript',
 	$prototype : {
 		$dataReady : function () {
 

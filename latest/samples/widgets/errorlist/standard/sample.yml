@@ -1,5 +1,5 @@
 title: ErrorList Widget - Sample usage
-template: ariadoc.samples.widgets.errorlist.standard.ErrorListTemplate
+template: samples.widgets.errorlist.standard.ErrorListTemplate
 description: It shows how the ErrorList Widget looks like, showing the information layout.
 sources:
 - ErrorListTemplate.tpl

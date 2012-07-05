@@ -1,16 +1,16 @@
 {Template {
-	$classpath: "ariadoc.samples.templates.i18n.LocalizedTemplate",
+	$classpath: "samples.templates.i18n.LocalizedTemplate",
 	$hasScript: true,
 	$res: {
-		res : "ariadoc.samples.templates.i18n.res.SampleRes"
+		res : "samples.templates.i18n.res.SampleRes"
 	}
 }}
-	
-	
+
+
 	{macro main()}
-		
+
 		<h4>Aria templates: <span class="title">localized</span></h4>
-							
+
 		{@aria:SelectBox {
 			label: "Choose locale: ",
 			labelWidth:220,
@@ -18,33 +18,33 @@
 			options: data.locales,
 			bind: {
 				value: {
-					to: 'selectedLocale', 
+					to: 'selectedLocale',
 					inside: data
 				}
 			},
 			onchange:{
-				fn: selectBoxChanged				
+				fn: selectBoxChanged
 			}
 		}/}<br/><br/><br/>
-		
-		${res.messages.label.welcome} <br/><br/>	
-		
+
+		${res.messages.label.welcome} <br/><br/>
+
 		{@aria:Button {
 			id: "btnOK",
 			label: res.buttons.label.ok,
 			onclick: {
 				fn: buttonClicked,
 				args: res.messages.label.clickOK
-			}			
-		}/}		
+			}
+		}/}
 		{@aria:Button {
 			id: "btnAvail",
 			label: res.buttons.label.avail,
 			onclick: {
 				fn: buttonClicked,
 				args: res.messages.label.clickAvail
-			}			
-		}/}															
+			}
+		}/}
 	{/macro}
-   
+
 {/Template}

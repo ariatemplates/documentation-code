@@ -1,9 +1,9 @@
 {Library {
-	$classpath: 'ariadoc.samples.templates.tplinheritance.step3.LibParent'
+	$classpath: 'samples.templates.tplinheritance.step3.LibParent'
 }}
 
 	{macro parentMacro()}
-		This is parentMacro in LibParent		
+		This is parentMacro in LibParent
 	{/macro}
 
 {/Library}

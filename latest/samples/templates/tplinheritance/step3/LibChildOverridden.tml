@@ -1,5 +1,5 @@
 {Library {
-	$classpath: 'ariadoc.samples.templates.tplinheritance.step3.LibChildOverridden'
+	$classpath: 'samples.templates.tplinheritance.step3.LibChildOverridden'
 }}
 
 	{macro overriddenMacro()}

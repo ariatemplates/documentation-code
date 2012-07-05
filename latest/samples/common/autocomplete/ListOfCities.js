@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath : "ariadoc.samples.common.autocomplete.ListOfCities",
+	$classpath : "samples.common.autocomplete.ListOfCities",
 	$singleton : true,
 	$statics : {
 		/**

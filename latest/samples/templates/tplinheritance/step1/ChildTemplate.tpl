@@ -1,6 +1,6 @@
 {Template {
-	$classpath:'ariadoc.samples.templates.tplinheritance.step1.ChildTemplate',
-	$extends:'ariadoc.samples.templates.tplinheritance.step1.ParentTemplate'
+	$classpath:'samples.templates.tplinheritance.step1.ChildTemplate',
+	$extends:'samples.templates.tplinheritance.step1.ParentTemplate'
 }}
 
 	// There is no need to have a main macro in this template as
@@ -13,7 +13,7 @@
 		<li style="list-style: circle;">{call childMacro()/}</li>
 		</ul>
 	{/macro}
-	
+
 	{macro childMacro()}
 		This is childMacro. It calls parentMacro.<br/>
 		<ul>

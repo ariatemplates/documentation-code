@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.widgets.multiselect.SampleUsageScript',
+	$classpath : 'samples.widgets.multiselect.SampleUsageScript',
 	$constructor : function () {
 		/**
 		 * Name of the element containing the displayed list items

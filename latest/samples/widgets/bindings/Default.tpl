@@ -1,5 +1,5 @@
 {Template {
-    $classpath: 'ariadoc.samples.widgets.bindings.Default',
+    $classpath: 'samples.widgets.bindings.Default',
     $hasScript : true
 }}
     {macro main()}
@@ -9,7 +9,7 @@
                 value: { inside: data, to: "name" }
             }
         }/}
-        
+
         <br /><br />
 
         {@aria:Button {

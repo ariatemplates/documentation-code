@@ -1,5 +1,5 @@
 title: Movable dialog
-template: ariadoc.samples.widgets.dialog.movable.TemplateMovableDialog
+template: samples.widgets.dialog.movable.TemplateMovableDialog
 description: It shows a Movable Dialog.
 sources:
 - TemplateMovableDialog.tpl

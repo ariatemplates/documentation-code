@@ -1,5 +1,5 @@
 title: TabPanel Widget - Sample
-template: ariadoc.samples.widgets.tab.tabpanel.TabPanelWgtMacro
+template: samples.widgets.tab.tabpanel.TabPanelWgtMacro
 description: It shows the TabPanel Widget.
 sources:
 - TabPanelWgtMacro.tpl

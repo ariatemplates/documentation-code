@@ -1,5 +1,5 @@
 {Template {
-	$classpath : 'ariadoc.samples.widgets.widgetlibs.slider.DemoTemplate',
+	$classpath : 'samples.widgets.widgetlibs.slider.DemoTemplate',
 
 	// Here is how a custom library is referenced from a template.
 	// Alternatively, for the library to be available to all templates
@@ -8,7 +8,7 @@
 	// (through the defaultWidgetLibs property).
 
 	$wlibs : {
-		'sample' : 'ariadoc.samples.widgets.widgetlibs.SampleWidgetLib'
+		'sample' : 'samples.widgets.widgetlibs.SampleWidgetLib'
 	}
 
 }}

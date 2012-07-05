@@ -1,5 +1,5 @@
 title: Repeater
-template: ariadoc.samples.templates.refresh.repeater.Repeater
+template: samples.templates.refresh.repeater.Repeater
 description: It shows how the Repeater statement works, creating refreshable sections.
 sources:
 - Repeater.tpl

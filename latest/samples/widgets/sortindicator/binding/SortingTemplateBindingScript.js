@@ -1,8 +1,8 @@
 /**
- * @class ariadoc.samples.templates.views.templates.binding.SortingTemplateScript
+ * @class samples.templates.views.templates.binding.SortingTemplateScript
  */
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.widgets.sortindicator.binding.SortingTemplateBindingScript',
+	$classpath : 'samples.widgets.sortindicator.binding.SortingTemplateBindingScript',
 
 	$prototype : {
 		/**

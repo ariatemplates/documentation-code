@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.utils.validators.basic.Basic'
+  $classpath : 'samples.utils.validators.basic.Basic'
 }}
 
 {var titleMessage = null /}
@@ -9,7 +9,7 @@
       - A Mandatory validator is used for all fields, and can be triggered onsubmit:
       <br/><br/>
       {@aria:ErrorList {
-        defaultTemplate: "ariadoc.samples.utils.validators.basic.CustomizedErrorList",
+        defaultTemplate: "samples.utils.validators.basic.CustomizedErrorList",
         margins: "10 1 10 1",
         title: "Success",
         filterTypes: ['O'],
@@ -21,7 +21,7 @@
         }
       }/}
       {@aria:ErrorList {
-        defaultTemplate: "ariadoc.samples.utils.validators.basic.CustomizedErrorList",
+        defaultTemplate: "samples.utils.validators.basic.CustomizedErrorList",
         margins: "10 1 10 1",
         title: "Information",
         filterTypes: ['I'],
@@ -33,7 +33,7 @@
         }
       }/}
       {@aria:ErrorList {
-        defaultTemplate: "ariadoc.samples.utils.validators.basic.CustomizedErrorList",
+        defaultTemplate: "samples.utils.validators.basic.CustomizedErrorList",
         margins: "10 1 10 1",
         title: "Errors",
         filterTypes: ['E'],

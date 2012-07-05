@@ -1,5 +1,5 @@
 {Template {
-  $classpath : 'ariadoc.samples.templates.keyboardnavigation.tabnavigation.TabNavigation',
+  $classpath : 'samples.templates.keyboardnavigation.tabnavigation.TabNavigation',
   $dependencies: ['aria.widgets.AriaSkinInterface']
    } }
 

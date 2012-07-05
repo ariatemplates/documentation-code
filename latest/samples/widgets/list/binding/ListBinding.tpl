@@ -1,5 +1,5 @@
 {Template {
-  $classpath: "ariadoc.samples.widgets.list.binding.ListBinding"
+  $classpath: "samples.widgets.list.binding.ListBinding"
 }}
 
   {macro main()}

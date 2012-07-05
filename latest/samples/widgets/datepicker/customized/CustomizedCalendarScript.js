@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.widgets.datepicker.customized.CustomizedCalendarScript',
+	$classpath : 'samples.widgets.datepicker.customized.CustomizedCalendarScript',
 	$constructor : function () {
 		this.dateUtils = aria.utils.Date;
 	},

@@ -1,5 +1,5 @@
 title: Calendar Widget - Binding
-template: ariadoc.samples.widgets.calendar.binding.Binding
+template: samples.widgets.calendar.binding.Binding
 description: It shows two calendars bound to each other, so navigating inside one calendar changes the other.
 data:
   startDate: ""

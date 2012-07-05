@@ -1,5 +1,5 @@
 title: Nested Fieldset Widget - Sample usage
-template: ariadoc.samples.widgets.fieldset.nested.FieldsetNested
+template: samples.widgets.fieldset.nested.FieldsetNested
 description: It shows a nested Fieldset Widget with the default configuration.
 sources:
 - FieldsetNested.tpl

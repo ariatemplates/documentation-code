@@ -1,5 +1,5 @@
 title: IconButton Widget Styling - Sample usage
-template: ariadoc.samples.widgets.iconbutton.styling.IconButtonStyle
+template: samples.widgets.iconbutton.styling.IconButtonStyle
 description: It shows some IconButton Widgets with different styles.
 sources:
 - IconButtonStyle.tpl

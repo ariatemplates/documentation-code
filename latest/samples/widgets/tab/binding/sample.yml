@@ -1,5 +1,5 @@
 title: Tab Widget - Binding Sample
-template: ariadoc.samples.widgets.tab.binding.TabWgtBinding
+template: samples.widgets.tab.binding.TabWgtBinding
 description: It shows the Tab Widget with the selectedTab property bound to the data model.
 sources:
 - TabWgtBinding.tpl

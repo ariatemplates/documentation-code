@@ -1,7 +1,7 @@
 {Template {
-  $classpath: "ariadoc.samples.templates.cssTemplates.MainTemplate",
+  $classpath: "samples.templates.cssTemplates.MainTemplate",
   $hasScript : true,
-  $css : ["ariadoc.samples.templates.cssTemplates.FirstCss"]
+  $css : ["samples.templates.cssTemplates.FirstCss"]
 }}
 
     {macro main ()}

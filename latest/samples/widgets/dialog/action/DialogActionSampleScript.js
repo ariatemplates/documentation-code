@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.samples.widgets.dialog.action.DialogActionSampleScript',
+	$classpath : 'samples.widgets.dialog.action.DialogActionSampleScript',
 	$prototype : {
 		dialogOpen : function() {
 			alert("fired on dialog open...");

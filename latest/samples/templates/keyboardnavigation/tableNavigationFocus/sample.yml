@@ -1,5 +1,5 @@
 title: Table Navigation with multiple focusable item
-template: ariadoc.samples.templates.keyboardnavigation.tableNavigationFocus.TableNavigationMultiFocusableItem
+template: samples.templates.keyboardnavigation.tableNavigationFocus.TableNavigationMultiFocusableItem
 description: It shows a Table Navigation using a table with multiple focusable items.
 sources:
 - TableNavigationMultiFocusableItem.tpl
