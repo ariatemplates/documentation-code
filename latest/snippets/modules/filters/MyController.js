@@ -1,12 +1,12 @@
 Aria.classDefinition({
-	$classpath: 'ariadoc.snippets.modules.filters.MyController',
+	$classpath: 'snippets.modules.filters.MyController',
 	$extends: 'aria.templates.ModuleCtrl',
 	$constructor: function() {
 		this.$ModuleCtrl.constructor.call(this, arguments);
-		aria.core.IOFiltersMgr.addFilter('ariadoc.snippets.modules.filters.OfflineFilter');
+		aria.core.IOFiltersMgr.addFilter('snippets.modules.filters.OfflineFilter');
 	},
 	$desctructor: function() {
-		aria.core.IOFiltersMgr.removeFilter('ariadoc.snippets.modules.filters.OfflineFilter');
+		aria.core.IOFiltersMgr.removeFilter('snippets.modules.filters.OfflineFilter');
 	},
 	$prototype: {
 		doSomeAsyncStuff: function(option, callback) {

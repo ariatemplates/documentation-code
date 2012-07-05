@@ -1,5 +1,5 @@
 Aria.interfaceDefinition({
-	$classpath : "ariadoc.snippets.modules.subcontrollers.IMyMainController",
+	$classpath : "snippets.modules.subcontrollers.IMyMainController",
 	$extends : 'aria.templates.IModuleCtrl',
 	$interface : {
 		/**

@@ -1,5 +1,5 @@
 {Template {
-    $classpath: "ariadoc.snippets.modules.controller.MyView"
+    $classpath: "snippets.modules.controller.MyView"
 }}
 
     {macro main()}
@@ -16,7 +16,7 @@
    			Count : ${data.count}
    		{/section}
    		////#display
-   		
+
    		////#button
    		<button{on click {
    			fn : "incrementCount",

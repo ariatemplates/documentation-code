@@ -1,7 +1,7 @@
 Aria.classDefinition({
-	$classpath : "ariadoc.snippets.modules.subcontrollers.MyMainController",
+	$classpath : "snippets.modules.subcontrollers.MyMainController",
 	$extends : "aria.templates.ModuleCtrl",
-	$implements : ["ariadoc.snippets.modules.subcontrollers.IMyMainController"],
+	$implements : ["snippets.modules.subcontrollers.IMyMainController"],
 	$constructor : function () {
 
 		// call parent constructor
@@ -18,7 +18,7 @@ Aria.classDefinition({
 	},
 	$prototype : {
 		// specify the public interface for this module
-		$publicInterfaceName : "ariadoc.snippets.modules.subcontrollers.IMyMainController",
+		$publicInterfaceName : "snippets.modules.subcontrollers.IMyMainController",
 		
 		/**
 		 * Add a new counter handler in the application
@@ -30,7 +30,7 @@ Aria.classDefinition({
 			
 			var nextIndex = this.getData().counters.length;
 			this.loadSubModules([{
-						classpath : "ariadoc.snippets.modules.controller.MyModuleController",
+						classpath : "snippets.modules.controller.MyModuleController",
 						refpath : "counters",
 						arrayIndex : nextIndex
 					}], callback);

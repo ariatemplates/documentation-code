@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath:'ariadoc.snippets.modules.filters.OfflineFilter',
+	$classpath:'snippets.modules.filters.OfflineFilter',
 	$extends:'aria.core.IOFilter',
 	$constructor:function(args) {
 		this.$IOFilter.constructor.call(this, args);
@@ -12,7 +12,7 @@ Aria.classDefinition({
 			}
 			var responseFile = '';
 			var requestObject = sender.requestObject;
-			if (requestObject.moduleName == "ariadoc.snippets.modules.filters.MyController" && requestObject.actionName == "doStuff") {
+			if (requestObject.moduleName == "snippets.modules.filters.MyController" && requestObject.actionName == "doStuff") {
 				var requestData = sender.requestData;
 				
 				if (requestData == null) {

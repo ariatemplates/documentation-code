@@ -1,7 +1,7 @@
 Aria.classDefinition({
-	$classpath : "ariadoc.snippets.modules.controller.ModuleWithRequest",
+	$classpath : "snippets.modules.controller.ModuleWithRequest",
 	$extends : "aria.templates.ModuleCtrl",
-	$dependencies : ["ariadoc.snippets.modules.controller.MyUrlService",
+	$dependencies : ["snippets.modules.controller.MyUrlService",
 		"aria.modules.requestHandler.JSONRequestHandler"],
 	$events : {
 		"dataUpdated" : "[Self Explainatory]"
@@ -24,7 +24,7 @@ Aria.classDefinition({
 		aria.modules.RequestMgr.addParam("name", "John");
 		////#params
 
-		this.$urlService = new ariadoc.snippets.modules.controller.MyUrlService();
+		this.$urlService = new snippets.modules.controller.MyUrlService();
 
 		////#requestHandler
 		// this handler evaluate the response received as a JavaScript object

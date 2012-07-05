@@ -1,65 +1,53 @@
 {Template {
-  $classpath: "ariadoc.snippets.features.prefill.Snippet",
-  $hasScript : false
+    $classpath: "snippets.features.prefill.Snippet",
+    $hasScript : false
 }}
 
-  {macro main()}
+    {var data={value1:"", value2:""}/}
 
-    ////#textfield
-    {@aria:TextField {
-        bind : {
-          value : {
-            to : "value2",
-            inside : data
-          },
-          prefill : {
-            to : "value1",
-            inside : data
-          }
-        }
-     } /}
-    ////#textfield
+    {macro main()}
 
-    ////#numberfield
-    {@aria:NumberField {
-        id : "widgetA",
-        bind : {
-          value : {
-            to : "value2",
-            inside : data
-          },
-          prefill : {
-            to : "value1",
-            inside : data
-          }
-        }
-    } /}
+        ////#textfield
+        {@aria:TextField {
+            bind : {
+                value : {
+                    to : "value2",
+                    inside : data
+                },
+                prefill : {
+                    to : "value1",
+                    inside : data
+                }
+            }
+        } /}
+        ////#textfield
 
-    {@aria:NumberField {
-        id : "widgetB"
-        bind : {
-          value : {
-            to : "value1",
-            inside : data
-          }
-        }
-    } /}
-    ////#numberfield
+        ////#numberfield
+        {@aria:NumberField {
+            id : "widgetA",
+            bind : {
+                value : {
+                    to : "value2",
+                    inside : data
+                },
+                prefill : {
+                    to : "value1",
+                    inside : data
+                }
+            }
+        } /}
 
-    ////#json
-    ...
-    this.$json.setValue(this.data, "value2", this.data.value1);
-    ...
-    ////#json
+        {@aria:NumberField {
+            id : "widgetB",
+            bind : {
+                value : {
+                    to : "value1",
+                    inside : data
+                }
+            }
+        } /}
+        ////#numberfield
 
-    ////#skinningproperties
-    aria.templates.TextInput.std.states.prefill.color=gray
-    aria.templates.SelectBox.std.states.prefill.color=gray
-    aria.templates.DatePicker.std.states.prefill.color=gray
-    aria.templates.MultiSelect.std.states.prefill.color=gray
-    aria.templates.AutoComplete.std.states.prefill.color=gray
-    ////#skinningproperties
-
-  {/macro}
+    {/macro}
 
 {/Template}

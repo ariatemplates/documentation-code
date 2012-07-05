@@ -1,30 +1,21 @@
 {Template {
-  $classpath: "ariadoc.snippets.features.autoselect.Snippet",
-  $hasScript : false
+    $classpath: "snippets.features.autoselect.Snippet",
+    $hasScript : false
 }}
 
-  {macro main()}
+    {macro main()}
 
-    ////#textfield
-    {@aria:TextField {
-          id : "txtf0",
-          label : "TextField ",
-          labelWidth:150,
-          width:400,
-          value: "Selected?",
-          autoselect: true
+        ////#textfield
+        {@aria:TextField {
+            id : "txtf0",
+            label : "TextField ",
+            labelWidth:150,
+            width:400,
+            value: "Selected?",
+            autoselect: true
         } /}
-    ////#textfield
+        ////#textfield
 
-    ////#widgetsettings
-    aria.core.AppEnvironment.setEnvironment({
-        ...
-        widgetSettings:{
-          autoselect: true
-        }
-        ...
-    ////#widgetsettings
-
-  {/macro}
+    {/macro}
 
 {/Template}

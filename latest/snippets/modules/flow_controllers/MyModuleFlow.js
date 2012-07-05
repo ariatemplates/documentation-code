@@ -1,18 +1,18 @@
  Aria.classDefinition({
- 	$classpath : 'modules.mymodule.MyModuleFlow',
+ 	$classpath : 'snippets.modules.flow_controllers.MyModuleFlow',
  	$extends : 'aria.templates.FlowCtrl',
- 	$implements: ['modules.mymodule.IMyModuleFlow'],
+ 	$implements: ['snippets.modules.flow_controllers.IMyModuleFlow'],
  	$constructor:function() {
  		this.$FlowCtrl.constructor.call(this);
  	},
  	$prototype: {
- 		$publicInterfaceName: 'modules.mymodule.IMyModuleFlow',
- 
+ 		$publicInterfaceName: 'snippets.modules.flow_controllers.IMyModuleFlow',
+
  		// Intercepting method called at the end of the module controller initialization:
  		oninitCallback : function (param) {
  			this.$FlowCtrl.oninitCallback.call(this, param); // call the method of the parent which sets this.data
  			this.flowData={
- 				currentState:"search", // indicates the current page id - enum: 'search', 'avail' or 'info' 
+ 				currentState:"search", // indicates the current page id - enum: 'search', 'avail' or 'info'
  				transitionStates:{
  					// tell which transitions/navigations are authorized
  					search:false, // true when we authorize the navigation to the search screen
@@ -25,7 +25,7 @@
  			// the flow data is stored in the data model, to be accessible by templates:
  			this.data['flow:data'] = this.flowData;
  		},
- 
+
  		// navigate is published in the Flow interface
  		navigate:function(transition) {
  			if (transition=='back') {
@@ -47,7 +47,7 @@
  			// TODO: update history stack
  			this.$raiseEvent("stateChange");
  		},
- 
+
  		back:function() {
  			if (!fd.transitionStates.back) {
  				// invalid transition
@@ -55,12 +55,12 @@
  			}
  			// TODO manage history stack
  		},
- 
+
  		clearHistory:function(state) {
  			// state is optional - if passed, only this state is removed from the history
  			// TODO implement method
  		},
- 
+
  		// sample of connection of the flow on an 'Callback' event
  		ongetFlightAvailabilityCallback:function() {
  			var mcd=this.data; // this.data contains the data model
@@ -75,7 +75,7 @@
  				this.navigate("avail");
  			}
  		},
- 
+
  		ongetFlightInfoCallEnd:function() {
  			// same as onGetFlightAvailabilityComplete - but the case of no info should be treated as an error
  			// as the getFlightInfo() method is not a search()
@@ -83,4 +83,3 @@
  		}
  	}
  });
- 

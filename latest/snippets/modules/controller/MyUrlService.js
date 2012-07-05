@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath : "ariadoc.snippets.modules.controller.MyUrlService",
+	$classpath : "snippets.modules.controller.MyUrlService",
 	$implements : ["aria.modules.urlService.IUrlService"],
 	$prototype : {
 		////#actionUrl

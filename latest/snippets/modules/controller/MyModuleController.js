@@ -1,7 +1,7 @@
 Aria.classDefinition({
-	$classpath : "ariadoc.snippets.modules.controller.MyModuleController",
+	$classpath : "snippets.modules.controller.MyModuleController",
 	$extends : "aria.templates.ModuleCtrl",
-	$implements : ["ariadoc.snippets.modules.controller.IMyModuleController"],
+	$implements : ["snippets.modules.controller.IMyModuleController"],
 	$dependencies : ["aria.utils.Json"],
 	$constructor : function () {
 		
@@ -19,7 +19,7 @@ Aria.classDefinition({
 	},
 	$prototype : {
 		// specify the public interface for this module
-		$publicInterfaceName : "ariadoc.snippets.modules.controller.IMyModuleController",
+		$publicInterfaceName : "snippets.modules.controller.IMyModuleController",
 
 		/**
 		 * Increment the value of the counter inside the data model.
