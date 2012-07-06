@@ -1,8 +1,8 @@
 /**
- * @class ariadoc.snippets.templates.domInteractions.DomInteractionTemplateScript
+ * @class snippets.templates.domInteractions.DomInteractionTemplateScript
  */
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.snippets.templates.domInteractions.DomInteractionTemplateScript',
+	$classpath : 'snippets.templates.domInteractions.DomInteractionTemplateScript',
 	$prototype : {
 
 		myPublicFunction : function () {
@@ -20,12 +20,7 @@ Aria.tplScriptDefinition({
 			this.$focus("tf");
 			////#focusExample
 
-		},
-    ////#afterRefresh
-		$afterRefresh : function () {
-			this.$focus("thisIsTemplateC");
 		}
-    ////#afterRefresh
 
 	}
 });

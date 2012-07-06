@@ -1,5 +1,5 @@
 {Template {
-	$classpath: 'ariadoc.snippets.templates.widget_bindings'
+	$classpath: 'snippets.templates.widget_bindings.MyTemplate'
 }}
 	{macro main()}
 		{@aria:TextField {
@@ -7,9 +7,6 @@
 			bind: {
 				value: { inside: data, to: "name" }
 			}
-		}/}
-		{@aria:Button {
-			label: "Shout!"
 		}/}
 	{/macro}
 {/Template}

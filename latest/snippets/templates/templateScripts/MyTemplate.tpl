@@ -1,6 +1,6 @@
 {Template {
-  $classpath : "ariadoc.snippets.templates.templateScripts.MyTemplate",
-  $hasScript : true
+    $classpath : "snippets.templates.templateScripts.MyTemplate",
+    $hasScript : true
 }}
 
     {macro main ()}

@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : 'ariadoc.snippets.templates.localization.statics.LocalizedTemplateScript',
+	$classpath : 'snippets.templates.localization.statics.LocalizedTemplateScript',
 
 	$prototype : {
 		clickOK : function () {

@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : "ariadoc.snippets.templates.templateScripts.MyThirdTemplateScript",
+	$classpath : "snippets.templates.templateScripts.MyThirdTemplateScript",
 	$prototype : {
 
 		onModuleEvent : function (evt) {

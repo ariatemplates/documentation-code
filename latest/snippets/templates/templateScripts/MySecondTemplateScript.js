@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : "ariadoc.snippets.templates.templateScripts.MySecondTemplateScript",
+	$classpath : "snippets.templates.templateScripts.MySecondTemplateScript",
 	$prototype : {
 
 		printMessage : function () {

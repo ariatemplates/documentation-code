@@ -1,30 +1,49 @@
 {Template {
-  $classpath: "ariadoc.snippets.templates.writingTemplates.TemplateStatements"
+    $classpath: "snippets.templates.writingTemplates.TemplateStatements",
+    $hasScript: true,
+    $extends: "snippets.templates.writingTemplates.MyParentTemplate",
+    $macrolibs : {
+        myMacroLib : "snippets.templates.writingTemplates.SomeLib"
+    }
 }}
+
+    {var myVar = 8 /}
+    {var myArray = [] /}
+    {var arrayOrMap = {} /}
+    {var myMap={}/}
+    {var data = {passengers:[],listOfPassengers:[],isProcessing:false,myProperty:""}/}
+    {createView myView on arrayOrMap/}
+    {var countryList = []/}
+    {var mySet = {}/}
+    {var param1=""/}
+    {var param2=""/}
+
     ////#view
     {createView viewName on arrayOrMap/}
     ////#view
+
     ////#var
     {var v = 5 /}
     ////#var
-    {var myVar = 8 /}
-    {var myArray = [] /}
+
     {macro main ()}
 
         ////#basicStatementOne
         ${myVar}
         ////#basicStatementOne
+
         ////#basicStatementTwo
         ${myFunction()}
         ////#basicStatementTwo
+
         ////#basicStatementThree
         ${myArray.push(myVar)}
         ////#basicStatementThree
 
-
         ////#set
         {set v = 10 /}
         ////#set
+
         ////#checkDefault
         {checkDefault v = 1 /}
         ////#checkDefault
@@ -65,9 +84,9 @@
 
         ////#bforeachexample
         {foreach country in countryList}
-        	Country: ${country.name}<br/>
-        	Country index: ${country_index}<br/>
-        	Country position in the loop: ${country_ct}
+            Country: ${country.name}<br/>
+            Country index: ${country_index}<br/>
+            Country position in the loop: ${country_ct}
         {/foreach}
         ////#bforeachexample
 
@@ -82,7 +101,7 @@
         // my code comment
         {set myVar = 5 /}
         {CDATA}
-        // my comment
+            // my comment
             ${myVar}
         {/CDATA}
         ${myVar}
@@ -99,82 +118,79 @@
         <div {id "test"/}>test</div>
         ////#id
 
-        /*
-        ////#on
-        {on eventName callback/}
-        ////#on
-         */
          ////#exampleon
         <div {on click "myFunction"/}>Click here</div> // call the method "myFunction" from the template script
         <div {on click {fn:"myFunction", args: {}}/}>Click here</div> // call the method myFunction from the template script with parameters
         <div {on click {fn:"myFunction", scope: moduleCtrl, args: {}}/}>Click here</div> // call the method myFunction from the moduleCtrl
         ////#exampleon
 
-        /*
         ////#acall
-        {call myMacro(param1, param2, ...)/}
+        {call myMacro(param1, param2)/}
         ////#acall
         ////#bcall
-        {call myMacroLib.myMacro(param1, param2, ...)/}
+        {call myMacroLib.myMacro(param1, param2)/}
         ////#bcall
         ////#ccall
-        {call $MyParentTemplate.myMacro(param1, param2, ...)/}
+        {call $MyParentTemplate.myMacro(param1, param2)/}
         ////#ccall
-        */
+
         ////#asection
         {section {
             id : "sectionId",
             macro : "myMacro"
         } /}
         ////#asection
+
         ////#bsection
         {section {
-            id: "sectionId",
+            id: "someId",
             macro : {
                 name : "myMacro",
                 args : [4,"myArg"],
                 scope : this
             },
-            type : "DIV",
+            type : "div",
             attributes : {
-              classList : [
-                "mySectionFirstClass",
-                "mySectionSecondClass"
-              ],
-              width : "500"
+                classList : [
+                    "mySectionFirstClass",
+                    "mySectionSecondClass"
+                ],
+                width : "500"
             },
             bindRefreshTo : [{
-                inside : myData,
+                inside : data,
                 to : "myProperty",
                 recursive : true
             }],
             bindProcessingTo : {
                 to : "isProcessing",
-                inside : myData
+                inside : data
             },
             processingLabel : "processing...",
-            keyMap : {
+            keyMap : [{
                 key : "F3",
                 callback : {
                     fn : "onF3Press",
                     scope : this
                 }
-            },
+            }],
             tableNav : {
                 ctrl : true
             }
-        } /}
+        }/}
         ////#bsection
+
         ////#repeater
         {repeater {
-            content: data.myArray, // iterated set, which can be an array or a map
+            id : "myRepeater",
+            content: myArray, // iterated set, which can be an array or a map
             loopType: "array", // can be array or map (automatically set from the type of content if not specified)
-                // properties of sections can be used here for the parent section as, for example, the type property:
-            type: "TBODY",
+            // properties of sections can be used here for the parent section as, for example, the type property:
+            type: "tbody",
             // For each item in the iterated set, a child section is created and its properties can be set here:
             childSections : {
                 id: "myChildSection", // A child-dependent suffix will be automatically appended to this id for each
-                    // child section
+                // child section
                 macro: {
                     // This macro will be called with the an additional parameter: the item parameter
                     name: "myMacro", // Macro to be called in the section
@@ -187,35 +203,38 @@
         }/}
         ////#repeater
 
-        ////#sampleModifier
-        ${value|modifier1:modifier1Parameter|modifier2:modifier2Parameter...}
-        ////#sampleModifier
+        {var myValue=""/}
+        {var myDate=new Date()/}
+        {var myTime=new Date()/}
+
         ////#emptyModifier
         ${myValue|empty:"myDefaultValue"|capitalize}
         ////#emptyModifier
+
         ////#dateModifier
          ${myDate|dateformat:"dd MMMM yyyy"}
         ////#dateModifier
+
         ////#timeModifier
          ${myTime|timeFormat:"hh:mm:ss"}
         ////#timeModifier
+
         ////#padModifier
         ${myValue|pad:3}
         ${'XYZ'|pad:5,true} //will result in '&nbsp;&nbsp;XYZ'
         ////#padModifier
+
         ////#customModifier
         ${myCustomModifier(myValue)}
         ////#customModifier
 
 
     {/macro}
-    /*
+
     ////#macro
-    {macro myMacro (param1, param2, ...)}
+    {macro myMacro (param1, param2)}
         // macro content
     {/macro}
     ////#macro
-    */
-
 
 {/Template}

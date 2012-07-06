@@ -6,10 +6,11 @@ Aria.classDefinition({
     	this.$TestSuite.constructor.call(this);
 
         this.addTests(
-            "tests.snippets.CoreTestSuite",
-            "tests.snippets.FeaturesTestSuite",
-            "tests.snippets.IntroTestSuite",
-            "tests.snippets.ModulesTestSuite"
+//            "tests.snippets.CoreTestSuite",
+//            "tests.snippets.FeaturesTestSuite",
+//            "tests.snippets.IntroTestSuite",
+//            "tests.snippets.ModulesTestSuite",
+            "tests.snippets.TemplatesTestSuite"
         );
     }
 })

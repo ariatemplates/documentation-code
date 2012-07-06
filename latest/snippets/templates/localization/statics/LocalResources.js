@@ -1,5 +1,5 @@
 Aria.resourcesDefinition({
-	$classpath : 'ariadoc.snippets.templates.localization.statics.Res',
+	$classpath : 'snippets.templates.localization.statics.LocalResources',
 	$resources : {
 		"common" : {
 			"label" : {

@@ -1,5 +1,5 @@
 {Template {
-  $classpath : "ariadoc.snippets.templates.templateScripts.MyThirdTemplate",
+  $classpath : "snippets.templates.templateScripts.MyThirdTemplate",
   $hasScript : true
 }}
 

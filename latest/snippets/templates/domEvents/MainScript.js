@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : "ariadoc.snippets.templates.domEvents.MainScript",
+	$classpath : "snippets.templates.domEvents.MainScript",
 	$prototype : {
 
         _onClick : function () {

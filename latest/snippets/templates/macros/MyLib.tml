@@ -1,0 +1,10 @@
+{Library {
+	$classpath : "snippets.templates.macros.MyLib",
+	$hasScript : true
+}}
+
+    {macro libHello()}
+        ${scriptHello()}
+    {/macro}
+
+{/Library}

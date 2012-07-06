@@ -1,4 +1,4 @@
-{Template {$classpath: "ariadoc.snippets.templates.fibo.Fibonacci"}}
+{Template {$classpath: "snippets.templates.fibo.Fibonacci"}}
 
     {var data={fibo:[0,1]}/}
 

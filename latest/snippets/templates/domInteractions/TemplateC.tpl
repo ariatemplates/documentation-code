@@ -1,19 +1,19 @@
 // Template C
 {Template {
-   $classpath: "ariadoc.snippets.templates.domInteractions.TemplateC",
-   $hasScript: true
+    $classpath: "snippets.templates.domInteractions.TemplateC",
+    $hasScript: true
 }}
 
-   {macro main()}
+    {macro main()}
 
-      {@aria:TextField {
-         id: "textFieldA"
-      }/}
+        {@aria:TextField {
+            id: "textFieldA"
+        }/}
 
-      {@aria:TextField {
-         id: "textFieldB"
-      }/}
+        {@aria:TextField {
+            id: "textFieldB"
+        }/}
 
-   {/macro}
+    {/macro}
 
 {/Template}

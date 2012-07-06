@@ -1,5 +1,5 @@
 {Template {
-    $classpath: "ariadoc.snippets.templates.domEvents.Main",
+    $classpath: "snippets.templates.domEvents.Main",
     $hasScript: true
 }}
 

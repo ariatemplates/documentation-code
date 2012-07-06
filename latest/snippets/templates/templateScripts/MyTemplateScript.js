@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-	$classpath : "ariadoc.snippets.templates.templateScripts.MyTemplateScript",
+	$classpath : "snippets.templates.templateScripts.MyTemplateScript",
 	$prototype : {
 
 		showAlert : function (message) {

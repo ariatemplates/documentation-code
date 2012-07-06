@@ -1,6 +1,6 @@
 {Template {
-    $classpath : "ariadoc.snippets.templates.cssTemplates.MyTemplate",
-    $css : ["ariadoc.snippets.templates.cssTemplates.MyCSSTemplate"]
+    $classpath : "snippets.templates.cssTemplates.MyTemplate",
+    $css : ["snippets.templates.cssTemplates.MyCSSTemplate"]
 }}
 
 	{macro main ()}

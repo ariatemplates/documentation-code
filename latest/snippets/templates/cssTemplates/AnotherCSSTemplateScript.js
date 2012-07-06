@@ -1,5 +1,5 @@
 Aria.tplScriptDefinition({
-    $classpath : "ariadoc.snippets.templates.cssTemplates.AnotherCSSTemplateScript",
+    $classpath : "snippets.templates.cssTemplates.AnotherCSSTemplateScript",
     $prototype : {
 
 		randomColor : function () {

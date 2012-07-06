@@ -1,9 +1,0 @@
-{ Library {
-	$classpath : "my.simple.Lib",
-	$hasScript : true } }
-
-{macro libHello ( )}
-	${ scriptHello() }
-{/macro}
-
-{/Library}

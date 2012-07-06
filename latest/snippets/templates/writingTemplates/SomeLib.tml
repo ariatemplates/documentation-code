@@ -1,0 +1,8 @@
+{Library {
+	$classpath : "snippets.templates.writingTemplates.SomeLib"
+}}
+
+    {macro myMacro()}
+    {/macro}
+
+{/Library}

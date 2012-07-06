@@ -1,5 +1,5 @@
 {Template {
-    $classpath : "ariadoc.snippets.templates.refresh.Refresh",
+    $classpath : "snippets.templates.refresh.Refresh",
     $hasScript : true
 }}
 

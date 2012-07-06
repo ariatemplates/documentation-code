@@ -1,5 +1,5 @@
 {CSSTemplate {
-    $classpath : "ariadoc.snippets.templates.cssTemplates.MyCSSTemplate"
+    $classpath : "snippets.templates.cssTemplates.MyCSSTemplate"
 }}
 
     {macro main ()}
