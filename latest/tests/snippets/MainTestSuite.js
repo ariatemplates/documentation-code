@@ -10,7 +10,8 @@ Aria.classDefinition({
 //            "tests.snippets.FeaturesTestSuite",
 //            "tests.snippets.IntroTestSuite",
 //            "tests.snippets.ModulesTestSuite",
-            "tests.snippets.TemplatesTestSuite"
+//            "tests.snippets.TemplatesTestSuite",
+            "tests.snippets.UtilsTestSuite"
         );
     }
 })
