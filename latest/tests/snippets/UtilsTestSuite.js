@@ -6,7 +6,8 @@ Aria.classDefinition({
     	this.$TestSuite.constructor.call(this);
 
         this.addTests(
-            "tests.snippets.utils.Dragdrop"
+            "tests.snippets.utils.Dragdrop",
+            "tests.snippets.utils.Validators"
         );
     }
 })
