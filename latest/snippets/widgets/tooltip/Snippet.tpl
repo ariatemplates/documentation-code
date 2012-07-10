@@ -1,20 +1,22 @@
 {Template {
-  $classpath : "ariadoc.snippets.widgets.tooltip.Snippet",
-  $hasScript: false } }
+    $classpath : "snippets.widgets.tooltip.Snippet"
+}}
 
-  {macro main ( )}
+    {macro main ( )}
 
-   ////#wgtTooltipSnippet
+        ////#wgtTooltipSnippet
         {@aria:Tooltip {id:"simpleTooltip", width: 200}}
             Content of the simple tooltip.
         {/@aria:Tooltip}
-               OR
+
+        // could also be written:
+
         {@aria:Tooltip {
             id:"macroTooltip",
             macro: "tooltipMacro",
-            width: 200 }/}
-    ////#wgtTooltipSnippet
-
+            width: 200
+        }/}
+        ////#wgtTooltipSnippet
 
     {/macro}
 

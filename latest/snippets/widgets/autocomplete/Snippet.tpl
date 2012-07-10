@@ -1,17 +1,18 @@
 {Template {
-  $classpath: "ariadoc.snippets.widgets.autocomplete.Snippet",
-  $hasScript : true
+    $classpath: "snippets.widgets.autocomplete.Snippet"
 }}
 
-  {macro main()}
-  
-    ////#autocomplete
-    {@aria:AutoComplete {
-      label : "Tag :",
-      resourcesHandler : getHandler()
-    }/}
-    ////#autocomplete
-    
-  {/macro}
+    {macro main()}
+
+        {var getHandler=function(){return "aria.resources.handlers.LCResourcesHandler"}/}
+
+        ////#autocomplete
+        {@aria:AutoComplete {
+            label : "Enter a name:",
+            resourcesHandler : getHandler()
+        }/}
+        ////#autocomplete
+
+    {/macro}
 
 {/Template}

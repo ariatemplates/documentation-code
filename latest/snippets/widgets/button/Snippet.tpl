@@ -1,19 +1,21 @@
 {Template {
-  $classpath: "ariadoc.snippets.widgets.button.Snippet",
-  $hasScript : true
+    $classpath: "snippets.widgets.button.Snippet"
 }}
 
-  {macro main()}
-  
-    ////#wgtButtonAction
-    {@aria:Button {
-      label : "Submit",
-      onclick : {
-        fn : buttonClick
-      }
-    }/}
-    ////#wgtButtonAction
-    
-  {/macro}
+    {macro main()}
+
+        {var buttonClick=function(){}/}
+
+        ////#wgtButtonAction
+        {@aria:Button {
+            label : "Submit",
+            onclick : {
+                fn : "buttonClick",
+                scope : this
+            }
+        }/}
+        ////#wgtButtonAction
+
+    {/macro}
 
 {/Template}

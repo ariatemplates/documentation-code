@@ -1,21 +1,23 @@
 {Template {
-	$classpath : "ariadoc.snippets.widgets.gauge.Snippet"
+	$classpath : "snippets.widgets.gauge.Snippet"
 }}
 
-	{macro main ( )}
+	{macro main()}
 
-	////#wgtGauge
-		{@aria:Gauge {
-			minValue : -100,
-			maxValue :  100,
-			bind : {
-				"currentValue" : {
-					inside : data.widgets,
-					to : gaugeCurrentValue
-				}
-			}
-		}/}
-	////#wgtGauge
+    	{var data={widgets:{gaugeCurrentValue:0}}/}
+
+    	////#wgtGauge
+    		{@aria:Gauge {
+    			minValue : -100,
+    			maxValue :  100,
+    			bind : {
+    				"currentValue" : {
+    					inside : data.widgets,
+    					to : "gaugeCurrentValue"
+    				}
+    			}
+    		}/}
+    	////#wgtGauge
 
 	{/macro}
 

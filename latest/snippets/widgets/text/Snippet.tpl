@@ -1,40 +1,41 @@
 {Template {
-  $classpath : "ariadoc.snippets.widgets.text.Snippet",
-  $hasScript: false } }
+    $classpath : "snippets.widgets.text.Snippet"
+}}
 
-  {macro main ( )}
+    {macro main()}
 
-   ////#wgtTextSnippet1
+        {var data={"view:calvalue":""}/}
+
+        ////#wgtTextSnippet1
         {@aria:Text {
-             text: "This is the text to be displayed.",
-             width : 150,
-             ellipsis: "...",
-             ellipsisLocation: "right"
-         }/}
-    ////#wgtTextSnippet1
+            text: "This is the text to be displayed.",
+            width : 150,
+            ellipsis: "...",
+            ellipsisLocation: "right"
+        }/}
+        ////#wgtTextSnippet1
 
-    ////#wgtTextSnippet2
+        ////#wgtTextSnippet2
         {@aria:Text {
-             ellipsis: "...",
-             ellipsisLocation: "right",
-             width:30,
-             bind: {
-                text : {to: "view:calvalue" , inside: data,
-                    transform :{
+            ellipsis: "...",
+            ellipsisLocation: "right",
+            width:30,
+            bind: {
+                text : {
+                    to: "view:calvalue",
+                    inside: data,
+                    transform : {
                         toWidget : function(text) {
                             var dayDate = new Date(text);
                             var weekday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
                             return weekday[dayDate.getDay()];
                         },
-                        fromWidget : function (text) {
-                            return null;
-                        }
+                        fromWidget : function (text) {return null;}
                     }
                 }
             }
-         }/}
-    ////#wgtTextSnippet2
-
+        }/}
+        ////#wgtTextSnippet2
 
     {/macro}
 

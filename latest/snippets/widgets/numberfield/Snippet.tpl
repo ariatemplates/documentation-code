@@ -1,16 +1,16 @@
 {Template {
-	$classpath : "ariadoc.snippets.widgets.numberfield.Snippet"
+	$classpath : "snippets.widgets.numberfield.Snippet"
 }}
 
 	{macro main ( )}
 
-	////#wgtNumberField
+	   ////#wgtNumberField
 		{@aria:NumberField {
 			label : "Please enter a decimal number:",
 			mandatory : true,
 			errorMessages : [ "Please type in a number" ]
 		}/}
-	////#wgtNumberField
+    	////#wgtNumberField
 
 	{/macro}
 

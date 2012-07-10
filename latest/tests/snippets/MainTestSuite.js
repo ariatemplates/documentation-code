@@ -11,7 +11,8 @@ Aria.classDefinition({
             "tests.snippets.IntroTestSuite",
             "tests.snippets.ModulesTestSuite",
             "tests.snippets.TemplatesTestSuite",
-            "tests.snippets.UtilsTestSuite"
+            "tests.snippets.UtilsTestSuite",
+            "tests.snippets.WidgetsTestSuite"
         );
     }
 })

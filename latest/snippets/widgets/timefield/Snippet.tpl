@@ -1,17 +1,17 @@
 {Template {
-	$classpath : "ariadoc.snippets.widgets.timefield.Snippet"
+    $classpath : "snippets.widgets.timefield.Snippet"
 }}
 
-	{macro main ( )}
+    {macro main()}
 
-	////#wgtTimeField
-		{@aria:TimeField {
-			label : "Departure time (short format: hh:mm):",
-			block : true,
-			pattern : aria.core.AppEnvironment.getTimeFormats().shortFormat
-		}/}
-	////#wgtTimeField
+        ////#wgtTimeField
+        {@aria:TimeField {
+            label : "Departure time (short format: hh:mm):",
+            block : true,
+            pattern : aria.utils.environment.Date.getTimeFormats().shortFormat
+        }/}
+        ////#wgtTimeField
 
-	{/macro}
+    {/macro}
 
 {/Template}

@@ -1,25 +1,27 @@
 {Template {
-	$classpath : "ariadoc.snippets.widgets.multiselect.Snippet"
+	$classpath : "snippets.widgets.multiselect.Snippet"
 }}
 
-	{macro main ( )}
+	{macro main()}
 
-	////#wgtMultiSelect
+	   {var data={companies:[],widgets:{company:""}}/}
+
+    	////#wgtMultiSelect
 		{@aria:MultiSelect {
-			fieldDisplay : "code",
+            fieldDisplay : "code",
 			fieldSeparator : '/',
 			displayOptions : {
 				// ...
-			},			
-			items : data.companies,	
+			},
+			items : data.companies,
 			bind : {
 				value : {
-					to : company,
+					to : "company",
 					inside : data.widgets
 				}
 			}
 		}/}
-	////#wgtMultiSelect
+    	////#wgtMultiSelect
 
 	{/macro}
 

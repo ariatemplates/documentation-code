@@ -1,11 +1,11 @@
 {Template {
-  $classpath : "ariadoc.snippets.widgets.icon.Snippet"} }
+    $classpath : "snippets.widgets.icon.Snippet"
+}}
 
-  {macro main ( )}
-
-  ////#wgtIconSample
-    {@aria:Icon {icon: "std:collapse"}/}
-    ////#wgtIconSample
-  {/macro}
+    {macro main()}
+        ////#wgtIconSample
+        {@aria:Icon {icon: "std:collapse"}/}
+        ////#wgtIconSample
+    {/macro}
 
 {/Template}

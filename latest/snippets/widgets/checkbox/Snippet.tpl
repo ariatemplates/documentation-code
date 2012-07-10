@@ -1,9 +1,12 @@
 {Template {
-  $classpath : "ariadoc.snippets.widgets.checkbox.Snippet"} }
+  $classpath : "snippets.widgets.checkbox.Snippet"
+}}
 
-  {macro main ( )}
+    {macro main()}
 
-    ////#wgtCheckboxSnippet1
+        {var data={isChecked:false,isOK:false} /}
+
+        ////#wgtCheckboxSnippet1
 		{@aria:CheckBox {
             label: "Checkbox Label" ,
             onchange : {
@@ -11,28 +14,32 @@
                 args : "1"
             }
         }/}
-    ////#wgtCheckboxSnippet1
+        ////#wgtCheckboxSnippet1
 
 
-    ////#wgtCheckboxSnippet2
+        ////#wgtCheckboxSnippet2
 	    {@aria:CheckBox {
             label: "Checkbox Label",
-            labelPos: "right", // possible values "left", "right", "center"
+            labelPos: "right", // possible values: "left", "right", "center"
             sclass: "std"
         }/}
-    ////#wgtCheckboxSnippet2
+        ////#wgtCheckboxSnippet2
 
-    ////#wgtCheckboxSnippet3
+        ////#wgtCheckboxSnippet3
         {@aria:CheckBox {
             label: "Checkbox Label",
             labelPos: "right",
             bind:{
-                "value":{inside: data, to: 'isCheckMe'},
-                "disabled":{inside: data, to: 'enableMe',
-                        transform: 'aria.widgets.transform.NotTransform'}
+                "value": { inside: data, to: 'isChecked' },
+                "disabled":{
+                    inside: data,
+                    to: 'isOK',
+                    transform: 'aria.widgets.transform.NotTransform'
+                }
             }
         }/}
-    ////#wgtCheckboxSnippet3
+        ////#wgtCheckboxSnippet3
+
     {/macro}
 
 {/Template}

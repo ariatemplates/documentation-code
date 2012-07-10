@@ -1,26 +1,25 @@
 {Template {
-  $classpath : "ariadoc.snippets.widgets.template.Snippet",
-  $hasScript: false } }
+    $classpath : "snippets.widgets.template.Snippet"
+}}
 
-  {macro main ( )}
+    {macro main()}
 
-   ////#wgtTemplateSnippet1
+        ////#wgtTemplateSnippet1
         {@aria:Template {
             id:"myFirstTemplate",
-            defaultTemplate: 'ariadoc.samples.widgets.template.FirstSubTemplate'
+            defaultTemplate: 'snippets.widgets.template.FirstSubTemplate'
         } /}
-    ////#wgtTemplateSnippet1
+        ////#wgtTemplateSnippet1
 
-    ////#wgtTemplateSnippet2
+        ////#wgtTemplateSnippet2
         {@aria:Template {
             id:"mySecondTemplate",
-            defaultTemplate: "ariadoc.samples.widgets.template.SecondSubTemplate",
+            defaultTemplate: "snippets.widgets.template.SecondSubTemplate",
             data: {
-              myMessage : "This is just a message from the parent template."
+                myMessage : "This is just a message from the parent template."
             }
-        } /}
-    ////#wgtTemplateSnippet2
-
+        }/}
+        ////#wgtTemplateSnippet2
 
     {/macro}
 

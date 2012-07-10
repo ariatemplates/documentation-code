@@ -1,27 +1,29 @@
 {Template {
-  $classpath : "ariadoc.snippets.widgets.radiobutton.Snippet",
-  $hasScript: true } }
+    $classpath : "snippets.widgets.radiobutton.Snippet"
+}}
 
-  {macro main ( )}
+    {macro main()}
 
-   ////#wgtRadioButtonSnippet1
+        {var data={group1:""}/}
+
+        ////#wgtRadioButtonSnippet1
         {@aria:RadioButton {
             label: "Option A",
             keyValue: "a",
             block: true
         }/}
-    ////#wgtRadioButtonSnippet1
+        ////#wgtRadioButtonSnippet1
 
-    ////#wgtRadioButtonSnippet2
+        ////#wgtRadioButtonSnippet2
         {@aria:RadioButton {
             label: "Option A",
             keyValue: "a",
             block: true,
             labelPos: "left" // other possible values are right, top, bottom
         }/}
-    ////#wgtRadioButtonSnippet2
+        ////#wgtRadioButtonSnippet2
 
-    ////#wgtRadioButtonSnippet3
+        ////#wgtRadioButtonSnippet3
         {@aria:RadioButton {
             label: "Option A",
             keyValue: "a",
@@ -34,7 +36,7 @@
                 args: {radioGroup: "1", keyValue: "a"}
             }
         }/}
-    ////#wgtRadioButtonSnippet3
+        ////#wgtRadioButtonSnippet3
 
     {/macro}
 

@@ -1,18 +1,21 @@
 {Template {
-	$classpath : "ariadoc.snippets.widgets.selectbox.Snippet" } }
+	$classpath : "snippets.widgets.selectbox.Snippet"
+}}
 
-	{macro main ( )}
+	{macro main()}
+
+       {var data={countries:[],widgets:{country:""}}/}
 
 		////#wgtSelectBoxField
 		{@aria:SelectBox {
 			options : data.countries,
 			bind : {
 				value : {
-					to : country,
+					to : "country",
 					inside : data.widgets
 				}
 			}
-		}
+		}/}
 		////#wgtSelectBoxField
 
 	{/macro}

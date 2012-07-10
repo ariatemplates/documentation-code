@@ -1,14 +1,17 @@
 {Template {
-	$classpath : "ariadoc.snippets.widgets.select.Snippet" } }
+    $classpath : "snippets.widgets.select.Snippet"
+}}
 
-	{macro main ( )}
+	{macro main()}
+
+       {var data={countries:[],widgets:{country:""}}/}
 
 		////#wgtSelectField
 		{@aria:Select {
-			options : data.countries,
+            options : data.countries,
 			bind : {
 				value : {
-					to : country,
+					to : "country",
 					inside : data.widgets
 				}
 			}

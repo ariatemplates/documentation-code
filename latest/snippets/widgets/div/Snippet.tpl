@@ -1,17 +1,19 @@
 {Template {
-  $classpath : "ariadoc.snippets.widgets.div.Snippet"} }
+    $classpath : "snippets.widgets.div.Snippet"
+}}
 
-  {macro main ( )}
+    {macro main ( )}
 
-  ////#wgtDivAction
-    {@aria:Div {
-      sclass : "basic",
-      width : 500,
-      height : 200 }}
-      <h1>Sample div</h1>
-    {/@aria:Div}
+        ////#wgtDivAction
+        {@aria:Div {
+            sclass : "basic",
+            width : 500,
+            height : 200
+        }}
+            <h1>Sample div</h1>
+        {/@aria:Div}
+        ////#wgtDivAction
 
-    ////#wgtDivAction
-  {/macro}
+    {/macro}
 
 {/Template}

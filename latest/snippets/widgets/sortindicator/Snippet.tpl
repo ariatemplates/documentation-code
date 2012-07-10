@@ -1,38 +1,43 @@
 {Template {
-  $classpath : "ariadoc.snippets.widgets.sortindicator.Snippet",
-  $hasScript: true } }
+    $classpath : "snippets.widgets.sortindicator.Snippet"
+}}
 
-  {macro main ( )}
+    {macro main()}
 
-   ////#wgtSortIndicatorSnippet1
+       {var data={"view:tooltip":""}/}
+       {var sortByName=function(){}/}
+       {createView aview on []/}
+
+        ////#wgtSortIndicatorSnippet1
         {@aria:SortIndicator {
             sortName:'SortByName',
             label:"Sort Order ",
             view:aview,
-            sortKeyGetter:sortByName,
+            sortKeyGetter: sortByName,
             labelWidth : 70,
             activateEllipsis: true,
             ellipsis: '...',
             ellipsisLocation: 'right'
         }/}
-    ////#wgtSortIndicatorSnippet1
+        ////#wgtSortIndicatorSnippet1
 
-    ////#wgtSortIndicatorSnippet2
+        ////#wgtSortIndicatorSnippet2
         {@aria:SortIndicator {
             sortName:'SortByName',
             label:"Sort Order ",
             view:aview,
-            sortKeyGetter:sortByName,
+            sortKeyGetter: sortByName,
             labelWidth : 70,
             bind : {
-               value : {
-                  to : 'view:tooltip',
-                  inside : data
-               }
+                tooltip : {
+                    to : 'view:tooltip',
+                    inside : data
+                }
             },
-            onclick : setToolTip
+            onclick: "setToolTip"
         }/}
-    ////#wgtSortIndicatorSnippet2
+        ////#wgtSortIndicatorSnippet2
+
     {/macro}
 
 {/Template}

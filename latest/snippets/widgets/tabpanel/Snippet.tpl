@@ -1,19 +1,23 @@
 {Template {
-  $classpath : "ariadoc.snippets.widgets.tabpanel.Snippet",
-  $hasScript: false } }
+    $classpath : "snippets.widgets.tabpanel.Snippet"
+}}
 
-  {macro main ( )}
+    {macro main()}
 
-   ////#wgtTabPanelSnippet1
+        {var data={tabValue:0}/}
+
+        ////#wgtTabPanelSnippet1
         {@aria:TabPanel {
             macro: "myTabPanel",
             bind: {
                 selectedTab : {to: "tabValue" , inside: data}
             }
         }/}
-    ////#wgtTabPanelSnippet1
+        ////#wgtTabPanelSnippet1
 
+    {/macro}
 
+    {macro myTabPanel()}
     {/macro}
 
 {/Template}

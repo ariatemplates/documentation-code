@@ -1,19 +1,21 @@
 {Template {
-  $classpath : "ariadoc.snippets.widgets.fieldset.Snippet",
-  $hasScript: true } }
+    $classpath : "snippets.widgets.fieldset.Snippet"
+}}
 
-  {macro main ( )}
+    {macro main ( )}
 
-   ////#wgtFieldsetSimple
+        {var data={"view:tooltip":""}/}
+
+        ////#wgtFieldsetSimple
         {@aria:Fieldset {
             label: "Sample fieldset1",
             width: 250
         }}
             <p>Some content here...</p>
         {/@aria:Fieldset}
-    ////#wgtFieldsetSimple
+        ////#wgtFieldsetSimple
 
-    ////#wgtFieldsetNested
+        ////#wgtFieldsetNested
         {@aria:Fieldset {
             label: "Sample fieldset1",
             width: 350
@@ -26,19 +28,19 @@
                 <p>Some content in the nested Fieldset</p>
             {/@aria:Fieldset}
         {/@aria:Fieldset}
-    ////#wgtFieldsetNested
+        ////#wgtFieldsetNested
 
-    ////#wgtFieldsetAction
+        ////#wgtFieldsetAction
         {@aria:Fieldset {
             label: "Sample fieldset1",
             width: 600,
-            onSubmit: fieldsetSubmit
+            onSubmit: "fieldsetSubmit"
         }}
             <p>Some content here...</p>
         {/@aria:Fieldset}
-    ////#wgtFieldsetAction
+        ////#wgtFieldsetAction
 
-    ////#wgtFieldsetBinding
+        ////#wgtFieldsetBinding
         {@aria:Fieldset {
             width : 400,
             bind: {
@@ -47,10 +49,10 @@
                     inside : data
                 }
             }
-         }}
+        }}
             <p>Some content here...</p>
-         {/@aria:Fieldset}
-    ////#wgtFieldsetBinding
+        {/@aria:Fieldset}
+        ////#wgtFieldsetBinding
 
     {/macro}
 
