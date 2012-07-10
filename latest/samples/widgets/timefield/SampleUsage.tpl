@@ -18,7 +18,7 @@
 			helptext : "Enter a departure time",
 			width : 250,
 			block : true,
-			pattern : aria.core.AppEnvironment.getTimeFormats().shortFormat }/}
+			pattern : aria.utils.environment.Date.getTimeFormats().shortFormat }/}
 		</p>
 		<p>
 		{@aria:TimeField {
@@ -28,7 +28,7 @@
 			helptext : "Enter an arrival time",
 			width : 250,
 			block : true,
-			pattern : aria.core.AppEnvironment.getTimeFormats().fullFormat }/}
+			pattern : aria.utils.environment.Date.getTimeFormats().fullFormat }/}
 		</p>
 		<p>
 		{@aria:TimeField {
