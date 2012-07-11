@@ -1,10 +1,11 @@
 {Template {
-    $classpath: "snippets.widgets.autocomplete.Snippet"
+    $classpath: "snippets.widgets.autocomplete.Snippet",
+    $dependencies: ["aria.resources.handlers.LCResourcesHandler"]
 }}
 
     {macro main()}
 
-        {var getHandler=function(){return "aria.resources.handlers.LCResourcesHandler"}/}
+        {var getHandler=function(){return new aria.resources.handlers.LCResourcesHandler()}/}
 
         ////#autocomplete
         {@aria:AutoComplete {
