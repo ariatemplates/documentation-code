@@ -1,6 +1,6 @@
 Aria.classDefinition({
     $classpath: "tests.snippets.modules.Controller",
-    $extends: "aria.jsunit.TestCase",
+    $extends: "tests.TplTestCase",
     /*
      * This test case only checks that the beans listed in $dependencies are loaded properly
      */
@@ -13,7 +13,6 @@ Aria.classDefinition({
     $prototype: {
 
         testAsyncLoadTpl : function () {
-            document.getElementById("TESTAREA").style.display="none";
             Aria.loadTemplate({
                 div : "TESTAREA",
                 classpath : "snippets.modules.controller.MyView",

@@ -1,11 +1,10 @@
 Aria.classDefinition({
     $classpath: "tests.snippets.templates.Macros",
-    $extends: "aria.jsunit.TestCase",
+    $extends: "tests.TplTestCase",
 
     $prototype: {
 
         testAsyncLoadTplOne : function () {
-            document.getElementById("TESTAREA").style.display="none";
             Aria.loadTemplate({
                 div : "TESTAREA",
                 classpath : "snippets.templates.macros.MyTemplate"
