@@ -5,12 +5,12 @@ Aria.classDefinition({
     $prototype: {
 
         testAsyncLoadTplOne : function () {
-            window.alert = function(m){console.log(m)};
+            window.alert = function(m){};
             Aria.loadTemplate({
                 div : "TESTAREA",
                 classpath : "snippets.templates.templateScripts.MyTemplate"
             }, {
-                fn : this.testAsyncLoadTplTwo,
+                fn : this.notifyTestEnd,
                 scope : this
             });
         },

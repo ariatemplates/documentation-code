@@ -9,7 +9,7 @@ Aria.classDefinition({
                 div : "TESTAREA",
                 classpath : "snippets.templates.cssTemplates.MyTemplate"
             }, {
-                fn : this.testAsyncLoadTplTwo,
+                fn : this.notifyTestEnd,
                 scope : this
             });
         },

@@ -9,7 +9,7 @@ Aria.classDefinition({
                 div : "TESTAREA",
                 classpath : "snippets.templates.domInteractions.DomInteractionTemplate"
             }, {
-                fn : this.testAsyncLoadTplTwo,
+                fn : this.notifyTestEnd,
                 scope : this
             });
         },
@@ -20,7 +20,7 @@ Aria.classDefinition({
                 classpath : "snippets.templates.domInteractions.ProcIndTemplate",
                 data : {loading:false}
             }, {
-                fn : this.testAsyncLoadTplThree,
+                fn : this.notifyTestEnd,
                 scope : this
             });
         },
