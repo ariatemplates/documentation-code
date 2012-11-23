@@ -1,0 +1,37 @@
+{CSSTemplate {
+	$classpath : "ariadoc.guides.mall.Style"
+}}
+{macro main()}
+.court {
+	position : relative;
+	padding : 10px;
+}
+
+.clear {
+	clear : both;
+	position : relative;
+}
+
+.slot {
+	float: left;
+	width : 150px;
+	height : 300px;
+	border : 1px solid #868585;
+	margin-left : 10px;
+	background-color: #ebebeb;
+}
+
+.locked {
+	background-color : #ccc;
+}
+
+.counter {
+	float: left;
+	width: 110px;
+	border: 1px solid #774F38;
+	margin: 9px;
+	padding: 10px;
+	background-color : #C5E0DC;
+}
+{/macro}
+{/CSSTemplate}
