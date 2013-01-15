@@ -1,6 +1,6 @@
 /**
  * Interface for the error list module.
- * @class samples.utils.validators.basic.IBasicCtrl
+ * @class ariadoc.samples.utils.validators.basic.IBasicCtrl
  */
 Aria.interfaceDefinition({
 	$classpath : 'samples.utils.validators.basic.IBasicCtrl',

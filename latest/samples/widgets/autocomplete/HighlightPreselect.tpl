@@ -1,5 +1,5 @@
 {Template {
-  $classpath : "samples.widgets.autocomplete.HighlightPreselect",
+  $classpath : "ariadoc.samples.widgets.autocomplete.HighlightPreselect",
   $hasScript : true
 }}
 

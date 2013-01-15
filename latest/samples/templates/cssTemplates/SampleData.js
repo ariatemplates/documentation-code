@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath : 'samples.templates.cssTemplates.SampleData',
+	$classpath : 'ariadoc.samples.templates.cssTemplates.SampleData',
 	$singleton : true,
 	$constructor : function () {},
 	$prototype : {

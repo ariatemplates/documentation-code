@@ -1,5 +1,5 @@
 Aria.classDefinition({
-	$classpath : 'samples.widgets.selectbox.SampleUsageData',
+	$classpath : 'ariadoc.samples.widgets.selectbox.SampleUsageData',
 	$constructor : function () {},
 	$prototype : {
 

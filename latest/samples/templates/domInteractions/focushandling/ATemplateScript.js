@@ -1,6 +1,6 @@
 /**
  * TODOC
- * @class samples.templates.domInteractions.focushandling.ATemplateScript
+ * @class ariadoc.samples.templates.domInteractions.focushandling.ATemplateScript
  */
 Aria.tplScriptDefinition({
 	$classpath:  'samples.templates.domInteractions.focushandling.ATemplateScript',

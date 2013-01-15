@@ -17,7 +17,7 @@ Aria.classDefinition({
 		getNationsHandler : function (threshold) {
 			var handler = new aria.resources.handlers.LCResourcesHandler();
 			handler.threshold = threshold;
-			handler.setSuggestions(samples.common.autocomplete.ListOfNations.NATIONS);
+			handler.setSuggestions(ariadoc.samples.common.autocomplete.ListOfNations.NATIONS);
 			return handler;
 		},
 
@@ -29,7 +29,7 @@ Aria.classDefinition({
 		getCitiesHandler : function (threshold) {
 			var handler = new aria.resources.handlers.LCResourcesHandler();
 			handler.threshold = threshold;
-			handler.setSuggestions(samples.common.autocomplete.ListOfCities.CITIES);
+			handler.setSuggestions(ariadoc.samples.common.autocomplete.ListOfCities.CITIES);
 			return handler;
 		}
 	}

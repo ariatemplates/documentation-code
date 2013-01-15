@@ -4,23 +4,20 @@ description: It shows an example of an image gallery.
 sources:
 - Images.tpl
 - ImagesScript.js
-- GalleryWidget.js
-- GalleryWidgetStyle.tpl.css
-- ImageLibrary.js
 data:
   visible: 0
   images:
-  - url : "https://github.com/ariatemplates/documentation-code/raw/master/latest/samples/html/custom/gallery/one.jpg"
-    desc : "Aria Templates Custom Widget Library"
-  - url : "https://github.com/ariatemplates/documentation-code/raw/master/latest/samples/html/custom/gallery/three.jpg"
-    desc : "aria.widgetLibs.BaseWidget is the base class for all widgets"
-  - url : "https://github.com/ariatemplates/documentation-code/raw/master/latest/samples/html/custom/gallery/two.jpg"
-    desc : "aria.widgetLibs.BindableWidget gives you a convenient way to bind properties in the datamodel"
-  - url : "https://github.com/ariatemplates/documentation-code/raw/master/latest/samples/html/custom/gallery/four.jpg"
-    desc : "aria.html.Element makes event listeners simple to use"
-  - url : "https://github.com/ariatemplates/documentation-code/raw/master/latest/samples/html/custom/gallery/five.jpg"
-    desc : "Check the code of GalleryWidget..."
-  - url : "https://github.com/ariatemplates/documentation-code/raw/master/latest/samples/html/custom/gallery/six.jpg"
-    desc : "... you'll see how easly you can create a widget!"
-  - url: "https://github.com/ariatemplates/documentation-code/raw/master/latest/samples/html/custom/gallery/seven.jpg"
-    desc : "Have fun with Aria Templates"
+  - url: "one.jpg"
+    desc: "Aria Templates Custom Widget Library"
+  - url: "three.jpg"
+    desc: "aria.widgetLibs.BaseWidget is the base class for all widgets"
+  - url: "two.jpg"
+    desc: "aria.widgetLibs.BindableWidget gives you a convenient way to bind properties in the datamodel"
+  - url: "four.jpg"
+    desc: "aria.html.Element makes event listeners simple to use"
+  - url: "five.jpg"
+    desc: "Check the code of GalleryWidget..."
+  - url: "six.jpg"
+    desc: "... you'll see how easly you can create a widget!"
+  - url: "seven.jpg"
+    desc: "Have fun with Aria Templates"

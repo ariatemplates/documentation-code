@@ -68,7 +68,7 @@
           label: "TimeField",
           labelWidth:75,
           width:200,
-          pattern:aria.core.AppEnvironment.getTimeFormats().shortFormat,
+          pattern:aria.utils.environment.Date.getTimeFormats().shortFormat,
           value: new Date(),
           autoselect: true
         }/}
@@ -77,7 +77,7 @@
         {@aria:TimeField {
           id: "tf1",
           width:200,
-          pattern:aria.core.AppEnvironment.getTimeFormats().shortFormat,
+          pattern:aria.utils.environment.Date.getTimeFormats().shortFormat,
           value: new Date(),
           autoselect: false
         }/}

@@ -1,5 +1,5 @@
 /**
- * @class samples.templates.views.pagination.PagingTemplateScript
+ * @class ariadoc.samples.templates.views.pagination.PagingTemplateScript
  */
 Aria.tplScriptDefinition({
 	$classpath : 'samples.templates.views.pagination.PagingTemplateScript',

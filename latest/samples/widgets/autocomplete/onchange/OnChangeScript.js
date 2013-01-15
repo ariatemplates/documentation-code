@@ -4,11 +4,11 @@ Aria.tplScriptDefinition({
 	$prototype : {
 		/**
 		 * Get an instance of the resource handler. The list of nations is taken from the static in
-		 * samples.common.autocomplete.ListOfNations
+		 * ariadoc.samples.common.autocomplete.ListOfNations
 		 * @return {aria.resources.handlers.LCResourcesHandler} Label-Code handler
 		 */
 		getHandler : function (threshold) {
-			var autoCompleteResourceHandler = samples.common.autocomplete.AutoCompleteResourceHandler;
+			var autoCompleteResourceHandler = ariadoc.samples.common.autocomplete.AutoCompleteResourceHandler;
 			return autoCompleteResourceHandler.getNationsHandler(threshold);
 		},
 
