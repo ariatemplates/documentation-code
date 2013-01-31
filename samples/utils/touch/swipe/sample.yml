@@ -1,0 +1,7 @@
+title: Swipe Event
+template: samples.utils.touch.swipe.Swipe
+description: It shows swipe event example.
+sources:
+- Swipe.tpl
+- SwipeScript.js
+- TouchEventsCSS.tpl.css

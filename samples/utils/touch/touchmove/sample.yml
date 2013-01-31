@@ -1,0 +1,7 @@
+title: TouchMove Event
+template: samples.utils.touch.touchmove.TouchMove
+description: It shows touchmove event example.
+sources:
+- TouchMove.tpl
+- TouchMoveScript.js
+- TouchEventsCSS.tpl.css
