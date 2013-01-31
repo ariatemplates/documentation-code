@@ -18,6 +18,19 @@
 		}/}
 		////#wgtSelectBoxField
 
+		////#wgtSelectBoxBinding
+		{@aria:SelectBox {
+            label: "All Countries: ",
+			labelWidth:220,
+			options: data.OptionsBindingValues,
+			bind: {
+				options : {
+					to : "OptionsBindingValues",
+					inside : data
+				}
+			}
+		}/}
+		////#wgtSelectBoxBinding
 	{/macro}
 
 {/Template}

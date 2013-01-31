@@ -1,4 +1,4 @@
-title: Dragging elements
+title: Dragdrop
 template: samples.utils.dragdrop.DragDrop
 description: It shows how an element could be dragged in different modes in aria templates.
 sources:

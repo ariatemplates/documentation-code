@@ -77,6 +77,27 @@
             }
         }/}
         ////#wgtDialogMove4
+		
+		////#wgtDialogResize
+		{@aria:Dialog {
+            id : "movableDialog",
+            contentMacro : {
+                name : "displayDialogContent"
+            },
+            resizable : true,
+            beforeresize : {
+                fn : onResizeStart,
+                scope : this
+            },
+            resizeend : {
+                fn : onResizeEnd,
+                scope : this
+            },
+            movableProxy : dataModel.movableProxy,
+            width : 500,
+            height : 250
+        }/}
+		////#wgtDialogResize
 
     {/macro}
 

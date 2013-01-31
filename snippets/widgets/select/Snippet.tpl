@@ -17,7 +17,21 @@
 			}
 		}/}
 		////#wgtSelectField
-
+		
+		////#wgtSelectBinding
+		{@aria:Select {
+            label: "All Countries: ",
+			labelWidth:220,
+			options: data.OptionsBindingValues,
+			bind: {
+				options : {
+					to : "OptionsBindingValues",
+					inside : data
+				}
+			}
+		}/}
+		////#wgtSelectBinding
+		
 	{/macro}
 
 {/Template}

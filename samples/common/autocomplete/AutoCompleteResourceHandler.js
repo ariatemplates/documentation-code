@@ -15,9 +15,15 @@ Aria.classDefinition({
 		 * @return {aria.resources.handlers.LCResourcesHandler} Label-Code handler
 		 */
 		getNationsHandler : function (threshold) {
-			var handler = new aria.resources.handlers.LCResourcesHandler();
+			var handler = new aria.resources.handlers.LCResourcesHandler({
+												labelKey: "label",
+												codeKey: "code",
+												sortingMethod: function (a, b) {
+													return (a.mykey < b.mykey) ? 1 : (a.mykey > b.mykey) ? -1 : 0;
+												}
+											});
 			handler.threshold = threshold;
-			handler.setSuggestions(ariadoc.samples.common.autocomplete.ListOfNations.NATIONS);
+			handler.setSuggestions(samples.common.autocomplete.ListOfNations.NATIONS);
 			return handler;
 		},
 
@@ -29,7 +35,7 @@ Aria.classDefinition({
 		getCitiesHandler : function (threshold) {
 			var handler = new aria.resources.handlers.LCResourcesHandler();
 			handler.threshold = threshold;
-			handler.setSuggestions(ariadoc.samples.common.autocomplete.ListOfCities.CITIES);
+			handler.setSuggestions(samples.common.autocomplete.ListOfCities.CITIES);
 			return handler;
 		}
 	}

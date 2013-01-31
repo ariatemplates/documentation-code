@@ -22,7 +22,24 @@
 			}
 		}/}
     	////#wgtMultiSelect
-
+		
+		////#wgtMultiSelectBind
+		{@aria:MultiSelect {
+            fieldDisplay : "code",
+			fieldSeparator : '/',
+			displayOptions : {
+				// ...
+			},
+			items : data.companies,
+			bind : {
+				value : {
+					to : "company",
+					inside : data.widgets
+				}
+			},
+			instantBind:true
+		}/}
+		////#wgtMultiSelectBind
 	{/macro}
 
 {/Template}

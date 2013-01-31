@@ -13,7 +13,9 @@ Aria.classDefinition({
 			scope: this,
 			args: {
 				//Some arguments to give to myMethod when called
-			}
+			},
+			resIndex:0,
+			apply:true
 		};
 		////#sampleCallbackObject
 
@@ -91,6 +93,20 @@ Aria.classDefinition({
 			this.$callback(callback);
 		}
 		////#propagatingCallback
+		
+		////#sampleAsyncRequest
+		aria.core.IO.asyncRequest({
+				url: myResource,
+				method: "get",
+				callback: {
+					fn: "__resourceFetched",
+					scope: this,
+					args: {
+						callback: callback //We propagate our callback argument
+					}
+				}
+			});
+		////#sampleAsyncRequest
 
 	}
 });
