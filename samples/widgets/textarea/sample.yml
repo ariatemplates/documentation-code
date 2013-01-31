@@ -1,0 +1,5 @@
+title: Textarea sample usage
+template: samples.widgets.textarea.TemplateTextarea
+description: Example of simple Textarea.
+sources:
+- TemplateTextarea.tpl
