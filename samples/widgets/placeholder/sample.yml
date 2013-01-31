@@ -1,0 +1,10 @@
+title: Placeholder sample usage
+template: samples.widgets.placeholder.PlaceholderSample
+description: It shows how the place holder works in Aria Template.
+sources:
+- PlaceholderSample.tpl
+- PlaceholderSampleController.js
+- PlaceholderSampleCSS.tpl.css
+- ContentProvider.js
+- Subtemplate.tpl
+- Subtemplate2.tpl
