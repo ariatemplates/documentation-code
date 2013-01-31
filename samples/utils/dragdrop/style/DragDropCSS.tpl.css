@@ -1,0 +1,37 @@
+{CSSTemplate {
+  $classpath : "samples.utils.dragdrop.style.DragDropCSS"
+}}
+
+  {macro main()}
+    .boundary {
+      float: left;
+      width: 300px;
+      height: 300px;
+      border: 1px solid #cdcdcd;
+    }
+
+    .constrained-draggable-class {
+      position: absolute;
+      width : 60px;
+      height: 60px;
+      border: 1px solid #ddd;
+      background-color: #eee;
+     padding: 5px;
+    }
+
+    #second-boundary {
+      margin-left : 10px;
+    }
+
+    #third-boundary {
+      margin-left : 10px;
+    }
+
+    #free-draggable {
+      top: 80px;
+      z-index: 1000;
+    }
+
+{/macro}
+
+{/CSSTemplate}

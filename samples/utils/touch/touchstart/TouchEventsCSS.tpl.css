@@ -1,0 +1,40 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+	$classpath : "samples.utils.touch.touchstart.TouchEventsCSS"
+}}
+
+  {macro main ()}
+    .largeText {
+      font-size: 14pt;
+      font-weight: bold;
+      color: #4776A7;
+    }
+    .redText {
+      color: red;
+      text-decoration: blink;
+    }
+    #instructions {
+      float: left;
+    }
+    #touchboard {
+      float: left;
+      width: 400px;
+      height: 200px;
+      border: 2px dotted #cdcdcd;
+      background-color: #eee;
+    }
+    #touchtext {
+      color: #cdcdcd;
+      font-size: 20pt;
+      font-weight: bold;
+      text-align: center;
+    }
+    #results {
+      font-size: 11pt;
+      color: #4776A7;
+    }
+  {/macro}
+
+{/CSSTemplate}

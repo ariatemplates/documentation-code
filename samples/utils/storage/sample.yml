@@ -1,0 +1,7 @@
+title: Persistence Storage
+template: samples.utils.storage.Persist
+description: Allows to store data in local storage.
+sources:
+- Persist.tpl
+- PersistScript.js
+

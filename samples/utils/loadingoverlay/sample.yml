@@ -1,0 +1,7 @@
+title: Processing Indicator
+template: samples.utils.loadingoverlay.LoadingOverlayTemplate
+description: Allows to display processing indicator.
+sources:
+- LoadingOverlayTemplate.tpl
+- LoadingOverlayTemplateScript.js
+

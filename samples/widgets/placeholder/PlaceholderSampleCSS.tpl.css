@@ -1,0 +1,32 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+	$classpath : "samples.widgets.placeholder.PlaceholderSampleCSS"
+}}
+
+	{macro main ()}
+		.placeholder {
+			border: 1px solid blue;
+			margin: 10px;
+			padding: 10px;
+		}
+	
+		.bodyTitle {
+			color: blue;
+			font-size: 1.5em;
+			margin-bottom: 20px;
+		}
+		.placeholder_description {
+			font-size: 1.3em;
+		}
+		
+		.placeholderName {
+			color: #1B93DD;
+			font-style: italic;
+			font-weight: bold;
+		}
+{/macro}
+
+
+{/CSSTemplate}
