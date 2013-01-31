@@ -185,7 +185,7 @@ Aria.tplScriptDefinition({
 		 * @returns
 		 */
 		getCitiesHandler : function (threshold) {
-			var autoCompleteResourceHandler = ariadoc.samples.common.autocomplete.AutoCompleteResourceHandler;
+			var autoCompleteResourceHandler = samples.common.autocomplete.AutoCompleteResourceHandler;
 			return autoCompleteResourceHandler.getCitiesHandler(threshold);
 		}
 	}

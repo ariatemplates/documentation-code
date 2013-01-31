@@ -10,7 +10,7 @@ Aria.classDefinition({
 	$constructor : function (threshold) {
 		this.$LCResourcesHandler.constructor.call(this);
 		this.threshold = (threshold) ? threshold : 1;
-		this.setSuggestions(ariadoc.samples.common.autocomplete.ListOfNations.NATIONS);
+		this.setSuggestions(samples.common.autocomplete.ListOfNations.NATIONS);
 	},
 	$prototype : {
 		/**

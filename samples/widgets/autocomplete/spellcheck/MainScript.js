@@ -8,7 +8,7 @@ Aria.tplScriptDefinition({
 		 * @returns
 		 */
 		getNationsHandler : function (threshold) {
-			var spellCheckResourceHandler = new ariadoc.samples.common.autocomplete.SpellCheckResourceHandler(threshold);
+			var spellCheckResourceHandler = new samples.common.autocomplete.SpellCheckResourceHandler(threshold);
 			return spellCheckResourceHandler;
 		}
 	}

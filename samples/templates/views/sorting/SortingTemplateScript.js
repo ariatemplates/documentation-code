@@ -1,5 +1,5 @@
 /**
- * @class ariadoc.samples.templates.views.sorting.SortingTemplateScript
+ * @class samples.templates.views.sorting.SortingTemplateScript
  */
 Aria.tplScriptDefinition({
 	$classpath : 'samples.templates.views.sorting.SortingTemplateScript',

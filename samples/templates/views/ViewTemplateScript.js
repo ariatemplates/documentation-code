@@ -1,5 +1,5 @@
 /**
- * @class ariadoc.samples.templates.views.ViewTemplateScript
+ * @class samples.templates.views.ViewTemplateScript
  */
 Aria.tplScriptDefinition({
 	$classpath : 'samples.templates.views.ViewTemplateScript',
