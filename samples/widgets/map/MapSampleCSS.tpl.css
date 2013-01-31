@@ -1,0 +1,16 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+	$classpath : "samples.widgets.map.MapSampleCSS"
+}}
+
+  {macro main()}
+    .mapContainer {
+      position : "absolute";
+      width : 500px;
+      height : 500px;
+    }
+  {/macro}
+
+{/CSSTemplate}

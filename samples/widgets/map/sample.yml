@@ -1,0 +1,6 @@
+title: Simple Map
+template: samples.widgets.map.MapSample
+description: It shows how to create a simple map.
+sources:
+- MapSample.tpl
+- MapSampleCSS.tpl.css
