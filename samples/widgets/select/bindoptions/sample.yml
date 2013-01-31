@@ -1,0 +1,35 @@
+title: Select Field Widget - Bindable Options
+template: samples.widgets.select.bindoptions.BindOptions
+description: Bindable options to dynamically change Select widget options
+data:
+  widgets:
+    country: "ES"
+  countries:
+  - value: "FR"
+    label: "France"
+  - value: "CH"
+    label: "Switzerland"
+  - value: "UK"
+    label: "United Kingdom"
+  - value: "US"
+    label: "United States"
+  - value: "ES"
+    label: "Spain"
+  - value: "PL"
+    label: "Poland"
+  - value: "SE"
+    label: "Sweden"
+  - value : "USA"
+    label: "United States of America"
+  bindableOptions:
+  - value: "V1"
+    label: "Item1"
+  - value: "V2"
+    label: "Item2"
+  - value: "V3"
+    label: "Item3"
+  - value: "V4"
+    label: "Item4"
+sources:
+- BindOptions.tpl
+- BindOptionsScript.js

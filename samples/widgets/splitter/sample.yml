@@ -1,0 +1,6 @@
+title: Splitter sample usage
+template: samples.widgets.splitter.TemplateSplitter
+description: Example of Splitter.
+sources:
+- TemplateSplitter.tpl
+- TemplateSplitterScript.js

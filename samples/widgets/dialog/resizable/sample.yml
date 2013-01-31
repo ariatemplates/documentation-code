@@ -1,0 +1,25 @@
+title: Resizable dialog
+template: samples.widgets.dialog.resizable.TemplateResizableDialog
+description: It shows a Resizable Dialog.
+sources:
+- TemplateResizableDialog.tpl
+- TemplateResizableDialogScript.js
+data:
+    view:Dialog:
+        visible: false
+        xpos: 0
+        ypos: 0
+        center: true
+        movableProxy: null
+        selectedProxy: "0"
+        draggingText: ""
+        outputCfg: "{@aria:Dialog {\n  ...\n   movable : true\n    ...\n} /}"
+        opacity: 0.5
+        processing: true
+        proxyOptions:
+        - value : "0"
+          label : "null"
+        - value : "1"
+          label : "Overlay"
+        - value : "2"
+          label : "CloneOverlay"
