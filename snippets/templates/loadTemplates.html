@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <script type="text/javascript" src="/aria/ariatemplates-1.x.x.js"></script>
+    <script type="text/javascript" src="/aria/css/atskin-1.x.x.js"></script>
+  </head>
+  <body>
+    <div id="output"></div>
+    <script type="text/javascript">
+      ////#loadTemplate
+      Aria.loadTemplate({
+        classpath: "snippets.intro.view.SgtGreeters",
+        div: "output",
+        data: {
+          greeting : "Hello",
+          people : ["John", "Paul", "George", "Ringo"]
+        }
+      });
+      ////#loadTemplate
+    </script>
+  </body>
+</html>
