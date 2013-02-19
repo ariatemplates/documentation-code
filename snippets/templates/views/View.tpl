@@ -4,6 +4,20 @@
   $hasScript: true
 }}
 
+{var hotels =
+  ////#defaultData
+  [{desc:"Item1", price:42},
+   {desc:"Item2", price:27},
+   {desc:"Item3", price:36},
+   {desc:"Item4", price:40},
+   {desc:"Item5", price:97},
+   {desc:"Item6", price:7},
+   {desc:"Item7", price:16},
+   {desc:"Item8", price:11},
+   {desc:"Item9", price:66}]
+   ////#defaultData
+/}
+
 ////#createView
 {createView vHotel on data.hotels /}
 ////#createView

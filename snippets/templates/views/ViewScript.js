@@ -1,6 +1,19 @@
 Aria.classDefinition({
   $classpath: "snippets.templates.view.Viewscript",
   $prototype: {
+
+    initHotels: function() {
+      ////#defaultInit
+      this.vItems.setSort(this.vItems.SORT_ASCENDING, "sortByPrice", function(o) {
+        return o.value.price;
+      });
+      this.vItems.setPageSize(5);
+      this.vItems.filterIn(this.vItems.FILTER_SET, function(o) {
+        return (o.value.price != 36 && o.value.price != 40);
+      });
+      ////#defaultInit
+    },
+
     ////#initView
     initView : function() {
       this.vHotels.setSort(this.vHotels.SORT_ASCENDING, "sortByPrice", function(o) {
@@ -40,11 +53,11 @@ Aria.classDefinition({
     },
 
     toggleSortOrder: function() {
-      ////#toogleSortOrder
+      ////#toggleSortOrder
       this.vHotels.toggleSortOrder("sortByPrice", function(o) {
         return o.value.price;
       });
-      ////#toogleSortOrder
+      ////#toggleSortOrder
     },
 
     sortByPrice: function() {
