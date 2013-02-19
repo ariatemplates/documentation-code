@@ -33,6 +33,20 @@ Aria.classDefinition({
       ////#filterRemoveElement
     },
 
+    setSortAscending: function() {
+      ////#ascSortOder
+      this.vHotels.sortOrder = this.vHotels.SORT_DESCENDING;
+      ////#ascSortOder
+    },
+
+    toggleSortOrder: function() {
+      ////#toogleSortOder
+      this.vHotels.toggleSortOrder("sortByPrice", function(o) {
+        return o.value.price;
+      });
+      ////#toogleSortOder
+    },
+
     sortByPrice: function() {
       ////#sortByPrice
       this.vHotels.setSort(this.vHotels.SORT_ASCENDING, "sortByPrice", function(o) {

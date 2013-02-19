@@ -36,8 +36,9 @@
     ${htl.name} (${htl.price})
   {/foreach}
   ////#inSortedView
-{/macro}
 
 ////#simpleUsage
+{/macro}
+
 {/Template}
 ////#simpleUsage
