@@ -34,17 +34,17 @@ Aria.classDefinition({
     },
 
     setSortAscending: function() {
-      ////#ascSortOder
+      ////#ascSortOrder
       this.vHotels.sortOrder = this.vHotels.SORT_DESCENDING;
-      ////#ascSortOder
+      ////#ascSortOrder
     },
 
     toggleSortOrder: function() {
-      ////#toogleSortOder
+      ////#toogleSortOrder
       this.vHotels.toggleSortOrder("sortByPrice", function(o) {
         return o.value.price;
       });
-      ////#toogleSortOder
+      ////#toogleSortOrder
     },
 
     sortByPrice: function() {
