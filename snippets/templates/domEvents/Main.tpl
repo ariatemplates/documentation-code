@@ -29,7 +29,7 @@
 
     {for var i=1 ; i < 10 ; i++}
     ////#simpleHtmlWithData
-      <input type="checkbox" data-index="${i}" value="${i}"
+      <input type="checkbox" data-index="${i}" value="${i}" />
     ////#simpleHtmlWithData
     {/for}
 	{/macro}

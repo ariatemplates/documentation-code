@@ -8,12 +8,12 @@ Aria.tplScriptDefinition({
         */
 
         $viewReady: function() {
-            ///#ariaUtilsEvent
+            ////#ariaUtilsEvent
             aria.utils.Event.addListener(document, "keydown", {
                 fn: this.__onBodyKeydown,
                 scope: this
             }, true);
-            ///#ariaUtilsEvent
+            ////#ariaUtilsEvent
         },
 
         __onBodyKeydown: function() {
