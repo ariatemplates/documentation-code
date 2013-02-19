@@ -18,14 +18,20 @@
 			scope : this,
 			args : "a string"
 		}/}>Lorem ipsum<div>
-        ////#complete
-        ////#multiple
+    ////#complete
+
+    ////#multiple
 		<div
 			{on click "onClickCallback"/}
 			{on mouseleave "onMouseleaveCallback"/}
 		>Lorem ipsum</div>
-        ////#multiple
+    ////#multiple
 
+    {for var i=1 ; i < 10 ; i++}
+    ////#simpleHtmlWithData
+      <input type="checkbox" data-index="${i}" value="${i}"
+    ////#simpleHtmlWithData
+    {/for}
 	{/macro}
 
 {/Template}
