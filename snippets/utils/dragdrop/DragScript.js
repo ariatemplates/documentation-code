@@ -4,6 +4,12 @@ Aria.tplScriptDefinition({
 
 	$prototype : {
         $displayReady : function() {
+            /*
+            ////#dragSyntax
+            aria.utils.dragdrop.Drag(element, params);
+            ////#dragSyntax
+            */
+
             ////#drag1js
             drag = new aria.utils.dragdrop.Drag("dragElement");
             ////#drag1js
