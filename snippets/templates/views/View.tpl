@@ -3,7 +3,7 @@
   $classpath: "snippets.templates.views.View",
   $hasScript: true
 }}
-
+////#simpleUsage
 {var hotels =
   ////#defaultData
   [{desc:"Item1", price:42},
@@ -17,7 +17,7 @@
    {desc:"Item9", price:66}]
    ////#defaultData
 /}
-
+////#simpleUsage
 ////#createView
 {createView vHotel on data.hotels /}
 ////#createView
