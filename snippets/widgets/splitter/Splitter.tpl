@@ -1,5 +1,5 @@
 {Template {
-    $classpath : "snippets.widgets.textarea.Snippet"
+    $classpath : "snippets.widgets.snippet.Splitter"
 }}
 
 {macro main()}
