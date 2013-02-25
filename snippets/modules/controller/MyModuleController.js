@@ -4,18 +4,22 @@ Aria.classDefinition({
 	$implements : ["snippets.modules.controller.IMyModuleController"],
 	$dependencies : ["aria.utils.Json"],
 	$constructor : function () {
-		
+
 		// call parent constructor
 		this.$ModuleCtrl.constructor.call(this);
-		
+
 		/**
 		 * The Data Model
 		 * @protected
 		 * @type Object
 		 */
-		this.setData({
+		this.setData(
+		////#initialDataModel
+		{
 			count : 0
-		});
+		}
+		////#initialDataModel
+		);
 	},
 	$prototype : {
 		// specify the public interface for this module
