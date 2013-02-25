@@ -1,5 +1,5 @@
 title: TouchStart Event
-template: samples.utils.touch.touchstart.TouchMove
+template: samples.utils.touch.touchstart.TouchStart
 description: It shows touchstart event example.
 sources:
 - TouchStart.tpl
