@@ -18,3 +18,26 @@ aria.core.AppEnvironment.setEnvironment({
   }
 });
 ////#widgetLibs
+
+
+
+Aria.load({
+  classes: ['aria.core.log.WindowAppender'],
+  oncomplete: function() {
+    ////#addAppender
+    aria.core.Log.addAppender(new aria.core.log.WindowAppender());
+    ////#addAppender
+  }
+});
+
+////#clearAppenders
+aria.core.Log.clearAppenders();
+////#clearAppenders
+
+////#resetLogLevel
+aria.core.Log.resetLoggingLevels();
+aria.core.Log.setLoggingLevel("", aria.core.Log.LEVEL_ERROR);
+aria.core.Log.setLoggingLevel("aria.", aria.core.Log.LEVEL_INFO);
+aria.core.Log.setLoggingLevel("my.package.*", aria.core.Log.LEVEL_DEBUG);
+////#resetLogLevel
+
