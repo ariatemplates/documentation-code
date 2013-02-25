@@ -13,30 +13,53 @@ Aria.classDefinition({
 		 * @type Object
 		 */
 		this.setData({
-			counters : []
+			counters : [
+			/*
+			////#dataModelStruct
+			{
+				count: 0
+			},
+			{
+				count: 0
+			},
+			...
+			{
+				count: 0
+			}
+			////#dataModelStruct
+			*/
+			]
 		});
 	},
 	$prototype : {
 		// specify the public interface for this module
 		$publicInterfaceName : "snippets.modules.subcontrollers.IMyMainController",
-		
+
 		/**
 		 * Add a new counter handler in the application
 		 * @param {aria.core.JsObject.Callback} what to do next
 		 */
 		addCounter : function (callback) {
-			
+
 			////#add
-			
 			var nextIndex = this.getData().counters.length;
 			this.loadSubModules([{
 						classpath : "snippets.modules.controller.MyModuleController",
 						refpath : "counters",
 						arrayIndex : nextIndex
 					}], callback);
-					 
+
 			////#add
 		}
-		
+
+		/* callbak signature
+		////#loadSubModulesCbSignature
+		{
+      errors : 0, // number of sub module controllers that could not be loaded
+      subModules : [...] // list of the sub module controller instances created
+    }
+    ////#loadSubModulesCbSignature
+		*/
+
 	}
 });
