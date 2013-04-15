@@ -1,7 +1,7 @@
 Aria.tplScriptdefinition({
   $classpath: 'snippets.widgets.dialog.SnippetScript',
   $constructor: function() {
-    ///#setEnvironment
+    ////#setEnvironment
     aria.core.AppEnvironment.setEnvironment({
       'widgetSettings' : {
         'dialog' : {
@@ -12,7 +12,7 @@ Aria.tplScriptdefinition({
         }
       }
     });
-    ///#setEnvironment
+    ////#setEnvironment
   },
   $prototype: {
 
