@@ -8,7 +8,6 @@
         label: "All Countries: ",
         labelWidth:220,
         options: data.OptionsBindingValues,
-        sclass: skin.skinType,
         bind: {
             options : {
                 to : "OptionsBindingValues",
