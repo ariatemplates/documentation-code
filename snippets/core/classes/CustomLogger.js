@@ -1,5 +1,6 @@
 Aria.classDefinition({
 	$classpath : "snippets.core.classes.CustomLogger",
+	$dependencies : ["ariadoc.snippets.core.classes.MainClass"],
 	$singleton : true,
 	
 	$statics : {
@@ -7,12 +8,13 @@ Aria.classDefinition({
 	},
 
 	$constructor : function () {
-		this.$on({
+		this.__currentLevel = this.DEFAULT_LEVEL;
+		ariadoc.snippets.core.classes.MainClass.$on({
 			"logLevelChange" : function (evt) {
 				if (evt.src["level"]) {
-					this.setLogLevel(evt.src["level"]);
+					this.__currentLevel = evt.src["level"];
 				} else {
-					this.setLogLevel(this.DEFAULT_LEVEL);
+					this.__currentLevel = this.DEFAULT_LEVEL;
 				}
 			},
 			scope : this
