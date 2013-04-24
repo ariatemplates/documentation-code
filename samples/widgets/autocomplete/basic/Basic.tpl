@@ -7,7 +7,7 @@
 
     {@aria:AutoComplete {
       label : "3 letters threshold",
-      labelWidth: 150,
+      labelWidth: 170,
       resourcesHandler : getNationsHandler(3)
     }/}
 
@@ -15,7 +15,7 @@
 
     {@aria:AutoComplete {
       label : "1 letter threshold",
-      labelWidth: 150,
+      labelWidth: 170,
       resourcesHandler : getNationsHandler(1)
     }/}
 
@@ -23,7 +23,7 @@
 
     {@aria:AutoComplete {
       label : "1 letter threshold - expand button",
-      labelWidth: 150,
+      labelWidth: 170,
       resourcesHandler : getNationsHandler(1),
       expandButton : true
     }/}
