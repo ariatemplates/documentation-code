@@ -1,14 +1,14 @@
 {Template {
-    $classpath : "snippets.widgets.select.Snippet"
+	$classpath : "snippets.widgets.select.Snippet"
 }}
 
 	{macro main()}
 
-       {var data={countries:[],widgets:{country:""}}/}
+	   {var data={countries:[],widgets:{country:""}}/}
 
 		////#wgtSelectField
 		{@aria:Select {
-            options : data.countries,
+			options : data.countries,
 			bind : {
 				value : {
 					to : "country",
@@ -20,7 +20,7 @@
 		
 		////#wgtSelectBinding
 		{@aria:Select {
-            label: "All Countries: ",
+			label: "All Countries: ",
 			labelWidth:220,
 			options: data.OptionsBindingValues,
 			bind: {

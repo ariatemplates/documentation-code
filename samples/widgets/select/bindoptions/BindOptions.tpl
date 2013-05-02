@@ -1,25 +1,24 @@
 {Template {
-	$classpath : 'samples.widgets.select.bindoptions.BindOptions'
+	$classpath : 'samples.widgets.select.bindoptions.BindOptions',
+	$hasScript: true
 }}
 
 	{macro main ( )}
 
 	{@aria:Select {
-        label: "All Countries: ",
-        labelWidth:220,
-        options: data.OptionsBindingValues,
-        bind: {
-            options : {
-                to : "OptionsBindingValues",
-                inside : data
-            }
-        }
-    }/}&nbsp;&nbsp;&nbsp;
-    {@aria:Button {
-        label: "Modify options list",
-        onclick: deleteFirstElement
-
-      }/}<br/>
+		labelWidth:70,
+		bind: {
+			options : {
+				to : "list",
+				inside : data
+			}
+		}
+	}/}
+	
+	{@aria:Button {
+		label: "Add more choices",
+		onclick: "changeList"
+	  }/}
 
 	{/macro}
 

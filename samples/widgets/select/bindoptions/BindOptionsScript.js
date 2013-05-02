@@ -1,9 +1,11 @@
 Aria.tplScriptDefinition({
- 	$classpath : 'samples.widgets.select.bindoptions.BindOptionsScript',
- 	$prototype : {
- 		 deleteFirstElement : function () {
-            var newOptionsList = this.data.OptionsBindingValues.slice(1, this.data.OptionsBindingValues.length);
-            this.$json.setValue(this.data, "OptionsBindingValues", newOptionsList);
-        }
- 	}
+	$classpath : 'samples.widgets.select.bindoptions.BindOptionsScript',
+	$prototype : {
+		 changeList : function () {
+		 	var i = this.data.list.length;
+		 	if (i-1 < this.data.morevalues.length) {
+		 		this.$json.splice(this.data.list, i, 0, this.data.morevalues[i-1]);
+		 	}
+		}
+	}
 });
