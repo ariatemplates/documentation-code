@@ -1,8 +1,8 @@
 Aria.classDefinition({
-    $classpath: "tests.snippets.templates.DomInteractions",
-    $extends: "tests.TplTestCase",
+    $classpath : "tests.snippets.templates.DomInteractions",
+    $extends : "tests.TplTestCase",
 
-    $prototype: {
+    $prototype : {
 
         testAsyncLoadTplOne : function () {
             Aria.loadTemplate({
@@ -18,7 +18,9 @@ Aria.classDefinition({
             Aria.loadTemplate({
                 div : "TESTAREA",
                 classpath : "snippets.templates.domInteractions.ProcIndTemplate",
-                data : {loading:false}
+                data : {
+                    loading : false
+                }
             }, {
                 fn : this.notifyTestEnd,
                 scope : this
@@ -30,8 +32,17 @@ Aria.classDefinition({
                 div : "TESTAREA",
                 classpath : "snippets.templates.domInteractions.TemplateA"
             }, {
-                fn : this.notifyTestEnd,
+                fn : this._afterLoadTplThree,
                 scope : this
+            });
+
+        },
+
+        _afterLoadTplThree : function () {
+            aria.core.Timer.addCallback({
+                fn : this.notifyTestEnd,
+                scope : this,
+                delay : 100
             });
         }
 
