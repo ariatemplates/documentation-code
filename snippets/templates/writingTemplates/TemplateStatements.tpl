@@ -166,15 +166,15 @@
                 to : "isProcessing",
                 inside : data
             },
-			on : {
-				click:{
-					fn:callback,
-					scope:this,
-					args:{}
-				},
-				mouseover:callback2
-			},
             processingLabel : "processing...",
+            on : {
+                click : {
+                    fn : callback,
+                    scope : this,
+                    args : {}
+				        },
+                mouseover : callback2
+            },
             keyMap : [{
                 key : "F3",
                 callback : {

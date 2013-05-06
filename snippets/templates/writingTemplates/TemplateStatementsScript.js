@@ -1,19 +1,19 @@
 Aria.tplScriptDefinition({
-	$classpath : "snippets.templates.writingTemplates.TemplateStatementsScript",
-	$prototype : {
+    $classpath : "snippets.templates.writingTemplates.TemplateStatementsScript",
+    $prototype : {
 
-		myFunction : function() {
-		},
+        myFunction : function () {},
 
-        myChildSectionAttributes : function() {
-        },
+        myChildSectionAttributes : function () {},
 
-        myCustomModifier : function() {
-        },
+        myCustomModifier : function () {},
 
-        onF3Press : function() {
-        }
+        onF3Press : function () {},
 
-	}
+        callback : function () {},
+
+        callback2 : function () {}
+
+    }
 
 });

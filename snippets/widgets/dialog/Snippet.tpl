@@ -1,5 +1,6 @@
 {Template {
-    $classpath : "snippets.widgets.dialog.Snippet"
+    $classpath : "snippets.widgets.dialog.Snippet",
+    $hasScript : true
 }}
 
     {macro main()}
@@ -77,7 +78,7 @@
             }
         }/}
         ////#wgtDialogMove4
-		
+
 		////#wgtDialogResize
 		{@aria:Dialog {
             id : "movableDialog",
