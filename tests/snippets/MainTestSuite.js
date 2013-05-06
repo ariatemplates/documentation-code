@@ -10,6 +10,7 @@ Aria.classDefinition({
             "tests.snippets.FeaturesTestSuite",
             "tests.snippets.IntroTestSuite",
             "tests.snippets.ModulesTestSuite",
+            "tests.snippets.PageEngineTestSuite",
             "tests.snippets.TemplatesTestSuite",
             "tests.snippets.UtilsTestSuite",
             "tests.snippets.WidgetsTestSuite"

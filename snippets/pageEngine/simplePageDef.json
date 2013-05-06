@@ -1,0 +1,17 @@
+{
+    contents : {
+        placeholderContents : {
+            title : {
+                value : '*Italic*, **bold**',
+                contentType : "markdown"
+            }
+        }
+    },
+    pageComposition : {
+        template : "my.layout.MainTemplate",
+        placeholders : {
+        /*...*/
+        }
+    },
+    pageId : "FACEBOOK"
+}

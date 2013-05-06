@@ -1,0 +1,7 @@
+{
+    containerId : "portal-container",
+    /*...*/
+    contentProcessors : {
+        "markdown" : "my.markdown.Processor"
+    }
+}

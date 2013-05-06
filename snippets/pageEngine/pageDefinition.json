@@ -1,0 +1,76 @@
+{
+    contents : {
+        placeholderContents : {
+            title : {
+                value : '<h1 class="cian">Facebook </h1>'
+            },
+            noPhotos : {
+                value : '<span class="cian">No photos available</span>'
+            },
+            noUser : {
+                value : '<span class="cian">No contact selected</span>'
+            }
+        },
+        menus : {
+            fb_menu : [{
+                    title : "Albums",
+                    pageId : "FB_ALBUMS"
+                }, {
+                    title : "Friends",
+                    pageId : "FB_FRIENDS"
+                }, {
+                    title : "Timeline",
+                    pageId : "FB_TIMELINE"
+                }]
+        }
+    },
+    pageComposition : {
+        template : "addressBook.templates.MainLayout",
+        css : ["addressBook/templates/generalFacebookPage.css"],
+        placeholders : {
+            ////#placeholder
+            "applicationBox" : {
+                "template" : "addressBook.templates.facebook.FacebookResults",
+            },
+            ////#placeholder
+            "applicationBox.user" : {
+                "template" : "addressBook.templates.facebook.FacebookUser",
+                "module" : "common:facebookUser",
+                "css" : ["addressBook/templates/facebook/fb.css"]
+            },
+            "applicationBox.user.noUser" : {
+                contentId : "noUser",
+                "css" : ["addressBook/templates/standard.css", "addressBook/templates/another.css"]
+            },
+            "applicationBox.albums" : {
+                "template" : "addressBook.templates.facebook.FacebookAlbums",
+                "module" : "common:facebookAlbums"
+            },
+            "applicationBox.albums.noPhotos" : {
+                contentId : "noPhotos"
+            },
+            "applicationBox.title" : {
+                "contentId" : "title"
+            },
+            "left" : {
+                "template" : "addressBook.templates.ResultsBox",
+                "module" : "friendFinder",
+                "args" : ["300px"]
+            }
+        },
+        modules : {
+            ////#friendfinder
+            "friendFinder" : {
+                classpath : "addressBook.modules.FacebookFriends"
+            }
+            ////#friendfinder
+        }
+    },
+    pageId : "FACEBOOK",
+    url : "/addressBook/facebook",
+    title : "Address Book | Facebook",
+    animation : {
+        animateIn : "slide left",
+        animateOut : "slide right"
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Address Book | Search</title>
+</head>
+<body>
+  <div id="portal-container"></div>
+
+  <!-- load the framework entry point -->
+  <script type="text/javascript" src="/aria-templates/aria/aria-templates-version.js"></script>
+  <script type="text/javascript" src="/aria-templates/css/atdefskin-version.js"></script>
+
+  <script>
+
+    aria.core.AppEnvironment.setEnvironment({
+      defaultWidgetLibs : {
+        "aria" : "aria.widgets.AriaLib",
+        "embed" : "aria.embed.EmbedLib"
+      }
+    });
+
+    Aria.load({
+      classes: ["aria.pageEngine.PageEngine", "aria.pageEngine.pageProviders.BasePageProvider"],
+      oncomplete: function() {
+        var pageEngine = new aria.pageEngine.PageEngine();
+        pageEngine.start({
+          pageProvider : new aria.pageEngine.pageProviders.BasePageProvider({
+            siteConfigLocation : "addressBook/pageEngine/site.json",
+            pageBaseLocation : "addressBook/pages/",
+            homePageId : "HOME"
+          })
+        });
+      }
+    });
+  </script>
+</body>
+</html>
