@@ -3,7 +3,7 @@ Aria.tplScriptDefinition({
 	$dependencies : ["aria.utils.Json", "aria.utils.Date"],
 	$prototype : {
 		dateSelected : function () {
-			var formatDate = aria.utils.Date.format(this.data.value, "d MMM y", true);
+			var formatDate = aria.utils.Date.format(this.data.value, "d MMM y");
 			this.$json.setValue(this.data, "fieldDate", formatDate);
 		}
 	}
