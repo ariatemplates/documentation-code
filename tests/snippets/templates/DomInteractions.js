@@ -42,7 +42,7 @@ Aria.classDefinition({
             aria.core.Timer.addCallback({
                 fn : this.notifyTestEnd,
                 scope : this,
-                delay : 100
+                delay : 1000
             });
         }
 
