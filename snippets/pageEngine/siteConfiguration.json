@@ -41,5 +41,10 @@
         }
     },
     css : ["addressBook/global.css"],
-    animations : true
+    animations : true,
+    storage : {
+        active : true,
+        suffix : "myApp",
+        expiresAfter : 86400
+    }
 }
