@@ -71,6 +71,7 @@
     title : "Address Book | Facebook",
     animation : {
         animateIn : "slide left",
-        animateOut : "slide right"
+        animateOut : "slide right",
+        type : 1
     }
 }
