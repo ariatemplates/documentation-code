@@ -1,8 +1,10 @@
 // Dummy classes "used" by some classes
-Aria.classDefinition({$classpath: "snippets.core.classes.Plant"});
-Aria.classDefinition({$classpath: "snippets.core.classes.Gardener"});
-Aria.classDefinition({$classpath: "org.thirdparty.parsers.JavaScript"});
-Aria.classDefinition({$classpath: "org.thirdparty.parsers.PerlScript"});
+if (Aria.nspace) {
+    Aria.classDefinition({$classpath: "snippets.core.classes.Plant"});
+    Aria.classDefinition({$classpath: "snippets.core.classes.Gardener"});
+    Aria.classDefinition({$classpath: "org.thirdparty.parsers.JavaScript"});
+    Aria.classDefinition({$classpath: "org.thirdparty.parsers.PerlScript"});
+}
 
 Aria.classDefinition({
     $classpath: "tests.snippets.core.Classes",
