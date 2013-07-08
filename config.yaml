@@ -1,0 +1,38 @@
+resources:  # Specifies which files will be accessible through the web server:
+ '/': # This configures resources for the root of the web server:
+  - '.'   # It is possible to specify one or more directories for each path.
+
+tests:
+# Describes test configuration for each type of test
+# Only Aria Templates tests are supported currently, but other types of tests will be added in the future
+ aria-templates:
+  # There are two ways to specify which tests have to be executed:
+  # either by their classpath or by their file path
+  # It is possible to combine both.
+  # With file paths, it is possible to use patterns.
+#  classpaths:
+#   includes:
+#    - MainTestSuite
+#   excludes:
+#    - test.sample.MyUnfinishedTest
+  extraScripts:
+    - '/aria/css/atskin-1.4-6.js'
+  files:
+   rootDirectory: 'tests/snippets'
+   includes:
+     - '**/MainTestSuite.js'
+  bootstrap : '/aria/aria-templates-1.4-6.js' # Path to the bootstrap file of Aria Templates. This is the default value.
+  rootFolderPath : '/' # Root folder path (Aria.rootFolderPath variable) This is the default value.
+  debug : true # Enables or disables Aria Templates debug mode (Aria.debug variable). This is the default value.
+  memCheckMode : false # Enables or disables memory check mode (Aria.memCheckMode variable). This is the default value.
+# mocha:
+#  files:
+#   includes:
+#    - 'src/test/webapp/**/*.js'
+#   excludes:
+#    - 'test/example/*.conf.js'
+#  ui: 'bdd' # User-interface (bdd|tdd|exports). Defaults to bdd
+#  ignoreLeaks: false # Optional to ignore global variable leaks
+#  globals: # Optional, allow the given list of global [names]
+#   - 'myGlobal'
+#  assertion: 'expect' # Assertion library to be included. It could be either expect or chai or any external url
