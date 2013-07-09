@@ -1,0 +1,7 @@
+title: Table Navigation using keyboard Example
+template: samples.utils.keynav.KeyboardNavigation
+description: Table navigation provides advanced keyboard navigation in the HTML table.
+sources:
+- KeyboardNavigation.tpl
+- KeyboardNavigationScript.js
+- KeyboardNavigationCSS.tpl.css

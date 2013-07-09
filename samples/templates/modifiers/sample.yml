@@ -1,0 +1,5 @@
+title: Modifiers template example
+template: samples.templates.modifiers.ModifiersTemplate
+description: This is to demonstrate how to modify data to display in a template
+sources:
+- ModifiersTemplate.tpl

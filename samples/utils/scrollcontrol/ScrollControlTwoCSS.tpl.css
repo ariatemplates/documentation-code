@@ -1,0 +1,24 @@
+{CSSTemplate {
+	$classpath:'samples.utils.scrollcontrol.ScrollControlTwoCSS'
+}}
+
+	{macro main()}
+		.myDiv {
+			width: 600px;
+			height: 130px;
+			overflow: auto;
+			border: 1px solid #4776A7;
+			position: relative;
+		}
+
+		.myRepeater {
+			margin: 0px;
+		}
+
+		.myRow {
+			height: 40px;
+		}
+
+	{/macro}
+
+{/CSSTemplate}

@@ -1,0 +1,17 @@
+{CSSTemplate {
+  $classpath : "samples.widgets.customMap.provider.MapMarkerCSS"
+}}
+
+  {macro main()}
+    .xblueMarker {
+      background-image: url("${cssFolderPath}/img/mapMarkerBlue.png");
+      background-size: 25px 28px;
+    }
+    .xgreenMarker {
+      background-image: url("${cssFolderPath}/img/mapMarkerGreen.png");
+      background-size: 25px 28px;
+    }
+
+  {/macro}
+
+{/CSSTemplate}

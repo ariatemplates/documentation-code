@@ -1,0 +1,7 @@
+title: Mouse Events Simple Syntax
+template: samples.utils.domevents.mouseeventsimple.DomEventsTemplate
+description: Mouse event examples using simple syntax
+sources:
+- DomEventsTemplate.tpl
+- DomEventsTemplateScript.js
+- DomEventsCSS.tpl.css

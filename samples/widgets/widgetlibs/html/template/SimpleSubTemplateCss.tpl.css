@@ -1,0 +1,15 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+	$classpath : "samples.widgets.widgetlibs.html.template.SimpleSubTemplateCss"
+}}
+
+{macro main ()}
+	p.elemContent{
+		background-color : #ddd;
+		padding : 2em;
+	}
+{/macro}
+
+{/CSSTemplate}

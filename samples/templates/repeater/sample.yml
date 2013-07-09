@@ -1,0 +1,7 @@
+title: Repeater Sample
+template: samples.templates.repeater.RepeaterStepOne
+description: It shows how to use the repeater statement with an array.
+sources:
+- RepeaterStepOne.tpl
+- RepeaterStepOneScript.js
+- RepeaterStepOneCSS.tpl.css

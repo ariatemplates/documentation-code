@@ -1,0 +1,5 @@
+title: Touch Double Slider Widget  - Sample
+template: samples.widgets.touch.doubleslider.DoubleSliderTpl
+description: This is to demonstrate touch enabled doubled slider
+sources:
+- DoubleSliderTpl.tpl

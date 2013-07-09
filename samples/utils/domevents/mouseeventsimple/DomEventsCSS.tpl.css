@@ -1,0 +1,22 @@
+{CSSTemplate {
+  $classpath : "samples.utils.domevents.mouseeventsimple.DomEventsCSS"
+}}
+
+{macro main()}
+.container {
+  padding: 25px;
+  float: left;
+  margin: 20px;
+}
+
+.child {
+  background-color: green;
+  padding: 10px;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+{/macro}
+{/CSSTemplate}

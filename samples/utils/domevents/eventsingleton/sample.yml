@@ -1,0 +1,6 @@
+title: Event singleton
+template: samples.utils.domevents.eventsingleton.UtilsEvents
+description: It demonstrate event singleton to help not to refresh entire template.
+sources:
+- UtilsEvents.tpl
+- UtilsEventsScript.js

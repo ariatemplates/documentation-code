@@ -1,0 +1,40 @@
+{Library {
+    $classpath: "samples.widgets.widgetlibs.html.autocomplete.common.SuggestionsLibrary"
+}}
+
+{macro displayResults(model, scope)}
+	{if model.suggestions.length > 0}
+		<span class="close"><span {on click {
+				fn : "closeSuggestions",
+				scope : scope
+			} /}>close</span></span>
+		<ul>
+		{foreach suggestion inArray model.suggestions}
+			<li
+				class="${suggestion_ct % 2 ? 'normal' : 'alternate'}"
+				{on click {
+					fn : "select",
+					scope : scope,
+					args : suggestion
+				} /}
+			>${suggestion.label}</li>
+		{/foreach}
+		</ul>
+	{/if}
+{/macro}
+
+{macro displaySelected (model, scope)}
+	{if model.value}
+		<div class="selected">Selected value
+			<br />
+			<strong>${model.value.label}</strong>
+			<br />
+			<span class="slightlyOnTheRight"><span {on click {
+				fn : "cancelValue",
+				scope : scope
+			} /}>cancel</span></span>
+		</div>
+	{/if}
+{/macro}
+
+{/Library}
