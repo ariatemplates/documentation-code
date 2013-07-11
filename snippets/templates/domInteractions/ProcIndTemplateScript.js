@@ -9,7 +9,7 @@ Aria.tplScriptDefinition({
             mySpan.setProcessingIndicator(true, "Loading, please wait ...");
 
             // Hide it
-            mySpan.setProcessingIndicator(true, "Loading, please wait ...");
+            mySpan.setProcessingIndicator(false);
             ////#procIndOne
             ////#procIndTwo
             // Show a loading indicator
@@ -17,14 +17,14 @@ Aria.tplScriptDefinition({
             mySection.setProcessingIndicator(true, "Loading, please wait ...");
 
             // Hide it
-            mySection.setProcessingIndicator(true, "Loading, please wait ...");
+            mySection.setProcessingIndicator(false);
             ////#procIndTwo
             ////#procIndThree
             // Show a loading indicator
             this.$json.setValue(this.data, "loading", true);
 
             // Hide it
-            this.$json.setValue(this.data, "loading", true);
+            this.$json.setValue(this.data, "loading", false);
             ////#procIndThree
             ////#procIndFour
             // Show a loading indicator outside of Aria Template
