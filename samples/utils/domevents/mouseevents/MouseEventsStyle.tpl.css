@@ -1,0 +1,35 @@
+{CSSTemplate {
+	$classpath : 'samples.utils.domevents.mouseevents.MouseEventsStyle'
+}}
+	{var selectedColor="#000"/}
+	{var defaultColor="#9f9f9f"/}
+	{macro main()}
+		.container {
+			float : left;
+			background-color:white;
+			color:${defaultColor};
+			border : 1px Solid ${defaultColor};
+			border-radius:4px;
+		}
+		.box {
+			position:relative;
+			margin:0 20px 20px 0;
+			height : 50px;
+			width : 50px;
+			text-align : center;
+			cursor:pointer;
+		}
+		.selected{
+			background-color : #FEFFC4;
+		}
+		.box span{
+			position:absolute;
+			right:3px;
+			bottom:3px;
+			top : auto;
+		}
+		.info {
+			color:${selectedColor};
+		}
+	{/macro}
+{/CSSTemplate}

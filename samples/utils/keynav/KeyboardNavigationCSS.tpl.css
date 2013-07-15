@@ -1,0 +1,20 @@
+{CSSTemplate {
+   $classpath : "samples.utils.keynav.KeyboardNavigationCSS"
+}}
+
+   {macro main()}
+     .uicPaletteDark {
+     	background-color : #4776A7;
+     	color:white;
+     }
+
+     .uicPaletteMedium {
+     	background-color : #EFF9FF;
+     }
+
+     .uicPaletteLight {
+      	background-color : white;
+     }
+   {/macro}
+
+{/CSSTemplate}

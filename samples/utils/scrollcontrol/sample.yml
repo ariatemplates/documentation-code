@@ -1,0 +1,7 @@
+title: Scroll Control
+template: samples.utils.scrollcontrol.ScrollControlTwo
+description: It shows how scroll control works.
+sources:
+- ScrollControlTwo.tpl
+- ScrollControlTwoCSS.tpl.css
+- ScrollControlTwoScript.js

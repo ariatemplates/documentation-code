@@ -1,0 +1,67 @@
+{CSSTemplate {
+  $classpath : "samples.widgets.customMap.CustomMapCSS"
+}}
+
+  {macro main()}
+    .mapContainer {
+      position : absolute;
+      width : 500px;
+      height : 500px;
+    }
+
+    .mapSampleContainer {
+      position : absolute;
+      width : 850px;
+      height : 500px;
+    }
+
+    .infoSection {
+      width: 300px;
+      float : right;
+    }
+
+    .control {
+      display: inline-block;
+      padding: 4px;
+    }
+
+    .rounded {
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+    }
+
+    .greenBorder {
+      border: 3px solid #4ec84e;
+    }
+
+    .blueBorder {
+      border: 3px solid #92add8;
+    }
+
+     .greyBorder {
+      border: 3px solid #ccc;
+    }
+
+    .markerGroup {
+      margin-top: 15px;
+    }
+
+    .greenMarkerGroupHeader {
+      padding: 5px;
+      border-bottom: 3px solid #4ec84e;
+    }
+
+    .blueMarkerGroupHeader {
+      padding: 5px;
+      border-bottom: 3px solid #92add8;
+    }
+
+    .markerGroupContainer {
+      padding: 5px;
+    }
+
+
+  {/macro}
+
+{/CSSTemplate}

@@ -1,0 +1,7 @@
+title: JSON-P Request Sample
+template: samples.utils.jsonp.JsonP
+description: Sample to demonstrate JSON-P request by simulating a scenario.
+sources:
+- JsonP.tpl
+- JsonPScript.js
+- Data.js

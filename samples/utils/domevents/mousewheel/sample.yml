@@ -1,0 +1,6 @@
+title: Mouse Wheel Example
+template: samples.utils.domevents.mousewheel.MouseWheel
+description: Demonstration of Callback using onmousewheel event
+sources:
+- MouseWheel.tpl
+- MouseWheelScript.js

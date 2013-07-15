@@ -1,0 +1,13 @@
+title: Custom Map Example
+template: samples.widgets.customMap.CustomMap
+description: This is to demonstrate Custom Map widget
+sources:
+- CustomMap.tpl
+- CustomMapScript.js
+- CustomMapCSS.tpl.css
+- provider/CustomProvider.js
+- provider/Map.js
+- provider/MapBeans.js
+- provider/MapMarkerCSS.tpl.css
+- provider/Marker.js
+- provider/MarkerGroup.js

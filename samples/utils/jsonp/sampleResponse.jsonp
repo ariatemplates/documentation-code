@@ -1,0 +1,3 @@
+aria.core.IO.__sampleResponse({
+	response : "This is the sample text contained in the JSON-P object"
+});

@@ -1,0 +1,21 @@
+{CSSTemplate {
+	$classpath : 'samples.utils.domevents.keyboardevents.KeyboardEventsStyle'
+}}
+	{macro main()}
+		.box {
+			cursor:default;
+		}
+		.box input {
+			position:relative;
+			top:16px;
+		}
+
+		.box input:focus {
+			outline : 1px Dotted #bbb;
+		}
+		.box .checked {
+			background-color:#FEFFE8;
+		}
+
+	{/macro}
+{/CSSTemplate}

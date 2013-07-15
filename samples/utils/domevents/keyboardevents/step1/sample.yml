@@ -1,0 +1,7 @@
+title: Keyboard Events Step 1
+template: samples.utils.domevents.keyboardevents.step1.KeyboardEvents
+description: Demonstration of keyboard events Step 1 using box selection.
+sources:
+- KeyboardEvents.tpl
+- KeyboardEventsScript.js
+- ../KeyboardEventsStyle.tpl.css

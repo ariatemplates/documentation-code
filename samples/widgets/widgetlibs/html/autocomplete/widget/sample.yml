@@ -1,0 +1,9 @@
+title: TextInput Widget - Sample usage
+template: samples.widgets.widgetlibs.html.autocomplete.widget.InputWidget
+description: This sample shows how to create an AutoComplete widget reusing the TextInput widget and the Suggestions controller.
+sources:
+- InputWidget.tpl
+- InputWidgetScript.js
+- ../common/Resources.js
+- ../common/Style.tpl.css
+- ../common/SuggestionsLibrary.tml

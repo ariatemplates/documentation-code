@@ -1,0 +1,7 @@
+title: Mouse Events
+template: samples.utils.domevents.mouseevents.MouseEvents
+description: Demonstration of Mouse Events using a box example
+sources:
+- MouseEvents.tpl
+- MouseEventsScript.js
+- MouseEventsStyle.tpl.css
