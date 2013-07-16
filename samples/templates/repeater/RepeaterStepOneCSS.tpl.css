@@ -1,0 +1,15 @@
+{CSSTemplate {
+  $classpath : 'samples.templates.repeater.RepeaterStepOneCSS'
+}}
+
+  {macro main()}
+    .evenRow {
+      background: #EFF9FF;
+    }
+    .oddRow {
+      background: #4776A7;
+      color: white;
+    }
+  {/macro}
+
+{/CSSTemplate}

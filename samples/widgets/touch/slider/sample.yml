@@ -1,0 +1,5 @@
+title: Touch Slider Widget  - Sample
+template: samples.widgets.touch.slider.Slider
+description: This is to demonstrate touch enabled slider widget
+sources:
+- Slider.tpl

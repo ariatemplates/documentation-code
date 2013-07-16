@@ -1,0 +1,9 @@
+title: Simple input widget
+template: samples.widgets.widgetlibs.html.autocomplete.markup.PlainInput
+description: In this sample the text input is created with a simple input tag.
+sources:
+- PlainInput.tpl
+- PlainInputScript.js
+- ../common/Resources.js
+- ../common/Style.tpl.css
+- ../common/SuggestionsLibrary.tml

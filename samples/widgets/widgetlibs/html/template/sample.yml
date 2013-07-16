@@ -1,0 +1,11 @@
+title: Template Include Widget, Sample usage
+template: samples.widgets.widgetlibs.html.template.SimpleTemplate
+description: This is a sample example to demonstrate Template Include widget usage.
+sources:
+- SimpleTemplate.tpl
+- ISimpleTemplateController.js
+- SimpleTemplateController.js
+- SimpleSubTemplate.tpl
+- SimpleChildSubTemplate.tpl
+- SimpleSubTemplateScript.js
+- SimpleSubTemplateCss.tpl.css

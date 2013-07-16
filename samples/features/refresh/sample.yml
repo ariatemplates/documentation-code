@@ -1,0 +1,6 @@
+title: Refresh Feature
+template: samples.features.refresh.TemplateRefresh
+description: It demonstrate refreshing a whole template or individual parts of it
+sources:
+- TemplateRefresh.tpl
+- TemplateRefreshScript.js
