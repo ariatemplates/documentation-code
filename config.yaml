@@ -36,3 +36,17 @@ tests:
 #  globals: # Optional, allow the given list of global [names]
 #   - 'myGlobal'
 #  assertion: 'expect' # Assertion library to be included. It could be either expect or chai or any external url
+coverage:
+ files: # Specifies which files will be instrumented for code coverage
+  rootDirectory: 'snippets/'
+  includes:
+   - '**/*.js'
+coverage-reports: # Path for each coverage test report type:
+  json-file: 'coverage.json'
+  lcov-file: 'coverage.lcov'
+browsers:
+  # If the browsers section is not present, attester will not make any difference between browsers
+  # and run each test only once (in whatever browser is connected)
+  # However, if the browsers section is present, each test will be run once in each browser listed here.
+  # (and browsers not listed here will have nothing to do if they are connected)
+  - browserName: 'PhantomJS'
