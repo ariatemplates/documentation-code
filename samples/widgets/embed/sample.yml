@@ -1,5 +1,6 @@
 title: Embed Example
 template: samples.widgets.embed.Embed
+moduleCtrl: samples.widgets.embed.EmbedController
 description: This is to demonstrate the Embed Element
 sources:
 - Embed.tpl
