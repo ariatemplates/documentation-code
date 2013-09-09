@@ -4,7 +4,7 @@
 {Template {
   $classpath : "samples.widgets.map.MapSample",
   $hasScript : false,
-  $css : ["MapSampleCSS"],
+  $css : ["samples.widgets.map.MapSampleCSS"],
   $wlibs: {
           "embed": "aria.embed.EmbedLib"
   }
