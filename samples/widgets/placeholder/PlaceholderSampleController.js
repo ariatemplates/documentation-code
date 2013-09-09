@@ -25,7 +25,7 @@ Aria.classDefinition({
 		 */
 		init : function (initArgs, callback) {
 
-			this.provider = new ContentProvider();
+			this.provider = new samples.widgets.placeholder.ContentProvider();
 			aria.embed.PlaceholderManager.register(this.provider);
 
 			this.$callback(callback);
