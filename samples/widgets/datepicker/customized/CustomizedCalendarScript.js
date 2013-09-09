@@ -62,14 +62,14 @@ Aria.tplScriptDefinition({
 		mouseOverDay : function (evt) {
 			var date = evt.target.getExpando("date");
 			if (date) {
-				evt.target.setClassName(evt.target.getClassName().replace(this.skin.baseCSS+"mouseOut", this.skin.baseCSS+"mouseOver"));
+				evt.target.classList.setClassName(evt.target.classList.getClassName().replace(this.skin.baseCSS+"mouseOut", this.skin.baseCSS+"mouseOver"));
 			}
 		},
 
 		mouseOutDay : function (evt) {
 			var date = evt.target.getExpando("date");
 			if (date) {
-				evt.target.setClassName(evt.target.getClassName().replace(this.skin.baseCSS+"mouseOver", this.skin.baseCSS+"mouseOut"));
+				evt.target.classList.setClassName(evt.target.classList.getClassName().replace(this.skin.baseCSS+"mouseOver", this.skin.baseCSS+"mouseOut"));
 			}
 		}
 	}
