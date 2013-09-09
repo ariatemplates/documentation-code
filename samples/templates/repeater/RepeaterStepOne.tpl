@@ -1,7 +1,7 @@
 {Template {
 	$classpath:'samples.templates.repeater.RepeaterStepOne',
 	$hasScript:true,
-	$css:['tutorials.repeater.step1.RepeaterStepOneCSS']
+	$css:['samples.templates.repeater.RepeaterStepOneCSS']
 }}
 
 	{macro main()}
