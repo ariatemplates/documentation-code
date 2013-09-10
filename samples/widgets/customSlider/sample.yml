@@ -1,0 +1,10 @@
+title: Custom Slider Widget Library
+template: samples.widgets.customSlider.DemoTemplate
+description: This is to demonstrate a Custom Slider Widget Library
+sources:
+- DemoTemplate.tpl
+- Preview.tpl
+- SampleWidgetLib.js
+- widget/Slider.js
+- widget/SliderCfgBeans.js
+- widget/SliderCSS.tpl.css
