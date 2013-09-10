@@ -1,0 +1,12 @@
+title: Focus handling for a template
+template: samples.templates.domInteractions.focushandling.templateAPI.APIMainTemplate
+description: It shows how the focus can be returned to the same element in a template after that template has been refreshed.
+sources:
+- APIMainTemplate.tpl
+- APIMainTemplateScript.js
+- APITemplateA.tpl
+- APITemplateB.tpl
+- Template1.tpl
+- Template2.tpl
+- Template3.tpl
+
