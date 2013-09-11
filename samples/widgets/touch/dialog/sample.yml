@@ -1,0 +1,6 @@
+title: Touch Dialog Widget  - Sample
+template: samples.widgets.touch.dialog.DialogTpl
+description: This is to demonstrate animations for touch dialog.
+sources:
+- DialogTpl.tpl
+- DialogTplScript.js
