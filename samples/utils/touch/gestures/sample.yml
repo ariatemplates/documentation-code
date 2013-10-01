@@ -1,0 +1,18 @@
+title: Gesture Events
+template: samples.utils.touch.gestures.Gestures
+description: An example of gesture events.
+sources:
+- Gestures.tpl
+- GesturesScript.js
+- GesturesStyle.tpl.css
+- Swipe.tpl
+- SwipeScript.js
+- Tap.tpl
+- TapScript.js
+- TouchEnd.tpl
+- TouchEndScript.js
+- TouchEventsCSS.tpl.css
+- TouchMove.tpl
+- TouchMoveScript.js
+- TouchStart.tpl
+- TouchStartScript.js
