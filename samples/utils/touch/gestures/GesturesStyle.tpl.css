@@ -1,0 +1,38 @@
+/**
+ * Copyright Amadeus
+ */
+{CSSTemplate {
+  $classpath : "samples.utils.touch.gestures.GesturesStyle"
+}}
+
+  {macro main ()}
+    .touchboard {
+      width: 400px;
+      height: 200px;
+      border: 2px dotted #cdcdcd;
+      background-color: #eee;
+      -ms-touch-action: none;
+    }
+    .touchtext {
+      color: #cdcdcd;
+      font-size: 20pt;
+      font-weight: bold;
+      text-align: center;
+    }
+    .console {
+      color: #000;
+      background-color: #FFF;
+      text-align: left;
+      min-height: 50px;
+      width: 400px;
+    }
+    .consoleline {
+      display: block;
+    }
+    .clear {
+      float:right;
+      width: auto;
+    }
+  {/macro}
+
+{/CSSTemplate}
