@@ -1,0 +1,7 @@
+title: HTML RadioButton, Sample usage
+template: samples.widgets.widgetlibs.html.radiobutton.BaseRadioButtonTag
+description: This is a sample to demonstrate the HTML RadioButton widget.
+sources:
+- BaseRadioButtonTag.tpl
+- BaseRadioButtonTagScript.js
+- Style.tpl.css
