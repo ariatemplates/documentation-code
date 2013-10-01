@@ -1,0 +1,59 @@
+{CSSTemplate {
+	$classpath : 'samples.utils.fileupload.FileUploadStyle'
+}}
+
+{macro main()}
+	{var browser = aria.core.Browser /}
+	{var needWorkaround = browser.isIE /}
+	
+	{if needWorkaround}
+		// On IE, if we call the click method of the file input, an "Access is denied" exception is raised
+		// when calling the submit method of the form.
+		// So, on IE, we display transparently the file input on top of the link so that we don't need to
+		// call the click method of the file input (the user does the click himself).
+		
+		.fileUploadForm {
+			position: relative;
+			left: -3px;
+			overflow: hidden;
+			width: 68px;
+			{if browser.isIE7 || browser.isIE6}
+				height: 1em;
+			{/if}
+		}
+		
+		.fileUploadForm input {
+			filter:alpha(opacity:0); /*IE9-*/
+			opacity:0; /*IE9+*/
+			cursor: pointer;
+		}
+		
+		.fileUploadForm input {
+			position: absolute;
+			width: 68px;
+			{if browser.isIE7 || browser.isIE6}
+				left: -7px;
+				top: -2px;
+			{else/}
+				left: -3px;
+				top: -3px;
+			{/if}
+		}
+		
+		.fileUploadForm .fakeLink {
+			width: 68px;
+			padding: 0 0 0 3px;
+			color: #4776A7;
+		}
+		
+	{else/}
+		.fileUploadForm form {
+			// note that using display:none instead of visibility:hidden prevents from using the click() method
+			// on the input in Chrome
+			visibility: hidden;
+			position: absolute;
+		}
+	{/if}
+{/macro}
+
+{/CSSTemplate}
