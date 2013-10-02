@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<title>Aria Templates Autoresize Sample</title>	
+	<script type="text/javascript" src="http://snippets.ariatemplates.com/aria/ariatemplates-1.4.10.js"></script>	
+	<script type="text/javascript" src="http://snippets.ariatemplates.com/aria/css/atskin-1.4.10.js"></script>	
+</head>
+<body >
+	<div id="sample"></div>	
+
+	<script type="text/javascript">
+		Aria.minSizeMode=(window.location.search=="?minSizeMode");
+		aria.core.DownloadMgr.updateRootMap({
+		samples : {
+			"*": "../../../"
+			}
+		});
+		Aria.loadTemplate({
+			rootDim:{
+				width: {min: 600},
+				height: {min: 400}
+			},
+			classpath:'samples.utils.autoresize.RootTemplate',
+			div:"sample",
+			width: {min: 600},
+			height: {min: 400}
+		});
+
+	</script>
+</body>
+</html>
