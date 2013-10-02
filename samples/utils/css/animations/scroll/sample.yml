@@ -1,0 +1,6 @@
+title: Custom properties animation
+template: samples.utils.css.animations.scroll.Animations
+description: Animation utility allows to animate an element on a set of CSS properties.
+sources:
+- Animations.tpl
+- AnimationsScript.js

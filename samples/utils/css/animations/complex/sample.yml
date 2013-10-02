@@ -1,0 +1,15 @@
+title: Complex scenarios
+template: samples.utils.css.animations.complex.Animations
+description: Animation utility allows to animate an element on a set of CSS properties.
+sources:
+- Animations.tpl
+- AnimationsScript.js
+data:
+  imgPath: "http://raw.github.com/lsimone/documentation-code/animation-doc/samples/utils/css/animations/complex/"
+  images:
+  - url: "13.png"
+  - url: "14.png"
+  - url: "8.png"
+  - url: "9.png"
+  - url: "pin.png"
+  - url: "stick.png"
