@@ -1,0 +1,7 @@
+title: File Upload Request Sample
+template: samples.utils.fileupload.FileUpload
+description: Sample to demonstrate a file upload request.
+sources:
+- FileUpload.tpl
+- FileUploadScript.js
+- FileUploadStyle.tpl.css
