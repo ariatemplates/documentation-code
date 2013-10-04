@@ -1,0 +1,8 @@
+title: Auto resize
+template: samples.utils.autoresize.AutoresizeTemplate
+description: It shows how content can be automatically resized when the browser is resized.
+sources:
+- AutoresizeTemplate.tpl
+- RootTemplate.tpl
+- SubTemplate.tpl
+- index.html
