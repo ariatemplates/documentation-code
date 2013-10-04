@@ -1,0 +1,154 @@
+{CSSTemplate {
+  $classpath : "samples.pageEngine.addressBook.templates.ContactsCSS"
+}}
+
+  {macro main()}
+    .results {
+      width: 360px;
+      margin: 0 60px 0 60px;
+      border-radius: 15px;
+      text-align: left;
+    }
+
+    .results .datas {
+      background-color: #EDEDED;
+      width: 200px;
+      padding: 7px 20px;
+    }
+
+    .results .social {
+      background-color: #CCEAEF;
+      width: 140px;
+    }
+
+    .result .social .icons {
+      width: 37px;
+      height: 37px;
+      left: 40px;
+      position: relative;
+    }
+
+    table.result {
+      border-collapse: collapse;
+    }
+
+    table.result tr:first-child .datas{
+      border-top-left-radius: 15px;
+    }
+
+    table.result tr:first-child .social{
+      border-top-right-radius:15px;
+    }
+
+    table.result tr:last-child .datas{
+      border-bottom-left-radius: 15px;
+    }
+
+    table.result tr:last-child .social{
+      border-bottom-right-radius:15px;
+    }    
+
+    table.result tr td {
+      font-size: 17px;
+      text-shadow: 1px 1px white;
+      border: 1px solid white;
+    }
+
+    .social-link-fb {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      width: 24px;
+      height: 24px;
+/*      -moz-transition-property: height;
+      -moz-transition-duration: 0.5s;
+      -webkit-transition-property: height;
+      -webkit-transition-duration: 0.5s;
+      -ms-transition-property: height;
+      -ms-transition-duration: 0.5s;
+      -moz-transition-property: width;
+      -moz-transition-duration: 0.5s;
+      -webkit-transition-property: width;
+      -webkit-transition-duration: 0.5s;
+      -ms-transition-property: width;
+      -ms-transition-duration: 0.5s;
+    }
+
+    .social-link-fb:hover {
+      background-image: url(./templates/imgs/facebook24.png);
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+      background-repeat: no-repeat;
+      -moz-transition-property: height;
+      -moz-transition-duration: 0.5s;
+      -webkit-transition-property: height;
+      -webkit-transition-duration: 0.5s;
+      -ms-transition-property: height;
+      -ms-transition-duration: 0.5s;
+      -moz-transition-property: width;
+      -moz-transition-duration: 0.5s;
+      -webkit-transition-property: width;
+      -webkit-transition-duration: 0.5s;
+      -ms-transition-property: width;
+      -ms-transition-duration: 0.5s;*/
+    }    
+
+    .facebook-icon {
+      background-image: url(./templates/imgs/facebook24.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .fb-box {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 16px;
+      height: 16px;
+    }
+
+    .tw-box {
+      position: absolute;
+      top: 0px;
+      left: 21px;
+      width: 16px;
+      height: 16px;
+    }
+
+    .lin-box {
+      position: absolute;
+      top: 21px;
+      left: 0px;
+      width: 16px;
+      height: 16px;
+    }
+
+    .fli-box {
+      position: absolute;
+      top: 21px;
+      left: 21px;
+      width: 16px;
+      height: 16px;
+    }
+
+    .contact-name {
+      font-weight: bold;
+    }
+
+    .contact-location {
+      font-size: 12px;
+    }
+
+    .contact-mail {
+      font-size: 12px;
+      text-decoration: underline;
+      color: black;
+    }
+    .contact-mail:hover {
+      text-decoration: underline;
+    }
+
+  {/macro}
+{/CSSTemplate}

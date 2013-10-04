@@ -1,0 +1,31 @@
+{CSSTemplate {
+  $classpath : "samples.pageEngine.addressBook.templates.facebook.FacebookUserCSS"
+}}
+
+  {macro main()}
+    .fb-user-container {
+      display: inline-block;
+      width: 500px;
+      height: 70px;
+      text-align: left;
+    }
+
+    .fb-user-picture {
+      float: left;
+      display: inline-block;
+    }
+
+    .fb-user-info {
+      float: left;
+      display: inline-block;
+      margin-left: 10px;
+    }
+
+    h2 {
+      margin-top: 0px;
+      margin-bottom: 5px;
+    }
+
+  {/macro}
+
+{/CSSTemplate}

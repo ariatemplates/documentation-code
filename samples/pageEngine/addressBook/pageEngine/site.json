@@ -1,0 +1,42 @@
+{
+    containerId : "portal-container",
+    appData : {
+        navigation : {
+            main_menu : [{
+                title : "Search",
+                pageId : "HOME"
+            }, {
+                title : "Results",
+                pageId : "SHOWRESULTS"
+            }, {
+                title : "Facebook",
+                pageId : "FACEBOOK"
+            }]
+        }
+    },
+    navigation : "hash",
+    animations : true,
+    commonModules : {
+        "search" : {
+            classpath : "samples.pageEngine.addressBook.modules.ContactSearchController",
+            priority : 2,
+            bind : {
+                "selected" : "appData:selected"
+            }
+        },
+        "facebookUser" : {
+            classpath : "samples.pageEngine.addressBook.modules.FacebookUser",
+            priority : 2,
+            bind : {
+                "profile" : "appData:selected.facebook"
+            }
+        },
+        "facebookAlbums" : {
+            classpath : "samples.pageEngine.addressBook.modules.FacebookAlbums",
+            priority : 2,
+            bind : {
+                "profile" : "appData:selected.facebook"
+            }
+        }
+    }
+}
