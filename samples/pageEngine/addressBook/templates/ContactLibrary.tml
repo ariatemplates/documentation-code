@@ -1,0 +1,65 @@
+{Library {
+  $classpath : "samples.pageEngine.addressBook.templates.ContactLibrary"
+}}
+
+  {macro printContactsTable(results, module)}
+    {if results}
+      <div class="results">
+        <table class="result">
+          <tbody>
+            {foreach contact in results}
+              <tr>
+                <td class="datas">
+                  {call printContactData(contact, module)/}
+                </td>
+                <td class="social">
+                  {call printSocialLinks(contact, module)/}
+                </td> 
+              </tr>
+            {/foreach}
+          </tbody>
+        </table>
+    </div>
+  {/if}
+  {/macro}
+
+  {macro printContactData(contact, module)}
+    <span class="contact-name">${contact.name} ${contact.surname}</span> <br/>
+    <a class="contact-mail" href="mailto:${contact.email}" target="_blank">${contact.email}</a><br/>
+    <span class="contact-location"><em>Location: ${contact.office}</em></span>
+  {/macro}
+
+  {macro printSocialLinks(contact, module)}
+    <div class="icons">
+      <div class="fb-box">
+        {if contact.facebook}
+          <a class="social-link-fb facebook-icon" {on click {fn : module.navigate, scope : module, args : {type : "facebook", item : contact}, resIndex : -1}/}></a>
+        {else/}
+          <img class="social-link-fb" src="./templates/imgs/facebook24bw.png">
+        {/if}
+      </div>
+      <div class="tw-box">
+        {if contact.twitter}
+          <a class="social-link-tw twitter-icon"></a>
+        {else/}
+          <img class="social-link-tw" src="./templates/imgs/twitter24bw.png">
+        {/if}
+      </div>
+      <div class="lin-box">
+        {if contact.linkedin}
+          <a class="social-link-lin linkedin-icon"></a>
+        {else/}
+          <img class="social-link-lin" src="./templates/imgs/linkedin24bw.png">
+        {/if}
+      </div>
+      <div class="fli-box">
+        {if contact.flickr}
+          <a class="social-link-fli flickr-icon"></a>
+        {else/}
+          <img class="social-link-fli" src="./templates/imgs/flickr24bw.png">
+        {/if}
+      </div>
+    </div>
+  {/macro}
+
+{/Library}

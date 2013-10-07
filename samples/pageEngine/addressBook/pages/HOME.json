@@ -1,0 +1,24 @@
+{
+    contents : {
+        placeholderContents : {
+            "rightContent" : {
+                value : '<div class="contacta"><h2 class="titular01">Business Travel</h2><div class="hide"><h2>You have entered the NH&amp;YOURSPACE, a special page created just for your company</h2></div><br><p class="textbig">With all the online services and information that you need to manage your bookings with NH Hoteles more efficiently.</p><p class="textbig">Or, if you prefer, you can get in touch with us by writing to us, sending us an email or phoning us at:</p><br><input class="btn" type="button" value="Access to the NH&amp;YOURSPACE" onclick="go("/nh/nhandyou/en/you.html")"><span class="btn-right"></span><div class="clear"></div><br>'
+            }
+        }
+    },
+    pageComposition : {
+        template : "samples.pageEngine.addressBook.templates.MainLayout",
+        placeholders : {
+            "applicationBox" : {
+                "template" : "samples.pageEngine.addressBook.templates.SearchBox",
+                "module" : "common:search"
+            }
+        }
+    },
+    pageId : "HOME",
+    url : "/samples/pageEngine/addressBook/search",
+	  title : "Address Book | Search",
+    animation : {
+        animateIn : "slide down"
+    }
+}

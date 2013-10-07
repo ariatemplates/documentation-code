@@ -1,0 +1,46 @@
+{
+    "addressBook" : [{
+            "name": "Mark",
+            "surname": "Zuckerberg",
+            "email": "mark.zuckerberg@example.com",
+            "office": "main",
+            "facebook": "zuck"
+        }, {
+            "name": "Barack",
+            "surname": "Obama",
+            "email": "barack.obama@example.com",
+            "office": "main",
+            "facebook": "barackobama"
+        }, {
+            "name": "Angela",
+            "surname": "Merkel",
+            "email": "angela.merkel@example.com",
+            "office": "main",
+            "facebook": "AngelaMerkel"
+        }, {
+            "name": "François",
+            "surname": "Hollande",
+            "email": "francois.hollande@example.com",
+            "office": "main",
+            "facebook": "francoishollande.fr"
+        }, {
+            "name": "Pedro",
+            "surname": "Passos Coelho",
+            "email": "pedro.coelho@example.com",
+            "office": "main",
+            "facebook": "pedropassoscoelho"
+        }, {
+            "name": "Jóhanna",
+            "surname": "Sigurðardóttir",
+            "email": "johannasig@example.com",
+            "office": "main",
+            "facebook": "johannasig"
+        }, {
+            "name": "David",
+            "surname": "Cameron",
+            "email": "david.cameron@example.com",
+            "office": "main",
+            "facebook": "DavidCameron"
+        }
+    ]
+}

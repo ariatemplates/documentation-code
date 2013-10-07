@@ -1,0 +1,30 @@
+{CSSTemplate {
+  $classpath : "samples.pageEngine.addressBook.templates.facebook.FacebookAlbumsCSS"
+}}
+
+  {macro main()}
+    .fb-photo-container {
+      display: block;
+      width: 500px;
+      text-align: left;
+      margin-left: 100px;
+      margin-bottom: 10px;
+    }
+
+    .fb-photo {
+      float: left;
+      width: 157px;
+      height: 157px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .fb-photo.last {
+      margin-right: 0px;
+    }
+
+  {/macro}
+
+{/CSSTemplate}

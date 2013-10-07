@@ -1,0 +1,52 @@
+{
+    contents : {
+        placeholderContents : {
+            title : {
+                value : '<h1 class="cian">Facebook </h1>'
+            },
+            noPhotos : {
+                value : '<span class="cian">No photos available</span>'
+            },
+            noUser : {
+                value : '<span class="cian">No contact selected</span>'
+            }
+        }
+    },
+    pageComposition : {
+        template : "samples.pageEngine.addressBook.templates.MainLayout",
+        placeholders : {
+            "applicationBox" : {
+                "template" : "samples.pageEngine.addressBook.templates.facebook.FacebookResults"
+            },
+            "applicationBox.user" : {
+                "template" : "samples.pageEngine.addressBook.templates.facebook.FacebookUser",
+                "module" : "common:facebookUser"
+            },
+            "applicationBox.user.noUser" : {
+                contentId : "noUser"
+            },
+            "applicationBox.albums" : {
+                "template" : "samples.pageEngine.addressBook.templates.facebook.FacebookAlbums",
+                "module" : "common:facebookAlbums"
+            },
+            "applicationBox.albums.noPhotos" : {
+                contentId : "noPhotos"
+            },
+            "applicationBox.title" : {
+                "contentId" : "title"
+            },
+            "left" : {
+                "template" : "samples.pageEngine.addressBook.templates.ResultsBox",
+                "module" : "common:search",
+                "args" : ["300px"]
+            }
+        }
+    },
+    pageId : "FACEBOOK",
+    url : "/samples/pageEngine/addressBook/facebook",
+	  title : "Address Book | Facebook",
+    animation : {
+        animateOut : "flip",
+        animateIn : "flip"
+    }
+}

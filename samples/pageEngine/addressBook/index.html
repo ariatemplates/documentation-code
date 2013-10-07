@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Copyright 2006-{year} Amadeus s.a.s. All rights reserved -->
+  <!-- No use of any portion hereof is authorised, except pursuant to a written agreement with Amadeus s.a.s. -->
+
+  <style>
+    body {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    body, textarea, select, input, button, table {
+      font-size: 11px;
+      font-family: tahoma,arial,helvetica,sans-serif;
+    }
+
+    #splashScreenContainer {
+      background: none repeat scroll 0 0 #DCDBDB;
+      height: 100%;
+      position: absolute;
+      vertical-align: middle;
+      width: 100%;
+      z-index: 100000;
+      opacity : 1;
+      -webkit-transition : opacity 0.40s linear;
+      -moz-transition : opacity 0.40s linear;
+      -o-transition : opacity 0.40s linear;
+      transition : opacity 0.40s linear;
+    }
+    #splashScreenContainer.invisible {
+      opacity : 0;
+    }
+  #splashScreenContainer span#splashScreen {
+    position : absolute;
+    top : 50%;
+    left : 43%;
+    height: 67px;
+    width: 300px;
+    color: #53CEDC;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: helvetica;
+    text-transform: uppercase;
+  }
+  #splashScreenContainer span#splashScreenDots {
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    background: url(./templates/imgs/loader.gif) no-repeat scroll center center transparent;
+    margin-left: -77px;
+    margin-top: 100px;
+    height: 30px;
+    width: 155px;
+  }
+
+  .page {
+    top:0;
+    left:0;
+    position:absolute;
+    width: 100%;
+    min-height: 100%;
+    border: 0;
+  }
+  </style>
+  <title>Address Book | Search</title>
+  <script type="text/javascript" src="http://snippets.ariatemplates.com/aria/ariatemplates-1.4.10.js"></script>	
+  <script type="text/javascript" src="http://snippets.ariatemplates.com/aria/css/atskin-1.4.10.js"></script>	
+</head>
+<body style="background-color: #c1c1c1">
+  <div id="splashScreenContainer"><span id="splashScreen">Address book</span><span id="splashScreenDots"></span></div>
+  <div id="portal-container" class="page"></div> 
+
+  <script>    
+	/*aria.core.DownloadMgr.updateRootMap({
+		"addressBook": {"*" : Aria.rootFolderPath + ""samples/pageEngine/addressBook/"}
+	});*/
+	
+	aria.core.DownloadMgr.updateRootMap({
+		samples : {
+			"*": "../../../"
+		},
+		"addressBook": {
+			"*" : "samples/pageEngine/addressBook/"
+		}				
+	});
+   
+    aria.core.AppEnvironment.setEnvironment({
+      defaultWidgetLibs : {
+        "aria" : "aria.widgets.AriaLib",
+        "embed" : "aria.embed.EmbedLib",
+        "html" : "aria.html.HtmlLibrary"
+      }
+    });
+
+    Aria.load({
+        classes: ["aria.pageEngine.PageEngine", "aria.pageEngine.pageProviders.BasePageProvider"],
+        oncomplete: function() {
+            var pageEngine = new aria.pageEngine.PageEngine();
+            pageEngine.start({
+                pageProvider : new aria.pageEngine.pageProviders.BasePageProvider({
+                  siteConfigLocation : "samples/pageEngine/addressBook/pageEngine/site.json",
+                  pageBaseLocation : "samples/pageEngine/addressBook/pages/",
+                  homePageId : "HOME"
+                })
+             });
+         }
+     });
+  </script>
+</body>
+</html>
