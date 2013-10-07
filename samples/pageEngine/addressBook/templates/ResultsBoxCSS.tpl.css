@@ -1,0 +1,147 @@
+{CSSTemplate {
+  $classpath : "samples.pageEngine.addressBook.templates.ResultsBoxCSS"
+}}
+
+  {macro main()}
+  	.content-box {
+  		position: absolute;
+  		left: 50%;
+  		width: 480px;
+  		background-color: #fff;
+  		margin-left: -240px;
+  		margin-top: 80px;
+  		border-radius: 15px; 
+  		border: 1px solid #777;
+  	}
+
+  	.content-box .box-top {
+  		height: 70px;
+  		width: 100%;
+  		margin: 10px 0 10px 0;
+  	}
+
+    .content-box .box-top {
+      width: 100%;
+    }
+
+  	.content-box .box-bottom {
+  		margin: 30px 0 15px 0;
+  	}
+
+  	.search-button {
+  		width: 180px;
+  		height: 50px;
+  		margin: 0px;
+  		padding: 0px;
+  		border-radius: 10px;
+  		cursor: pointer;
+  		text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.15);
+  		background-image: url(./templates/imgs/fade.png);
+  		background-repeat: repeat-x;
+  		background-position: bottom left;
+  		-webkit-transition: background-color .4s ease-in;
+  		-moz-transition: background-color .4s ease-in;
+  		background-color: #777;
+  		color: white;
+  		border: 1px solid #000;
+  	}
+
+    .search-button:hover{
+      color:white;
+      background-color:#ACAAAA;
+    }
+
+    .social-link-fb {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      width: 24px;
+      height: 24px;
+    }
+    
+    .facebook-icon {
+      background-image: url(./templates/imgs/facebook24.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .social-link-tw {
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      width: 24px;
+      height: 24px;
+    }
+    
+    .twitter-icon {
+      background-image: url(./templates/imgs/twitter24.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+      cursor: pointer;
+    }
+    
+    .social-link-lin {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      width: 24px;
+      height: 24px;
+    }
+    
+    .linkedin-icon {
+      background-image: url(./templates/imgs/linkedin24.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+      cursor: pointer;
+    }
+    
+    .social-link-fli {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 24px;
+      height: 24px;
+    }
+    
+    .flickr-icon {
+      background-image: url(./templates/imgs/flickr24.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .fb-box {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 24px;
+      height: 24px;
+    }
+
+    .tw-box {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      width: 24px;
+      height: 24px;
+    }
+
+    .lin-box {
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      width: 24px;
+      height: 24px;
+    }
+
+    .fli-box {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      width: 24px;
+      height: 24px;
+    }
+
+  {/macro}
+{/CSSTemplate}

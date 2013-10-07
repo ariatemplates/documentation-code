@@ -1,0 +1,5 @@
+title: Page Engine
+template: samples.pageEngine.PageEngineRedirect
+description: It shows a very basic sample to demonstrate the page engine.
+sources:
+- PageEngineRedirect.tpl
