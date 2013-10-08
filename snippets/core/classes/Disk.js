@@ -3,7 +3,7 @@ Aria.classDefinition({
 	$extends : "snippets.core.classes.Device",
 
 	$constructor : function (id, size) {
-		this.$Disk.constructor.call(this, id); // call superclass constructor
+		this.$Device.constructor.call(this, id); // call superclass constructor
 		this.__size = size;
 	},
 
