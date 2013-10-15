@@ -18,7 +18,7 @@ Aria.tplScriptDefinition({
 		 * Animation is done is CSS so it only works in modern browsers.
 		 */
 		onChange : function () {
-			this.$getElementById("notify").setClassName("flash changeAlert");
+			this.$getElementById("notify").classList.setClassName("flash changeAlert");
 
 			aria.core.Timer.addCallback({
 				fn : this._animationEnd,
@@ -31,7 +31,7 @@ Aria.tplScriptDefinition({
 		 * Hide the notification.
 		 */
 		_animationEnd : function () {
-			this.$getElementById("notify").setClassName("hidden changeAlert");
+			this.$getElementById("notify").classList.setClassName("hidden changeAlert");
 		}
 	}
 });

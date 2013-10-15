@@ -8,7 +8,7 @@ Aria.tplScriptDefinition({
 		myPublicFunction : function () {
 			////#domInteractions
 			var myDiv = this.$getElementById("myDivId");
-			myDiv.setClassName("newClass");
+			myDiv.classList.setClassName("newClass");
 
 			var mySection = this.$getElementById("mySectionDiv");
 			mySection.insertAdjacentSection("beforeBegin", newSectionCfg);
