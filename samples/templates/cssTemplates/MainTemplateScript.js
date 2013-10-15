@@ -9,11 +9,11 @@ Aria.tplScriptDefinition({
 		 */
 		changeClass : function (evt, args) {
 			var el = this.$getElementById(args.id);
-			var cssClass = el.getClassName();
+			var cssClass = el.classList.getClassName();
 			if (cssClass == "shoppingItemTaken") {
-				el.setClassName("shoppingItem");
+				el.classList.setClassName("shoppingItem");
 			} else {
-				el.setClassName("shoppingItemTaken");
+				el.classList.setClassName("shoppingItemTaken");
 			}
 		}
 	}
