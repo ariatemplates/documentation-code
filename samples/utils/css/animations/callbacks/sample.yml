@@ -1,0 +1,9 @@
+title: Callbacks
+template: samples.utils.css.animations.callbacks.Animations
+description: Animation utility allows to animate an element on a set of CSS properties.
+sources:
+- Animations.tpl
+- AnimationsScript.js
+data:
+  cb:
+    startAnim1:
