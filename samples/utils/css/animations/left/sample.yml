@@ -1,0 +1,6 @@
+title: left
+template: samples.utils.css.animations.left.Animations
+description: Animation utility allows to animate an element on a set of CSS properties.
+sources:
+- Animations.tpl
+- AnimationsScript.js
