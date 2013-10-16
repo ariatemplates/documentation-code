@@ -31,7 +31,7 @@ Aria.classDefinition({
 
 
     ////#enableDebugTools
-    javascript:aria.core.AppEnvironment.updateEnvironment({contextualMenu:{enabled:true}});
+    javascript:Aria.load({classes:['aria.tools.ToolsBridge'],oncomplete:function(){aria.tools.ToolsBridge.open()}});
     ////#enableDebugTools
     */
   }
