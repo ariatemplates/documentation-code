@@ -7,10 +7,10 @@ sources:
 - TemplateData.js
 data:
   people:
-    - name: "apples"
-      age: 19
-      livesIn: "Europe"
-    - name": "Francis"
+    - "name": "John"
+      "age": 19
+      "livesIn": "Europe"
+    - "name": "Francis"
       "age": 25
       "livesIn": "Europe"
     - "name": "Mary"
