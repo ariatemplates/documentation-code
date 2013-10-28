@@ -12,7 +12,7 @@
       maxHeight : 500,
       modal : true,
       visible : false,
-      contentMacro : "myContent",
+      macro : "myContent",
       bind : {
         "visible" : { inside : data,
           to : 'dialogOpen' }

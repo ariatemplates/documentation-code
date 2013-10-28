@@ -20,9 +20,9 @@ Aria.classDefinition({
             if (cfg.content) {
                 out.write(aria.utils.String.escapeHTML(this._cfg.content));
             }
-            if (cfg.contentMacro) {
+            if (cfg.macro) {
                 // it is possible to call a macro when generating the widget markup
-                out.callMacro(cfg.contentMacro);
+                out.callMacro(cfg.macro);
             }
         }
     }

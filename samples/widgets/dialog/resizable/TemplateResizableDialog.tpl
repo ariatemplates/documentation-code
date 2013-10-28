@@ -34,7 +34,7 @@
         {var dataModel = data["view:Dialog"] /}
         {@aria:Dialog {
             id : "movableDialog",
-            contentMacro : {
+            macro : {
                 name : "displayDialogContent"
             },
             resizable : true,
@@ -92,7 +92,7 @@
         
       {section {
             id : "resizeText",
-            macro : "resizeContentMacro",
+            macro : "resizemacro",
             bindRefreshTo : [{
                 to : "resizetext",
                 inside : data["view:Dialog"],
@@ -115,7 +115,7 @@
         <div style="height: 100px; margin: 10px;color:blue;">You can resize me by dragging any of the corners.</div>
     {/macro}
    
-    {macro resizeContentMacro()}
+    {macro resizemacro()}
         <div style="margin: 10px;color:green">${data["view:Dialog"].resizetext}</div>
     {/macro}
    

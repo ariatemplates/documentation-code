@@ -34,7 +34,7 @@
         {var dataModel = data["view:Dialog"] /}
         {@aria:Dialog {
             id : "movableDialog",
-            contentMacro : {
+            macro : {
                 name : "displayDialogContent"
             },
             movable : true,

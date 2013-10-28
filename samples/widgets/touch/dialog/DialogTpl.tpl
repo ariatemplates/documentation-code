@@ -18,7 +18,7 @@
   	},  	
   	animateIn: "slide right",
   	animateOut:"slide left",
-  	contentMacro: "myMacro",
+  	macro: "myMacro",
     absolutePosition : {
         top : 400,
         left : 400

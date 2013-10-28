@@ -8,7 +8,7 @@
         ////#wgtDialogSimple
         {@aria:Dialog {
             title: "Dialog Sample",
-            contentMacro : "dialogMacro",
+            macro : "dialogMacro",
             icon: "std:info",
             width: 400,
             maxHeight: 500,
@@ -19,7 +19,7 @@
         ////#wgtDialogAction
         {@aria:Dialog {
             title: "Dialog Sample",
-            contentMacro : "dialogMacro",
+            macro : "dialogMacro",
             icon: "std:fire",
             width: 400,
             maxHeight: 500,
@@ -32,7 +32,7 @@
         {@aria:Dialog {
             id : "sampleDialogOne",
             title: "Dialog Sample",
-            contentMacro : "dialogMacro",
+            macro : "dialogMacro",
             movable : true
         }/}
         ////#wgtDialogMove1
@@ -41,7 +41,7 @@
         {@aria:Dialog {
             id : "sampleDialogTwo",
             title: "Dialog Sample",
-            contentMacro : "dialogMacro",
+            macro : "dialogMacro",
             movable : true,
             movableProxy : {
                 type : "Overlay"
@@ -53,7 +53,7 @@
         {@aria:Dialog {
             id : "sampleDialogThree",
             title: "Dialog Sample",
-            contentMacro : "dialogMacro",
+            macro : "dialogMacro",
             movable : true,
             movableProxy : {
                 type : "CloneOverlay",
@@ -68,7 +68,7 @@
         {@aria:Dialog {
             id : "sampleDialogFour",
             title: "Dialog Sample",
-            contentMacro : "dialogMacro",
+            macro : "dialogMacro",
             movable : true,
             ondragstart : {
                 fn : "onDragStart"
@@ -82,7 +82,7 @@
 		////#wgtDialogResize
 		{@aria:Dialog {
             id : "movableDialog",
-            contentMacro : {
+            macro : {
                 name : "displayDialogContent"
             },
             resizable : true,
