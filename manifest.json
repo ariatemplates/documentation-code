@@ -942,6 +942,12 @@
 		"desc": "This is to demonstrate animations for touch dialog."
 	},
 	{
+		"path": "samples.widgets.touch.popup.PopupTpl",
+		"title": "Touch Popup Widget - Sample",
+		"categories": "Widgets/Touch",
+		"desc": "This is to demonstrate touch enabled popup."
+	},
+	{
 		"path": "samples.widgets.touch.doubleslider.DoubleSliderTpl",
 		"title": "Touch Double Slider Widget  - Sample",
 		"categories": "Widgets/Touch",
