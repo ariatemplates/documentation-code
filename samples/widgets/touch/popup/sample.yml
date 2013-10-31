@@ -1,0 +1,6 @@
+title: Touch Popup Widget - Sample
+template: samples.widgets.touch.popup.PopupTpl
+description: This is to demonstrate touch enabled popup
+sources:
+- PopupTpl.tpl
+- PopupStyle.tpl.css

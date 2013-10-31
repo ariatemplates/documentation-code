@@ -1,0 +1,14 @@
+{CSSTemplate {
+    $classpath: "samples.widgets.touch.popup.PopupStyle"
+}}
+
+    {macro main()}
+        div.appButton.opener {
+            display: inline-block;
+            border-radius: 6px;
+            text-align: left;
+            width: auto;
+            margin: auto;
+        }
+    {/macro}
+{/CSSTemplate}
