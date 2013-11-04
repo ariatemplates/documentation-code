@@ -4,3 +4,5 @@ description: It shows how the Click handler works.
 sources:
 - ClickSample.tpl
 - ClickSampleScript.js
+
+categories: Templates/Template scripts

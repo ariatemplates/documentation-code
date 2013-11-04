@@ -1,6 +1,6 @@
 title: Complex scenarios
 template: samples.utils.css.animations.complex.Animations
-description: Animation utility allows to animate an element on a set of CSS properties.
+description: This is a complex example of animations
 sources:
 - Animations.tpl
 - AnimationsScript.js
@@ -13,3 +13,4 @@ data:
   - url: "9.png"
   - url: "pin.png"
   - url: "stick.png"
+categories: Utils/Animations

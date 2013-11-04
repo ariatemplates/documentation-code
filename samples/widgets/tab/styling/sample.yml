@@ -3,3 +3,4 @@ template: samples.widgets.tab.styling.TabWgtStyle
 description: It shows the Tab Widget with style applied.
 sources:
 - TabWgtStyle.tpl
+categories: Widgets/Tab

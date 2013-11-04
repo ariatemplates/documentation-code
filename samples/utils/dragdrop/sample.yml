@@ -6,3 +6,5 @@ sources:
 - DragDropScript.js
 - style/DragDropCSS.tpl.css
 - style/TemplateDialogSkin.tpl.css
+
+categories: Utils/Dragdrop

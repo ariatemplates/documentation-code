@@ -4,3 +4,4 @@ description: It demonstrate event singleton to help not to refresh entire templa
 sources:
 - UtilsEvents.tpl
 - UtilsEventsScript.js
+categories: Utils/Dom events

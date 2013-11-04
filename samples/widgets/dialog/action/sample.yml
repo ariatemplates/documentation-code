@@ -4,3 +4,4 @@ description: It shows how the actions work with the Dialog.
 sources:
 - DialogActionSample.tpl
 - DialogActionSampleScript.js
+categories: Widgets/Dialog

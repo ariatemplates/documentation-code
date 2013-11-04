@@ -33,3 +33,4 @@ data:
 sources:
 - BindOptions.tpl
 - BindOptionsScript.js
+categories: Widgets/Selectbox

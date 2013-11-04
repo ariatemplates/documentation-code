@@ -5,3 +5,4 @@ sources:
 - ScrollControlTwo.tpl
 - ScrollControlTwoCSS.tpl.css
 - ScrollControlTwoScript.js
+categories: Utils/Scroll control

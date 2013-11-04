@@ -5,3 +5,4 @@ sources:
 - Main.tpl
 - MainScript.js
 - ../../../common/autocomplete/SpellCheckResourceHandler.js
+categories: Widgets/Autocomplete

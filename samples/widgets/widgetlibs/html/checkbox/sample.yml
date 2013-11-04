@@ -4,3 +4,4 @@ description: This is a sample to demonstrate the HTML Checkbox widget.
 sources:
 - BaseCheckBoxTag.tpl
 - BaseCheckBoxTagScript.js
+categories: Widgets/Libs

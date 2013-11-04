@@ -9,3 +9,5 @@ sources:
 - ATemplateScript.js
 - BTemplate.tpl
 
+
+categories: Templates/Dom

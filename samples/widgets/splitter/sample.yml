@@ -4,3 +4,5 @@ description: Example of Splitter.
 sources:
 - TemplateSplitter.tpl
 - TemplateSplitterScript.js
+
+categories: Widgets/Splitter

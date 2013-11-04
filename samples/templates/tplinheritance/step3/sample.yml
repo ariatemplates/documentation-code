@@ -7,3 +7,4 @@ sources:
 - LibParent.tml
 - LibParentOverridden.tml
 - LibChildOverridden.tml
+categories: Templates/Inheritance

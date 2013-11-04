@@ -5,3 +5,4 @@ sources:
 - TemplateSample.tpl
 - FirstSubTemplate.tpl
 - SecondSubTemplate.tpl
+categories: Widgets/Template

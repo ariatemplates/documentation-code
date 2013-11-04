@@ -5,3 +5,4 @@ sources:
 - DomEventsTemplate.tpl
 - DomEventsTemplateScript.js
 - DomEventsCSS.tpl.css
+categories: Utils/Dom events

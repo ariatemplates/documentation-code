@@ -4,3 +4,5 @@ description: This sample shows the inheritance between macros.
 sources:
 - ChildTemplate.tpl
 - ParentTemplate.tpl
+
+categories: Templates/Inheritance

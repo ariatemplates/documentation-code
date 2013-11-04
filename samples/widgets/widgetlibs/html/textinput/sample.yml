@@ -5,3 +5,4 @@ sources:
 - BaseTextInputTag.tpl
 - BaseTextInputTagScript.js
 - Style.tpl.css
+categories: Widgets/Libs

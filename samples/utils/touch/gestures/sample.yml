@@ -16,3 +16,4 @@ sources:
 - TouchMoveScript.js
 - TouchStart.tpl
 - TouchStartScript.js
+categories: Utils/Touch

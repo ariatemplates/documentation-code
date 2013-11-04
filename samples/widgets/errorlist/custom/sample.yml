@@ -5,3 +5,5 @@ sources:
 - ErrorListCustomizedTemplate.tpl
 - CustomizedErrorListTemplate.tpl
 - CustomizedErrorListTemplateScript.js
+
+categories: Widgets/Errorlist

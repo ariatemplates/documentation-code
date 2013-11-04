@@ -8,3 +8,4 @@ sources:
 - widget/Slider.js
 - widget/SliderCfgBeans.js
 - widget/SliderCSS.tpl.css
+categories: Widgets/CustomSlider

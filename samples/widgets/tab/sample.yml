@@ -3,3 +3,4 @@ template: samples.widgets.tab.TabWgtSample
 description: It shows the Tab Widget.
 sources:
 - TabWgtSample.tpl
+categories: Widgets/Tab

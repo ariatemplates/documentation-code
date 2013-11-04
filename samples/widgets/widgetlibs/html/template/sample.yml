@@ -9,3 +9,4 @@ sources:
 - SimpleChildSubTemplate.tpl
 - SimpleSubTemplateScript.js
 - SimpleSubTemplateCss.tpl.css
+categories: Widgets/Libs

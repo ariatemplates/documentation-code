@@ -4,3 +4,5 @@ description: This utility allows to highlight the element currently on focus.
 sources:
 - VisualFocus.tpl
 - VisualFocusScript.js
+
+categories: Utils/Focus

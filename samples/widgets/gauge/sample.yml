@@ -8,3 +8,4 @@ data:
   isCheckMe: true
 sources:
 - SampleUsage.tpl
+categories: Widgets/Gauge

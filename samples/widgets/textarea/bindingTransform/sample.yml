@@ -3,3 +3,5 @@ template: samples.widgets.textarea.bindingTransform.TemplateTextareaBindingTrans
 description: Example of modification/transofrmation of a Textarea value which is bound to a datamodel.
 sources:
 - TemplateTextareaBindingTransofrm.tpl
+
+categories: Widgets/Textarea

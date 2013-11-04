@@ -4,3 +4,4 @@ description: It shows Fieldset Widgets executing callback actions.
 sources:
 - FieldsetAction.tpl
 - FieldsetActionScript.js
+categories: Widgets/Fieldset

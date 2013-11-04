@@ -5,3 +5,4 @@ sources:
 - CustomizedDatePicker.tpl
 - CustomizedCalendar.tpl
 - CustomizedCalendarScript.js
+categories: Widgets/Datepicker

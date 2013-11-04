@@ -6,3 +6,5 @@ sources:
 - ChildTemplateScript.js
 - ParentTemplate.tpl
 - ParentTemplateScript.js
+
+categories: Templates/Inheritance

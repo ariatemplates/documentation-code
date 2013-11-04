@@ -1,6 +1,8 @@
 title: Multiple concurrent animations
 template: samples.utils.css.animations.multiple.Animations
-description: Animation utility allows to animate an element on a set of CSS properties.
+description: It shows how to animate several properties with one single instruction.
 sources:
 - Animations.tpl
 - AnimationsScript.js
+
+categories: Utils/Animations

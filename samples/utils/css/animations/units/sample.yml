@@ -1,6 +1,8 @@
 title: Units translation
 template: samples.utils.css.animations.units.Animations
-description: Animation utility allows to animate an element on a set of CSS properties.
+description: This is an example of animation using non pixel units.
 sources:
 - Animations.tpl
 - AnimationsScript.js
+
+categories: Utils/Animations

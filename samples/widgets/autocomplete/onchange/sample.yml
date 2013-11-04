@@ -6,3 +6,4 @@ sources:
 - OnChangeScript.js
 - OnChangeStyle.tpl.css
 - ../../../common/autocomplete/AutoCompleteResourceHandler.js
+categories: Widgets/Autocomplete

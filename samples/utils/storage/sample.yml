@@ -5,3 +5,5 @@ sources:
 - Persist.tpl
 - PersistScript.js
 
+
+categories: Utils/Storage

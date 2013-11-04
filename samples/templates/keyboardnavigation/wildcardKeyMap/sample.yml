@@ -4,3 +4,4 @@ description: It shows how to use the wildcard character in a Key Map with differ
 sources:
 - KeyMap.tpl
 - KeyMapScript.js
+categories: Templates/Keyboard navigation

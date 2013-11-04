@@ -16,3 +16,4 @@ data:
 sources:
 - ListAction.tpl
 - ListActionScript.js
+categories: Widgets/List

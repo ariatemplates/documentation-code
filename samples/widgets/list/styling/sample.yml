@@ -17,3 +17,4 @@ sources:
 - ListStyle.tpl
 - CustomTemplate.tpl
 - CustomTemplateScript.js
+categories: Widgets/List

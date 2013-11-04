@@ -3,3 +3,5 @@ template: samples.widgets.button.binding.Binding
 description: It shows a Button Widget bound to other widgets.
 sources:
 - Binding.tpl
+
+categories: Widgets/Button

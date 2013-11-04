@@ -1,7 +1,9 @@
 title: Widget Bindings
 template: samples.widgets.bindings.Default
+description: It shows how binding is done in a widget.
 data:
   name: "Bob"
 sources:
 - Default.tpl
 - DefaultScript.js
+categories: Widgets/Bindings

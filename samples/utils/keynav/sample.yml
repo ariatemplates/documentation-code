@@ -5,3 +5,4 @@ sources:
 - KeyboardNavigation.tpl
 - KeyboardNavigationScript.js
 - KeyboardNavigationCSS.tpl.css
+categories: Utils/Keyboard navigation

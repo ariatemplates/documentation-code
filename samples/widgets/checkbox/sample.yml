@@ -4,3 +4,4 @@ description: It shows a simple Checkbox Widget with the onchange event attached 
 sources:
 - SimpleCheckbox.tpl
 - SimpleCheckboxScript.js
+categories: Widgets/Checkbox

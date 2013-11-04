@@ -4,3 +4,4 @@ description: It shows how to create a simple map.
 sources:
 - MapSample.tpl
 - MapSampleCSS.tpl.css
+categories: Widgets/Map

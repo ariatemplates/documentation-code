@@ -5,3 +5,5 @@ sources:
 - SecondChildTemplate.tpl
 - ParentTemplate.tpl
 - CSSParent.tpl.css
+
+categories: Templates/Inheritance

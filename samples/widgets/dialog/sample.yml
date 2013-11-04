@@ -4,3 +4,4 @@ description: It shows the default Dialog popping out after a mouse click.
 sources:
 - TemplateDialog.tpl
 - TemplateDialogScript.js
+categories: Widgets/Dialog

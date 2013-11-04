@@ -3,3 +3,5 @@ template: samples.templates.keyboardnavigation.tableNavigationInherit.TableNavIn
 description: It shows a Table Navigation with focusable items and a subsection that inherits the tab navigation.
 sources:
 - TableNavInherit.tpl
+
+categories: Templates/Keyboard navigation

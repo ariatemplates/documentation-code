@@ -3,3 +3,4 @@ template: samples.widgets.fieldset.FieldsetSimple
 description: It shows two Fieldset Widgets with the default configuration.
 sources:
 - FieldsetSimple.tpl
+categories: Widgets/Fieldset

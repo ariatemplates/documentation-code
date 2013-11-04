@@ -4,3 +4,4 @@ description: It shows an IconButton Widget bound to a checkbox that manage the i
 sources:
 - IconButtonBinding.tpl
 - IconButtonBindingScript.js
+categories: Widgets/Iconbutton

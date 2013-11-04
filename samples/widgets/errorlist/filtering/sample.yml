@@ -4,3 +4,4 @@ description: It shows the different message layouts for the ErrorList Widget (In
 sources:
 - ErrorListFilterTemplate.tpl
 - ErrorListFilterTemplateScript.js
+categories: Widgets/Errorlist

@@ -5,3 +5,4 @@ sources:
 - AutoSelect.tpl
 - AutoSelectScript.js
 - AutoSelectCSS.tpl.css
+categories: Features/Autoselect

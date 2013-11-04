@@ -4,3 +4,4 @@ description: This is to demonstrate animations for touch dialog.
 sources:
 - DialogTpl.tpl
 - DialogTplScript.js
+categories: Widgets/Touch

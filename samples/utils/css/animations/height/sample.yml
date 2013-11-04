@@ -1,6 +1,0 @@
-title: height
-template: samples.utils.css.animations.height.Animations
-description: Animation utility allows to animate an element on a set of CSS properties.
-sources:
-- Animations.tpl
-- AnimationsScript.js

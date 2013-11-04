@@ -47,3 +47,4 @@ data:
     disabled: false
 sources:
 - SampleUsage.tpl
+categories: Widgets/Multiselect

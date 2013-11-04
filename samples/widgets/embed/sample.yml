@@ -9,3 +9,4 @@ sources:
 - EmbedController.js
 - GoogleMapController.js
 - IEmbedController.js
+categories: Widgets/Embed

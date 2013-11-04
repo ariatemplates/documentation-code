@@ -4,3 +4,4 @@ description: It shows which properties are bindable and how they work for the Di
 sources:
 - DialogBindingSample.tpl
 - DialogBindingSampleScript.js
+categories: Widgets/Dialog

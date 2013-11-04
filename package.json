@@ -1,0 +1,13 @@
+{
+  "name": "documentation-code",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ariatemplates/documentation-code.git"
+  },
+  "dependencies": {
+    "glob": "3.2.6",
+    "js-yaml": "2.1.0"
+  }
+}

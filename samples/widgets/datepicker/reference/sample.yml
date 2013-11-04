@@ -3,3 +3,5 @@ template: samples.widgets.datepicker.reference.ReferenceDatePicker
 description: It shows a DatePicker Widget with date reference.
 sources:
 - ReferenceDatePicker.tpl
+
+categories: Widgets/Datepicker

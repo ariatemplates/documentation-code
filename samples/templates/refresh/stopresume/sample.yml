@@ -11,3 +11,5 @@ data:
     score: 0
   - name: 'France'
     score: 0
+
+categories: Templates/Refresh

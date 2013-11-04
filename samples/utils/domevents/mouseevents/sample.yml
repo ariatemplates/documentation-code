@@ -5,3 +5,4 @@ sources:
 - MouseEvents.tpl
 - MouseEventsScript.js
 - MouseEventsStyle.tpl.css
+categories: Utils/Dom events

@@ -5,3 +5,4 @@ sources:
 - BaseRadioButtonTag.tpl
 - BaseRadioButtonTagScript.js
 - Style.tpl.css
+categories: Widgets/Libs

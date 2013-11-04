@@ -4,3 +4,5 @@ description: It shows how the Link Widget works, calling a user defined callback
 sources:
 - LinkWgtSample.tpl
 - LinkWgtSampleScript.js
+
+categories: Widgets/Link
