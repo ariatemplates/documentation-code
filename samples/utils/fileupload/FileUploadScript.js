@@ -37,7 +37,7 @@ Aria.tplScriptDefinition({
 			this.$refresh({
 				outputSection : "form"
 			});
-			this.$json.setValue(this.data, "contentMacro", "defaultContent");
+			this.$json.setValue(this.data, "macro", "defaultContent");
 			var responseToDisplay;
 			var responseXML = response.responseXML;
 			var docElement = responseXML.documentElement;
@@ -60,7 +60,7 @@ Aria.tplScriptDefinition({
 			this.$refresh({
 				outputSection : "form"
 			});
-			this.$json.setValue(this.data, "contentMacro", "errorContent");
+			this.$json.setValue(this.data, "macro", "errorContent");
 			this.$json.setValue(this.data, "dialogOpen", true);
 		},
 

@@ -13,7 +13,7 @@
       width : 400,
       maxHeight : 500,
       visible : false,
-      contentMacro : "myContent",
+      macro : "myContent",
       onOpen : dialogOpen,
       onCloseClick : closeClick,
       bind : {

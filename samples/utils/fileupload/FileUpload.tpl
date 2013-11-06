@@ -29,7 +29,7 @@
      maxHeight: 500,
      bind:{
          "visible": { inside: data, to: 'dialogOpen' },
-         "contentMacro": { inside: data, to: 'contentMacro' }
+         "macro": { inside: data, to: 'macro' }
      }
   }/}
 

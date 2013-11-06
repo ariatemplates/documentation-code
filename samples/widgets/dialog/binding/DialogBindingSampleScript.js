@@ -16,7 +16,7 @@ Aria.tplScriptDefinition({
 			this.$refresh(args);
 		},
 		loadContentBound: function (evt, args){
-			this.$json.setValue(this.data,"contentMacro",args);
+			this.$json.setValue(this.data,"macro",args);
 		},
 		addLine:function(){
 			if (this.data.dynamicLines == null) {
@@ -31,10 +31,10 @@ Aria.tplScriptDefinition({
 		},
 		dialogOpen:function(){
 
-			if (this.data["contentMacro"] && this.data["contentMacro"] != "defaultContent") {
+			if (this.data["macro"] && this.data["macro"] != "defaultContent") {
 				this.$focus("toFocus");
 			}else {
-				this.$json.setValue(this.data,"contentMacro","defaultContent");
+				this.$json.setValue(this.data,"macro","defaultContent");
 			}
 		},
 		closeClick: function(){

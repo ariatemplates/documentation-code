@@ -13,7 +13,7 @@
         {@aria:Dialog {
             title: "KeyMap",
             modal: true,
-            contentMacro : "dialogContent",
+            macro : "dialogContent",
             bind:{
                 "visible": { inside: data, to: 'dialogVisible' }
             }
