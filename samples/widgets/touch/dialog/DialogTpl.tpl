@@ -10,19 +10,19 @@
 
   {var data = {dialogVisible : false} /}
   {@touch:Dialog{
-  	bind :{
-  		  isVisible : {
-            inside : data,
-            to : "dialogVisible"
-          }
-  	},
-  	animateIn: "slide right",
-  	animateOut:"slide left",
-  	macro: "myMacro",
-    absolutePosition : {
+      bind :{
+        isVisible : {
+          inside : data,
+          to : "dialogVisible"
+        }
+      },
+      animateIn: "slide right",
+      animateOut:"slide left",
+      contentMacro: "myMacro",
+      absolutePosition : {
         top : 400,
         left : 400
-    }
+      }
   }/}
 
   {@aria:Button{
