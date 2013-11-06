@@ -1,6 +1,0 @@
-title: borderLeftWidth
-template: samples.utils.css.animations.borderLeftWidth.Animations
-description: Animation utility allows to animate an element on a set of CSS properties.
-sources:
-- Animations.tpl
-- AnimationsScript.js

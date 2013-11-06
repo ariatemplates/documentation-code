@@ -1,0 +1,39 @@
+{CSSTemplate {
+   $classpath : "samples.utils.css.animations.AnimationsCSS"
+}}
+
+   {macro main()}
+
+   		.container {
+			padding: 0 20px;
+   		}
+
+        .section {
+            display: inline-block;
+            height: 150px;
+            width: 200px;
+            position: relative;
+            vertical-align: top;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #5092BD !important;
+            font-weight: bold;
+            margin-left: 30px;
+            border-bottom: 1px solid #5092BD;
+        }
+
+        h2 {
+            color: #5092BD !important;
+            font-weight: bold;
+        }
+
+        button {
+            position: absolute;
+            bottom: 0;
+            left: 30px;
+        }
+   {/macro}
+
+{/CSSTemplate}

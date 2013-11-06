@@ -7,3 +7,4 @@ sources:
 - EventsCtrl.js
 - IEventsCtrl.js
 - CSS.tpl.css
+categories: Utils/Validators

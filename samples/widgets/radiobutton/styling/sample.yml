@@ -3,3 +3,4 @@ template: samples.widgets.radiobutton.styling.StyledRadioButton
 description: It shows the RadioButton Widget with different styles applied.
 sources:
 - StyledRadioButton.tpl
+categories: Widgets/Radiobutton

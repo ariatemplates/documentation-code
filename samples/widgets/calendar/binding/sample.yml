@@ -10,3 +10,4 @@ sources:
 - BindingScript.js
 - CustomizedCalendar.tpl
 - CustomizedCalendarScript.js
+categories: Widgets/Calendar

@@ -5,3 +5,5 @@ sources:
 - Tap.tpl
 - TapScript.js
 - TouchEventsCSS.tpl.css
+
+categories: Utils/Touch

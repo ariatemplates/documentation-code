@@ -32,3 +32,5 @@ data:
       taken: true
     - name: "peppers"
       taken: false
+
+categories: Templates/CssTemplates

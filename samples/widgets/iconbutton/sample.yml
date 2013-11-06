@@ -4,3 +4,4 @@ description: It shows an IconButton Widget in normal mode and disabled.
 sources:
 - Simple.tpl
 - SimpleScript.js
+categories: Widgets/Iconbutton

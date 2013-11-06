@@ -3,3 +3,4 @@ template: samples.widgets.text.binding.TextWgtBinding
 description: It shows the Text Widget with properties bound to another element.
 sources:
 - TextWgtBinding.tpl
+categories: Widgets/Text

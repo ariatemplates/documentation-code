@@ -3,3 +3,5 @@ template: samples.widgets.textarea.binding.TemplateTextareaBinding
 description: Example of Textarea value bound to datamodel.
 sources:
 - TemplateTextareaBinding.tpl
+
+categories: Widgets/Textarea

@@ -3,3 +3,4 @@ template: samples.templates.keyboardnavigation.tabnavigation.TabNavigation
 description: It shows how the Tab Navigation works in aria templates.
 sources:
 - TabNavigation.tpl
+categories: Templates/Keyboard navigation

@@ -6,3 +6,4 @@ sources:
 - Groups.tpl
 - GroupsCtrl.js
 - IGroupsCtrl.js
+categories: Utils/Validators

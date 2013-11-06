@@ -4,3 +4,4 @@ description: Demonstration of Callback using onmousewheel event
 sources:
 - MouseWheel.tpl
 - MouseWheelScript.js
+categories: Utils/Dom events

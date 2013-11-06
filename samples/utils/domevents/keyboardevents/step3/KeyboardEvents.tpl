@@ -4,17 +4,21 @@
 	$css : [
 		'samples.utils.domevents.mouseevents.MouseEventsStyle',
 		'samples.utils.domevents.keyboardevents.KeyboardEventsStyle'
-	] 
+	]
 }}
 
 	{macro main()}
+		<b>Use TAB, shift+TAB or mouse clicks to navigate between boxes.</b><br /><br />
+		Event handler <b>on focus</b> has been added.<br />
+		If the user navigates using the mouse or the TAB key, the selection will now be updated.<br /><br />
+
 		<form style = "width:250px;padding:10px;padding-top:5px;" >
 		{for var i=1 ; i < 10 ; i++}
 			{var classname = this.data.selected == i ? " selected" : (this.data.checked[i]? "checked" : "")/}
 			{var checked = this.data.checked["num"+i] ? "checked" : ""/}
 			<div class = "container box ${classname}">
 				<span>${i}</span>
-				<input 
+				<input
 					{on keydown {
 						fn : this.onCheckboxKeydown,
 						scope : this,

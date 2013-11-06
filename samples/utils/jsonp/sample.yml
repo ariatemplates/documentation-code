@@ -5,3 +5,4 @@ sources:
 - JsonP.tpl
 - JsonPScript.js
 - Data.js
+categories: Utils/Jsonp

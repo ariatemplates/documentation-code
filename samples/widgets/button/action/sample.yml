@@ -4,3 +4,5 @@ description: It shows how the actions work with the Button Widget, managing spec
 sources:
 - Action.tpl
 - ActionScript.js
+
+categories: Widgets/Button

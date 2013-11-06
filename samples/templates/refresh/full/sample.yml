@@ -9,3 +9,5 @@ data:
   team:
     name: 'England'
     score: 0
+
+categories: Templates/Refresh

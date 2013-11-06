@@ -4,3 +4,4 @@ description: It demonstrate refreshing a whole template or individual parts of i
 sources:
 - TemplateRefresh.tpl
 - TemplateRefreshScript.js
+categories: Features/Refresh

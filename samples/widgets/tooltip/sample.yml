@@ -4,3 +4,4 @@ description: It shows the Tooltip Widget used in different contexts.
 sources:
 - TemplateTooltip.tpl
 - TemplateTooltipScript.js
+categories: Widgets/Tooltip

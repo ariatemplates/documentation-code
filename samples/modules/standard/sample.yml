@@ -1,7 +1,10 @@
 title: Controller Case Study
 template: samples.modules.standard.MyView
+description: It shows how to use a controller with a template.
 moduleCtrl: samples.modules.standard.MyModuleController
 sources:
 - MyView.tpl
 - MyModuleController.js
 - IMyModuleController.js
+
+categories: Modules

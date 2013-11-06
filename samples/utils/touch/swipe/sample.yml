@@ -5,3 +5,5 @@ sources:
 - Swipe.tpl
 - SwipeScript.js
 - TouchEventsCSS.tpl.css
+
+categories: Utils/Touch

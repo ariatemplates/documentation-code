@@ -5,3 +5,4 @@ data:
   value: "Some Line Of Plain Text..."
 sources:
 - Transforms.tpl
+categories: Widgets/Textfield

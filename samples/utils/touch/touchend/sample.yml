@@ -5,3 +5,5 @@ sources:
 - TouchEnd.tpl
 - TouchEndScript.js
 - TouchEventsCSS.tpl.css
+
+categories: Utils/Touch

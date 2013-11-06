@@ -5,3 +5,4 @@ sources:
 - FileUpload.tpl
 - FileUploadScript.js
 - FileUploadStyle.tpl.css
+categories: Utils/Fileupload

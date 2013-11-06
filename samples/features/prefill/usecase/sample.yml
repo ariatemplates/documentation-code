@@ -1,8 +1,7 @@
-title: Basic Prefill Feature
+title: Reservation flow example with prefill
 template: samples.features.prefill.usecase.PrefillSample
 description: It shows the basic prefill feature used in a specific use case like the reservation of a multiple segment trip.
 sources:
 - PrefillSample.tpl
 - PrefillSampleScript.js
-
-
+categories: Features/Prefill

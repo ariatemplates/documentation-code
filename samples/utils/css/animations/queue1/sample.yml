@@ -1,6 +1,8 @@
 title: Global queue
 template: samples.utils.css.animations.queue1.Animations
-description: Animation utility allows to animate an element on a set of CSS properties.
+description: It shows how to queue animations.
 sources:
 - Animations.tpl
 - AnimationsScript.js
+
+categories: Utils/Animations

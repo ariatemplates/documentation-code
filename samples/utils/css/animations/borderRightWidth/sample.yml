@@ -1,6 +1,0 @@
-title: borderRightWidth
-template: samples.utils.css.animations.borderRightWidth.Animations
-description: Animation utility allows to animate an element on a set of CSS properties.
-sources:
-- Animations.tpl
-- AnimationsScript.js

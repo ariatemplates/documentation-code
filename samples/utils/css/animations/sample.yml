@@ -1,0 +1,8 @@
+title: "Animations"
+template: samples.utils.css.animations.Animations
+description: Animation utility allows to animate a lot of CSS properties.
+sources:
+- Animations.tpl
+- AnimationsScript.js
+
+categories: Utils/Animations

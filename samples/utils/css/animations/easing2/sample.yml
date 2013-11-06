@@ -1,6 +1,8 @@
 title: "Custom easing function: Math.pow(x, 4)"
 template: samples.utils.css.animations.easing2.Animations
-description: Animation utility allows to animate an element on a set of CSS properties.
+description: It shows how to set up a custom easing fucntion.
 sources:
 - Animations.tpl
 - AnimationsScript.js
+
+categories: Utils/Animations

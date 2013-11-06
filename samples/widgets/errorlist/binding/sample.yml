@@ -6,3 +6,4 @@ sources:
 - ErrorListBinding.tpl
 - ErrorListBindingCtrl.js
 - IErrorListBindingCtrl.js
+categories: Widgets/Errorlist

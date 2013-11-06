@@ -3,3 +3,5 @@ template: samples.widgets.checkbox.styling.CheckboxStyling
 description: It shows different possible styles that can be applied to the Checkbox Widget.
 sources:
 - CheckboxStyling.tpl
+
+categories: Widgets/Checkbox

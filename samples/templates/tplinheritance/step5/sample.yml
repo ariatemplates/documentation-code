@@ -6,3 +6,5 @@ sources:
 - ParentTemplate.tpl
 - CSSParent.tpl.css
 - CSSFirstChild.tpl.css
+
+categories: Templates/Inheritance

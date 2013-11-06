@@ -5,3 +5,5 @@ sources:
 - TouchStart.tpl
 - TouchStartScript.js
 - TouchEventsCSS.tpl.css
+
+categories: Utils/Touch

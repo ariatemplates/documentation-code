@@ -1,6 +1,8 @@
 title: "Easing functions: ease-in-out"
 template: samples.utils.css.animations.easing1.Animations
-description: Animation utility allows to animate an element on a set of CSS properties.
+description: Example of the "ease-in-out" built-in.
 sources:
 - Animations.tpl
 - AnimationsScript.js
+
+categories: Utils/Animations

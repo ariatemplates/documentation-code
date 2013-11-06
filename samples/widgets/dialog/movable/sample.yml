@@ -23,3 +23,5 @@ data:
           label : "Overlay"
         - value : "2"
           label : "CloneOverlay"
+
+categories: Widgets/Dialog

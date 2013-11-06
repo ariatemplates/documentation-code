@@ -3,3 +3,4 @@ template: samples.widgets.radiobutton.SimpleRadioButton
 description: It shows the default RadioButton widget.
 sources:
 - SimpleRadioButton.tpl
+categories: Widgets/Radiobutton

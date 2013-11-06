@@ -42,3 +42,5 @@ data:
     price:
       currency: "EUR"
       value: 115
+
+categories: Widgets/Sortindicator

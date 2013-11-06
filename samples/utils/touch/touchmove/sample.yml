@@ -5,3 +5,5 @@ sources:
 - TouchMove.tpl
 - TouchMoveScript.js
 - TouchEventsCSS.tpl.css
+
+categories: Utils/Touch

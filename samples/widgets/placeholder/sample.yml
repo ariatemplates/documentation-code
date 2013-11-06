@@ -9,3 +9,4 @@ sources:
 - ContentProvider.js
 - Subtemplate.tpl
 - Subtemplate2.tpl
+categories: Widgets/Placeholder

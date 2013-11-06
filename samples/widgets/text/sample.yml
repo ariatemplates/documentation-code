@@ -3,3 +3,4 @@ template: samples.widgets.text.TextWgtSample
 description: It shows the Text Widget with different properties set.
 sources:
 - TextWgtSample.tpl
+categories: Widgets/Text

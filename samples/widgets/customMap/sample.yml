@@ -11,3 +11,4 @@ sources:
 - provider/MapMarkerCSS.tpl.css
 - provider/Marker.js
 - provider/MarkerGroup.js
+categories: Widgets/CustomMap

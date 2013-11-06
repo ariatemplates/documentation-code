@@ -5,3 +5,4 @@ sources:
 - TabWgtBinding.tpl
 data:
   tabValue: "Tab2"
+categories: Widgets/Tab

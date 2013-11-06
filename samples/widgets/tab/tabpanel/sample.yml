@@ -5,3 +5,4 @@ sources:
 - TabPanelWgtMacro.tpl
 data:
   tabValue: "Tab2"
+categories: Widgets/Tab

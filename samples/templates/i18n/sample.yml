@@ -17,3 +17,4 @@ data:
 sources:
 - LocalizedTemplate.tpl
 - LocalizedTemplateScript.js
+categories: Templates/I18n

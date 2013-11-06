@@ -3,3 +3,4 @@ template: samples.widgets.numberfield.SampleUsage
 description: It shows how the NumberField Widget works in aria templates.
 sources:
 - SampleUsage.tpl
+categories: Widgets/Numberfield

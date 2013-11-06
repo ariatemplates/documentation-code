@@ -1,4 +1,4 @@
-title: Sgt Greeters
+title: Hello world example
 template: samples.intro.SgtGreeters
 description: It shows a very basic sample to display stuff with aria templates.
 sources:
@@ -10,3 +10,4 @@ data:
   - John
   - Paul
   - George
+categories: Templates

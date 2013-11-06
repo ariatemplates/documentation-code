@@ -5,3 +5,4 @@ sources:
 - BaseSelectTag.tpl
 - BaseSelectTagScript.js
 - Style.tpl.css
+categories: Widgets/Libs

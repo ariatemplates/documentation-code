@@ -5,3 +5,5 @@ sources:
 - LoadingOverlayTemplate.tpl
 - LoadingOverlayTemplateScript.js
 
+
+categories: Utils/Loading overlay

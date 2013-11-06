@@ -5,3 +5,4 @@ sources:
 - RepeaterStepOne.tpl
 - RepeaterStepOneScript.js
 - RepeaterStepOneCSS.tpl.css
+categories: Templates/Repeater

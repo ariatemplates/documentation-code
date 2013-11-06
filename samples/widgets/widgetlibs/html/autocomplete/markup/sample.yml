@@ -7,3 +7,4 @@ sources:
 - ../common/Resources.js
 - ../common/Style.tpl.css
 - ../common/SuggestionsLibrary.tml
+categories: Widgets/Libs

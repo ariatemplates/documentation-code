@@ -3,3 +3,4 @@ template: samples.widgets.timefield.SampleUsage
 description: It shows the TimeField Widget usage.
 sources:
 - SampleUsage.tpl
+categories: Widgets/Timefield

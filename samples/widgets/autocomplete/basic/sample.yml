@@ -5,3 +5,4 @@ sources:
 - Basic.tpl
 - BasicScript.js
 - ../../../common/autocomplete/AutoCompleteResourceHandler.js
+categories: Widgets/Autocomplete

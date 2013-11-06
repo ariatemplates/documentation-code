@@ -3,3 +3,4 @@ template: samples.widgets.datefield.binding.DateFieldBindable
 description: It shows two Datefield Widgets bound to the data model.
 sources:
 - DateFieldBindable.tpl
+categories: Widgets/Datefield

@@ -48,3 +48,4 @@ data:
 sources:
 - TemplateMultiSelect.tpl
 - TemplateMultiSelectScript.js
+categories: Widgets/Multiselect

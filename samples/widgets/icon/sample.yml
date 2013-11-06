@@ -3,3 +3,4 @@ template: samples.widgets.icon.SampleUsage
 description: It shows different layouts for the Icon Widget, with Inline style, tooltip and margin.
 sources:
 - SampleUsage.tpl
+categories: Widgets/Icon

@@ -7,7 +7,12 @@
 	]
 }}
 	{macro main()}
-		<form style = "width:250px;padding:10px;padding-top:5px;" >
+        <b>Use the arrows to navigate between boxes.</b><br /><br />
+        The boxes contain inputs to handle keyboard and form events.<br />
+        Each checkbox has one event handler attached to it : <b>\{on keydown\}</b>.<br />
+        The on keydown is used to move the selection to another box, and trigger a refresh.<br /><br />
+
+        <form style = "width:250px;padding:10px;padding-top:5px;" >
 		{for var i=1 ; i < 10 ; i++}
 			{var classname = this.data.selected == i ? " selected" : ""/}
 			<div class = "container box ${classname}">
