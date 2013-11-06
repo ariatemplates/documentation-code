@@ -1,6 +1,6 @@
-title: ErrorList Widget - Sample usage
+title: ErrorList Widget - Using filters
 template: samples.widgets.errorlist.filtering.ErrorListFilterTemplate
-description: It shows the different message layouts for the ErrorList Widget (Information, Success, Error, Warning).
+description: It shows the different message layouts for the ErrorList Widget (Information, Success, Error, Warning) using the filter property.
 sources:
 - ErrorListFilterTemplate.tpl
 - ErrorListFilterTemplateScript.js
