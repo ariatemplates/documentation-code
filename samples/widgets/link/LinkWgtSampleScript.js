@@ -7,7 +7,7 @@ Aria.tplScriptDefinition({
 		 */
 		linkClicked : function (evt) {
 			alert("onClick callback event fired");
-		},
+		}
 
 
 	}
