@@ -7,7 +7,7 @@ Aria.tplScriptDefinition({
 		 */
 		buttonClick : function (evt) {
 			alert("Button enabled and event got fired");
-		},
+		}
 
 
 	}
