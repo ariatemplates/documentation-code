@@ -1,5 +1,6 @@
 {Template {
-	$classpath : 'samples.widgets.selectbox.bindoptions.BindOptions'
+	$classpath : 'samples.widgets.selectbox.bindoptions.BindOptions',
+	$hasScript: true
 }}
 
 	{macro main ( )}
