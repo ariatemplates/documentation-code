@@ -1,4 +1,4 @@
-title: Icon Widget  - Sample usage
+title: Icon Widget: Sample usage
 template: samples.widgets.icon.SampleUsage
 description: It shows different layouts for the Icon Widget, with Inline style, tooltip and margin.
 sources:
