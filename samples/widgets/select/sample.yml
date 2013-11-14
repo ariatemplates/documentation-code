@@ -1,4 +1,4 @@
-title: Select Field Widget - Sample usage
+title: Select Widget
 template: samples.widgets.select.SampleUsage
 description: It shows the Select Widget in different configuration (default, read-only, disabled).
 data:

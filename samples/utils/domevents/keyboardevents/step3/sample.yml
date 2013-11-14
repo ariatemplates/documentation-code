@@ -1,6 +1,6 @@
-title: Keyboard Events
+title: Keyboard Events Step 3
 template: samples.utils.domevents.keyboardevents.step3.KeyboardEvents
-description: Demonstration of keyboard events using box selection.
+description: Use TAB and shift+TAB to navigate between boxes.
 sources:
 - KeyboardEvents.tpl
 - KeyboardEventsScript.js

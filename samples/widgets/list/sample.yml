@@ -1,4 +1,4 @@
-title: List Widget  - Sample
+title: List Widget
 template: samples.widgets.list.Simple
 description: It shows a List Widget in normal mode and disabled.
 data:

@@ -49,7 +49,7 @@
 	},
 	{
 		"path": "samples.templates.cdata.CDATATemplate",
-		"title": "Code sample display with CDATA - Sample",
+		"title": "Code sample display with CDATA",
 		"categories": "Templates",
 		"desc": "This is to demonstrate how to display code sample using CDATA"
 	},
@@ -81,7 +81,7 @@
 		"path": "samples.templates.htmltemplate.SimpleTemplate",
 		"title": "Basic HTML Template",
 		"categories": "Templates/Htmltemplate",
-		"desc": "This is demonstrate a basic HTML template"
+		"desc": "This is to demonstrate a basic HTML template"
 	},
 	{
 		"path": "samples.templates.i18n.LocalizedTemplate",
@@ -97,7 +97,7 @@
 	},
 	{
 		"path": "samples.templates.keyboardnavigation.bubbleKeyMap.KeyMap",
-		"title": "Keyboard event bubble sample",
+		"title": "Keyboard event bubble",
 		"categories": "Templates/Keyboard navigation",
 		"desc": "It shows how to propagate a Key Map between sections."
 	},
@@ -127,7 +127,7 @@
 	},
 	{
 		"path": "samples.templates.keyboardnavigation.tableNavigationInherit.TableNavInherit",
-		"title": "Subsections inherit the behavior of their parent section",
+		"title": "Table Navigation inheritance between section and subsections",
 		"categories": "Templates/Keyboard navigation",
 		"desc": "It shows a Table Navigation with focusable items and a subsection that inherits the tab navigation."
 	},
@@ -151,7 +151,7 @@
 	},
 	{
 		"path": "samples.templates.modifiers.ModifiersTemplate",
-		"title": "Modifiers template example",
+		"title": "Modifiers template",
 		"categories": "Templates/Modifiers",
 		"desc": "This is to demonstrate how to modify data to display in a template"
 	},
@@ -187,7 +187,7 @@
 	},
 	{
 		"path": "samples.templates.repeater.RepeaterStepOne",
-		"title": "Repeater Sample",
+		"title": "Repeater with Array",
 		"categories": "Templates/Repeater",
 		"desc": "It shows how to use the repeater statement with an array."
 	},
@@ -259,13 +259,13 @@
 	},
 	{
 		"path": "samples.utils.css.animations.callbacks.Animations",
-		"title": "Callbacks",
+		"title": "Animation with callback",
 		"categories": "Utils/Animations",
 		"desc": "It shows how to use an animation with a callback"
 	},
 	{
 		"path": "samples.utils.css.animations.complex.Animations",
-		"title": "Complex scenarios",
+		"title": "Complex scenario with Animations",
 		"categories": "Utils/Animations",
 		"desc": "This is a complex example of animations"
 	},
@@ -289,13 +289,13 @@
 	},
 	{
 		"path": "samples.utils.css.animations.queue1.Animations",
-		"title": "Global queue",
+		"title": "Global queue for Animations",
 		"categories": "Utils/Animations",
 		"desc": "It shows how to queue animations."
 	},
 	{
 		"path": "samples.utils.css.animations.Animations",
-		"title": "Animations",
+		"title": "Animations sample",
 		"categories": "Utils/Animations",
 		"desc": "Animation utility allows to animate a lot of CSS properties."
 	},
@@ -315,31 +315,31 @@
 		"path": "samples.utils.domevents.keyboardevents.step1.KeyboardEvents",
 		"title": "Keyboard Events Step 1",
 		"categories": "Utils/Dom events",
-		"desc": "Demonstration of keyboard events Step 1 using box selection."
+		"desc": "Use the arrows to navigate between boxes."
 	},
 	{
 		"path": "samples.utils.domevents.keyboardevents.step2.KeyboardEvents",
-		"title": "Keyboard Events",
+		"title": "Keyboard Events Step 2",
 		"categories": "Utils/Dom events",
-		"desc": "Demonstration of keyboard events using box selection."
+		"desc": "Checkbox selections are now preserved after a refresh."
 	},
 	{
 		"path": "samples.utils.domevents.keyboardevents.step3.KeyboardEvents",
-		"title": "Keyboard Events",
+		"title": "Keyboard Events Step 3",
 		"categories": "Utils/Dom events",
-		"desc": "Demonstration of keyboard events using box selection."
+		"desc": "Use TAB and shift+TAB to navigate between boxes."
 	},
 	{
 		"path": "samples.utils.domevents.keyboardevents.step4.KeyboardEvents",
-		"title": "Keyboard Events",
+		"title": "Keyboard Events Step 4",
 		"categories": "Utils/Dom events",
-		"desc": "Demonstration of keyboard events using box selection."
+		"desc": "Optimization of step 3 with event delegation."
 	},
 	{
 		"path": "samples.utils.domevents.keyboardevents.step5.KeyboardEvents",
-		"title": "Keyboard Events",
+		"title": "Keyboard Events Step 5",
 		"categories": "Utils/Dom events",
-		"desc": "Demonstration of keyboard events using box selection."
+		"desc": "Optimization of step 4 with DomElementWrapper to avoid useless refresh."
 	},
 	{
 		"path": "samples.utils.domevents.mouseevents.MouseEvents",
@@ -355,7 +355,7 @@
 	},
 	{
 		"path": "samples.utils.domevents.mousewheel.MouseWheel",
-		"title": "Mouse Wheel Example",
+		"title": "Mouse Wheel Event",
 		"categories": "Utils/Dom events",
 		"desc": "Demonstration of Callback using onmousewheel event"
 	},
@@ -367,19 +367,19 @@
 	},
 	{
 		"path": "samples.utils.fileupload.FileUpload",
-		"title": "File Upload Request Sample",
+		"title": "File Upload Request",
 		"categories": "Utils/Fileupload",
 		"desc": "Sample to demonstrate a file upload request."
 	},
 	{
 		"path": "samples.utils.jsonp.JsonP",
-		"title": "JSON-P Request Sample",
+		"title": "JSON-P Request",
 		"categories": "Utils/Jsonp",
 		"desc": "Sample to demonstrate JSON-P request by simulating a scenario."
 	},
 	{
 		"path": "samples.utils.keynav.KeyboardNavigation",
-		"title": "Table Navigation using keyboard Example",
+		"title": "Table Navigation using keyboard",
 		"categories": "Utils/Keyboard navigation",
 		"desc": "Table navigation provides advanced keyboard navigation in the HTML table."
 	},
@@ -483,7 +483,7 @@
 		"path": "samples.widgets.bindings.transform.Transform",
 		"title": "Widget Bindings with Transform",
 		"categories": "Widgets/Bindings",
-		"desc": "It shows how to bind a widget with a text ransformation"
+		"desc": "It shows how to bind a widget with a text transformation"
 	},
 	{
 		"path": "samples.widgets.button.action.Action",
@@ -511,19 +511,19 @@
 	},
 	{
 		"path": "samples.widgets.calendar.Samples",
-		"title": "Calendar Widget - Samples",
+		"title": "Calendar Widget - Label format",
 		"categories": "Widgets/Calendar",
 		"desc": "It shows how the Calendar Widget looks like with different label format."
 	},
 	{
 		"path": "samples.widgets.checkbox.binding.BindableCheckbox",
-		"title": "Checkbox Widget - Bindings",
+		"title": "Checkbox Widget - Binding",
 		"categories": "Widgets/Checkbox",
 		"desc": "It shows different modes to bing a Checkbox Widget, using the data model for example."
 	},
 	{
 		"path": "samples.widgets.checkbox.SimpleCheckbox",
-		"title": "Checkbox Widget",
+		"title": "Checkbox Widget - Onchange event",
 		"categories": "Widgets/Checkbox",
 		"desc": "It shows a simple Checkbox Widget with the onchange event attached to it."
 	},
@@ -535,7 +535,7 @@
 	},
 	{
 		"path": "samples.widgets.customMap.CustomMap",
-		"title": "Custom Map Example",
+		"title": "Custom Map Widget",
 		"categories": "Widgets/CustomMap",
 		"desc": "This is to demonstrate Custom Map widget"
 	},
@@ -547,7 +547,7 @@
 	},
 	{
 		"path": "samples.widgets.datefield.binding.DateFieldBindable",
-		"title": "DateField Widget with reference date - Sample",
+		"title": "DateField Widget - With reference date",
 		"categories": "Widgets/Datefield",
 		"desc": "It shows two Datefield Widgets bound to the data model."
 	},
@@ -559,85 +559,85 @@
 	},
 	{
 		"path": "samples.widgets.datepicker.customized.CustomizedDatePicker",
-		"title": "DatePicker Widget customized template - Sample",
+		"title": "DatePicker Widget - Customized template",
 		"categories": "Widgets/Datepicker",
 		"desc": "It shows a DatePicker Widget with a customized layout."
 	},
 	{
 		"path": "samples.widgets.datepicker.reference.ReferenceDatePicker",
-		"title": "DatePicker Widget with date reference - Sample",
+		"title": "DatePicker Widget - With date reference",
 		"categories": "Widgets/Datepicker",
 		"desc": "It shows a DatePicker Widget with date reference."
 	},
 	{
 		"path": "samples.widgets.datepicker.TemplateDatePicker",
-		"title": "DatePicker Widget binding - Sample",
+		"title": "DatePicker Widget - Binding",
 		"categories": "Widgets/Datepicker",
 		"desc": "It shows the default DatePicker Widget."
 	},
 	{
 		"path": "samples.widgets.dialog.action.DialogActionSample",
-		"title": "Dialog sample usage",
+		"title": "Dialog Widget - Actions",
 		"categories": "Widgets/Dialog",
 		"desc": "It shows how the actions work with the Dialog."
 	},
 	{
 		"path": "samples.widgets.dialog.binding.DialogBindingSample",
-		"title": "Dialog sample usage",
+		"title": "Dialog Widget - Binding",
 		"categories": "Widgets/Dialog",
 		"desc": "It shows which properties are bindable and how they work for the Dialog."
 	},
 	{
 		"path": "samples.widgets.dialog.movable.TemplateMovableDialog",
-		"title": "Movable dialog",
+		"title": "Dialog Widget - Movable",
 		"categories": "Widgets/Dialog",
 		"desc": "It shows a Movable Dialog."
 	},
 	{
 		"path": "samples.widgets.dialog.resizable.TemplateResizableDialog",
-		"title": "Resizable dialog",
+		"title": "Dialog Widget - Resizable",
 		"categories": "Widgets/Dialog",
 		"desc": "It shows a Resizable Dialog."
 	},
 	{
 		"path": "samples.widgets.dialog.TemplateDialog",
-		"title": "Dialog sample usage",
+		"title": "Dialog Widget",
 		"categories": "Widgets/Dialog",
 		"desc": "It shows the default Dialog popping out after a mouse click."
 	},
 	{
 		"path": "samples.widgets.div.binding.DivWgtBinding",
-		"title": "Div Widget - Binding usage",
+		"title": "Div Widget - Binding",
 		"categories": "Widgets/Div",
 		"desc": "It shows how the tooltip property works when is bound to another element."
 	},
 	{
 		"path": "samples.widgets.div.DivWgtSample",
-		"title": "Div Widget - Sample usage",
+		"title": "Div Widget",
 		"categories": "Widgets/Div",
 		"desc": "It shows how a Div Widget look like."
 	},
 	{
 		"path": "samples.widgets.div.styling.DivWidgetStyling",
-		"title": "Div Widget - Styling usage",
+		"title": "Div Widget - Styling",
 		"categories": "Widgets/Div",
 		"desc": "It shows different uses of the 'sclass' property with the Div Widget."
 	},
 	{
 		"path": "samples.widgets.embed.Embed",
-		"title": "Embed Example",
+		"title": "Embed Widget",
 		"categories": "Widgets/Embed",
 		"desc": "This is to demonstrate the Embed Element"
 	},
 	{
 		"path": "samples.widgets.errorlist.binding.ErrorListBinding",
-		"title": "ErrorList Widget - Binding usage",
+		"title": "ErrorList Widget - Binding",
 		"categories": "Widgets/Errorlist",
 		"desc": "It shows how the ErrorList Widget works when is bound to something."
 	},
 	{
 		"path": "samples.widgets.errorlist.custom.ErrorListCustomizedTemplate",
-		"title": "ErrorList Widget - Customized template usage",
+		"title": "ErrorList Widget - Customized template",
 		"categories": "Widgets/Errorlist",
 		"desc": "It shows a customized ErrorList Widget."
 	},
@@ -649,163 +649,163 @@
 	},
 	{
 		"path": "samples.widgets.errorlist.standard.ErrorListTemplate",
-		"title": "ErrorList Widget - Standard usage",
+		"title": "ErrorList Widget",
 		"categories": "Widgets/Errorlist",
 		"desc": "It shows how the ErrorList Widget looks like, showing the information layout."
 	},
 	{
 		"path": "samples.widgets.fieldset.action.FieldsetAction",
-		"title": "Fieldset Widget Event bubble - Sample usage",
+		"title": "Fieldset Widget - Event bubble",
 		"categories": "Widgets/Fieldset",
 		"desc": "It shows Fieldset Widgets executing callback actions."
 	},
 	{
 		"path": "samples.widgets.fieldset.binding.FieldsetBinding",
-		"title": "Fieldset Widget Binding - Sample usage",
+		"title": "Fieldset Widget - Binding",
 		"categories": "Widgets/Fieldset",
 		"desc": "It shows a Fieldset Widget with the property tooltip bound to the data model."
 	},
 	{
 		"path": "samples.widgets.fieldset.nested.FieldsetNested",
-		"title": "Nested Fieldset Widget - Sample usage",
+		"title": "Fieldset Widget - Nested",
 		"categories": "Widgets/Fieldset",
 		"desc": "It shows a nested Fieldset Widget with the default configuration."
 	},
 	{
 		"path": "samples.widgets.fieldset.FieldsetSimple",
-		"title": "Fieldset Widget - Sample usage",
+		"title": "Fieldset Widget",
 		"categories": "Widgets/Fieldset",
 		"desc": "It shows two Fieldset Widgets with the default configuration."
 	},
 	{
 		"path": "samples.widgets.gauge.SampleUsage",
-		"title": "Gauge Widget - Sample usage",
+		"title": "Gauge Widget",
 		"categories": "Widgets/Gauge",
 		"desc": "It shows the Gauge Widget working with a specific value or in searching mode."
 	},
 	{
 		"path": "samples.widgets.icon.library.SampleLibraryUsage",
-		"title": "Icons: Icon Widget Library",
+		"title": "Icon Widget - Library",
 		"categories": "Widgets/Icon",
 		"desc": "It shows some different icons for many uses, like info, error, undo, redo, help, arrows, etc."
 	},
 	{
 		"path": "samples.widgets.icon.SampleUsage",
-		"title": "Icon Widget: Sample usage",
+		"title": "Icon Widget",
 		"categories": "Widgets/Icon",
 		"desc": "It shows different layouts for the Icon Widget, with Inline style, tooltip and margin."
 	},
 	{
 		"path": "samples.widgets.iconbutton.binding.IconButtonBinding",
-		"title": "IconButton Widget Binding - Sample usage",
+		"title": "IconButton Widget - Binding",
 		"categories": "Widgets/Iconbutton",
 		"desc": "It shows an IconButton Widget bound to a checkbox that manage the icon button enabled state."
 	},
 	{
 		"path": "samples.widgets.iconbutton.Simple",
-		"title": "IconButton Widget  - Sample usage",
+		"title": "IconButton Widget",
 		"categories": "Widgets/Iconbutton",
 		"desc": "It shows an IconButton Widget in normal mode and disabled."
 	},
 	{
 		"path": "samples.widgets.iconbutton.styling.IconButtonStyle",
-		"title": "IconButton Widget Styling - Sample usage",
+		"title": "IconButton Widget - Styling",
 		"categories": "Widgets/Iconbutton",
 		"desc": "It shows some IconButton Widgets with different styles."
 	},
 	{
 		"path": "samples.widgets.link.LinkWgtSample",
-		"title": "Link sample",
+		"title": "Link Widget",
 		"categories": "Widgets/Link",
 		"desc": "It shows how the Link Widget works, calling a user defined callback after a click."
 	},
 	{
 		"path": "samples.widgets.list.action.ListAction",
-		"title": "List Widget  - Action sample",
+		"title": "List Widget - Action",
 		"categories": "Widgets/List",
 		"desc": "It shows a List Widget with different action linked, like onMouseOver, onClick, onKeyevent and onChange."
 	},
 	{
 		"path": "samples.widgets.list.binding.ListBinding",
-		"title": "List Widget  - Binding sample",
+		"title": "List Widget - Binding",
 		"categories": "Widgets/List",
 		"desc": "It shows a List Widget bound to another list and to a checkbox."
 	},
 	{
 		"path": "samples.widgets.list.Simple",
-		"title": "List Widget  - Sample",
+		"title": "List Widget",
 		"categories": "Widgets/List",
 		"desc": "It shows a List Widget in normal mode and disabled."
 	},
 	{
 		"path": "samples.widgets.list.styling.ListStyle",
-		"title": "List Widget  - Styling sample",
+		"title": "List Widget - Styling",
 		"categories": "Widgets/List",
 		"desc": "It shows a List Widget with different styles applied."
 	},
 	{
 		"path": "samples.widgets.map.MapSample",
-		"title": "Simple Map",
+		"title": "Map Widget",
 		"categories": "Widgets/Map",
 		"desc": "It shows how to create a simple map."
 	},
 	{
 		"path": "samples.widgets.multiselect.binding.TemplateMultiSelect",
-		"title": "MultiSelect Widget Binding",
+		"title": "MultiSelect Widget - Binding",
 		"categories": "Widgets/Multiselect",
 		"desc": "It shows the MultiSelect Widget with instant binding option"
 	},
 	{
 		"path": "samples.widgets.multiselect.SampleUsage",
-		"title": "MultiSelect Widget - Sample usage",
+		"title": "MultiSelect Widget",
 		"categories": "Widgets/Multiselect",
 		"desc": "It shows the MultiSelect Widget with different layouts, like columns, table, etc."
 	},
 	{
 		"path": "samples.widgets.numberfield.SampleUsage",
-		"title": "NumberField Sample Usage",
+		"title": "NumberField Widget",
 		"categories": "Widgets/Numberfield",
 		"desc": "It shows how the NumberField Widget works in aria templates."
 	},
 	{
 		"path": "samples.widgets.passwordfield.Password",
-		"title": "PasswordField Sample Usage",
+		"title": "PasswordField Widget",
 		"categories": "Widgets/Passwordfield",
 		"desc": "It shows how the PasswordField Widget works in aria templates."
 	},
 	{
 		"path": "samples.widgets.placeholder.PlaceholderSample",
-		"title": "Placeholder sample usage",
+		"title": "Placeholder Widget",
 		"categories": "Widgets/Placeholder",
 		"desc": "It shows how the place holder works in Aria Template."
 	},
 	{
 		"path": "samples.widgets.radiobutton.binding.RadioButtonBinding",
-		"title": "RadioButton Widget - Binding usage",
+		"title": "RadioButton Widget - Binding",
 		"categories": "Widgets/Radiobutton",
 		"desc": "It shows RadioButton Widgets bound to the data model."
 	},
 	{
 		"path": "samples.widgets.radiobutton.SimpleRadioButton",
-		"title": "RadioButton Widget - Sample usage",
+		"title": "RadioButton Widget",
 		"categories": "Widgets/Radiobutton",
 		"desc": "It shows the default RadioButton widget."
 	},
 	{
 		"path": "samples.widgets.radiobutton.styling.StyledRadioButton",
-		"title": "RadioButton Widget - Styling usage",
+		"title": "RadioButton Widget - Styling",
 		"categories": "Widgets/Radiobutton",
 		"desc": "It shows the RadioButton Widget with different styles applied."
 	},
 	{
 		"path": "samples.widgets.select.bindoptions.BindOptions",
-		"title": "Select Field Widget - Bindable Options",
+		"title": "Select Widget - Bindable Options",
 		"categories": "Widgets/Select",
 		"desc": "Bindable options to dynamically change Select widget options"
 	},
 	{
 		"path": "samples.widgets.select.SampleUsage",
-		"title": "Select Field Widget - Sample usage",
+		"title": "Select Widget",
 		"categories": "Widgets/Select",
 		"desc": "It shows the Select Widget in different configuration (default, read-only, disabled)."
 	},
@@ -817,175 +817,175 @@
 	},
 	{
 		"path": "samples.widgets.selectbox.SampleUsage",
-		"title": "SelectBox Field Widget - Sample usage",
+		"title": "SelectBox Widget",
 		"categories": "Widgets/Selectbox",
 		"desc": "It shows the SelectBox Widget in different configuration (default, read-only, disabled)."
 	},
 	{
 		"path": "samples.widgets.sortindicator.binding.SortingTemplateBinding",
-		"title": "SortIndicator Widget  - Binding Sample",
+		"title": "SortIndicator Widget - Binding",
 		"categories": "Widgets/Sortindicator",
 		"desc": "It shows how the SortIndicator with the tooltip property bound to the data model works."
 	},
 	{
 		"path": "samples.widgets.sortindicator.SortingTemplate",
-		"title": "SortIndicator Widget  - Sample",
+		"title": "SortIndicator Widget",
 		"categories": "Widgets/Sortindicator",
 		"desc": "It shows how the SortIndicator Widget works in aria templates."
 	},
 	{
 		"path": "samples.widgets.splitter.TemplateSplitter",
-		"title": "Splitter sample usage",
+		"title": "Splitter Widget",
 		"categories": "Widgets/Splitter",
 		"desc": "Example of Splitter."
 	},
 	{
 		"path": "samples.widgets.tab.binding.TabWgtBinding",
-		"title": "Tab Widget - Binding Sample",
+		"title": "Tab Widget - Binding",
 		"categories": "Widgets/Tab",
 		"desc": "It shows the Tab Widget with the selectedTab property bound to the data model."
 	},
 	{
 		"path": "samples.widgets.tab.TabWgtSample",
-		"title": "Tab Widget - Sample",
+		"title": "Tab Widget",
 		"categories": "Widgets/Tab",
 		"desc": "It shows the Tab Widget."
 	},
 	{
 		"path": "samples.widgets.tab.styling.TabWgtStyle",
-		"title": "Tab Widget - Styling Sample",
+		"title": "Tab Widget - Styling",
 		"categories": "Widgets/Tab",
 		"desc": "It shows the Tab Widget with style applied."
 	},
 	{
 		"path": "samples.widgets.tab.tabpanel.TabPanelWgtMacro",
-		"title": "TabPanel Widget - Sample",
+		"title": "TabPanel Widget",
 		"categories": "Widgets/Tab",
 		"desc": "It shows the TabPanel Widget."
 	},
 	{
 		"path": "samples.widgets.template.TemplateSample",
-		"title": "Template Widget  - Sample",
+		"title": "Template Widget",
 		"categories": "Widgets/Template",
 		"desc": "It shows the Template Widget."
 	},
 	{
 		"path": "samples.widgets.text.binding.TextWgtBinding",
-		"title": "Text Widget - Binding Sample",
+		"title": "Text Widget - Binding",
 		"categories": "Widgets/Text",
 		"desc": "It shows the Text Widget with properties bound to another element."
 	},
 	{
 		"path": "samples.widgets.text.TextWgtSample",
-		"title": "Text Widget - Sample",
+		"title": "Text Widget",
 		"categories": "Widgets/Text",
 		"desc": "It shows the Text Widget with different properties set."
 	},
 	{
 		"path": "samples.widgets.textarea.binding.TemplateTextareaBinding",
-		"title": "Textarea sample usage",
+		"title": "Textarea Widget - Binding",
 		"categories": "Widgets/Textarea",
 		"desc": "Example of Textarea value bound to datamodel."
 	},
 	{
 		"path": "samples.widgets.textarea.bindingTransform.TemplateTextareaBindingTransofrm",
-		"title": "Textarea sample usage",
+		"title": "Textarea Widget - Binding with Transform",
 		"categories": "Widgets/Textarea",
 		"desc": "Example of modification/transofrmation of a Textarea value which is bound to a datamodel."
 	},
 	{
 		"path": "samples.widgets.textarea.prefill.TemplateTextareaPrefill",
-		"title": "Textarea sample usage",
+		"title": "Textarea Widget - Prefill",
 		"categories": "Widgets/Textarea",
 		"desc": "Example of Textarea with prefilled value."
 	},
 	{
 		"path": "samples.widgets.textarea.TemplateTextarea",
-		"title": "Textarea sample usage",
+		"title": "Textarea Widget",
 		"categories": "Widgets/Textarea",
 		"desc": "Example of simple Textarea."
 	},
 	{
 		"path": "samples.widgets.textfield.binding.Bindings",
-		"title": "TextField Bindings",
+		"title": "TextField Widget - Bindings",
 		"categories": "Widgets/Textfield",
 		"desc": "It shows some TextField Widgets bound to the data model."
 	},
 	{
 		"path": "samples.widgets.textfield.transform.Transforms",
-		"title": "TextField Transform Bindings",
+		"title": "TextField Widget - Bindings with Transform",
 		"categories": "Widgets/Textfield",
 		"desc": "It shows the Trasform feature of the TextField Widget."
 	},
 	{
 		"path": "samples.widgets.timefield.SampleUsage",
-		"title": "TimeField Sample Usage",
+		"title": "TimeField Widget",
 		"categories": "Widgets/Timefield",
 		"desc": "It shows the TimeField Widget usage."
 	},
 	{
 		"path": "samples.widgets.tooltip.TemplateTooltip",
-		"title": "Tooltip Widget  - Sample",
+		"title": "Tooltip Widget",
 		"categories": "Widgets/Tooltip",
 		"desc": "It shows the Tooltip Widget used in different contexts."
 	},
 	{
 		"path": "samples.widgets.touch.dialog.DialogTpl",
-		"title": "Touch Dialog Widget  - Sample",
+		"title": "Touch Dialog Widget",
 		"categories": "Widgets/Touch",
 		"desc": "This is to demonstrate animations for touch dialog."
 	},
 	{
 		"path": "samples.widgets.touch.doubleslider.DoubleSliderTpl",
-		"title": "Touch Double Slider Widget  - Sample",
+		"title": "Touch Double Slider Widget",
 		"categories": "Widgets/Touch",
 		"desc": "This is to demonstrate touch enabled doubled slider"
 	},
 	{
 		"path": "samples.widgets.touch.slider.Slider",
-		"title": "Touch Slider Widget  - Sample",
+		"title": "Touch Slider Widget",
 		"categories": "Widgets/Touch",
 		"desc": "This is to demonstrate touch enabled slider widget"
 	},
 	{
 		"path": "samples.widgets.widgetlibs.html.autocomplete.markup.PlainInput",
-		"title": "Simple input widget",
+		"title": "HTML Simple Input Widget",
 		"categories": "Widgets/Libs",
 		"desc": "In this sample the text input is created with a simple input tag."
 	},
 	{
 		"path": "samples.widgets.widgetlibs.html.autocomplete.widget.InputWidget",
-		"title": "TextInput Widget - Sample usage",
+		"title": "HTML Autocomplete Widget - Reusing TextInput widget",
 		"categories": "Widgets/Libs",
 		"desc": "This sample shows how to create an AutoComplete widget reusing the TextInput widget and the Suggestions controller."
 	},
 	{
 		"path": "samples.widgets.widgetlibs.html.checkbox.BaseCheckBoxTag",
-		"title": "HTML Checkbox, Sample usage",
+		"title": "HTML Checkbox Widget",
 		"categories": "Widgets/Libs",
 		"desc": "This is a sample to demonstrate the HTML Checkbox widget."
 	},
 	{
 		"path": "samples.widgets.widgetlibs.html.radiobutton.BaseRadioButtonTag",
-		"title": "HTML RadioButton, Sample usage",
+		"title": "HTML RadioButton Widget",
 		"categories": "Widgets/Libs",
 		"desc": "This is a sample to demonstrate the HTML RadioButton widget."
 	},
 	{
 		"path": "samples.widgets.widgetlibs.html.select.BaseSelectTag",
-		"title": "HTML Select, Sample usage",
+		"title": "HTML Select Widget",
 		"categories": "Widgets/Libs",
 		"desc": "This is a sample to demonstrate the HTML Select widget."
 	},
 	{
 		"path": "samples.widgets.widgetlibs.html.template.SimpleTemplate",
-		"title": "Template Include Widget, Sample usage",
+		"title": "HTML Template Include Widget",
 		"categories": "Widgets/Libs",
 		"desc": "This is a sample example to demonstrate Template Include widget usage."
 	},
 	{
 		"path": "samples.widgets.widgetlibs.html.textinput.BaseTextInputTag",
-		"title": "TextInput Widget - Sample usage",
+		"title": "HTML TextInput Widget",
 		"categories": "Widgets/Libs",
 		"desc": "This is to demonstrate html textinput widget"
 	}

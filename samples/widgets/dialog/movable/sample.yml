@@ -1,4 +1,4 @@
-title: Movable dialog
+title: Dialog Widget - Movable
 template: samples.widgets.dialog.movable.TemplateMovableDialog
 description: It shows a Movable Dialog.
 sources:

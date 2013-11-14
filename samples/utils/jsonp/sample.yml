@@ -1,4 +1,4 @@
-title: JSON-P Request Sample
+title: JSON-P Request
 template: samples.utils.jsonp.JsonP
 description: Sample to demonstrate JSON-P request by simulating a scenario.
 sources:

@@ -1,4 +1,4 @@
-title: ErrorList Widget - Customized template usage
+title: ErrorList Widget - Customized template
 template: samples.widgets.errorlist.custom.ErrorListCustomizedTemplate
 description: It shows a customized ErrorList Widget.
 sources:

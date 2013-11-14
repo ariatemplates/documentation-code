@@ -1,4 +1,4 @@
-title: Table Navigation using keyboard Example
+title: Table Navigation using keyboard
 template: samples.utils.keynav.KeyboardNavigation
 description: Table navigation provides advanced keyboard navigation in the HTML table.
 sources:

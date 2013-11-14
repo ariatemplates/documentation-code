@@ -1,4 +1,4 @@
-title: Repeater Sample
+title: Repeater with Array
 template: samples.templates.repeater.RepeaterStepOne
 description: It shows how to use the repeater statement with an array.
 sources:

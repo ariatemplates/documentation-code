@@ -1,4 +1,4 @@
-title: DatePicker Widget with date reference - Sample
+title: DatePicker Widget - With date reference
 template: samples.widgets.datepicker.reference.ReferenceDatePicker
 description: It shows a DatePicker Widget with date reference.
 sources:

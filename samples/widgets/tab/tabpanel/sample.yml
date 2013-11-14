@@ -1,4 +1,4 @@
-title: TabPanel Widget - Sample
+title: TabPanel Widget
 template: samples.widgets.tab.tabpanel.TabPanelWgtMacro
 description: It shows the TabPanel Widget.
 sources:

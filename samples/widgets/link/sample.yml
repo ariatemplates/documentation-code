@@ -1,4 +1,4 @@
-title: Link sample
+title: Link Widget
 template: samples.widgets.link.LinkWgtSample
 description: It shows how the Link Widget works, calling a user defined callback after a click.
 sources:

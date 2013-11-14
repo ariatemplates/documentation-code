@@ -1,4 +1,4 @@
-title: HTML Checkbox, Sample usage
+title: HTML Checkbox Widget
 template: samples.widgets.widgetlibs.html.checkbox.BaseCheckBoxTag
 description: This is a sample to demonstrate the HTML Checkbox widget.
 sources:

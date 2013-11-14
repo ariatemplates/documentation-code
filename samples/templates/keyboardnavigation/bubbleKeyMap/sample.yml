@@ -1,4 +1,4 @@
-title: Keyboard event bubble sample
+title: Keyboard event bubble
 template: samples.templates.keyboardnavigation.bubbleKeyMap.KeyMap
 description: It shows how to propagate a Key Map between sections.
 sources:

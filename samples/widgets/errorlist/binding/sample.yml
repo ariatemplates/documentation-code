@@ -1,4 +1,4 @@
-title: ErrorList Widget - Binding usage
+title: ErrorList Widget - Binding
 template: samples.widgets.errorlist.binding.ErrorListBinding
 moduleCtrl: samples.widgets.errorlist.binding.ErrorListBindingCtrl
 description: It shows how the ErrorList Widget works when is bound to something.

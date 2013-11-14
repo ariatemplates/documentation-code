@@ -1,4 +1,4 @@
-title: Resizable dialog
+title: Dialog Widget - Resizable
 template: samples.widgets.dialog.resizable.TemplateResizableDialog
 description: It shows a Resizable Dialog.
 sources:
