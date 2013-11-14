@@ -1,4 +1,4 @@
-title: Select Field Widget - Bindable Options
+title: Select Widget - Bindable Options
 template: samples.widgets.select.bindoptions.BindOptions
 description: Bindable options to dynamically change Select widget options
 data:

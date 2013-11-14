@@ -1,4 +1,4 @@
-title: Code sample display with CDATA - Sample
+title: Code sample display with CDATA
 template: samples.templates.cdata.CDATATemplate
 description: This is to demonstrate how to display code sample using CDATA
 sources:

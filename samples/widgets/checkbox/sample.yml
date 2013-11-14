@@ -1,4 +1,4 @@
-title: Checkbox Widget
+title: Checkbox Widget - Onchange event
 template: samples.widgets.checkbox.SimpleCheckbox
 description: It shows a simple Checkbox Widget with the onchange event attached to it.
 sources:

@@ -1,4 +1,4 @@
-title: MultiSelect Widget Binding
+title: MultiSelect Widget - Binding
 template: samples.widgets.multiselect.binding.TemplateMultiSelect
 description: It shows the MultiSelect Widget with instant binding option
 data:

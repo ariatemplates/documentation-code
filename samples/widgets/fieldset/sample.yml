@@ -1,4 +1,4 @@
-title: Fieldset Widget - Sample usage
+title: Fieldset Widget
 template: samples.widgets.fieldset.FieldsetSimple
 description: It shows two Fieldset Widgets with the default configuration.
 sources:

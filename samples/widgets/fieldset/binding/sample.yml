@@ -1,4 +1,4 @@
-title: Fieldset Widget Binding - Sample usage
+title: Fieldset Widget - Binding
 template: samples.widgets.fieldset.binding.FieldsetBinding
 description: It shows a Fieldset Widget with the property tooltip bound to the data model.
 sources:

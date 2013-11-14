@@ -1,4 +1,4 @@
-title: Template Include Widget, Sample usage
+title: HTML Template Include Widget
 template: samples.widgets.widgetlibs.html.template.SimpleTemplate
 description: This is a sample example to demonstrate Template Include widget usage.
 sources:

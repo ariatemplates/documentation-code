@@ -1,4 +1,4 @@
-title: HTML RadioButton, Sample usage
+title: HTML RadioButton Widget
 template: samples.widgets.widgetlibs.html.radiobutton.BaseRadioButtonTag
 description: This is a sample to demonstrate the HTML RadioButton widget.
 sources:

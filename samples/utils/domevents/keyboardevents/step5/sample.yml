@@ -1,6 +1,6 @@
-title: Keyboard Events
+title: Keyboard Events Step 5
 template: samples.utils.domevents.keyboardevents.step5.KeyboardEvents
-description: Demonstration of keyboard events using box selection.
+description: Optimization of step 4 with DomElementWrapper to avoid useless refresh.
 sources:
 - KeyboardEvents.tpl
 - KeyboardEventsScript.js
