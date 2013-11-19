@@ -1,0 +1,7 @@
+title: TextArea Widget - Sample usage
+template: samples.widgets.widgetlibs.html.textarea.TextAreaTag
+description: This is to demonstrate the features of the html text area widget
+sources:
+- TextAreaTag.tpl
+- TextAreaTagScript.js
+- Style.tpl.css
