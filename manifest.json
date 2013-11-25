@@ -384,12 +384,6 @@
 		"desc": "Table navigation provides advanced keyboard navigation in the HTML table."
 	},
 	{
-		"path": "samples.utils.loadingoverlay.LoadingOverlayTemplate",
-		"title": "Processing Indicator",
-		"categories": "Utils/Loading overlay",
-		"desc": "Allows to display processing indicator."
-	},
-	{
 		"path": "samples.utils.scrollcontrol.ScrollControlTwo",
 		"title": "Scroll Control",
 		"categories": "Utils/Scroll control",
@@ -649,13 +643,13 @@
 	},
 	{
 		"path": "samples.widgets.errorlist.filtering.ErrorListFilterTemplate",
-		"title": "ErrorList Widget - Sample usage",
+		"title": "ErrorList Widget - Using filters",
 		"categories": "Widgets/Errorlist",
-		"desc": "It shows the different message layouts for the ErrorList Widget (Information, Success, Error, Warning)."
+		"desc": "It shows the different message layouts for the ErrorList Widget (Information, Success, Error, Warning) using the filter property."
 	},
 	{
 		"path": "samples.widgets.errorlist.standard.ErrorListTemplate",
-		"title": "ErrorList Widget - Sample usage",
+		"title": "ErrorList Widget - Standard usage",
 		"categories": "Widgets/Errorlist",
 		"desc": "It shows how the ErrorList Widget looks like, showing the information layout."
 	},
@@ -691,13 +685,13 @@
 	},
 	{
 		"path": "samples.widgets.icon.library.SampleLibraryUsage",
-		"title": "RadioButton Widget - Styling usage",
+		"title": "Icons: Icon Widget Library",
 		"categories": "Widgets/Icon",
 		"desc": "It shows some different icons for many uses, like info, error, undo, redo, help, arrows, etc."
 	},
 	{
 		"path": "samples.widgets.icon.SampleUsage",
-		"title": "Icon Widget  - Sample usage",
+		"title": "Icon Widget: Sample usage",
 		"categories": "Widgets/Icon",
 		"desc": "It shows different layouts for the Icon Widget, with Inline style, tooltip and margin."
 	},
@@ -994,11 +988,5 @@
 		"title": "TextInput Widget - Sample usage",
 		"categories": "Widgets/Libs",
 		"desc": "This is to demonstrate html textinput widget"
-	},
-	{
-		"path": "samples.widgets.widgetlibs.slider.DemoTemplate",
-		"title": "Custom widgets",
-		"categories": "Widgets/Libs",
-		"desc": "It shows a Slider Widget with different configurations."
 	}
 ]
