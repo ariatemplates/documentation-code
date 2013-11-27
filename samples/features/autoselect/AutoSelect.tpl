@@ -140,10 +140,16 @@
         {@aria:MultiSelect {
           id: "ms0",
           label: "MultiSelect",
-          labelWidth:75,
-          width:200,
-          items:[{value:'Selected?'}],
-          value: ['Selected?'],
+          labelWidth: 75,
+          width: 200,
+          items:[{
+            value:'SelectionOne',
+            label:'SelectionOne'
+          }, {
+            value:'SelectionTwo',
+            label:'SelectionTwo'
+          }],
+          value: ['SelectionOne'],
           autoselect: true
         }/}
         </td>
@@ -151,8 +157,14 @@
         {@aria:MultiSelect {
           id: "ms1",
           width:200,
-          items:[{value:'Selected?'}],
-          value: ['Selected?'],
+          items:[{
+            value:'SelectionOne',
+            label:'SelectionOne'
+          }, {
+            value:'SelectionTwo',
+            label:'SelectionTwo'
+          }],
+          value: ['SelectionOne'],
           autoselect: false
         }/}
         </td>
