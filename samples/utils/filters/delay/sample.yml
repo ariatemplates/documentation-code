@@ -1,0 +1,11 @@
+title: Filter Delay
+template: samples.utils.filters.delay.TemplateFilterDelay
+description: This utility allows to set filters delay to simulate BE processes in a mocked environment.
+moduleCtrl: samples.utils.filters.delay.TemplateFilterDelayController
+sources:
+- TemplateFilterDelay.tpl
+- ITemplateFilterDelayController.js
+- TemplateFilterDelayController.js
+- SampleDelayFilter.js
+
+categories: Utils/Filters

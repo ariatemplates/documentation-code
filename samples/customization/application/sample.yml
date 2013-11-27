@@ -1,0 +1,9 @@
+title: Application Customization
+template: samples.customization.application.Customization
+description: This page shows some customization features of Aria Templates. To customize an application, the customization descriptor can be used to replace a template by another one, or to add a custom sub-template to a parent template. On this page, you can edit the customization descriptor and/or start a basic sample application (in a dialog).
+sources:
+- Customization.tpl
+- CustomizationScript.js
+- CustomSampleApp.tpl
+
+categories: Customization/Application

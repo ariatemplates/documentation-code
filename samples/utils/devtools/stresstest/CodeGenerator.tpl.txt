@@ -1,0 +1,28 @@
+{TextTemplate {
+    $classpath : "samples.utils.devtools.stresstest.CodeGenerator",
+    $hasScript : true
+}}
+
+{macro main()}
+{if (data.type == "bookmarklet")}
+    {call bookmarklet(data.options) /}
+{else/}
+    {call snippet(data.options) /}
+{/if}
+{/macro}
+
+{macro snippet(data)}
+Aria.load(\{
+    classes : ["aria.ext.StressCss"],
+    oncomplete : \{
+        fn : function () \{
+            aria.ext.StressCss.stressTest(${configurationObject(data.options)});
+        \}
+    \}
+\});
+{/macro}
+
+{macro bookmarklet()}
+javascript:Aria.load(\{classes:["aria.ext.StressCss"],oncomplete:\{fn:function()\{aria.ext.StressCss.stressTest(${configurationObject(data.options)});\}\}\});
+{/macro}
+{/TextTemplate}

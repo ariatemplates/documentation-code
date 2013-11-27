@@ -11,7 +11,9 @@ How to use some code into your markdown files
 
 To insert a snippet in your markdown file you just need to write a script tag.
 
-    <script src='http://snippets.ariatemplates.com/snippets/github.com/ariatemplates/documentation-code/snippets/core/beans/SimpleBean.js'></script>
+    <script src='/%SNIPPETS_SERVER_URL%/snippets/github.com/ariatemplates/documentation-code/snippets/core/beans/SimpleBean.js'></script>
+
+Using the /%SNIPPETS_SERVER_URL%/ prefix inside the URL, you'll be able to use and test locally your snippet before pushing it and once you have pushed, the application will automatically update the url, using the production one.
 
 Several options could be specified directly through the given url to adjust the code:
 
@@ -26,7 +28,7 @@ This example will embed the file `snippets/core/beans/SimpleBean.js` located in 
 
 To insert a sample in your markdown file you just need to embed it in a iframe.
 
-    <iframe class='samples' src='http://snippets.ariatemplates.com/samples/github.com/ariatemplates/documentation-code/samples/templates/templateScripts/clickhandler/'></iframe>
+    <iframe class='samples' src='/%SNIPPETS_SERVER_URL%/samples/github.com/ariatemplates/documentation-code/samples/templates/templateScripts/clickhandler/'></iframe>
 
 How to create a new snippet/sample or update an existing one
 ------------------------------------------------------------

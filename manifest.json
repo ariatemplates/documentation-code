@@ -1,5 +1,23 @@
 [
 	{
+		"path": "samples.customization.application.Customization",
+		"title": "Application Customization",
+		"categories": "Customization/Application",
+		"desc": "This page shows some customization features of Aria Templates. To customize an application, the customization descriptor can be used to replace a template by another one, or to add a custom sub-template to a parent template. On this page, you can edit the customization descriptor and/or start a basic sample application (in a dialog)."
+	},
+	{
+		"path": "samples.customization.flow.FlowCustomization",
+		"title": "Flow Customization",
+		"categories": "Customization/Flow",
+		"desc": "This page shows flow customization features of Aria Templates."
+	},
+	{
+		"path": "samples.customization.reload.Controller",
+		"title": "Template Reload Customization",
+		"categories": "Customization/TemplateReload",
+		"desc": "This page shows how to reload a Template and it's CSS Templates when the application is in custom mode."
+	},
+	{
 		"path": "samples.features.autoselect.AutoSelect",
 		"title": "AutoSelect Feature",
 		"categories": "Features/Autoselect",
@@ -16,6 +34,12 @@
 		"title": "Reservation flow example with prefill",
 		"categories": "Features/Prefill",
 		"desc": "It shows the basic prefill feature used in a specific use case like the reservation of a multiple segment trip."
+	},
+	{
+		"path": "samples.features.print.PrintTestPage",
+		"title": "Print Page",
+		"categories": "Features/Print",
+		"desc": "It shows how to use the print page feature."
 	},
 	{
 		"path": "samples.features.refresh.TemplateRefresh",
@@ -306,6 +330,18 @@
 		"desc": "This is an example of animation using non pixel units."
 	},
 	{
+		"path": "samples.utils.devtools.filesgenerator.MainTemplate",
+		"title": "Files Generator",
+		"categories": "Utils/FilesGenerator",
+		"desc": "This page shows how to use the files generator helper class to generate skeleton of AT resources."
+	},
+	{
+		"path": "samples.utils.devtools.stresstest.MainTemplate",
+		"title": "CSS Stress Test",
+		"categories": "Utils/StressTest",
+		"desc": "This page describes how to use the CSS Stress Test tools in order to identify the slowest CSS Selectors in the page."
+	},
+	{
 		"path": "samples.utils.domevents.eventsingleton.UtilsEvents",
 		"title": "Event singleton",
 		"categories": "Utils/Dom events",
@@ -370,6 +406,18 @@
 		"title": "File Upload Request",
 		"categories": "Utils/Fileupload",
 		"desc": "Sample to demonstrate a file upload request."
+	},
+	{
+		"path": "samples.utils.filters.delay.TemplateFilterDelay",
+		"title": "Filter Delay",
+		"categories": "Utils/Filters",
+		"desc": "This utility allows to set filters delay to simulate BE processes in a mocked environment."
+	},
+	{
+		"path": "samples.utils.filters.redirect.TemplateFilterRedirect",
+		"title": "Filter Redirect",
+		"categories": "Utils/Filters",
+		"desc": "This utility allows to redirect requests using filters."
 	},
 	{
 		"path": "samples.utils.jsonp.JsonP",
@@ -454,6 +502,12 @@
 		"title": "Visual Focus",
 		"categories": "Utils/Focus",
 		"desc": "This utility allows to highlight the element currently on focus."
+	},
+	{
+		"path": "samples.utils.xdr.CrossDomain",
+		"title": "Cross-domain request",
+		"categories": "Utils/CrossDomain",
+		"desc": "This utility allows to make cross domain requests."
 	},
 	{
 		"path": "samples.widgets.autocomplete.basic.Basic",
@@ -574,6 +628,12 @@
 		"title": "DatePicker Widget - Binding",
 		"categories": "Widgets/Datepicker",
 		"desc": "It shows the default DatePicker Widget."
+	},
+	{
+		"path": "samples.widgets.datepicker.validation.TemplateDatePickerValidation",
+		"title": "DatePicker Widget - Validation",
+		"categories": "Widgets/Datepicker",
+		"desc": "It shows the validation on DatePicker Widget."
 	},
 	{
 		"path": "samples.widgets.dialog.action.DialogActionSample",

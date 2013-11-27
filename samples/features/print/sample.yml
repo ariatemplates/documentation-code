@@ -1,0 +1,10 @@
+title: Print Page
+template: samples.features.print.PrintTestPage
+description: It shows how to use the print page feature.
+sources:
+- PrintTestPage.tpl
+- PrintTestPageA.tpl
+- PrintTestPageScript.js
+- PrintTestStyles.tpl.css
+
+categories: Features/Print

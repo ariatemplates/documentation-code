@@ -5,6 +5,7 @@
 
   {macro main()}
 
+    <h5>Type something like: Fraance (instead of France)</h5>
     {@aria:AutoComplete {
       label : "Make a mistake",
       labelWidth: 150,

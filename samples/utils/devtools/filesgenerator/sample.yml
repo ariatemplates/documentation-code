@@ -1,0 +1,9 @@
+title: Files Generator
+template: samples.utils.devtools.filesgenerator.MainTemplate
+description: This page shows how to use the files generator helper class to generate skeleton of AT resources.
+sources:
+- MainTemplate.tpl
+- MainTemplateScript.js
+- MainTemplateStyle.tpl.css
+
+categories: Utils/FilesGenerator

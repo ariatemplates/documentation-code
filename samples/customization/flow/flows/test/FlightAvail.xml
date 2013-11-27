@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aria-response>
+    <data><![CDATA[
+{
+    avails: [
+        {
+            flightId : '1',
+            airline : "Air France",
+            departureTime : "12:21:00",
+            arrivalTime : "12:21:00"
+        }, {
+            flightId : '2',
+            airline : "British Airways",
+            departureTime : "15:21:00",
+            arrivalTime : "16:21:00"
+        }, {
+            flightId : '3',
+            airline : "Lufthansa",
+            departureTime : "21:21:00",
+            arrivalTime : "22:21:00"
+        }
+    ]
+}
+]]></data>
+</aria-response>

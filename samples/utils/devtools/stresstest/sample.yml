@@ -1,0 +1,11 @@
+title: CSS Stress Test
+template: samples.utils.devtools.stresstest.MainTemplate
+description: This page describes how to use the CSS Stress Test tools in order to identify the slowest CSS Selectors in the page.
+sources:
+- MainTemplate.tpl
+- MainTemplateScript.js
+- DataModel.js
+- CodeGenerator.tpl.txt
+- CodeGeneratorScript.js
+
+categories: Utils/StressTest
