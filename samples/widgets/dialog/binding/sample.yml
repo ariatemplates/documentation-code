@@ -1,4 +1,4 @@
-title: Dialog Widget - Binding
+title: Dialog sample usage
 template: samples.widgets.dialog.binding.DialogBindingSample
 description: It shows which properties are bindable and how they work for the Dialog.
 sources:

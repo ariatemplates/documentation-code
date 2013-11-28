@@ -1,4 +1,4 @@
-title: Textarea Widget - Prefill
+title: Textarea sample usage
 template: samples.widgets.textarea.prefill.TemplateTextareaPrefill
 description: Example of Textarea with prefilled value.
 sources:

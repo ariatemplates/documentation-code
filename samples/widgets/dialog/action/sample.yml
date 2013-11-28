@@ -1,4 +1,4 @@
-title: Dialog Widget - Actions
+title: Dialog sample usage
 template: samples.widgets.dialog.action.DialogActionSample
 description: It shows how the actions work with the Dialog.
 sources:

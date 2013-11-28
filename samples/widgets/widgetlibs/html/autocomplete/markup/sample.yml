@@ -1,4 +1,4 @@
-title: HTML Simple Input Widget
+title: Simple input widget
 template: samples.widgets.widgetlibs.html.autocomplete.markup.PlainInput
 description: In this sample the text input is created with a simple input tag.
 sources:

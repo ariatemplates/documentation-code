@@ -1,4 +1,4 @@
-title: PasswordField Widget
+title: PasswordField Sample Usage
 template: samples.widgets.passwordfield.Password
 description: It shows how the PasswordField Widget works in aria templates.
 sources:

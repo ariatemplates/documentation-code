@@ -1,4 +1,4 @@
-title: TextField Widget - Bindings
+title: TextField Bindings
 template: samples.widgets.textfield.binding.Bindings
 description: It shows some TextField Widgets bound to the data model.
 data:

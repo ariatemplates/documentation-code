@@ -1,4 +1,4 @@
-title: DatePicker Widget - Customized template
+title: DatePicker Widget customized template - Sample
 template: samples.widgets.datepicker.customized.CustomizedDatePicker
 description: It shows a DatePicker Widget with a customized layout.
 sources:

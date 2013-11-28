@@ -1,4 +1,4 @@
-title: List Widget - Binding
+title: List Widget  - Binding sample
 template: samples.widgets.list.binding.ListBinding
 description: It shows a List Widget bound to another list and to a checkbox.
 data:

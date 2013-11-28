@@ -1,4 +1,4 @@
-title: Global queue for Animations
+title: Global queue
 template: samples.utils.css.animations.queue1.Animations
 description: It shows how to queue animations.
 sources:

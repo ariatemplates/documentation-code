@@ -1,4 +1,4 @@
-title: ErrorList Widget
+title: ErrorList Widget - Standard usage
 template: samples.widgets.errorlist.standard.ErrorListTemplate
 description: It shows how the ErrorList Widget looks like, showing the information layout.
 sources:

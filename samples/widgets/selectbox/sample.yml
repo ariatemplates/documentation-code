@@ -1,4 +1,4 @@
-title: SelectBox Widget
+title: SelectBox Field Widget - Sample usage
 template: samples.widgets.selectbox.SampleUsage
 description: It shows the SelectBox Widget in different configuration (default, read-only, disabled).
 data:

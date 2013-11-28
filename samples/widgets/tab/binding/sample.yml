@@ -1,4 +1,4 @@
-title: Tab Widget - Binding
+title: Tab Widget - Binding Sample
 template: samples.widgets.tab.binding.TabWgtBinding
 description: It shows the Tab Widget with the selectedTab property bound to the data model.
 sources:

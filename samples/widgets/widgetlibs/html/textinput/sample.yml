@@ -1,4 +1,4 @@
-title: HTML TextInput Widget
+title: TextInput Widget - Sample usage
 template: samples.widgets.widgetlibs.html.textinput.BaseTextInputTag
 description: This is to demonstrate html textinput widget
 sources:

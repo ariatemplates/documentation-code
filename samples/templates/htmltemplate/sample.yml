@@ -1,6 +1,6 @@
 title: Basic HTML Template
 template: samples.templates.htmltemplate.SimpleTemplate
-description: This is to demonstrate a basic HTML template
+description: This is demonstrate a basic HTML template
 sources:
 - SimpleTemplate.tpl
 - SimpleSubTemplate.tpl

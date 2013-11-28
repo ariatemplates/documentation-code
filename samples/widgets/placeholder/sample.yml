@@ -1,4 +1,4 @@
-title: Placeholder Widget
+title: Placeholder sample usage
 template: samples.widgets.placeholder.PlaceholderSample
 moduleCtrl: samples.widgets.placeholder.PlaceholderSampleController
 description: It shows how the place holder works in Aria Template.

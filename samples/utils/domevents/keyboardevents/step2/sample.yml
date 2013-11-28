@@ -1,6 +1,6 @@
-title: Keyboard Events Step 2
+title: Keyboard Events
 template: samples.utils.domevents.keyboardevents.step2.KeyboardEvents
-description: Checkbox selections are now preserved after a refresh.
+description: Demonstration of keyboard events using box selection.
 sources:
 - KeyboardEvents.tpl
 - KeyboardEventsScript.js

@@ -1,4 +1,4 @@
-title: Animation with callback
+title: Callbacks
 template: samples.utils.css.animations.callbacks.Animations
 description: It shows how to use an animation with a callback
 sources:

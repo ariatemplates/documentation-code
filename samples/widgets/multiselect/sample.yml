@@ -1,4 +1,4 @@
-title: MultiSelect Widget
+title: MultiSelect Widget - Sample usage
 template: samples.widgets.multiselect.SampleUsage
 description: It shows the MultiSelect Widget with different layouts, like columns, table, etc.
 data:

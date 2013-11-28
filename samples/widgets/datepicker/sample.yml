@@ -1,4 +1,4 @@
-title: DatePicker Widget - Binding
+title: DatePicker Widget binding - Sample
 template: samples.widgets.datepicker.TemplateDatePicker
 description: It shows the default DatePicker Widget.
 sources:

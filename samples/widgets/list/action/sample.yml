@@ -1,4 +1,4 @@
-title: List Widget - Action
+title: List Widget  - Action sample
 template: samples.widgets.list.action.ListAction
 description: It shows a List Widget with different action linked, like onMouseOver, onClick, onKeyevent and onChange.
 data:

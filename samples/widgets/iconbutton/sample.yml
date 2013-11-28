@@ -1,4 +1,4 @@
-title: IconButton Widget
+title: IconButton Widget  - Sample usage
 template: samples.widgets.iconbutton.Simple
 description: It shows an IconButton Widget in normal mode and disabled.
 sources:

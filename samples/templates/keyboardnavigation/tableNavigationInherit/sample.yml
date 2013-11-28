@@ -1,4 +1,4 @@
-title: Table Navigation inheritance between section and subsections
+title: Subsections inherit the behavior of their parent section
 template: samples.templates.keyboardnavigation.tableNavigationInherit.TableNavInherit
 description: It shows a Table Navigation with focusable items and a subsection that inherits the tab navigation.
 sources:

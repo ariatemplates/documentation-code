@@ -1,4 +1,4 @@
-title: SortIndicator Widget - Binding
+title: SortIndicator Widget  - Binding Sample
 template: samples.widgets.sortindicator.binding.SortingTemplateBinding
 description: It shows how the SortIndicator with the tooltip property bound to the data model works.
 sources:

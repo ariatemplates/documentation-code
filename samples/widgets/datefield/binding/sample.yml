@@ -1,4 +1,4 @@
-title: DateField Widget - With reference date
+title: DateField Widget with reference date - Sample
 template: samples.widgets.datefield.binding.DateFieldBindable
 description: It shows two Datefield Widgets bound to the data model.
 sources:

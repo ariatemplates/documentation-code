@@ -1,4 +1,4 @@
-title: NumberField Widget
+title: NumberField Sample Usage
 template: samples.widgets.numberfield.SampleUsage
 description: It shows how the NumberField Widget works in aria templates.
 sources:

@@ -1,4 +1,4 @@
-title: Text Widget
+title: Text Widget - Sample
 template: samples.widgets.text.TextWgtSample
 description: It shows the Text Widget with different properties set.
 sources:

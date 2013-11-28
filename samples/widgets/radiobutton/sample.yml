@@ -1,4 +1,4 @@
-title: RadioButton Widget
+title: RadioButton Widget - Sample usage
 template: samples.widgets.radiobutton.SimpleRadioButton
 description: It shows the default RadioButton widget.
 sources:

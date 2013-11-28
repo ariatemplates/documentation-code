@@ -1,4 +1,4 @@
-title: Tooltip Widget
+title: Tooltip Widget  - Sample
 template: samples.widgets.tooltip.TemplateTooltip
 description: It shows the Tooltip Widget used in different contexts.
 sources:

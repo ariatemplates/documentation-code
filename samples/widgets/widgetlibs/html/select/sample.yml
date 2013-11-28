@@ -1,4 +1,4 @@
-title: HTML Select Widget
+title: HTML Select, Sample usage
 template: samples.widgets.widgetlibs.html.select.BaseSelectTag
 description: This is a sample to demonstrate the HTML Select widget.
 sources:
