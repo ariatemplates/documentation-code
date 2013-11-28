@@ -4,14 +4,14 @@ Aria.resourcesDefinition({
 		"buttons" : {
 			"label" : {
 				"ok" : "OK",
-				"avail" : "Disponibilita"
+				"avail" : "Disponibilit\u00E0"
 			}
 		},
 		"messages" : {
 			"label" : {
-				"welcome" : "Benvenuto a questo esempio localizzato.",
+				"welcome" : "Benvenuto in questo esempio localizzato.",
 				"clickOK" : "Hai cliccato OK.",
-				"clickAvail" : "Hai cliccato sul pulsante Disponibilita."
+				"clickAvail" : "Hai cliccato sul pulsante Disponibilit\u00E0."
 			}
 		}
 	}
