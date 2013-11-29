@@ -3,22 +3,23 @@
 }}
 
     {macro main()}
-		{section {
-			id : 'mySection',
-			type : 'div',
-			bindRefreshTo : [{
-				to : "count",
-				inside : data
-			}]
-		}}
-   			Count : ${data.count}
-   		{/section}
+      {section {
+        id : 'mySection',
+        macro : 'macroContent',
+        type : 'div',
+        bindRefreshTo : [{
+          to : "count",
+          inside : data
+        }]
+      }/}
 
-   		<button{on click {
-   			fn : "incrementCount",
-   			scope : moduleCtrl
-   		}/}>increment value</button>
-
+      <button{on click {
+        fn : "incrementCount",
+        scope : moduleCtrl
+      }/}>increment value</button>
     {/macro}
 
+    {macro macroContent()}
+      Count : ${data.count}
+    {/macro}
 {/Template}

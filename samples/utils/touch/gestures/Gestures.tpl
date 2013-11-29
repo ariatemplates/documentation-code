@@ -41,17 +41,19 @@
 
     {section {
       id: "console",
+      macro : "macroContent",
       type: "div",
       attributes : {classList : ["console"]},
       bindRefreshTo: [{to:"messagesCount", inside:this.inData}]
-    }}
-      <button class="clear" {on tap {fn : this.clearConsole, scope : this}/}>Clear</button>
-      <h2>Event log</h2>
-      <b>event.duration - event.type</b>
-      {foreach msg in this.inData.messages}
-        <span class="consoleline">${msg}</span>
-      {/foreach}
-    {/section}
+    }/}
+  {/macro}
 
+  {macro macroContent()}
+    <button class="clear" {on tap {fn : this.clearConsole, scope : this}/}>Clear</button>
+    <h2>Event log</h2>
+    <b>event.duration - event.type</b>
+    {foreach msg in this.inData.messages}
+      <span class="consoleline">${msg}</span>
+    {/foreach}
   {/macro}
 {/Template}

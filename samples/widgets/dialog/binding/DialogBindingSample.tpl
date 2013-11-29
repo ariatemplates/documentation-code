@@ -120,18 +120,22 @@
       id : "toFocus",
       label : "Add a line",
       onclick : addLine }/}
-    {section "dynamicLinesSection"}
-      {if data.dynamicLines}
-        {foreach line inArray data.dynamicLines}
-          <br /> <br />
-          {@aria:Button {
-            label : "Remove a line",
-            onclick : removeLine }/}
-        {/foreach}
-      {/if}
-    {/section}
+    {section {
+      id : "dynamicLinesSection",
+      macro : "macroContent"
+    }/}
     </div>
     {call popupContentButtons()/}
   {/macro}
 
+  {macro macroContent()}
+    {if data.dynamicLines}
+      {foreach line inArray data.dynamicLines}
+        <br /> <br />
+        {@aria:Button {
+          label : "Remove a line",
+          onclick : removeLine }/}
+      {/foreach}
+    {/if}
+  {/macro}
 {/Template}

@@ -11,22 +11,24 @@
         // when there are spelling suggestions
         {call checkSpellingMistake()/}
 
-        {section 'Items'}
-        <div {id "myList" /}
-          {if !data.disabled}
-            {on mouseup {fn: "itemClick"} /}
-            {on mouseover {fn: "itemMouseOver"} /}
-          {/if}
-        >
-          <a href="#" style="display: none;">&nbsp;</a> //IE6 does not highlight the 1 elm in list
-          {foreach item inArray data.items}
-            {call renderItem(item, item_index)/}
-          {/foreach}
-        </div>
-        {/section}
+        {section {id: "items", macro: "macroItems"} /}
+
     {/@aria:Div}
   {/macro}
 
+  {macro macroItems}
+    <div {id "myList" /}
+        {if !data.disabled}
+            {on mouseup {fn: "itemClick"} /}
+            {on mouseover {fn: "itemMouseOver"} /}
+        {/if}
+    >
+        <a href="#" style="display: none;">&nbsp;</a> //IE6 does not highlight the 1 elm in list
+        {foreach item inArray data.items}
+            {call renderItem(item, item_index)/}
+        {/foreach}
+    </div>
+  {/macro}
 
   {macro checkSpellingMistake()}
     {var firstItem = data.items[0]/}

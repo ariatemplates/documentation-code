@@ -22,8 +22,9 @@
         <fieldset>
             <legend>Section</legend>
             {section {
-                "id" : "mySection",
-                "keyMap" : [{
+                id : "mySection",
+                macro : "macroOneContent",
+                keyMap : [{
                     key: "F3",
                     callback : {
                         fn : function () {
@@ -43,12 +44,13 @@
                         scope : this
                     }
                 }]
-             }}
-                {@aria:TextField {label:"This is a textfield in section", block:true, labelWidth : 200}/}
-
-            {/section}
+            }/}
         </fieldset>
 
+    {/macro}
+
+    {macro macroOneContent()}
+        {@aria:TextField {label:"This is a textfield in section", block:true, labelWidth : 200}/}
     {/macro}
 
     {macro dialogContent()}

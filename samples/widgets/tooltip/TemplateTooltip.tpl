@@ -74,10 +74,7 @@
 			id:"sectionTooltip",
 			width: 450 }}
 				This tooltip has a button and a section. The section can be refreshed:<br/>
-				{section "sectionInMyTooltip"}
-					Last refresh: ${new Date()}<br/>
-					{@aria:Button {label: "Refresh now", onclick: { fn: 'refreshSection', args: { filterSection: "sectionInMyTooltip"} }}/}
-				{/section}
+				{section {id:"sectionInMyTooltip", macro:"macroContent"}/}
 		{/@aria:Tooltip}
 
 		{@aria:Link {
@@ -110,6 +107,11 @@
 		</div>
 	{/macro}
 
+	{macro macroContent()}
+		Last refresh: ${new Date()}<br/>
+		{@aria:Button {label: "Refresh now", onclick: { fn: 'refreshSection', args: { outputSection:"sectionInMyTooltip", macro: "macroContent"} }}/}
+	{/macro}
+
 	{macro tooltipMacro()}
 		Content of the macro tooltip.
 	{/macro}
@@ -120,10 +122,12 @@
 
 	{macro tooltipMacroWithSection()}
 		This tooltip is in a macro, has a button and a section. The section can be refreshed:<br/>
-		{section "macroSectionInMyTooltip"}
-			Last refresh: ${new Date()}<br/>
-			// In this case, macro must be specified in the refresh parameter, otherwise the section cannot be found
-			{@aria:Button {label: "Refresh now", onclick: { fn: 'refreshSection', args: { macro: "tooltipMacroWithSection", filterSection: "macroSectionInMyTooltip"} }}/}
-		{/section}
+		{section {id:"macroSectionInMyTooltip", macro: "macroTwoContent"} /}
+	{/macro}
+
+	{macro macroTwoContent()}
+		Last refresh: ${new Date()}<br/>
+		// In this case, macro must be specified in the refresh parameter, otherwise the section cannot be found
+		{@aria:Button {label: "Refresh now", onclick: { fn: 'refreshSection', args: { macro: "macroTwoContent", outputSection: "macroSectionInMyTooltip"} }}/}
 	{/macro}
 {/Template}
