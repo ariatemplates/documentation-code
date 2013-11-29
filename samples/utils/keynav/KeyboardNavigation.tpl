@@ -5,18 +5,19 @@
 }}
 
 	{macro main()}
-
-
 		<p>This table and the widgets can be navigated with the keyboard only. You must use the arrows with the CTRL modifier.</p>
 
 		 {section {
-		 	"id" : "mySection",
-		 	"tableNav" : {
+		 	id : "mySection",
+		 	macro : "macroContent",
+		 	tableNav : {
 		 		ctrl:true
 		 	}
-		 }}
+		 }/}
+ 	{/macro}
 
-		 <fieldset>
+ 	{macro macroContent()}
+ 		<fieldset>
 		 	<legend>Section with table navigation</legend>
 
 		 	{@aria:TextField {label:"Destination", id:"-1", block:true, labelWidth : 200, helptext: "first focus here"}/}
@@ -114,10 +115,7 @@
 			<br/>
 			{@aria:Button {label:"Continue", id:"6", block:true}/}
 
-		 	</fieldset>
-		 {/section}
-
+		</fieldset>
  	{/macro}
-
 
 {/Template}

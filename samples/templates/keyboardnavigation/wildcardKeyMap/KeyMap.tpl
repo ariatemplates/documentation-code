@@ -24,8 +24,9 @@
         <fieldset>
             <legend>Section 1</legend>
             {section {
-                "id" : "mySection",
-                "keyMap" : [{
+                id : "mySection",
+                macro : "macroOneContent",
+                keyMap : [{
                     key: "F3",
                     callback : {
                         fn : function () {
@@ -45,32 +46,33 @@
                         scope : this
                     }
                 }]
-             }}
-
-             <p style="color:red">If focus is in this section, F3 and Ctrl-A are valid shortcuts.</p>
-
-            {@aria:TextField {label:"This is a textfield in section 1", block:true, labelWidth : 200}/}
-
-
-                 <fieldset>
-                    <legend>Section 2</legend>
-                    {section {
-                        "id" : "mySection2",
-                        "keyMap" : [{
-                            key: "*",
-                            callback : function () {return false;}
-                        }]
-                     }}
-
-                         <p style="color:green">If focus is in this section, only Ctrl-A is a valid shortcut.</p>
-
-                        {@aria:TextField {label:"This is a textfield in section 2", block:true, labelWidth : 200}/}
-                    {/section}
-                </fieldset>
-
-            {/section}
+            }/}
         </fieldset>
+    {/macro}
 
+    {macro macroOneContent()}
+        <p style="color:red">If focus is in this section, F3 and Ctrl-A are valid shortcuts.</p>
+
+        {@aria:TextField {label:"This is a textfield in section 1", block:true, labelWidth : 200}/}
+
+
+        <fieldset>
+            <legend>Section 2</legend>
+            {section {
+                id : "mySection2",
+                macro : "macroTwoContent",
+                keyMap : [{
+                    key: "*",
+                    callback : function () {return false;}
+                }]
+            }/}
+        </fieldset>
+    {/macro}
+
+    {macro macroTwoContent()}
+        <p style="color:green">If focus is in this section, only Ctrl-A is a valid shortcut.</p>
+
+        {@aria:TextField {label:"This is a textfield in section 2", block:true, labelWidth : 200}/}
     {/macro}
 
     {macro dialogContent()}

@@ -38,31 +38,32 @@
 	{macro sectionToRefresh()}
 		{section {
 			id: "Section1",
+			macro : "macroContent",
 			attributes: {
 				classList: ["mySection"]
 			}
-		}}
-			{@aria:TextField {
-				value: "Initial value",
-				label: "Textfield with refresh"
-			}/}
-			<br /><br />
-			This is the dom part which cannot be refreshed:
+		}/}
+	{/macro}
 
-			{@embed:Element {
-				controller: this.moduleCtrl.getEmbedController(),
-				type: "div",
-				attributes: {
-					classList: ["googleMapContainer"]
-				},
-				args : {
-					type : 'googleMap',
-					number : 1
-				}
-			}/}
+	{macro macroContent()}
+		{@aria:TextField {
+			value: "Initial value",
+			label: "Textfield with refresh"
+		}/}
+		<br /><br />
+		This is the dom part which cannot be refreshed:
 
-
-        {/section}
+		{@embed:Element {
+			controller: this.moduleCtrl.getEmbedController(),
+			type: "div",
+			attributes: {
+				classList: ["googleMapContainer"]
+			},
+			args : {
+				type : 'googleMap',
+				number : 1
+			}
+		}/}
 	{/macro}
 
 {/Template}

@@ -28,16 +28,18 @@
 		{/for}
 		{section {
 			id : "infoSection" ,
+			macro : "macroContent",
 			bindRefreshTo :[{
 			   inside : data,
 			   to : "selected"
   			}]
-			}
-		}
-			<div class = "info">
-				Selected index : ${isNaN(this.data.selected)?"no box selected":this.data.selected}
-			</div>
-		{/section}
+		}/}
 		</form>
+	{/macro}
+
+	{macro macroContent()}
+		<div class = "info">
+			Selected index : ${isNaN(this.data.selected)?"no box selected":this.data.selected}
+		</div>
 	{/macro}
 {/Template}

@@ -7,14 +7,14 @@
    		////#display
 		{section {
 			id : 'mySection',
+      macro : 'macroContent',
 			type : 'div',
 			bindRefreshTo : [{
 				to : "count",
 				inside : data
 			}]
-		}}
-   			Count : ${data.count}
-   		{/section}
+		}/}
+
    		////#display
 
    		////#button
@@ -24,6 +24,10 @@
    		}/}>increment value</button>
    		////#button
 
+    {/macro}
+
+    {macro macroContent()}
+      Count : ${data.count}
     {/macro}
 
 {/Template}
