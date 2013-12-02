@@ -1,5 +1,5 @@
 {Template {
-    $classpath : "snippets.htmlWidgets.textarea.Snippet",
+    $classpath : "snippets.html-widgets.textarea.Snippet",
     $wlibs : {
       html : "aria.html.HtmlLibrary"
     }

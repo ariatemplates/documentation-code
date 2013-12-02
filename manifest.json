@@ -984,6 +984,12 @@
 		"desc": "This is a sample example to demonstrate Template Include widget usage."
 	},
 	{
+		"path": "samples.widgets.widgetlibs.html.textarea.TextAreaTag",
+		"title": "TextArea Widget - Sample usage",
+		"categories": "",
+		"desc": "This is to demonstrate the features of the html text area widget"
+	},
+	{
 		"path": "samples.widgets.widgetlibs.html.textinput.BaseTextInputTag",
 		"title": "TextInput Widget - Sample usage",
 		"categories": "Widgets/Libs",
