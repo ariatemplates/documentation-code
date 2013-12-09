@@ -816,6 +816,12 @@
 		"desc": "Bindable options to dynamically change SelectBox widget options"
 	},
 	{
+		"path": "samples.widgets.selectbox.invalidtext.SampleUsage",
+		"title": "SelectBox Field Widget - Allow Invalid Text",
+		"categories": "Widgets/Selectbox",
+		"desc": "It shows how the allowInvalidText property works."
+	},
+	{
 		"path": "samples.widgets.selectbox.SampleUsage",
 		"title": "SelectBox Field Widget - Sample usage",
 		"categories": "Widgets/Selectbox",

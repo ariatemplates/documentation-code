@@ -1,0 +1,19 @@
+title: SelectBox Field Widget - Allow Invalid Text
+template: samples.widgets.selectbox.invalidtext.SampleUsage
+description: It shows how the allowInvalidText property works.
+data:
+  widgets:
+    country: "ES"
+  value: "Germany"
+  countries:
+  - value: "IT"
+    label: "Italy"
+  - value: "ES"
+    label: "Spain"
+  - value: "BR"
+    label: "Brazil"
+  - value: "AR"
+    label: "Argentina"
+sources:
+- SampleUsage.tpl
+categories: Widgets/Selectbox
