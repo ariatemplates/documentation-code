@@ -8,10 +8,10 @@
 	{@aria:SelectBox {
         label: "All Countries: ",
         labelWidth:220,
-        options: data.OptionsBindingValues,
+        options: data.bindableOptions,
         bind: {
             options : {
-                to : "OptionsBindingValues",
+                to : "bindableOptions",
                 inside : data
             }
         }
