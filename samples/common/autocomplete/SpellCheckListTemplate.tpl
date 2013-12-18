@@ -16,7 +16,7 @@
     {/@aria:Div}
   {/macro}
 
-  {macro macroItems}
+  {macro macroItems()}
     <div {id "myList" /}
         {if !data.disabled}
             {on mouseup {fn: "itemClick"} /}
