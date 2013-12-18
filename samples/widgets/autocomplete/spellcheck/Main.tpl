@@ -22,6 +22,10 @@
       sclass: "underlineError"
     }/}
 
+    <br /><br />
+    <span>(Look at the <code>COMMON_SPELLINGMISTAKES</code> static properties of the resources handler)</span>
+
+
   {/macro}
 
 {/Template}
