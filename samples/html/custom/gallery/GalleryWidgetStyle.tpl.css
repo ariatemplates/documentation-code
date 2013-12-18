@@ -5,6 +5,7 @@
 {macro main()}
 .wGalleryContainer {
 	position : relative;
+	display: inline-block;
 }
 
 .wGalleryDescription {
