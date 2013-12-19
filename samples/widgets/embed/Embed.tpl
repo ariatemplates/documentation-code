@@ -1,5 +1,5 @@
 {Template {
-	$classpath : "samples.widgets.embed.Embed",				  
+	$classpath : "samples.widgets.embed.Embed",
 	$wlibs: {
 	        "embed": "aria.embed.EmbedLib"
 	},
@@ -37,7 +37,7 @@
 	{/macro}
 	{macro sectionToRefresh()}
 		{section {
-			id: "Section1",
+			id: "section1",
 			macro : "macroContent",
 			attributes: {
 				classList: ["mySection"]

@@ -8,7 +8,7 @@ Aria.tplScriptDefinition({
 		 */
 		refresh : function () {
 			this.$refresh({
-				filterSection : "Section1"
+				section : "section1"
 			});
 		},
 
