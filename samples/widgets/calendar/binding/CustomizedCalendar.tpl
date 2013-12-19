@@ -29,7 +29,7 @@
 				<div style="text-align: center; margin: 2px;">
 					<a title="${calendar.today|dateformat:settings.completeDateLabelFormat}" tabIndex="-1" href="javascript:;" {on click {fn: "navigate", scope: moduleCtrl, args: {date:calendar.today}}/}>${res.today}</a>
 					{if settings.value}
-						&nbsp;|&nbsp; <a title="${settings.value|dateformat:settings.completeDateLabelFormat}" tabIndex="-1" href="javascript:;" {on click {fn: "navigate", scope: moduleCtrl, args: {date:settings.value}}/}>${res.selectedDay}</a>
+						&nbsp;|&nbsp; <a title="${settings.value|dateformat:settings.completeDateLabelFormat}" tabIndex="-1" href="javascript:;" {on click {fn: "navigate", scope: moduleCtrl, args: {date:settings.value}}/}>${res.selectedDate}</a>
 					{/if}
 				</div>
 			{/@aria:Div}
