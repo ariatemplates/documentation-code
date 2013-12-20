@@ -1,8 +1,9 @@
 title: JSON-P Request Sample
 template: samples.utils.jsonp.JsonP
 description: Sample to demonstrate JSON-P request by simulating a scenario.
+data:
+  url: http://jsfiddle.net/echo/jsonp/?my=data
 sources:
 - JsonP.tpl
 - JsonPScript.js
-- Data.js
 categories: Utils/Jsonp
