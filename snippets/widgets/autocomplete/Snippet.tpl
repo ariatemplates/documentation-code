@@ -9,7 +9,7 @@
 
         ////#autocomplete
         {@aria:AutoComplete {
-            label : "Enter a name:",
+            label : "Enter a nameasdsad:",
             resourcesHandler : getHandler()
         }/}
         ////#autocomplete

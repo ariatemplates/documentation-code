@@ -4,9 +4,9 @@
 }}
 
   {macro main()}
-
+    <p>sdadas</p>
     {@aria:AutoComplete {
-      label : "3 letters threshold",
+      label : "3 letters thresholddsff",
       labelWidth: 170,
       resourcesHandler : getNationsHandler(3)
     }/}
