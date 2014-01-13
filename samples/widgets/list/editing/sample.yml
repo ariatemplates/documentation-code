@@ -1,0 +1,32 @@
+title: List Widget - Editing sample
+template: samples.widgets.list.editing.ListEditing
+description: It shows a List Widget where you can add or remove items.
+data:
+  german:
+  - value: W
+    label: "Wagner"
+  - value: M
+    label: "Mozart"
+  italian:
+  - value: D
+    label: "Donizetti"
+  - value: B
+    label: "Bellini"
+  - value: V
+    label: "Verdi"
+  others:
+  - value: P
+    label: "Puccini"
+  - value: G
+    label: "Pacini"
+  - value: N
+    label: "Paganini"
+  - value: R
+    label: "Rossini"
+  - value: A
+    label: "Vivaldi"
+  indexOthers: 0
+sources:
+- ListEditing.tpl
+- ListEditingScript.js
+categories: Widgets/List
