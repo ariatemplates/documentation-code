@@ -35,28 +35,28 @@
         {if contact.facebook}
           <a class="social-link-fb facebook-icon" {on click {fn : module.navigate, scope : module, args : {type : "facebook", item : contact}, resIndex : -1}/}></a>
         {else/}
-          <img class="social-link-fb" src="./templates/imgs/facebook24bw.png">
+          <img class="social-link-fb" src="imgs/facebook24bw.png">
         {/if}
       </div>
       <div class="tw-box">
         {if contact.twitter}
           <a class="social-link-tw twitter-icon"></a>
         {else/}
-          <img class="social-link-tw" src="./templates/imgs/twitter24bw.png">
+          <img class="social-link-tw" src="imgs/twitter24bw.png">
         {/if}
       </div>
       <div class="lin-box">
         {if contact.linkedin}
           <a class="social-link-lin linkedin-icon"></a>
         {else/}
-          <img class="social-link-lin" src="./templates/imgs/linkedin24bw.png">
+          <img class="social-link-lin" src="imgs/linkedin24bw.png">
         {/if}
       </div>
       <div class="fli-box">
         {if contact.flickr}
           <a class="social-link-fli flickr-icon"></a>
         {else/}
-          <img class="social-link-fli" src="./templates/imgs/flickr24bw.png">
+          <img class="social-link-fli" src="imgs/flickr24bw.png">
         {/if}
       </div>
     </div>

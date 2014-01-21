@@ -75,7 +75,7 @@
     }
 
     .social-link-fb:hover {
-      background-image: url(./templates/imgs/facebook24.png);
+      background-image: url(imgs/facebook24.png);
       width: 24px;
       height: 24px;
       display: inline-block;
@@ -95,7 +95,7 @@
     }    
 
     .facebook-icon {
-      background-image: url(./templates/imgs/facebook24.png);
+      background-image: url(imgs/facebook24.png);
       background-repeat: no-repeat;
       display: inline-block;
       cursor: pointer;
