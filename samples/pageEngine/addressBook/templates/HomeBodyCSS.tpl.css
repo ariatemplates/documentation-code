@@ -2,7 +2,7 @@
   $classpath : "samples.pageEngine.addressBook.templates.HomeBodyCSS"
 }}
 
-  {var baseImgPath = Aria.rootFolderPath.replace(/dev\\\/(\.){0}/, "")/}
+  {var baseImgPath = "https://raw.github.com/ariatemplates/documentation-code/master/"/}
   {macro main()}
   	h1,h2,h3,h4,h5,h6 {
   		font-family: helvetica;

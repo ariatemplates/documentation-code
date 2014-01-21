@@ -1,7 +1,7 @@
 {CSSTemplate {
   $classpath : "samples.pageEngine.addressBook.templates.SearchBoxCSS"
 }}
-
+  {var baseImgPath = "https://raw.github.com/ariatemplates/documentation-code/master/"/}
   {macro main()}
   	.content-box {
   		position: absolute;
@@ -74,7 +74,7 @@
   		border-radius: 10px;
   		cursor: pointer;
   		text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.15);
-  		background-image: url(./templates/imgs/fade.png);
+  		background-image: url(${baseImgPath}samples/pageEngine/addressBook/templates/imgs/fade.png);
   		background-repeat: repeat-x;
   		background-position: bottom left;
   		-webkit-transition: background-color .4s ease-in;
@@ -90,7 +90,7 @@
     }
 
     .search-button.loader {
-      background-image: url(./templates/imgs/loader.gif);
+      background-image: url(${baseImgPath}samples/pageEngine/addressBook/templates/imgs/loader.gif);
       background-repeat: no-repeat;
       background-position-x: 75px;
       background-position-y: 10px;

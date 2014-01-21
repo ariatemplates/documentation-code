@@ -1,7 +1,7 @@
 {CSSTemplate {
   $classpath : "samples.pageEngine.addressBook.templates.ContactsCSS"
 }}
-
+  {var baseImgPath = "https://raw.github.com/ariatemplates/documentation-code/master/"/}
   {macro main()}
     .results {
       width: 360px;
@@ -75,7 +75,7 @@
     }
 
     .social-link-fb:hover {
-      background-image: url(./templates/imgs/facebook24.png);
+      background-image: url(${baseImgPath}samples/pageEngine/addressBook/templates/imgs/facebook24.png);
       width: 24px;
       height: 24px;
       display: inline-block;
@@ -95,7 +95,7 @@
     }    
 
     .facebook-icon {
-      background-image: url(./templates/imgs/facebook24.png);
+      background-image: url(${baseImgPath}samples/pageEngine/addressBook/templates/imgs/facebook24.png);
       background-repeat: no-repeat;
       display: inline-block;
       cursor: pointer;

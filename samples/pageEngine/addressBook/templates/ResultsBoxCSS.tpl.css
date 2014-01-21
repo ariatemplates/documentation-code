@@ -1,7 +1,7 @@
 {CSSTemplate {
   $classpath : "samples.pageEngine.addressBook.templates.ResultsBoxCSS"
 }}
-
+  {var baseImgPath = "https://raw.github.com/ariatemplates/documentation-code/master/"/}
   {macro main()}
   	.content-box {
   		position: absolute;
@@ -36,7 +36,7 @@
   		border-radius: 10px;
   		cursor: pointer;
   		text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.15);
-  		background-image: url(./templates/imgs/fade.png);
+  		background-image: url(${baseImgPath}samples/pageEngine/addressBook/templates/imgs/fade.png);
   		background-repeat: repeat-x;
   		background-position: bottom left;
   		-webkit-transition: background-color .4s ease-in;
@@ -60,7 +60,7 @@
     }
     
     .facebook-icon {
-      background-image: url(./templates/imgs/facebook24.png);
+      background-image: url(${baseImgPath}samples/pageEngine/addressBook/templates/imgs/facebook24.png);
       background-repeat: no-repeat;
       display: inline-block;
       cursor: pointer;
@@ -75,7 +75,7 @@
     }
     
     .twitter-icon {
-      background-image: url(./templates/imgs/twitter24.png);
+      background-image: url(${baseImgPath}samples/pageEngine/addressBook/templates/imgs/twitter24.png);
       background-repeat: no-repeat;
       display: inline-block;
       cursor: pointer;
@@ -90,7 +90,7 @@
     }
     
     .linkedin-icon {
-      background-image: url(./templates/imgs/linkedin24.png);
+      background-image: url(${baseImgPath}samples/pageEngine/addressBook/templates/imgs/linkedin24.png);
       background-repeat: no-repeat;
       display: inline-block;
       cursor: pointer;
@@ -105,7 +105,7 @@
     }
     
     .flickr-icon {
-      background-image: url(./templates/imgs/flickr24.png);
+      background-image: url(${baseImgPath}samples/pageEngine/addressBook/templates/imgs/flickr24.png);
       background-repeat: no-repeat;
       display: inline-block;
       cursor: pointer;

@@ -1,7 +1,7 @@
 {Library {
   $classpath : "samples.pageEngine.addressBook.templates.ContactLibrary"
 }}
-
+  {var baseImgPath = "https://raw.github.com/ariatemplates/documentation-code/master/"/}
   {macro printContactsTable(results, module)}
     {if results}
       <div class="results">
@@ -35,28 +35,28 @@
         {if contact.facebook}
           <a class="social-link-fb facebook-icon" {on click {fn : module.navigate, scope : module, args : {type : "facebook", item : contact}, resIndex : -1}/}></a>
         {else/}
-          <img class="social-link-fb" src="./templates/imgs/facebook24bw.png">
+          <img class="social-link-fb" src="${baseImgPath}samples/pageEngine/addressBook/templates/imgs/facebook24bw.png">
         {/if}
       </div>
       <div class="tw-box">
         {if contact.twitter}
           <a class="social-link-tw twitter-icon"></a>
         {else/}
-          <img class="social-link-tw" src="./templates/imgs/twitter24bw.png">
+          <img class="social-link-tw" src="${baseImgPath}samples/pageEngine/addressBook/templates/imgs/twitter24bw.png">
         {/if}
       </div>
       <div class="lin-box">
         {if contact.linkedin}
           <a class="social-link-lin linkedin-icon"></a>
         {else/}
-          <img class="social-link-lin" src="./templates/imgs/linkedin24bw.png">
+          <img class="social-link-lin" src="${baseImgPath}samples/pageEngine/addressBook/templates/imgs/linkedin24bw.png">
         {/if}
       </div>
       <div class="fli-box">
         {if contact.flickr}
           <a class="social-link-fli flickr-icon"></a>
         {else/}
-          <img class="social-link-fli" src="./templates/imgs/flickr24bw.png">
+          <img class="social-link-fli" src="${baseImgPath}samples/pageEngine/addressBook/templates/imgs/flickr24bw.png">
         {/if}
       </div>
     </div>
