@@ -46,6 +46,19 @@
         }/}
         ////#wgtListSnippet4
 
+        ////#wgtListSnippet5
+        {@aria:List {
+            minWidth:100,
+            block: true,
+            bind: {
+                items: {
+                    to: "italian",
+                    inside: data
+                }
+            }
+        }/}
+        ////#wgtListSnippet5
+
     {/macro}
 
 {/Template}
