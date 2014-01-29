@@ -1,4 +1,4 @@
-title: Mouse Wheel Example
+title: Mouse Wheel Event
 template: samples.utils.domevents.mousewheel.MouseWheel
 description: Demonstration of Callback using onmousewheel event
 sources:

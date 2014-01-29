@@ -1,4 +1,4 @@
-title: Div Widget - Binding usage
+title: Div Widget - Binding
 template: samples.widgets.div.binding.DivWgtBinding
 description: It shows how the tooltip property works when is bound to another element.
 sources:

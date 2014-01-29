@@ -1,4 +1,4 @@
-title: Modifiers template example
+title: Modifiers template
 template: samples.templates.modifiers.ModifiersTemplate
 description: This is to demonstrate how to modify data to display in a template
 sources:

@@ -1,4 +1,4 @@
-title: "Animations"
+title: "Animations sample"
 template: samples.utils.css.animations.Animations
 description: Animation utility allows to animate a lot of CSS properties.
 sources:

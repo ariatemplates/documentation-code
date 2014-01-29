@@ -1,4 +1,4 @@
-title: TextInput Widget - Sample usage
+title: HTML Autocomplete Widget - Reusing TextInput widget
 template: samples.widgets.widgetlibs.html.autocomplete.widget.InputWidget
 description: This sample shows how to create an AutoComplete widget reusing the TextInput widget and the Suggestions controller.
 sources:

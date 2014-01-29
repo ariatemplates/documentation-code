@@ -1,4 +1,4 @@
-title: Textarea sample usage
+title: Textarea Widget - Binding
 template: samples.widgets.textarea.binding.TemplateTextareaBinding
 description: Example of Textarea value bound to datamodel.
 sources:

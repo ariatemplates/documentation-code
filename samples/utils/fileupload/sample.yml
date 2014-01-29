@@ -1,4 +1,4 @@
-title: File Upload Request Sample
+title: File Upload Request
 template: samples.utils.fileupload.FileUpload
 description: Sample to demonstrate a file upload request.
 sources:

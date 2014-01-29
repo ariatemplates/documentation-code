@@ -1,6 +1,6 @@
 title: Widget Bindings with Transform
 template: samples.widgets.bindings.transform.Transform
-description: It shows how to bind a widget with a text ransformation
+description: It shows how to bind a widget with a text transformation
 data:
   value: "Some Line Of Plain Text..."
 sources:
