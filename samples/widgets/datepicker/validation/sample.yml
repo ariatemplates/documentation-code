@@ -1,0 +1,9 @@
+title: DatePicker Widget - Validation
+template: samples.widgets.datepicker.validation.TemplateDatePickerValidation
+description: It shows the validation on DatePicker Widget.
+sources:
+- TemplateDatePickerValidation.tpl
+- TemplateDatePickerValidationCSS.tpl.css
+- TemplateDatePickerValidationScript.js
+
+categories: Widgets/Datepicker

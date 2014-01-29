@@ -1,0 +1,14 @@
+{CSSTemplate {
+    $classpath : "samples.utils.devtools.filesgenerator.MainTemplateStyle"
+}}
+    {macro main()}
+        textarea {
+            width: 896px;
+            height: 400px;
+            background: #eee;
+            padding: 5px;
+            font-size: 12px;
+            border: 0;
+        }
+    {/macro}
+{/CSSTemplate}

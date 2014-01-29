@@ -1,0 +1,8 @@
+title: Cross-domain request
+template: samples.utils.xdr.CrossDomain
+description: This utility allows to make cross domain requests.
+sources:
+- CrossDomain.tpl
+- CrossDomainScript.js
+
+categories: Utils/CrossDomain

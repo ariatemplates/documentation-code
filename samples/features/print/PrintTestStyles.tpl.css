@@ -1,0 +1,36 @@
+{CSSTemplate {
+   $classpath : 'samples.features.print.PrintTestStyles'
+}}
+
+   {macro main()}
+      @media print {
+
+      .hidden {
+      	display:none;
+      }
+
+	   .tempA {display:none;}
+
+       .fStyle {
+       		font-style: italic;
+       	}
+
+        .fWeight {
+       		font-weight: bold;
+       	}
+
+       .fSize {
+       		font-size: 14px;
+       	}
+
+
+       	label {
+       		background: orange;
+       		font-size: 13px;
+       		font-weight: normal;
+       	}
+      }
+
+   {/macro}
+
+{/CSSTemplate}

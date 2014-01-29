@@ -1,0 +1,10 @@
+title: Flow Customization
+template: samples.customization.flow.FlowCustomization
+description: This page shows flow customization features of Aria Templates.
+sources:
+- FlowCustomization.tpl
+- FlowCustomizationScript.js
+- FlowSampleApp.tpl
+- FlowSampleAppScript.tpl
+
+categories: Customization/Flow
