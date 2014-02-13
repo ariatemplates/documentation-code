@@ -11,7 +11,7 @@ Aria.classDefinition({
 		 * @param {aria.core.RequestMgr.FilterRequest} req
 		 */
 		onRequest : function (req) {
-			this.redirectToFile(req, "ariadoc/guides/treeview/mocks/data.xml");
+			this.redirectToFile(req, "ariadoc/guides/treeview/mocks/data.json");
 		}
 	}
 });

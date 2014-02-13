@@ -126,7 +126,7 @@
         {if !data.currentDs || !data.currentDs.items || data.currentDs.items.length==0}
           &nbsp;
         {else/}
-          <table {id "dsData_"+colType/} _id="TABLE" style="width:${tblWidth}px" class="datasheet" {on mousedown {fn:"onDsDataCellClick"}/}>
+          <table {id "dsData_"+colType/} data-id="TABLE" style="width:${tblWidth}px" class="datasheet" {on mousedown {fn:"onDsDataCellClick"}/}>
             <thead>
               <tr>
               {foreach col in data.currentDs[colType]}
@@ -187,7 +187,7 @@
 
     {foreach col in cols}
       {set cellItm=item[col.colId]/}
-      <td class="${cls}" _id="${cellItm.id}" _colId="${col.colId}">
+      <td class="${cls}" data-id="${cellItm.id}" data-colId="${col.colId}">
         {if item.editMode}
          {@aria:TextField {
             autoselect:true,

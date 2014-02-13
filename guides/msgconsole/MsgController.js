@@ -37,15 +37,16 @@ Aria.classDefinition({
     _retrieveMsgs:function(cb) {
       if (this._data.retrievalPaused) return;
       this._count++;
-
-      // send the request
-      var requestData = {count:this._count};
-      this.submitJsonRequest("getMessages", requestData, {
-        fn : "_retrieveMsgsResponse",
-        scope : this,
-        args : cb
+      aria.core.IO.asyncRequest({
+        url: "getMessages",
+        data: {count:this._count},
+        expectedResponseType : "json",
+        callback: {
+          fn : this._retrieveMsgsResponse,
+          scope : this,
+          args : cb
+        }
       });
-
     },
 
 		_retrieveMsgsResponse : function (res, args) {
@@ -54,7 +55,7 @@ Aria.classDefinition({
 				this.$callback(cb);
 				return;
 			}
-			var dataReceived = res.response;
+			var dataReceived = res.responseJSON;
 
       // TODO post-process messages
 

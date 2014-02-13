@@ -12,7 +12,7 @@ Aria.classDefinition({
 		 */
 		onRequest : function (req) {
 	    var idx=(this._count++ %2)+1;
-			this.redirectToFile(req, "ariadoc/guides/spreadsheet/mocks/dataset"+idx+".xml");
+			this.redirectToFile(req, "ariadoc/guides/spreadsheet/mocks/dataset"+idx+".json");
 		}
 	}
 });

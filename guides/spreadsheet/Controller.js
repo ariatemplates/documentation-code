@@ -97,11 +97,15 @@ Aria.classDefinition({
      * @param {aria.core.JsObject.Callback} cb callback
      */
 		loadDataset : function (ref,cb) {
-       var requestData = {datasetRef:ref};
-       this.submitJsonRequest("getDataset", requestData, {
-        fn : "_loadDataset",
-        scope : this,
-        args : cb
+      aria.core.IO.asyncRequest({
+        url: "getDataset",
+        data: {datasetRef:ref},
+        expectedResponseType : "json",
+        callback: {
+          fn : this._loadDataset,
+          scope : this,
+          args : cb
+        }
       });
 		},
 
@@ -117,7 +121,7 @@ Aria.classDefinition({
         return;
       }
       //var ds = this.json.load(res.data, this);
-	  var ds = res.response;
+	  var ds = res.responseJSON;
       // modify the cell values to use a structure instead of a string
       var item, tmp;
       for (var i=0, iMax=ds.items.length;iMax>i;i++) {

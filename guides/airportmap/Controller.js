@@ -34,11 +34,14 @@ Aria.classDefinition({
      * @param {Callback} cb
      */
     loadData: function(cb) {
-      var requestData = {};
-      this.submitJsonRequest("getData", requestData, {
-        fn : this._loadData,
-        scope : this,
-        args : cb
+      aria.core.IO.asyncRequest({
+        url: "getData",
+        expectedResponseType : "json",
+        callback: {
+          fn : this._loadData,
+          scope : this,
+          args : cb
+        }
       });
     },
 
@@ -52,7 +55,7 @@ Aria.classDefinition({
         this.$callback(cb);
         return;
       }
-      var ds = res.response;
+      var ds = res.responseJSON;
 
       // add dataset to the list and select it
       this.json.setValue(this._data,"layers", ds.layers);
@@ -94,12 +97,14 @@ Aria.classDefinition({
      */
     updateData:function(cb) {
       // send the request
-      var timeStamp=123456789; // TODO use timestamp received with last data update
-      var requestArgs = {since:timeStamp};
-      this.submitJsonRequest("getDataUpdates", requestArgs, {
-        fn : "_updateDataResponse",
-        scope : this,
-        args : cb
+      aria.core.IO.asyncRequest({
+        url: "getDataUpdates",
+        expectedResponseType : "json",
+        callback: {
+          fn : this._updateDataResponse,
+          scope : this,
+          args : cb
+        }
       });
     },
 
@@ -109,7 +114,7 @@ Aria.classDefinition({
         this.$callback(cb);
         return;
       }
-      var ds = res.response;
+      var ds = res.responseJSON;
 
       // go through each layer and update the data model with the response data
       if (ds.layers && ds.layers.flights) {

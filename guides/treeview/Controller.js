@@ -24,11 +24,15 @@ Aria.classDefinition({
      * @param {aria.core.JsObject.Callback} cb callback
      */
 		loadData : function (param,cb) {
-       var requestData = {myparam:param}; // set json rewquest params here
-       this.submitJsonRequest("getData", requestData, {
-        fn : "_loadData",
-        scope : this,
-        args : cb
+       aria.core.IO.asyncRequest({
+        url: "getData",
+        data: {myparam:param}, // set json rewquest params here
+        expectedResponseType : "json",
+        callback: {
+          fn : this._loadData,
+          scope : this,
+          args : cb
+        }
       });
 		},
 
@@ -43,7 +47,7 @@ Aria.classDefinition({
         this.$callback(cb);
         return;
       }
-      var ds = res.response;
+      var ds = res.responseJSON;
 
       // add dataset to the list and select it
       this.json.setValue(this._data,"menu",ds.menu);

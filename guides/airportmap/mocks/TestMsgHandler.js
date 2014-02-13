@@ -12,12 +12,12 @@ Aria.classDefinition({
 		 */
 		onRequest : function (req) {
 	    var fileName="";
-	    if (req.sender.requestObject.actionName=="getData") {
+	    if (req.url=="getData") {
 	      // initial request to get all the data
-	      fileName="data.xml";
+	      fileName="data.json";
 	    } else {
 	      // subsequent request to get new data since last getData
-	      fileName="data"+(this._count++ %10)+".xml";
+	      fileName="data"+(this._count++ %10)+".json";
 	    }
 			this.redirectToFile(req, "ariadoc/guides/airportmap/mocks/"+fileName);
 	  }

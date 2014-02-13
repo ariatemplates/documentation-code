@@ -1,0 +1,24 @@
+{
+  layers:{
+    flights:{
+      items:{
+        DAB84: {
+          positions:[
+            {
+              time:100001,
+              x:600,
+              y:135,
+              angle:-100,
+              speed:{
+                value:90,
+                dx:-10,
+                dy:0
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+
+}

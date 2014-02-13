@@ -67,10 +67,10 @@ Aria.tplScriptDefinition({
      * Event Handler called when a data cell is clicked
      */
     onDsDataCellClick:function(evt) {
-      var id=evt.target.getExpando("id",true);
+      var id=evt.target.getData("id",true);
       if (id=="TABLE") return; // event did not hapen in a cell
 
-      var colId=evt.target.getExpando("colId",true);
+      var colId=evt.target.getData("colId",true);
       //alert(id+"/"+colId);
       this.moduleCtrl.editCell(parseInt(id,10),colId);
     },

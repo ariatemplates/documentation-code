@@ -11,12 +11,12 @@ Aria.classDefinition({
 		 */
 		onRequest : function (req) {
 			var rf = null; // response file
-			rf = "msg0.xml";
+			rf = "msg0.json";
 
-			if (req.sender.requestObject.actionName == "getMessages") {
-				var idx=(req.sender.requestData.count%15);
+			if (req.url == "getMessages") {
+				var idx=(req.data.count%15);
 
-				rf = "msg"+idx+".xml";
+				rf = "msg"+idx+".json";
 			}
 
 			if (rf) {
