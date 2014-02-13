@@ -12,12 +12,6 @@
 		"desc": "This page shows flow customization features of Aria Templates."
 	},
 	{
-		"path": "samples.customization.reload.Controller",
-		"title": "Template Reload Customization",
-		"categories": "Customization/TemplateReload",
-		"desc": "This page shows how to reload a Template and it's CSS Templates when the application is in custom mode."
-	},
-	{
 		"path": "samples.features.autoselect.AutoSelect",
 		"title": "AutoSelect Feature",
 		"categories": "Features/Autoselect",
@@ -414,12 +408,6 @@
 		"desc": "This utility allows to set filters delay to simulate BE processes in a mocked environment."
 	},
 	{
-		"path": "samples.utils.filters.redirect.TemplateFilterRedirect",
-		"title": "Filter Redirect",
-		"categories": "Utils/Filters",
-		"desc": "This utility allows to redirect requests using filters."
-	},
-	{
 		"path": "samples.utils.jsonp.JsonP",
 		"title": "JSON-P Request",
 		"categories": "Utils/Jsonp",
@@ -790,6 +778,12 @@
 		"title": "List Widget - Binding",
 		"categories": "Widgets/List",
 		"desc": "It shows a List Widget bound to another list and to a checkbox."
+	},
+	{
+		"path": "samples.widgets.list.editing.ListEditing",
+		"title": "List Widget - Editing sample",
+		"categories": "Widgets/List",
+		"desc": "It shows a List Widget where you can add or remove items."
 	},
 	{
 		"path": "samples.widgets.list.Simple",
