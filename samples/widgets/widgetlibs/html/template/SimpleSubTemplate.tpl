@@ -47,7 +47,7 @@
 	{@html:Template {
 		id: "viewMainTpl",
 		type:"span",
-		classpath: "samples.widgets.widgetLibs.html.template.SimpleChildSubTemplate",
+		classpath: "samples.widgets.widgetlibs.html.template.SimpleChildSubTemplate",
 		data:data['childTemplateData'],
 		attributes:{
 			classList:["c1","c2"],
