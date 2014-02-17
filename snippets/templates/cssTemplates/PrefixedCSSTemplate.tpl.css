@@ -1,0 +1,19 @@
+{CSSTemplate {
+    $classpath : "snippets.templates.cssTemplates.PrefixedCSSTemplate"
+}}
+
+    {macro main()}
+
+    ////#first
+    .myimage {
+        background: url(images/myImage.png);
+    }
+    ////#first
+    ////#second
+    .myimage {
+        background: url([prefix]/images/myImage.png);
+    }
+    ////#second
+{/macro}
+
+{/CSSTemplate}
