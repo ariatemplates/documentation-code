@@ -1,6 +1,6 @@
 {Template {
   $classpath: "snippets.custom-widgets.MyWidgetUsage",
-  $wlib: {
+  $wlibs: {
     'custom': "snippets.custom-widgets.MyCustomWidgetsLib"
   }
 }}
