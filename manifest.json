@@ -318,6 +318,12 @@
 		"desc": "Animation utility allows to animate a lot of CSS properties."
 	},
 	{
+		"path": "samples.utils.css.animations.scroll.Animations",
+		"title": "Custom properties animation",
+		"categories": "",
+		"desc": "Animation utility allows to animate an element on a set of CSS properties."
+	},
+	{
 		"path": "samples.utils.css.animations.units.Animations",
 		"title": "Units translation",
 		"categories": "Utils/Animations",
