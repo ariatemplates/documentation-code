@@ -5,21 +5,23 @@
   }
 }}
 
-  
+
   {macro main()}
     Here is a Touch Slider Widget bound with a Text Widget to display a value between $0 and $100 :
 
     <br><br>
 
     {@touch:Slider {
-      bindValue: {
-        to: "slider",
-        inside: data
+      bind : {
+        value : {
+          to: "slider",
+          inside: data
+        }
       },
       width: 100
     }/}
     <br>
-	
+
 	{section {
       id : "display",
 	  macro : "values",
@@ -29,7 +31,7 @@
       }]
 
   }/}
-    
+
 
     <br><br>
 
