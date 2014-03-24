@@ -990,12 +990,6 @@
 		"desc": "It shows the Tooltip Widget used in different contexts."
 	},
 	{
-		"path": "samples.widgets.touch.dialog.DialogTpl",
-		"title": "Touch Dialog Widget",
-		"categories": "Widgets/Touch",
-		"desc": "This is to demonstrate animations for touch dialog."
-	},
-	{
 		"path": "samples.widgets.touch.doubleslider.DoubleSliderTpl",
 		"title": "Touch Double Slider Widget",
 		"categories": "Widgets/Touch",
