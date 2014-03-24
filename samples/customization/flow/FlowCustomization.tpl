@@ -24,7 +24,7 @@
         }/}
 
         {@aria:Dialog {
-            contentMacro: "sampleApp",
+            macro: "sampleApp",
             modal: true,
             title: "Sample application",
             bind: {
@@ -37,7 +37,7 @@
         {/@aria:Dialog}
 
         {@aria:Dialog {
-            contentMacro: "customFlowDialog",
+            macro: "customFlowDialog",
             modal: true,
             title: "Add a custom module",
             bind: {
