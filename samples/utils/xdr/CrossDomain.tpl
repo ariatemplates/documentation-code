@@ -21,7 +21,7 @@
           icon: "std:info",
           modal: false,
           visible: false,
-          contentMacro: "defaultContent",
+          macro: "defaultContent",
           bind:{
               "visible": { inside: data, to: 'response'}
           }

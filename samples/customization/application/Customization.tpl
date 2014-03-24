@@ -30,7 +30,7 @@
             onclick: toggleSampleAppDialog
         }/}
         {@aria:Dialog {
-            contentMacro: "customModuleDialog",
+            macro: "customModuleDialog",
             modal: true,
             title: "Add a custom module",
             bind: {
@@ -42,7 +42,7 @@
         }}
         {/@aria:Dialog}
         {@aria:Dialog {
-            contentMacro: "customTemplateDialog",
+            macro: "customTemplateDialog",
             modal: true,
             title: "Set a custom template",
             bind: {
@@ -54,7 +54,7 @@
         }}
         {/@aria:Dialog}
         {@aria:Dialog {
-            contentMacro: "sampleApp",
+            macro: "sampleApp",
             modal: true,
             title: "Sample application",
             bind: {
