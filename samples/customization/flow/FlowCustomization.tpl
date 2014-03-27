@@ -33,8 +33,7 @@
                     inside: myData
                 }
             }
-        }}
-        {/@aria:Dialog}
+        }/}
 
         {@aria:Dialog {
             macro: "customFlowDialog",
@@ -46,8 +45,7 @@
                     inside: myData
                 }
             }
-        }}
-        {/@aria:Dialog}
+        }/}
 
     {/macro}
 

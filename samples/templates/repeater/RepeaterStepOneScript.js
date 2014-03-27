@@ -93,7 +93,7 @@ Aria.tplScriptDefinition({
 		refreshThis : function (evt, param) {
 			var item = param[0];
 			this.$refresh({
-				outputSection : item.sectionId
+				section : item.sectionId
 			});
 		}
 	}

@@ -19,7 +19,7 @@ Aria.tplScriptDefinition({
 		partialTemplateRefresh : function (evt, args) {
 			var sectionId = this.mySectionPrefix + args.sectionNumber;
 			this.$refresh({
-				outputSection : sectionId
+				section : sectionId
 			});
 		}
 

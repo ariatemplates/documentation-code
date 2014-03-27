@@ -41,12 +41,11 @@
     <div style="border: 1px dashed green; padding: 10px;margin-top: 10px;">
     <h2>Update print options</h2>
     <br/>
-    {@aria:CheckBox {block: true,label: "Print calendar ",onchange: {fn: "toggleDisplay",args:{filterSection:"cal"}}}/}
-    {section "cal"}
-        <br/>
-        {@aria:Calendar {printOptions : display}/}
-        <br/><br/>
-    {/section}
+    {@aria:CheckBox {block: true,label: "Print calendar ",onchange: {fn: "toggleDisplay",args:{section:"cal"}}}/}
+    {section {
+        id: "cal",
+        macro: "displayCal"
+    }/}
     </div>
 
 
@@ -107,5 +106,11 @@
     </div>
 
 
+    {/macro}
+
+    {macro displayCal()}
+        <br/>
+        {@aria:Calendar {printOptions : display}/}
+        <br/><br/>
     {/macro}
 {/Template}

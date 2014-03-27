@@ -37,25 +37,9 @@
         bindRefreshTo: [
           {to:"datasets", inside:data, recursive:false},
           {to:"currentDs", inside:data}
-        ]
-      }}
-        {if data.datasets.length==0}
-          No dataset loaded yet..
-        {else/}
-          // Display list of currently loaded datasets
-          Datasets:&nbsp;
-          {foreach ds in data.datasets}
-            {separator} - {/separator}
-            {if ds==data.currentDs}
-              <b>${ds.name}</b>
-            {else/}
-              <a {on mousedown {fn:"selectDataset",args:parseInt(ds_index,10)}/}>
-                ${ds.name}
-              </a>
-            {/if}
-          {/foreach}
-        {/if}
-      {/section}
+        ],
+        macro: "dsListContent"
+      }/}
     </div>
   {/macro}
 
@@ -63,51 +47,9 @@
   {macro mainLayout()}
     {section {
         id:"mainLayout",
-        bindRefreshTo: [{to:"currentDs", inside:data}]
-      }}
-      // process table width to have fixed column sizes
-      // otherwise column size might change when content is updated
-      {if data.currentDs!=null}
-        {var borderWidth=1/}
-        {var tblWidthFixed=borderWidth/}
-        {var tblWidthScroll=borderWidth/}
-        {foreach col in data.currentDs["fixedColumns"]}
-            {set tblWidthFixed+=borderWidth+col.width/}
-        {/foreach}
-        {foreach col in data.currentDs["scrollableColumns"]}
-            {set tblWidthScroll+=borderWidth+col.width/}
-        {/foreach}
-
-        <table class="mainLayout">
-          <tbody>
-            // query row
-            <tr>
-              <td class="dataBlock">{call dataDiv("fixedColumns","filter1","filter",tblWidthFixed)/}</td>
-              <td class="dataBlock">{call dataDiv("scrollableColumns","filter2","filter",tblWidthScroll)/}</td>
-              <td class="vscroll">&nbsp;</td>
-            </tr>
-            // scrollbar row
-            <tr>
-              <td class="hscroll">&nbsp;</td>
-              <td class="hscroll">{call scrollbarDiv("hscroll1","hscrollbar","width:"+tblWidthScroll+"px")/}</td>
-              <td class="hscroll">&nbsp;</td>
-            </tr>
-            // data row
-            <tr>
-              <td class="dataBlock">{call dataDiv("fixedColumns","part1","data",tblWidthFixed)/}</td>
-              <td class="dataBlock">{call dataDiv("scrollableColumns","part2","data",tblWidthScroll)/}</td>
-              <td class="vscroll">{call scrollbarDiv("vscroll","vscrollbar","height:2400px")/}</td>
-            </tr>
-            // 2nd scrollbar row
-            <tr>
-              <td class="hscroll">&nbsp;</td>
-              <td class="hscroll">{call scrollbarDiv("hscroll2","hscrollbar","width:"+tblWidthScroll+"px")/}</td>
-              <td class="hscroll">&nbsp;</td>
-            </tr>
-          </tbody>
-        <table>
-      {/if}
-    {/section}
+        bindRefreshTo: [{to:"currentDs", inside:data}],
+        macro: "mainLayoutContent"
+      }/}
   {/macro}
 
   // Generate a div that will handle the scrollbar
@@ -154,7 +96,7 @@
                   </tr>
                 </tbody>
               {else/}
-                {repeater {                  
+                {repeater {
                   loopType: "array",
                   content: data.currentDs.items,
                   type: "TBODY",
@@ -204,6 +146,69 @@
     {/foreach}
   {/macro}
 
+  {macro dsListContent()}
+    {if data.datasets.length==0}
+      No dataset loaded yet..
+    {else/}
+      // Display list of currently loaded datasets
+      Datasets:&nbsp;
+      {foreach ds in data.datasets}
+        {separator} - {/separator}
+        {if ds==data.currentDs}
+          <b>${ds.name}</b>
+        {else/}
+          <a {on mousedown {fn:"selectDataset",args:parseInt(ds_index,10)}/}>
+            ${ds.name}
+          </a>
+        {/if}
+      {/foreach}
+    {/if}
+  {/macro}
+
+  {macro mainLayoutContent()}
+    // process table width to have fixed column sizes
+    // otherwise column size might change when content is updated
+    {if data.currentDs!=null}
+      {var borderWidth=1/}
+      {var tblWidthFixed=borderWidth/}
+      {var tblWidthScroll=borderWidth/}
+      {foreach col in data.currentDs["fixedColumns"]}
+          {set tblWidthFixed+=borderWidth+col.width/}
+      {/foreach}
+      {foreach col in data.currentDs["scrollableColumns"]}
+          {set tblWidthScroll+=borderWidth+col.width/}
+      {/foreach}
+
+      <table class="mainLayout">
+        <tbody>
+          // query row
+          <tr>
+            <td class="dataBlock">{call dataDiv("fixedColumns","filter1","filter",tblWidthFixed)/}</td>
+            <td class="dataBlock">{call dataDiv("scrollableColumns","filter2","filter",tblWidthScroll)/}</td>
+            <td class="vscroll">&nbsp;</td>
+          </tr>
+          // scrollbar row
+          <tr>
+            <td class="hscroll">&nbsp;</td>
+            <td class="hscroll">{call scrollbarDiv("hscroll1","hscrollbar","width:"+tblWidthScroll+"px")/}</td>
+            <td class="hscroll">&nbsp;</td>
+          </tr>
+          // data row
+          <tr>
+            <td class="dataBlock">{call dataDiv("fixedColumns","part1","data",tblWidthFixed)/}</td>
+            <td class="dataBlock">{call dataDiv("scrollableColumns","part2","data",tblWidthScroll)/}</td>
+            <td class="vscroll">{call scrollbarDiv("vscroll","vscrollbar","height:2400px")/}</td>
+          </tr>
+          // 2nd scrollbar row
+          <tr>
+            <td class="hscroll">&nbsp;</td>
+            <td class="hscroll">{call scrollbarDiv("hscroll2","hscrollbar","width:"+tblWidthScroll+"px")/}</td>
+            <td class="hscroll">&nbsp;</td>
+          </tr>
+        </tbody>
+      <table>
+    {/if}
+  {/macro}
 
 {/Template}
 

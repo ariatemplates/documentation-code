@@ -27,7 +27,7 @@ Aria.tplScriptDefinition({
 					// No info about changed items.
 					// Only solution is to refresh the whole items section
 					this.$refresh({
-						filterSection : 'Items'
+						section : 'Items'
 					});
 				}
 			} else if (evt.name == "focusList") {
@@ -45,7 +45,7 @@ Aria.tplScriptDefinition({
 				if (evt.keyCode == aria.DomEvent.KC_ARROW_UP && evt.focusIndex == 0) {
 					evt.cancelDefault = true;
 					// var idToFocus = 'listItem'+evt.focusIndex;
-					var viewFocusIndex = this.data.itemsView.items[focusIndex].value.index;
+					var viewFocusIndex = this.data.itemsView.items[evt.focusIndex].value.index;
 
 					var idToFocus = 'listItem' + viewFocusIndex;
 
