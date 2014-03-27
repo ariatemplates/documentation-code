@@ -1,10 +1,9 @@
-
 Aria.tplScriptDefinition({
     $classpath : 'samples.widgets.datepicker.validation.TemplateDatePickerValidationScript',
     $prototype : {
         refresh : function () {
             this.$refresh({
-                filterSection : "datepickers"
+                section : "datepickers"
             });
         },
         clear : function () {

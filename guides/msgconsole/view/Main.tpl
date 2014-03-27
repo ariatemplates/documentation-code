@@ -12,19 +12,9 @@
                 bindRefreshTo: [
                   {to:"retrievalStarted", inside:data} ,
                   {to:"nbrOfMsgs", inside:data}
-                ]
-            }}
-          {if !data.retrievalStarted}
-            <div class="start">
-              Message Retrieval has not started yet:
-              <a {on click {fn:"startMsgRetrieval",scope:moduleCtrl}/}>Start Retrieval</a>
-            </div>
-
-          {else/}
-            Total messages: ${data.nbrOfMsgs}
-            <i>(Open Firebug to see the message traffic)</i>
-          {/if}
-        {/section}
+                ],
+                macro: "displayStartBtn"
+            }/}
         </td>
         <td>
           {call pauseBtn()/}
@@ -99,32 +89,47 @@
             bindRefreshTo: [
               {to:"retrievalStarted", inside:data},
               {to:"retrievalPaused", inside:data}
-            ]
-        }}
-      {if data.retrievalStarted}
-        <div>
-          {if !data.retrievalPaused}
-            {@aria:Button {
-              label:"Pause",
-              width:80,
-              onclick:{
-                fn:"pauseMsgRetrieval",
-                scope:moduleCtrl
-              }
-            }/}
-          {else/}
-            {@aria:Button {
-              label:"Resume",
-              width:80,
-              onclick:{
-                fn:"startMsgRetrieval",
-                scope:moduleCtrl
-              }
-            }/}
-          {/if}
-        </div>
-      {/if}
-    {/section}
+            ],
+            macro: "displayPauseBtn"
+        }/}
+  {/macro}
+
+  {macro displayStartBtn()}
+    {if !data.retrievalStarted}
+      <div class="start">
+        Message Retrieval has not started yet:
+        <a {on click {fn:"startMsgRetrieval",scope:moduleCtrl}/}>Start Retrieval</a>
+      </div>
+    {else/}
+      Total messages: ${data.nbrOfMsgs}
+      <i>(Open Firebug to see the message traffic)</i>
+    {/if}
+  {/macro}
+
+  {macro displayPauseBtn()}
+    {if data.retrievalStarted}
+      <div>
+        {if !data.retrievalPaused}
+          {@aria:Button {
+            label:"Pause",
+            width:80,
+            onclick:{
+              fn:"pauseMsgRetrieval",
+              scope:moduleCtrl
+            }
+          }/}
+        {else/}
+          {@aria:Button {
+            label:"Resume",
+            width:80,
+            onclick:{
+              fn:"startMsgRetrieval",
+              scope:moduleCtrl
+            }
+          }/}
+        {/if}
+      </div>
+    {/if}
   {/macro}
 
 {/Template}

@@ -16,7 +16,7 @@
             bind:{
                 "visible": { inside: data, to: 'dialogVisible' }
             }
-        }}{/@aria:Dialog}
+        }/}
 
 
         <fieldset>

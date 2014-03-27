@@ -4,11 +4,16 @@
 }}
 	{macro main()}
 		<div style="position: relative">
-		<p>Tooltip is designed to be simple to implement with easily-accessed configuration options and visual styling</p>
+		<h2>Basic Tooltip</h2>
+		<p>The tooltip widget is designed to be simple to implement with easy configuration options and visual styling</p>
+		<br/>
+		<p>Its macro property allows to specify which macro is in charge of displaying its content</p>
 
-		{@aria:Tooltip {id:"simpleTooltip", width: 200}}
-			Content of the simple tooltip.
-		{/@aria:Tooltip}
+		{@aria:Tooltip {
+			id:"simpleTooltip",
+			macro : "simpleTooltipContent",
+			width: 200
+		}/}
 
 		<p>Hover the target area below to see the tooltip.</p>
 
@@ -27,107 +32,86 @@
 				tooltipId: "simpleTooltip"
 			}/}
 		</div>
-		<h2>Tooltip in a macro (for better performances)</h2>
 
-		{@aria:Tooltip {
-			id:"macroTooltip",
-			macro: "tooltipMacro",
-			width: 200 }/}
-
-		{@aria:Link {
-			label: "Move the mouse here to display the macro tooltip.",
-			tooltipId: "macroTooltip" }/}
-		<br/>
-		<br/>
 		{@aria:Link {
 			label: "Other link with the same tooltip.",
-			tooltipId: "macroTooltip"}/}
+			tooltipId: "simpleTooltip"
+		}/}
 
 		<h2>Tooltips in a 'for' loop</h2>
 		<ul>
 			{for var i = 0; i<5; i++}
 				// Note that the tooltip widget does not produce any markup in the place where it is defined
-				{@aria:Tooltip {id:"tooltipInForN"+i,width: 200}}
-					Content of the tooltip for line ${i}
-				{/@aria:Tooltip}
-				<li>{@aria:Link { label : "Line "+i+": move the mouse here to display the tooltip.", tooltipId : "tooltipInForN"+i}/}</li>
-			{/for}
-		</ul>
-
-		<h2>Tooltips in a 'for' loop in a macro (for better performances)</h2>
-		<ul>
-			{for var i = 0; i<5; i++}
-				// Note that the tooltip widget does not produce any markup in the place where it is defined
 				{@aria:Tooltip {
-					id:"macroTooltipInForN"+i,
-					macro: {name: "tooltipMacroWithParam", args: [i]},
-					width: 250}/}
-				<li>{@aria:Link {
-						label : "Line "+i+": move the mouse here to display the tooltip.",
-						tooltipId : "macroTooltipInForN"+i}/}</li>
+					id : "tooltipInForN" + i,
+					macro : {
+						name : "variableTooltipContent",
+						args : [i]
+					},
+					width : 200
+				}/}
+				<li>{@aria:Link { label : "Line " + i + ": move the mouse here to display the tooltip.", tooltipId : "tooltipInForN"+i}/}</li>
 			{/for}
 		</ul>
 
 		<h2>Refreshing sections inside tooltips</h2>
 
 		{@aria:Tooltip {
-			id:"sectionTooltip",
-			width: 450 }}
-				This tooltip has a button and a section. The section can be refreshed:<br/>
-				{section {id:"sectionInMyTooltip", macro:"macroContent"}/}
-		{/@aria:Tooltip}
+			id : "sectionTooltip",
+			macro : "sectionTooltipContent",
+			width : 450
+		}/}
 
 		{@aria:Link {
 			label : "Move the mouse here to display the container tooltip",
-			tooltipId : "sectionTooltip" }/}<br/>
-
-		{@aria:Tooltip {
-			id:"macroSectionTooltip",
-			macro: "tooltipMacroWithSection",
-			width: 500 }/}
-
-		{@aria:Link {
-			label : "Move the mouse here to display the macro tooltip",
-			tooltipId : "macroSectionTooltip" }/}
-
+			tooltipId : "sectionTooltip"
+		}/}<br/>
 		<br/>
 
 		<h2>Tooltips with different display/close timeouts</h2>
 
 		{@aria:Tooltip {
 			id:"closeTimeoutTooltip",
+			macro : "closeTimeoutTooltipContent",
 			width: 250,
 			closeOnMouseOutDelay:1000,
-			showDelay:500 }}
-			This tooltip will stay 1s after the user has left the link !
-		{/@aria:Tooltip}
+			showDelay:500
+		}/}
+
 		{@aria:Link {
 			label : "Move the mouse here and wait 0.5s to display the last tooltip",
-			tooltipId : "closeTimeoutTooltip" }/}
+			tooltipId : "closeTimeoutTooltip"
+		}/}
 		</div>
+	{/macro}
+
+
+	{macro simpleTooltipContent()}
+		Content of the simple tooltip.
+	{/macro}
+
+	{macro variableTooltipContent(i)}
+		Content of the tooltip for line ${i}
+	{/macro}
+
+	{macro sectionTooltipContent()}
+		This tooltip has a button and a section. The section can be refreshed:<br/>
+		{section {
+			id :"sectionInMyTooltip",
+			macro :"macroContent"
+		}/}
 	{/macro}
 
 	{macro macroContent()}
 		Last refresh: ${new Date()}<br/>
-		{@aria:Button {label: "Refresh now", onclick: { fn: 'refreshSection', args: { outputSection:"sectionInMyTooltip", macro: "macroContent"} }}/}
+		{@aria:Button {
+			label : "Refresh now",
+			onclick : refreshSection
+		}/}
 	{/macro}
 
-	{macro tooltipMacro()}
-		Content of the macro tooltip.
+	{macro closeTimeoutTooltipContent()}
+		This tooltip will stay 1s after the user has left the link !
 	{/macro}
 
-	{macro tooltipMacroWithParam(i)}
-		Content of the macro tooltip for line ${i}
-	{/macro}
-
-	{macro tooltipMacroWithSection()}
-		This tooltip is in a macro, has a button and a section. The section can be refreshed:<br/>
-		{section {id:"macroSectionInMyTooltip", macro: "macroTwoContent"} /}
-	{/macro}
-
-	{macro macroTwoContent()}
-		Last refresh: ${new Date()}<br/>
-		// In this case, macro must be specified in the refresh parameter, otherwise the section cannot be found
-		{@aria:Button {label: "Refresh now", onclick: { fn: 'refreshSection', args: { macro: "macroTwoContent", outputSection: "macroSectionInMyTooltip"} }}/}
-	{/macro}
 {/Template}

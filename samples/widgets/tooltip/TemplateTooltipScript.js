@@ -1,1 +1,1 @@
-/* * Copyright Amadeus */Aria.tplScriptDefinition({	$classpath : 'samples.widgets.tooltip.TemplateTooltipScript',	$prototype : {		refreshSection : function (evt, args) {			this.$refresh(args);		}	}});
+/* * Copyright Amadeus */Aria.tplScriptDefinition({    $classpath : 'samples.widgets.tooltip.TemplateTooltipScript',    $prototype : {        refreshSection : function () {            this.$refresh({                section : "sectionInMyTooltip"            });        }    }});

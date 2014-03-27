@@ -15,12 +15,12 @@ Aria.tplScriptDefinition({
 		snippetFunction : function () {
             ////#refreshOne
 			this.$refresh({
-				outputSection : "mySectionId"
+				section : "mySectionId"
 			});
 			////#refreshOne
 			////#refreshTwo
 			this.$refresh({
-                outputSection : "mySectionId",
+                section : "mySectionId",
                 macro : {
                     name : "mySectionMacro",
                     args : [4]

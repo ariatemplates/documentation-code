@@ -27,7 +27,7 @@ Aria.tplScriptDefinition({
 
 			this.data.events.push(type + " on " + target);
 
-			this.$refresh({outputSection : "log"});
+			this.$refresh({section : "log"});
 		}
 
 	}

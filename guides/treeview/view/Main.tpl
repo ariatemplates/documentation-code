@@ -20,16 +20,20 @@
     <div class="mainMenu">
     {section {
         id:"treeviewSection",
-        bindRefreshTo: [{to:"menu", inside:data, recursive:false}]
-    }}
-          {if !data.menu}
-            [no data]
-          {else/}
-            {call tv2_array(data.menu.menus)/}
-          {/if}
-    {/section}
+        bindRefreshTo: [{to:"menu", inside:data, recursive:false}],
+        macro: "treeViewDisplay"
+    }/}
     </div>
   {/macro}
+
+  {macro treeViewDisplay()}
+    {if !data.menu}
+      [no data]
+    {else/}
+      {call tv2_array(data.menu.menus)/}
+    {/if}
+  {/macro}
+
 
   /**
    * tv2: list with expand/collapse links
@@ -45,18 +49,24 @@
             id:"treeviewSection"+mnu.id,
             type:"LI",
             cssClass:"tv",
-            bindRefreshTo: [{to:"data:expanded", inside:mnu}]
-        }}
-            // process css class
-            {var cls=(mnu["data:expanded"]==true)?"tvOpen" : "tvClosed"/}
-            <span class="tvIcon ${cls}" {on click {fn:"toggleMenu",args:mnu}/}>
-                &nbsp;
-                ${mnu.text}
-            </span>
-            {if mnu["data:expanded"]}
-                {call tv2_array(mnu.menus)/}
-            {/if}
-        {/section}
+            bindRefreshTo: [{to:"data:expanded", inside:mnu}],
+            macro: {
+            	name: "displaySubMenu",
+            	args: [mnu]
+            }
+        }/}
+    {/if}
+  {/macro}
+
+  {macro displaySubMenu(mnu)}
+    // process css class
+    {var cls=(mnu["data:expanded"]==true)?"tvOpen" : "tvClosed"/}
+    <span class="tvIcon ${cls}" {on click {fn:"toggleMenu",args:mnu}/}>
+        &nbsp;
+        ${mnu.text}
+    </span>
+    {if mnu["data:expanded"]}
+        {call tv2_array(mnu.menus)/}
     {/if}
   {/macro}
 

@@ -67,7 +67,7 @@ Aria.tplScriptDefinition({
 
         refreshCustomizationDescriptor : function () {
             this.$refresh({
-                outputSection : "customizationDescriptor"
+                section : "customizationDescriptor"
             });
         },
 

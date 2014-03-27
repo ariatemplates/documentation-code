@@ -39,8 +39,7 @@
                     inside: myData
                 }
             }
-        }}
-        {/@aria:Dialog}
+        }/}
         {@aria:Dialog {
             macro: "customTemplateDialog",
             modal: true,
@@ -51,8 +50,7 @@
                     inside: myData
                 }
             }
-        }}
-        {/@aria:Dialog}
+        }/}
         {@aria:Dialog {
             macro: "sampleApp",
             modal: true,
@@ -63,8 +61,7 @@
                     inside: myData
                 }
             }
-        }}
-        {/@aria:Dialog}
+        }/}
     {/macro}
 
     {macro customModuleDialog()}

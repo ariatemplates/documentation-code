@@ -17,53 +17,58 @@
                 <br>
                 <strong>Without Validation:</strong>
                 <br><br>
-                {section 'datepickers'}
-                    {@aria:DatePicker {
-                        id : "Date1",
-                        label : "DatePicker 1",
-                    bind : {
-                        value : {
-                            inside : data,
-                            to : "value1"
-                        },
-                        invalidText : {
-                            inside : data,
-                            to : "invalidDate1"
-                        }
-                    },
-                    directOnBlurValidation : false
-                    }/}
-                    <br><br>
-                    <strong>With Validation:</strong>
-                    <br><br>
-                    {@aria:DatePicker {
-                        id : "Date2",
-                        label : "DatePicker 2",
-                    bind : {
-                        value : {
-                            inside : data,
-                            to : "value2"
-                        },
-                        invalidText : {
-                            inside : data,
-                            to : "invalidDate2"
-                        }
-                    }
-                    }/}
-                    <br><br>
-                    {@aria:Button {
-                            id : "Button1",
-                        label : "Clear",
-                        onclick : "clear"
-                    }/}
-                    {@aria:Button {
-                            id : "Button2",
-                        label : "Refresh",
-                        onclick : "refresh"
-                    }/}
-                {/section}
+                {section {
+                    id: 'datepickers',
+                    macro: "displayDatepickers"
+                }/}
             </li>
         </div>
+    {/macro}
+
+    {macro displayDatepickers()}
+        {@aria:DatePicker {
+            id : "Date1",
+            label : "DatePicker 1",
+        bind : {
+            value : {
+                inside : data,
+                to : "value1"
+            },
+            invalidText : {
+                inside : data,
+                to : "invalidDate1"
+            }
+        },
+        directOnBlurValidation : false
+        }/}
+        <br><br>
+        <strong>With Validation:</strong>
+        <br><br>
+        {@aria:DatePicker {
+            id : "Date2",
+            label : "DatePicker 2",
+        bind : {
+            value : {
+                inside : data,
+                to : "value2"
+            },
+            invalidText : {
+                inside : data,
+                to : "invalidDate2"
+            }
+        }
+        }/}
+        <br><br>
+        {@aria:Button {
+                id : "Button1",
+            label : "Clear",
+            onclick : "clear"
+        }/}
+        {@aria:Button {
+                id : "Button2",
+            label : "Refresh",
+            onclick : "refresh"
+        }/}
     {/macro}
 
 {/Template}
