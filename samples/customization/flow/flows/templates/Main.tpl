@@ -44,7 +44,7 @@
             }}/}
         {else/}
             {var curState=(flowData.currentState == stateName)/}
-            ${curState?"<b>":""}${label}${curState?"</b>":""}
+            {if curState}<b>{/if}${label}{if curState}</b>{/if}
         {/if}
     {/macro}
 

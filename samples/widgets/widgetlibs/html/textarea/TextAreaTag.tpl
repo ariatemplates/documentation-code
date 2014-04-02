@@ -56,7 +56,7 @@
 {macro counter()}
 <p class="count">You typed <strong>${data.counter |empty:0}</strong> characters. Please type more!</p>
 <p class="selected">Widget value is (It's updated when you leave the field): </p>
-<p>'<strong>${data.value}</strong>'</p>
+<p>'<strong>${data.value|escapeForHTML:false}</strong>'</p>
 {/macro}
 
 {/Template}

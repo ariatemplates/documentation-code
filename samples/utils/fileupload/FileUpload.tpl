@@ -10,7 +10,7 @@
   <br/>
   Click on the "Import from file" link below to launch the system dialog, once a file is selected it will automatically be uploaded using aria.core.IO.asyncFormSubmit.
   <br/><br/>
-  
+
   {section {
   	id: "form",
   	macro: "form"
@@ -58,7 +58,7 @@
   <div style="padding:10px;">
     <h1>File Uploaded Successfully</h1>
 
-    ${data.response}
+    ${data.response|escapeForHTML:false}
   </div>
 {/macro}
 

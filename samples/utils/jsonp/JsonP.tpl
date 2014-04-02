@@ -37,7 +37,7 @@
 
 		{if (data.response)}
 			<div>
-				${data.response}
+				${data.response|escapeForHTML:false}
 			</div>
 		{/if}
 

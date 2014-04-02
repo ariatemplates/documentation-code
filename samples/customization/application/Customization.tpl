@@ -186,7 +186,7 @@
     {macro customizationDescriptor()}
         Here is the current customization descriptor:<br />
         <pre style="overflow: visible;">
-            ${getCustomizationDescriptor()|escape}
+            ${getCustomizationDescriptor()|escapeForHTML:{text:true}}
         </pre>
     {/macro}
 
