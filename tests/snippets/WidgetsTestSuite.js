@@ -21,6 +21,7 @@ Aria.classDefinition({
             "tests.snippets.widgets.Iconbutton",
             "tests.snippets.widgets.Link",
             "tests.snippets.widgets.List",
+            "tests.snippets.widgets.MultiAutocomplete",
             "tests.snippets.widgets.Multiselect",
             "tests.snippets.widgets.Numberfield",
             "tests.snippets.widgets.Passwordfield",

@@ -1,0 +1,24 @@
+{CSSTemplate {
+	$classpath : "samples.widgets.multiautocomplete.expando.ExpandoCSS"
+}}
+
+{macro main ()}
+
+	ul.ScheduleClass{
+		width:98%;
+		background: url(${cssFolderPath}/images/f1_bck.jpg) no-repeat 0 0 transparent;
+	}
+	ul.ScheduleClass li {
+		border: solid 1px #e3e3e3;
+	}
+	ul.ScheduleClass li span {
+		width:48%;
+		display:inline-block;
+		padding:5px 2px;
+	}
+	ul.ScheduleClass li span.second {
+		border-left: solid 1px #e3e3e3;
+	}
+{/macro}
+
+{/CSSTemplate}

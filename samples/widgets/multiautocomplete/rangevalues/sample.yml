@@ -1,0 +1,9 @@
+title: MultiAutoComplete Widget - With Range Selection
+template: samples.widgets.multiautocomplete.rangevalues.MultiAutoComplete
+description: It shows the range selection functionality of the multi autocomplete widget.
+sources:
+- MultiAutoComplete.tpl
+- MultiAutoCompleteScript.js
+- ../../../common/multiautocomplete/MultiAutoCompleteResourceHandler.js
+- ../../../common/multiautocomplete/ListOfLabelCodes.js
+categories: Widgets/MultiAutocomplete
