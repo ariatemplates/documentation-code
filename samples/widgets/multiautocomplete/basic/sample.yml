@@ -1,0 +1,9 @@
+title: MultiAutoComplete Widget - Basic Label-Code Resource Handler
+template: samples.widgets.multiautocomplete.basic.MultiAutoComplete
+description: It shows the basic functionality of the multi autocomplete widget, with and without free text set to true.
+sources:
+- MultiAutoComplete.tpl
+- MultiAutoCompleteScript.js
+- ../../../common/multiautocomplete/MultiAutoCompleteResourceHandler.js
+- ../../../common/multiautocomplete/ListOfLabelCodes.js
+categories: Widgets/MultiAutocomplete

@@ -1,0 +1,13 @@
+title: MultiAutoComplete Widget - Expando Button Feature
+template: samples.widgets.multiautocomplete.expando.MultiAutoCompleteExpando
+description: It shows the usage of expand button feature functionality of the multiautocomplete widget.
+sources:
+- MultiAutoCompleteExpando.tpl
+- MultiAutoCompleteExpandoScript.js
+- ../../../common/multiautocomplete/MultiAutoCompleteResourceHandler.js
+- ../../../common/multiautocomplete/ListOfLabelCodes.js
+data:
+  expandoValue:
+  - label: 'Monaco Grand Prix'
+    code: '25 May'
+categories: Widgets/MultiAutocomplete
