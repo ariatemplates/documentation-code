@@ -45,8 +45,10 @@ Aria.tplScriptDefinition({
 		 * @param {Object} item
 		 * @return {String} class name
 		 */
-		myCSSFunction : function (item) {
-			return (item.ct % 2 == 0) ? "evenRow" : "oddRow";
+		myAttributesFunction : function (item) {
+			return {
+				classList : [(item.ct % 2 == 0) ? "evenRow" : "oddRow"]
+			};
 		},
 
 		/**

@@ -28,9 +28,7 @@
 				        },
 
 				        type: "TR", // type of the HTML Element corresponding to each of the child sections
-				        cssClass: myCSSFunction // specifies the class of the HTML Element corresponding to a
-				        							// child section.
-				        	// It can also be a function. See the script for an example
+				        attributes: myAttributesFunction // specifies the attributes of each child section. It can be a function
 				}
 			}/}
 		</table>

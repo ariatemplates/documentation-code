@@ -15,16 +15,18 @@
 				content: myData.myArray,
 				type: "UL",
 				childSections : {
-				        id: "myChildSection",
-				        macro: {
-				                name: "myMacro",
-				                args: [],
-				                scope:this
-				        },
-				        cssClass: 'myRow',
-				        type: "LI"
+						id: "myChildSection",
+						macro: {
+								name: "myMacro",
+								args: [],
+								scope:this
+						},
+						attributes: {
+							classList: ["myRow"]
+						},
+						type: "LI"
 				},
-				attributes : { classList: ['myRepeater'] }
+				attributes : { classList: ["myRepeater"] }
 			}/}
 		</div>
 		<br/><br/>
