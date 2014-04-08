@@ -48,7 +48,9 @@
         {section {
             id:"treeviewSection"+mnu.id,
             type:"LI",
-            cssClass:"tv",
+            attributes : {
+                classList : ["tv"]
+            },
             bindRefreshTo: [{to:"data:expanded", inside:mnu}],
             macro: {
             	name: "displaySubMenu",
