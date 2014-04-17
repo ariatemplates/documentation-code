@@ -810,6 +810,24 @@
 		"desc": "It shows how to create a simple map."
 	},
 	{
+		"path": "samples.widgets.multiautocomplete.basic.MultiAutoComplete",
+		"title": "MultiAutoComplete Widget - Basic Label-Code Resource Handler",
+		"categories": "Widgets/MultiAutocomplete",
+		"desc": "It shows the basic functionality of the multi autocomplete widget, with and without free text set to true."
+	},
+	{
+		"path": "samples.widgets.multiautocomplete.expando.MultiAutoCompleteExpando",
+		"title": "MultiAutoComplete Widget - Expando Button Feature",
+		"categories": "Widgets/MultiAutocomplete",
+		"desc": "It shows the usage of expand button feature functionality of the multiautocomplete widget."
+	},
+	{
+		"path": "samples.widgets.multiautocomplete.rangevalues.MultiAutoComplete",
+		"title": "MultiAutoComplete Widget - With Range Selection",
+		"categories": "Widgets/MultiAutocomplete",
+		"desc": "It shows the range selection functionality of the multi autocomplete widget."
+	},
+	{
 		"path": "samples.widgets.multiselect.binding.TemplateMultiSelect",
 		"title": "MultiSelect Widget - Binding",
 		"categories": "Widgets/Multiselect",

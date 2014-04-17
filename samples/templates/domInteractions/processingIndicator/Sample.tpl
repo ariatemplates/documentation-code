@@ -43,7 +43,9 @@
               id : "myFirstSection",
               macro : "mySectionMacro",
               type : "SPAN",
-              cssClass : "colorTwo"
+              attributes : {
+                classList : ["colorTwo"]
+              }
             } /}
             {section {
               id : "mySecondSection",
@@ -54,7 +56,9 @@
               },
               processingLabel : "This section is loading...",
               type : "SPAN",
-              cssClass : "colorThree"
+              attributes : {
+                classList : ["colorThree"]
+              }
             } /}
         </div>
     {/macro}
