@@ -14,7 +14,7 @@
             <h2> User format ( flying out on ) : </h2>
             <p> 05 04 1980 - - > Updates to : 5 / 4 / 80 </p>
             <p> 05041980 - - > Updates to : 5 / 4 / 80 </p>
-            <p> 04 APR1980 / + 1 - - > Updates to : 5 / 4 / 80 </p>
+            <p> 04APR1980/+1 - - > Updates to : 5 / 4 / 80 </p>
             {@aria:DateField {
                 label : "Flying out on",
                 labelPos : "left",
@@ -26,7 +26,7 @@
             <h2> User format ( Returning on ) : </h2>
             <p> 05 04 1980 - - > Updates to : Samedi 5 Avril 1980 </p>
             <p> 05041980 - - > Updates to : Samedi 5 Avril 1980 </p>
-            <p> 07 APR1980 / - 2 - - > Updates to : Samedi 5 Avril 1980 </p>
+            <p> 07APR1980/-2 - - > Updates to : Samedi 5 Avril 1980 </p>
             {@aria:DateField {
                 label : "Returning on",
                 labelPos : "left",
