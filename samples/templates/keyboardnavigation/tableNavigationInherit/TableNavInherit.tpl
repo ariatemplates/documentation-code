@@ -2,8 +2,10 @@
   $classpath : 'samples.templates.keyboardnavigation.tableNavigationInherit.TableNavInherit' } }
 
   {macro main ( )}
-    <p> This table and the widgets can be navigated with the keyboard only. You must use the arrows with the CTRL
-    modifier . </p>
+    <p>
+        This table and the widgets can be navigated with the keyboard only. You must use the arrows (without the CTRL
+        modifier).
+    </p>
     {section {
         id : "mySection",
         macro : "macroOneContent",
@@ -12,7 +14,7 @@
   {/macro}
 
   {macro macroOneContent()}
-    <fieldset> <legend> Enable arrow only navigation </legend>
+    <fieldset> <legend>Enable arrow only navigation</legend>
       {@aria:TextField { label : "Destination",
         id : "-1",
         block : true,
