@@ -15,14 +15,21 @@
         }
     },
     navigation : "history",
+    ////#services
     commonModules : {
         "search" : {
             classpath : "addressBook.modules.ContactSearchController",
+            services : {
+                "searchContactService" : "searchContact",
+                "newSearchService" : "newSearch",
+                "navigateService" : "navigate"
+            }
             priority : 2,
             bind : {
                 "selected" : "appData:selected"
             }
         },
+    ////#services
         ////#facebookUser
         "facebookUser" : {
             classpath : "addressBook.modules.FacebookUser",
