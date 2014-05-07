@@ -1,0 +1,9 @@
+title: MultiAutoComplete Widget - Preselect, freeText, autoFill
+template: samples.widgets.multiautocomplete.preselectAutofill.PreselectAutofill
+description: It shows how to set the preselect, freeText and autoFill options in the widget configuration.
+sources:
+- PreselectAutofill.tpl
+- PreselectAutofillScript.js
+- ../../../common/multiautocomplete/MultiAutoCompleteResourceHandler.js
+- ../../../common/multiautocomplete/ListOfLabelCodes.js
+categories: Widgets/MultiAutocomplete

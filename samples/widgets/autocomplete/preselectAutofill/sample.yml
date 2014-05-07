@@ -1,0 +1,10 @@
+title: AutoComplete Widget - Preselect, freeText, autoFill
+template: samples.widgets.autocomplete.preselectAutofill.PreselectAutofill
+description: It shows how to set the preselect, freeText and autoFill options in the widget configuration.
+sources:
+- PreselectAutofill.tpl
+- PreselectAutofillScript.js
+- ../../../common/autocomplete/AutoCompleteResourceHandler.js
+- ../../../common/autocomplete/ListOfNations.js
+- ../../../common/autocomplete/ListOfCities.js
+categories: Widgets/Autocomplete

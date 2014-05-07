@@ -516,6 +516,12 @@
 		"desc": "It shows how the onchange callback works inside the autocomplete widget."
 	},
 	{
+		"path": "samples.widgets.autocomplete.preselectAutofill.PreselectAutofill",
+		"title": "AutoComplete Widget - Preselect, freeText, autoFill",
+		"categories": "Widgets/Autocomplete",
+		"desc": "It shows how to set the preselect, freeText and autoFill options in the widget configuration."
+	},
+	{
 		"path": "samples.widgets.autocomplete.spellcheck.Main",
 		"title": "AutoComplete Widget - Spell Check",
 		"categories": "Widgets/Autocomplete",
@@ -820,6 +826,12 @@
 		"title": "MultiAutoComplete Widget - Expando Button Feature",
 		"categories": "Widgets/MultiAutocomplete",
 		"desc": "It shows the usage of expand button feature functionality of the multiautocomplete widget."
+	},
+	{
+		"path": "samples.widgets.multiautocomplete.preselectAutofill.PreselectAutofill",
+		"title": "MultiAutoComplete Widget - Preselect, freeText, autoFill",
+		"categories": "Widgets/MultiAutocomplete",
+		"desc": "It shows how to set the preselect, freeText and autoFill options in the widget configuration."
 	},
 	{
 		"path": "samples.widgets.multiautocomplete.rangevalues.MultiAutoComplete",
