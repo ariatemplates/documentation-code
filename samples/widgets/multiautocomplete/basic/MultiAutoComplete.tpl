@@ -1,6 +1,6 @@
 {Template {
 	$classpath : "samples.widgets.multiautocomplete.basic.MultiAutoComplete",
-	$hasScript : true,
+	$hasScript : true
 }}
 
 	{macro main()}
