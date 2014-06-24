@@ -5,7 +5,7 @@ sources:
 - Animations.tpl
 - AnimationsScript.js
 data:
-  imgPath: "http://raw.github.com/lsimone/documentation-code/animation-doc/samples/utils/css/animations/complex/"
+  imgPath: "https://raw.githubusercontent.com/ariatemplates/documentation-code/master/samples/utils/css/animations/complex/"
   images:
   - url: "13.png"
   - url: "14.png"
