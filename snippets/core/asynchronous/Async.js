@@ -22,8 +22,8 @@ Aria.classDefinition({
     },
     $prototype : {
 
-        ////#playingAsynchronous
         playingAsynchronous : function () {
+        ////#playingAsynchronous
             this.$logDebug("Hi there!");
             this.fetchResourceFromServer("empty.txt", {
                 fn : function (response, args) {
@@ -32,8 +32,8 @@ Aria.classDefinition({
                 scope : this
             });
             this.$logDebug("Yes, I'm here! there's me.");
-        },
         ////#playingAsynchronous
+        },
 
         simpleSyncMethod : function () {
             var myObjectReference = {};
@@ -109,6 +109,25 @@ Aria.classDefinition({
                 }
             });
             ////#sampleAsyncRequest
+        }
+
+        ,
+        uselessMethod2 : function () {
+        ////#playingSynchronous
+            this.$logDebug("Hi there!");
+            aria.core.IO.asyncRequest({
+                url : myResource,
+                method : "get",
+                async : false,
+                callback : {
+                    fn : function (response, args) {
+                        this.$logDebug("Is there anybody in here?");
+                    },
+                    scope : this
+                }
+            });
+            this.$logDebug("Yes, I'm here! there's me.");
+        ////#playingSynchronous
         }
     }
 });

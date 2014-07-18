@@ -1,0 +1,3 @@
+[snippets.core.asynchronous.Async] Hi there!
+[snippets.core.asynchronous.Async] Is there anybody in here?
+[snippets.core.asynchronous.Async] Yes, I'm here! there's me.
