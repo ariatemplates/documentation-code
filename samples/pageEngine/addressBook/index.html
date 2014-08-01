@@ -64,27 +64,27 @@
   }
   </style>
   <title>Address Book | Search</title>
-  <script type="text/javascript" src="http://snippets.ariatemplates.com/aria/ariatemplates-1.4.10.js"></script>	
-  <script type="text/javascript" src="http://snippets.ariatemplates.com/aria/css/atskin-1.4.10.js"></script>	
+  <script type="text/javascript" src="http://snippets.ariatemplates.com/aria/ariatemplates-1.6.3.js"></script>
+  <script type="text/javascript" src="http://snippets.ariatemplates.com/aria/css/atskin-1.6.3.js"></script>
 </head>
 <body style="background-color: #c1c1c1">
   <div id="splashScreenContainer"><span id="splashScreen">Address book</span><span id="splashScreenDots"></span></div>
-  <div id="portal-container" class="page"></div> 
+  <div id="portal-container" class="page"></div>
 
-  <script>    
+  <script>
 	/*aria.core.DownloadMgr.updateRootMap({
 		"addressBook": {"*" : Aria.rootFolderPath + ""samples/pageEngine/addressBook/"}
 	});*/
-	
+
 	aria.core.DownloadMgr.updateRootMap({
 		samples : {
 			"*": "../../../"
 		},
 		"addressBook": {
 			"*" : "samples/pageEngine/addressBook/"
-		}				
+		}
 	});
-   
+
     aria.core.AppEnvironment.setEnvironment({
       defaultWidgetLibs : {
         "aria" : "aria.widgets.AriaLib",
