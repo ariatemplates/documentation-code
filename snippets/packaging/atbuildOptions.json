@@ -1,0 +1,9 @@
+{
+    bootstrapFiles : require('../build/config/files-bootstrap.json'),
+    packages : require('../build/config/files-prod.json'),
+    outputDirectory : 'build/target/production',
+    outputBootstrapFile : 'ariatemplates-[version].js',
+    checkPackaged : true,
+    clean : true,
+    gzipStats : false
+}
