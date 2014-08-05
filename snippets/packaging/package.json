@@ -1,0 +1,9 @@
+{
+    "name" : "sample-at-app",
+    "version" : "1.0.0",
+    "description" : "A sample Aria Templates application.",
+    "devDependencies" : {
+        "ariatemplates" : "1.6.4",
+        "grunt" : "0.4.2"
+    }
+}

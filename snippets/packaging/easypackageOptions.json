@@ -1,0 +1,20 @@
+{
+    sourceDirectories : [],
+    sourceFiles : ['**/*'],
+    packages : [],
+    outputDirectory : 'build/target',
+    map : 'map.js',
+    minify : true,
+    hash : true,
+    compileTemplates : true,
+    ATAppEnvironment : null,
+    convertToNoderjs : true,
+    includeDependencies : true,
+    checkPackaged : false,
+    starCompress : ['**/*'],
+    starStarCompress : ['**/*'],
+    license : "",
+    stripBanner : true,
+    clean : true,
+    gzipStats : false
+}
