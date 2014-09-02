@@ -1,0 +1,8 @@
+title: Click buster
+template: 'samples.features.clickbuster.ClickSample'
+description: It shows how the click buster works.
+sources:
+- ClickSample.tpl
+- ClickSampleScript.js
+
+categories: Features/Click Buster
