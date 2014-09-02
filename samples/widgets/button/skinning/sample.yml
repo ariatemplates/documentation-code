@@ -1,0 +1,5 @@
+title: Skinng system - Button
+template: samples.widgets.button.skinning.Action
+description: It shows sclass works with the Button Widget.
+sources:
+- Action.tpl

@@ -552,6 +552,18 @@
 		"desc": "It shows a Button Widget bound to other widgets."
 	},
 	{
+		"path": "samples.widgets.button.skinning.disabled.Action",
+		"title": "Skinng system - Button",
+		"categories": "",
+		"desc": "It shows Button in a disabled state."
+	},
+	{
+		"path": "samples.widgets.button.skinning.Action",
+		"title": "Skinng system - Button",
+		"categories": "",
+		"desc": "It shows sclass works with the Button Widget."
+	},
+	{
 		"path": "samples.widgets.button.style.Simple",
 		"title": "Button Widget - Style",
 		"categories": "Widgets/Button",
