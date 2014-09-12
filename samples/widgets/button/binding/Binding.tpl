@@ -11,10 +11,6 @@
           to : "disabled",
           inside : data
         },
-        selected : {
-          to : "selected",
-          inside : data
-        },
         tooltip : {
           to : "tooltip",
           inside : data
@@ -30,16 +26,6 @@
       bind : {
         value : {
           to : "disabled",
-          inside : data
-        }
-      }
-    }/}
-    <br />
-    {@aria:CheckBox {
-      label : "Toggle selected on button",
-      bind : {
-        value : {
-          to : "selected",
           inside : data
         }
       }

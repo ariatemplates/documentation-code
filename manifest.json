@@ -18,6 +18,12 @@
 		"desc": "This sample shows how the autoselect works for a specific input widget (TextField, NumberField)."
 	},
 	{
+		"path": "samples.features.clickbuster.ClickSample",
+		"title": "Click buster",
+		"categories": "Features/Click Buster",
+		"desc": "It shows how the click buster works."
+	},
+	{
 		"path": "samples.features.prefill.basic.PrefillSample",
 		"title": "Basic Prefill Feature",
 		"categories": "Features/Prefill",
