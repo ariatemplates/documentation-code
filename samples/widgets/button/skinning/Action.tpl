@@ -1,5 +1,5 @@
 {Template {
-  $classpath: "samples.widgets.button.skinning.Action",
+  $classpath: "samples.widgets.button.skinning.Action"
 }}
   {macro main()}
 
