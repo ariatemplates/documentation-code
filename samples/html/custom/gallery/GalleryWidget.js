@@ -3,7 +3,7 @@ Aria.classDefinition({
 	$extends : "aria.html.Element",
 	$statics : {
 		SELF_CLOSING_ONLY : "Gallery Widget can only be used as a self closing widget.",
-		ROOT : "http://raw.github.com/ariatemplates/documentation-code/master/samples/html/custom/gallery/"
+		ROOT : "https://raw.githubusercontent.com/ariatemplates/documentation-code/master/samples/html/custom/gallery/"
 	},
 	$css : ["samples.html.custom.gallery.GalleryWidgetStyle"],
 	$constructor : function (cfg, ctxt, lineNumber) {
