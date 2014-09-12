@@ -559,13 +559,13 @@
 	},
 	{
 		"path": "samples.widgets.button.skinning.disabled.Action",
-		"title": "Skinng system - Button",
+		"title": "Skinning system - Button",
 		"categories": "",
 		"desc": "It shows Button in a disabled state."
 	},
 	{
 		"path": "samples.widgets.button.skinning.Action",
-		"title": "Skinng system - Button",
+		"title": "Skinning system - Button",
 		"categories": "",
 		"desc": "It shows sclass works with the Button Widget."
 	},
