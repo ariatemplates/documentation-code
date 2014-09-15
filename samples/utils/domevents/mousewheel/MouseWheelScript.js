@@ -2,16 +2,11 @@ Aria.tplScriptDefinition({
     $classpath : "samples.utils.domevents.mousewheel.MouseWheelScript",
     $implements : ["aria.core.Browser", "aria.utils.Dom"],
     $prototype : {
-        onMouseScroll : function (event) {
-            var rolled = 0;
-            if ('wheelDelta' in event && !aria.core.Browser.isFirefox) {
-                rolled = event.wheelDelta;
-            } else { // Firefox
-                // The measurement units of the detail and wheelDelta properties are different.
-                rolled = -40 * event.detail;
-            }
-
-            this.$json.setValue(this.data, "rolled", rolled);
+        sumRolledVal : 0,
+        onMouseScroll : function (evt) {
+            this.sumRolledVal += (evt.detail) ? evt.detail * (-40) : evt.wheelDelta;
+            this.sumRolledVal = this.sumRolledVal > 0 ? 0 : this.sumRolledVal;
+            this.$json.setValue(this.data, "rolled", this.sumRolledVal);
         }
     }
 });
