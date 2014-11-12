@@ -1,0 +1,9 @@
+title: Calendar Widget - Ranges
+template: samples.widgets.calendar.ranges.Sample
+description: It shows how to style ranges of dates in the calendar.
+sources:
+- Sample.tpl
+- SampleScript.js
+- SampleStyle.tpl.css
+
+categories: Widgets/Calendar

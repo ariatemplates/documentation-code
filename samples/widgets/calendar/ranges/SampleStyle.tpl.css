@@ -1,0 +1,32 @@
+{CSSTemplate {
+    $classpath:"samples.widgets.calendar.ranges.SampleStyle"
+}}
+    {macro main()}
+
+.blueRange {
+    background-color: #CCCCFF;
+    border-color:  #CCCCFF;
+}
+
+.greenRange {
+    background-color: #CCFFCC;
+    border-color:  #CCFFCC;
+}
+
+.greenRange.firstDay, .greenRange.lastDay {
+    border-color: #00AA00;
+    color: #00AA00;
+}
+
+.firstDay, .lastDay {
+    font-weight: bold;
+}
+
+.redDay {
+    color: red;
+    font-weight: bold;
+}
+
+    {/macro}
+
+{/CSSTemplate}
