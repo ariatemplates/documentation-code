@@ -1,0 +1,8 @@
+title: Range Calendar Widget sample with hover effect
+template: samples.widgets.rangecalendar.hover.Sample
+description: It shows a more advanced usage of the Range Calendar widget, with a hover effect.
+sources:
+- Sample.tpl
+- SampleScript.js
+
+categories: Widgets/RangeCalendar

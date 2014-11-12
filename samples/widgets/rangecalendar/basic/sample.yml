@@ -1,0 +1,7 @@
+title: Range Calendar Widget basic sample
+template: samples.widgets.rangecalendar.basic.Sample
+description: It shows a basic usage of the RangeCalendar Widget.
+sources:
+- Sample.tpl
+
+categories: Widgets/RangeCalendar
