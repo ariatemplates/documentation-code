@@ -582,6 +582,12 @@
 		"desc": "It shows two calendars bound to each other, so navigating inside one calendar changes the other."
 	},
 	{
+		"path": "samples.widgets.calendar.ranges.Sample",
+		"title": "Calendar Widget - Ranges",
+		"categories": "Widgets/Calendar",
+		"desc": "It shows how to style ranges of dates in the calendar."
+	},
+	{
 		"path": "samples.widgets.calendar.Samples",
 		"title": "Calendar Widget - Label format",
 		"categories": "Widgets/Calendar",
@@ -904,6 +910,24 @@
 		"title": "RadioButton Widget - Styling",
 		"categories": "Widgets/Radiobutton",
 		"desc": "It shows the RadioButton Widget with different styles applied."
+	},
+	{
+		"path": "samples.widgets.rangecalendar.basic.Sample",
+		"title": "Range Calendar Widget basic sample",
+		"categories": "Widgets/RangeCalendar",
+		"desc": "It shows a basic usage of the RangeCalendar Widget."
+	},
+	{
+		"path": "samples.widgets.rangecalendar.hover.Sample",
+		"title": "Range Calendar Widget sample with hover effect",
+		"categories": "Widgets/RangeCalendar",
+		"desc": "It shows a more advanced usage of the Range Calendar widget, with a hover effect."
+	},
+	{
+		"path": "samples.widgets.rangecalendar.ranges.Sample",
+		"title": "Range Calendar Widget - Ranges",
+		"categories": "Widgets/RangeCalendar",
+		"desc": "It shows how to style ranges of dates in the range calendar."
 	},
 	{
 		"path": "samples.widgets.select.bindoptions.BindOptions",

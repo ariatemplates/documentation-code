@@ -1,0 +1,27 @@
+.xfadefast.xout,.xfadefast.xoutMix,.xfadefast.xout3d {
+    opacity: 0;
+    -webkit-animation-duration: 10ms;
+    -webkit-animation-name: fadeout;
+    -moz-animation-duration: 10ms;
+    -moz-animation-name: fadeout;
+    -ms-animation-duration: 10ms;
+    -ms-animation-name: fadeout;
+    -o-animation-duration: 10ms;
+    -o-animation-name: fadeout;
+    animation-duration: 10ms;
+    animation-name: fadeout;
+}
+
+.xfadefast.xin,.xfadefast.xinMix,.xfadefast.xin3d {
+    opacity: 1;
+    -webkit-animation-duration: 10ms;
+    -webkit-animation-name: fadein;
+    -moz-animation-duration: 10ms;
+    -moz-animation-name: fadein;
+    -ms-animation-duration: 10ms;
+    -ms-animation-name: fadein;
+    -o-animation-duration: 10ms;
+    -o-animation-name: fadein;
+    animation-duration: 10ms;
+    animation-name: fadein;
+}
