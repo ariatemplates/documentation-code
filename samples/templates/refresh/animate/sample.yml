@@ -1,0 +1,15 @@
+title: Animated Refresh
+template: samples.templates.refresh.animate.AnimatedRefresh
+description: It shows how the Animated Refresh works in aria templates.
+sources:
+- AnimatedRefresh.tpl
+- AnimatedRefreshScript.js
+- RefreshCSS.tpl.css
+data:
+  teams:
+  - name: 'England'
+    score: 0
+  - name: 'France'
+    score: 0
+
+categories: Templates/Refresh

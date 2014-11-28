@@ -1,0 +1,20 @@
+{CSSTemplate {
+	$classpath : "samples.templates.refresh.animate.RefreshCSS"
+}}
+
+  {macro main ()}
+
+    .page  {
+      position: absolute;
+      border: 1px solid red;
+      padding: 10px;
+    }
+
+    .log  {
+      top: 200px;
+      position: absolute;
+    }
+
+{/macro}
+
+{/CSSTemplate}
