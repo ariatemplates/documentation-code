@@ -11,3 +11,4 @@ data:
   - label: 'Monaco Grand Prix'
     code: '25 May'
 categories: Widgets/MultiAutocomplete
+release: true

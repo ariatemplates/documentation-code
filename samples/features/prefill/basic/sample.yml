@@ -6,3 +6,4 @@ sources:
 - PrefillSampleScript.js
 - PrefillSampleCSS.tpl.css
 categories: Features/Prefill
+release: true

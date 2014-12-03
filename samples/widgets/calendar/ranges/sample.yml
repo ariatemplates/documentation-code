@@ -7,3 +7,4 @@ sources:
 - SampleStyle.tpl.css
 
 categories: Widgets/Calendar
+release: true

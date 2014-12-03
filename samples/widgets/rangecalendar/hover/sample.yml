@@ -6,3 +6,4 @@ sources:
 - SampleScript.js
 
 categories: Widgets/RangeCalendar
+release: true
