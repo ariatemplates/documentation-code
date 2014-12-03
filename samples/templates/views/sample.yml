@@ -43,3 +43,4 @@ data:
       currency: "EUR"
       value: 115
 categories: Templates/Views
+release: true

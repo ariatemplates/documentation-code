@@ -27,6 +27,7 @@ glob("**/*.yml", {cwd: samplesFolder}, function (er, files) {
                 title: doc.title || "",
                 categories: doc.categories || "",
                 desc: doc.description || "",
+                release: doc.release || false
             });
         }
         saveManifest(filelist);

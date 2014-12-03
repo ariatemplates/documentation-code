@@ -6,3 +6,4 @@ sources:
 - TemplateSplitterScript.js
 
 categories: Widgets/Splitter
+release: true

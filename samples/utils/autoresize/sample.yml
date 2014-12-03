@@ -7,3 +7,4 @@ sources:
 - SubTemplate.tpl
 - index.html
 categories: Utils/Autoresize
+release: true

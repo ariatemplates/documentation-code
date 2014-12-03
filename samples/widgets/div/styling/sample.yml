@@ -4,3 +4,4 @@ description: It shows different uses of the 'sclass' property with the Div Widge
 sources:
 - DivWidgetStyling.tpl
 categories: Widgets/Div
+release: true

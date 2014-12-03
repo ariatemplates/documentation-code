@@ -6,3 +6,4 @@ sources:
 - CustomizedCalendar.tpl
 - CustomizedCalendarScript.js
 categories: Widgets/Datepicker
+release: true

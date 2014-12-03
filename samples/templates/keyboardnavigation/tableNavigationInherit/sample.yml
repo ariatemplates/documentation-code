@@ -5,3 +5,4 @@ sources:
 - TableNavInherit.tpl
 
 categories: Templates/Keyboard navigation
+release: true

@@ -5,3 +5,4 @@ sources:
 - Sample.tpl
 
 categories: Widgets/RangeCalendar
+release: true

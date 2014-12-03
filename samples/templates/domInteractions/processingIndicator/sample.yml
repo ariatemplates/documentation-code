@@ -7,3 +7,4 @@ sources:
 - SampleCSS.tpl.css
 
 categories: Templates/Dom
+release: true

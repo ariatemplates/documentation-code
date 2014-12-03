@@ -48,3 +48,4 @@ data:
 sources:
 - SampleUsage.tpl
 categories: Widgets/Multiselect
+release: true

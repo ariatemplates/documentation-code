@@ -5,3 +5,4 @@ sources:
 - MapSample.tpl
 - MapSampleCSS.tpl.css
 categories: Widgets/Map
+release: true
