@@ -17,6 +17,21 @@ Aria.classDefinition({
 
         dummy : function() {
 
+
+            ////#instantiate
+            var myMandatoryValidator = new aria.utils.validators.Mandatory("The first name is a required field using a mandatory validator.");
+            ////#instantiate
+
+            ////#setEnvironment
+            aria.core.AppEnvironment.setEnvironment({
+                validatorMessages : {
+                    AlphaNum : "The string inserted has to be alphanumeric.",
+                    Mandatory : "The first name is a required field using a mandatory validator.",
+                    Email : "The text you typed does not correspond to an email address."
+                }
+            });
+            ////#setEnvironment
+
             ////#datamodel
             this._data = {
                 sampleType : "ard",
