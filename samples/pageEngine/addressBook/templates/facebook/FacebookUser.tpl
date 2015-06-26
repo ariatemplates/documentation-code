@@ -17,7 +17,7 @@
         inside : data
       },
       attributes : {
-        classList : ["fb-user-container"],
+        classList : ["fb-user-container"]
       },
       type : "div"
     }/}
