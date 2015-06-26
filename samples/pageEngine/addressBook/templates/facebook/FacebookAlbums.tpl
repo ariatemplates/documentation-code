@@ -20,7 +20,7 @@
         inside : data
       },
       attributes : {
-        classList : ["fb-photo-container"],
+        classList : ["fb-photo-container"]
       },
       type : "div",
       processingLabel : "Retrieving photos..."
