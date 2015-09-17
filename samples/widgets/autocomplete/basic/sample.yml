@@ -5,4 +5,6 @@ sources:
 - Basic.tpl
 - BasicScript.js
 - ../../../common/autocomplete/AutoCompleteResourceHandler.js
-categories: Widgets/Autocomplete
+categories:
+  - Widgets/Autocomplete
+  - Wai-aria/Autocomplete

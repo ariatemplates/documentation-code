@@ -114,7 +114,10 @@
 	{
 		"path": "samples.templates.domInteractions.processingIndicator.Sample",
 		"title": "Processing indicators",
-		"categories": "Templates/Dom",
+		"categories": [
+			"Templates/Dom",
+			"Wai-aria/Dom"
+		],
 		"desc": "It shows how the processing indicator works, using it with different sections and with the whole page.",
 		"release": true
 	},
@@ -604,7 +607,10 @@
 	{
 		"path": "samples.widgets.autocomplete.basic.Basic",
 		"title": "AutoComplete Widget - Basic Label-Code Resource Handler",
-		"categories": "Widgets/Autocomplete",
+		"categories": [
+			"Widgets/Autocomplete",
+			"Wai-aria/Autocomplete"
+		],
 		"desc": "It shows the basic functionality of the autocomplete widget, using different thresholds.",
 		"release": false
 	},
@@ -702,7 +708,10 @@
 	{
 		"path": "samples.widgets.checkbox.binding.BindableCheckbox",
 		"title": "Checkbox Widget - Binding",
-		"categories": "Widgets/Checkbox",
+		"categories": [
+			"Widgets/Checkbox",
+			"Wai-aria/Checkbox"
+		],
 		"desc": "It shows different modes to bing a Checkbox Widget, using the data model for example.",
 		"release": false
 	},
@@ -786,7 +795,10 @@
 	{
 		"path": "samples.widgets.dialog.binding.DialogBindingSample",
 		"title": "Dialog Widget - Binding",
-		"categories": "Widgets/Dialog",
+		"categories": [
+			"Widgets/Dialog",
+			"Wai-aria/Dialog"
+		],
 		"desc": "It shows which properties are bindable and how they work for the Dialog.",
 		"release": false
 	},
@@ -1052,7 +1064,10 @@
 	{
 		"path": "samples.widgets.radiobutton.binding.RadioButtonBinding",
 		"title": "RadioButton Widget - Binding",
-		"categories": "Widgets/Radiobutton",
+		"categories": [
+			"Widgets/Radiobutton",
+			"Wai-aria/Radiobutton"
+		],
 		"desc": "It shows RadioButton Widgets bound to the data model.",
 		"release": false
 	},

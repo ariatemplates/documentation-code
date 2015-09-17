@@ -4,4 +4,6 @@ description: It shows different modes to bing a Checkbox Widget, using the data 
 sources:
 - BindableCheckbox.tpl
 - BindableCheckboxScript.js
-categories: Widgets/Checkbox
+categories:
+  - Widgets/Checkbox
+  - Wai-aria/Checkbox

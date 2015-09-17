@@ -6,5 +6,7 @@ sources:
 - SampleScript.js
 - SampleCSS.tpl.css
 
-categories: Templates/Dom
+categories:
+  - Templates/Dom
+  - Wai-aria/Dom
 release: true

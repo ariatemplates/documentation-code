@@ -4,4 +4,6 @@ description: It shows RadioButton Widgets bound to the data model.
 sources:
 - RadioButtonBinding.tpl
 - RadioButtonBindingScript.js
-categories: Widgets/Radiobutton
+categories:
+  - Widgets/Radiobutton
+  - Wai-aria/Radiobutton
