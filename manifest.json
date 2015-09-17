@@ -1220,7 +1220,10 @@
 	{
 		"path": "samples.widgets.textfield.binding.Bindings",
 		"title": "TextField Widget - Bindings",
-		"categories": "Widgets/Textfield,Wai aria/Textfield",
+		"categories": [
+			"Widgets/Textfield",
+			"Wai-aria/Textfield"
+		],
 		"desc": "It shows some TextField Widgets bound to the data model.",
 		"release": false
 	},

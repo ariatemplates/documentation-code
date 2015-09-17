@@ -5,4 +5,6 @@ data:
   value: "Some Line Of Plain Text..."
 sources:
 - Bindings.tpl
-categories: Widgets/Textfield,Wai aria/Textfield
+categories:
+- Widgets/Textfield
+- Wai-aria/Textfield
