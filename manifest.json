@@ -686,13 +686,6 @@
 		"release": false
 	},
 	{
-		"path": "samples.widgets.calendar.custom.app.SampleTemplate",
-		"title": "Calendar Widget - Application",
-		"categories": "",
-		"desc": "It shows the Calendar Widget application.",
-		"release": false
-	},
-	{
 		"path": "samples.widgets.calendar.ranges.Sample",
 		"title": "Calendar Widget - Ranges",
 		"categories": "Widgets/Calendar",
@@ -1227,7 +1220,7 @@
 	{
 		"path": "samples.widgets.textfield.binding.Bindings",
 		"title": "TextField Widget - Bindings",
-		"categories": "Widgets/Textfield",
+		"categories": "Widgets/Textfield, Wai-aria/Textfield",
 		"desc": "It shows some TextField Widgets bound to the data model.",
 		"release": false
 	},
