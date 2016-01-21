@@ -4,7 +4,7 @@
 
   {macro main ()}
     div.myMenu, div.myMenu span.myMenuItem {
-      width: 130px;
+      width: 310px;
       display: inline-block;
       float: left;
     }
@@ -13,7 +13,7 @@
       margin-right: 10px;
     }
 
-    div.myMenu span.myMenuItem span {
+    div.myMenu span.myMenuItem button {
       padding: 5px;
       float: left;
       margin-right: 5px;
@@ -21,14 +21,15 @@
       cursor: pointer;
       font-family: Tahoma;
       font-weight: bold;
+      border: none;
     }
 
-    span.half {
-      width: 50px;
+    .half {
+      width: 150px;
     }
 
-    span.whole {
-      width: 115px;
+    .whole {
+      width: 305px;
     }
 
     div.myContent {
@@ -36,30 +37,30 @@
       display: inline-block;
     }
 
-    div.myContent span{
+    div.myContent span {
       width: 400px;
       height: 90px;
       margin-bottom: 10px;
       display: inline-block;
     }
 
-    span.colorOne {
+    .colorOne {
       background-color : #9BA8CF;
     }
 
-    span.colorTwo {
+    .colorTwo {
       background-color : #9BCFCF;
     }
 
-    span.colorThree {
+    .colorThree {
       background-color : #CBCF9B;
     }
 
-    span.colorFour {
+    .colorFour {
       background-color : #CFB29B;
     }
 
-    span.colorFive {
+    .colorFive {
       background-color : #CF9B9B;
     }
 

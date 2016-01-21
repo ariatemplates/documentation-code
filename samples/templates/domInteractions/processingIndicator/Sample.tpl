@@ -6,35 +6,35 @@
     {macro main()}
         <div class="myMenu">
             <span class="myMenuItem">
-                <span class="half colorOne"
+                <button class="half colorOne"
                     {on click { fn : setProcessing, args : {id : "mySpan", value : true, label : "Loding span content..."}} /}
-                >Start</span>
-                <span class="half colorOne"
+                >Start indicator in span</button>
+                <button alt="Stop indicator in first region" class="half colorOne"
                     {on click { fn : setProcessing, args : {id : "mySpan", value : false}} /}
-                >Stop</span>
+                >Stop indicator in span</button>
             </span>
             <span class="myMenuItem">
-                <span class="half colorTwo"
+                <button class="half colorTwo"
                     {on click { fn : setProcessing, args : {id : "myFirstSection", value : true, label : "Loding section content..."}} /}
-                >Start</span>
-                <span class="half colorTwo"
+                >Start indicator in section</button>
+                <button class="half colorTwo"
                     {on click { fn : setProcessing, args : {id : "myFirstSection", value : false}} /}
-                >Stop</span>
+                >Stop indicator in section</button>
             </span>
             <span class="myMenuItem">
-                <span class="whole colorThree"
+                <button class="whole colorThree"
                     {on click { fn : toggleProcessing} /}
-                >Toggle</span>
+                >Toggle indicator in section</button>
             </span>
             <span class="myMenuItem">
-                <span class="whole colorFour"
+                <button class="whole colorFour"
                     {on click { fn : wholePage} /}
-                >Whole page</span>
+                >Activate whole page indicator</button>
             </span>
             <span class="myMenuItem">
-                <span class="whole colorFive"
+                <button class="whole colorFive"
                     {on click { fn : refresh} /}
-                >Refresh</span>
+                >Refresh</button>
             </span>
         </div>
         <div class="myContent">
