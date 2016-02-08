@@ -3,4 +3,6 @@ template: samples.widgets.datepicker.TemplateDatePicker
 description: It shows the default DatePicker Widget.
 sources:
 - TemplateDatePicker.tpl
-categories: Widgets/Datepicker
+categories:
+  - Widgets/Datepicker
+  - Wai-aria/Datepicker

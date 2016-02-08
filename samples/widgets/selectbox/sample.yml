@@ -23,4 +23,6 @@ data:
     label: "United States of America"
 sources:
 - SampleUsage.tpl
-categories: Widgets/Selectbox
+categories:
+  - Widgets/Selectbox
+  - Wai-aria/Selectbox

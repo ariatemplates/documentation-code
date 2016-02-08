@@ -774,7 +774,10 @@
 	{
 		"path": "samples.widgets.datepicker.TemplateDatePicker",
 		"title": "DatePicker Widget - Binding",
-		"categories": "Widgets/Datepicker",
+		"categories": [
+			"Widgets/Datepicker",
+			"Wai-aria/Datepicker"
+		],
 		"desc": "It shows the default DatePicker Widget.",
 		"release": false
 	},
@@ -854,7 +857,10 @@
 	{
 		"path": "samples.widgets.errorlist.binding.ErrorListBinding",
 		"title": "ErrorList Widget - Binding",
-		"categories": "Widgets/Errorlist",
+		"categories": [
+			"Widgets/Errorlist",
+			"Wai-aria/Errors"
+		],
 		"desc": "It shows how the ErrorList Widget works when is bound to something.",
 		"release": false
 	},
@@ -1130,7 +1136,10 @@
 	{
 		"path": "samples.widgets.selectbox.SampleUsage",
 		"title": "SelectBox Widget",
-		"categories": "Widgets/Selectbox",
+		"categories": [
+			"Widgets/Selectbox",
+			"Wai-aria/Selectbox"
+		],
 		"desc": "It shows the SelectBox Widget in different configuration (default, read-only, disabled).",
 		"release": false
 	},
