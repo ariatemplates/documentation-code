@@ -784,8 +784,7 @@
 		"path": "samples.widgets.datepicker.TemplateDatePicker",
 		"title": "DatePicker Widget - Binding",
 		"categories": [
-			"Widgets/Datepicker",
-			"Wai-aria/Datepicker"
+			"Widgets/Datepicker"
 		],
 		"desc": "It shows the default DatePicker Widget.",
 		"release": false
@@ -795,6 +794,16 @@
 		"title": "DatePicker Widget - Validation",
 		"categories": "Widgets/Datepicker",
 		"desc": "It shows the validation on DatePicker Widget.",
+		"release": false
+	},
+	{
+		"path": "samples.widgets.datepicker.wai.WaiDatePicker",
+		"title": "DatePicker Widget - Wai-aria support",
+		"categories": [
+			"Widgets/Datepicker",
+			"Wai-aria/Datepicker"
+		],
+		"desc": "It shows how to set Wai-aria-related properties.",
 		"release": false
 	},
 	{

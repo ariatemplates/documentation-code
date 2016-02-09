@@ -5,4 +5,3 @@ sources:
 - TemplateDatePicker.tpl
 categories:
   - Widgets/Datepicker
-  - Wai-aria/Datepicker

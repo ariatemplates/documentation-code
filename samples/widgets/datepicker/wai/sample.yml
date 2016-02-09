@@ -1,0 +1,8 @@
+title: DatePicker Widget - Wai-aria support
+template: samples.widgets.datepicker.wai.WaiDatePicker
+description: It shows how to set Wai-aria-related properties.
+sources:
+- WaiDatePicker.tpl
+categories:
+  - Widgets/Datepicker
+  - Wai-aria/Datepicker
