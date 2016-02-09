@@ -1,0 +1,10 @@
+title: AutoComplete Widget - Wai-aria support
+template: samples.widgets.autocomplete.wai.WaiAutoComplete
+description: It shows how to set Wai-aria-related properties.
+sources:
+- WaiAutoComplete.tpl
+- WaiAutoCompleteScript.js
+- ../../../common/autocomplete/AutoCompleteResourceHandler.js
+categories:
+  - Widgets/Autocomplete
+  - Wai-aria/Autocomplete

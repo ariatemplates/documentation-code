@@ -608,8 +608,7 @@
 		"path": "samples.widgets.autocomplete.basic.Basic",
 		"title": "AutoComplete Widget - Basic Label-Code Resource Handler",
 		"categories": [
-			"Widgets/Autocomplete",
-			"Wai-aria/Autocomplete"
+			"Widgets/Autocomplete"
 		],
 		"desc": "It shows the basic functionality of the autocomplete widget, using different thresholds.",
 		"release": false
@@ -633,6 +632,16 @@
 		"title": "AutoComplete Widget - Spell Check",
 		"categories": "Widgets/Autocomplete",
 		"desc": "It shows how the spellcheck works with the autocomplete. It gives suggestions if the user makes errors, like doubling a letter in a word.",
+		"release": false
+	},
+	{
+		"path": "samples.widgets.autocomplete.wai.WaiAutoComplete",
+		"title": "AutoComplete Widget - Wai-aria support",
+		"categories": [
+			"Widgets/Autocomplete",
+			"Wai-aria/Autocomplete"
+		],
+		"desc": "It shows how to set Wai-aria-related properties.",
 		"release": false
 	},
 	{

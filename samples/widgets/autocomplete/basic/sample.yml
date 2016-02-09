@@ -7,4 +7,3 @@ sources:
 - ../../../common/autocomplete/AutoCompleteResourceHandler.js
 categories:
   - Widgets/Autocomplete
-  - Wai-aria/Autocomplete
