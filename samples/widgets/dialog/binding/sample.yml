@@ -6,4 +6,3 @@ sources:
 - DialogBindingSampleScript.js
 categories:
   - Widgets/Dialog
-  - Wai-aria/Dialog

@@ -1,0 +1,13 @@
+title: Dialog Widget - Wai-aria support
+template: samples.widgets.dialog.wai.Dialog
+description: It demonstrates Wai-aria capabilities of the Dialog widget.
+waiAria: true
+data:
+    dialogOpen: false
+    modalDialog: true
+sources:
+- Dialog.tpl
+- DialogScript.js
+categories:
+  - Widgets/Dialog
+  - Wai-aria/Dialog
