@@ -817,8 +817,7 @@
 		"path": "samples.widgets.dialog.binding.DialogBindingSample",
 		"title": "Dialog Widget - Binding",
 		"categories": [
-			"Widgets/Dialog",
-			"Wai-aria/Dialog"
+			"Widgets/Dialog"
 		],
 		"desc": "It shows which properties are bindable and how they work for the Dialog.",
 		"release": false
@@ -842,6 +841,16 @@
 		"title": "Dialog Widget",
 		"categories": "Widgets/Dialog",
 		"desc": "It shows the default Dialog popping out after a mouse click.",
+		"release": false
+	},
+	{
+		"path": "samples.widgets.dialog.wai.Dialog",
+		"title": "Dialog Widget - Wai-aria support",
+		"categories": [
+			"Widgets/Dialog",
+			"Wai-aria/Dialog"
+		],
+		"desc": "It demonstrates Wai-aria capabilities of the Dialog widget.",
 		"release": false
 	},
 	{
