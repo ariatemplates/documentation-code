@@ -17,6 +17,10 @@
           messages: {
             to: "errorMessages",
             inside: data
+          },
+          requireFocus: {
+            to: "listerrorFocus",
+            inside: data
           }
         }
       }/}
