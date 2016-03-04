@@ -18,6 +18,7 @@
             title : "Please enter your credential",
             icon : "std:info",
             autoFocus: true,
+            closeLabel: "Close",
             width : 400,
             maxHeight : 500,
             modal : data.modalDialog,
