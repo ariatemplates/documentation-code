@@ -10,6 +10,7 @@
             label : "Country",
             labelWidth: 100,
             autoFill : false,
+            preselect : "none",
             resourcesHandler : this.nationsHandler,
             waiSuggestionsStatusGetter: this.waiSuggestionsStatusGetter,
             waiSuggestionAriaLabelGetter: this.waiSuggestionAriaLabelGetter
@@ -20,6 +21,7 @@
             label : "City",
             labelWidth: 100,
             autoFill : false,
+            preselect : "none",
             resourcesHandler : this.citiesHandler,
             waiSuggestionsStatusGetter: this.waiSuggestionsStatusGetter,
             waiSuggestionAriaLabelGetter: this.waiSuggestionAriaLabelGetter

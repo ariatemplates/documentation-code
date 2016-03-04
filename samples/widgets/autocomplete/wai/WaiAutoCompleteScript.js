@@ -3,7 +3,9 @@ Aria.tplScriptDefinition({
     $dependencies : ["samples.common.autocomplete.AutoCompleteResourceHandler"],
     $constructor : function () {
         this.nationsHandler = samples.common.autocomplete.AutoCompleteResourceHandler.getNationsHandler(1);
+        this.nationsHandler.codeMatch = false;
         this.citiesHandler = samples.common.autocomplete.AutoCompleteResourceHandler.getCitiesHandler(1);
+        this.citiesHandler.codeMatch = false;
     },
     $destructor : function () {
         this.nationsHandler.$dispose();
