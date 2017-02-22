@@ -15,7 +15,7 @@ Aria.interfaceDefinition({
 		getColor : function()      { /* empty */ },
 		setColor : {				// usually employed for async apps
 			$type : "Function",
-			$callbackParam : 1		// cb will be the 2nd atgument to the function
+			$callbackParam : 1		// cb will be the 2nd argument to the function
 		},
 		fadeOut : "Function"		// alternative empty function() syntax
 	}
