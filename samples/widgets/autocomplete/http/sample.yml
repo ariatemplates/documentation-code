@@ -1,0 +1,11 @@
+title: AutoComplete Widget - Sample with http request to retrieve suggestions
+template: samples.widgets.autocomplete.http.Http
+description: It shows how to use the autocomplete widget with suggestions coming from a remote server.
+sources:
+  - Http.tpl
+  - HttpScript.js
+  - WikipediaResourceHandler.js
+  - WikipediaResourceHandlerBean.js
+  - WikipediaSuggestionsManager.js
+categories:
+  - Widgets/Autocomplete
