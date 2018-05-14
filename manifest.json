@@ -614,6 +614,15 @@
 		"release": false
 	},
 	{
+		"path": "samples.widgets.autocomplete.http.Http",
+		"title": "AutoComplete Widget - Sample with http request to retrieve suggestions",
+		"categories": [
+			"Widgets/Autocomplete"
+		],
+		"desc": "It shows how to use the autocomplete widget with suggestions coming from a remote server.",
+		"release": false
+	},
+	{
 		"path": "samples.widgets.autocomplete.onchange.OnChange",
 		"title": "AutoComplete Widget - OnChange Action",
 		"categories": "Widgets/Autocomplete",
@@ -1072,6 +1081,16 @@
 		"categories": "Widgets/Multiselect",
 		"desc": "It shows the MultiSelect Widget with different layouts, like columns, table, etc.",
 		"release": true
+	},
+	{
+		"path": "samples.widgets.multiselect.wai.WaiMultiselect",
+		"title": "Multiselect Widget - Wai-aria support",
+		"categories": [
+			"Widgets/Multiselect",
+			"Wai-aria/Multiselect"
+		],
+		"desc": "It shows how to set Wai-aria-related properties.",
+		"release": false
 	},
 	{
 		"path": "samples.widgets.numberfield.SampleUsage",
