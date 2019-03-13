@@ -13,6 +13,13 @@
 					to : "country",
 					inside : data.widgets
 				}
+			},
+			waiSuggestionsStatusGetter : function (number) {
+			 if (number === 0) {
+			   return "There is no suggestion.";
+			 } else {
+			   return (number == 1 ? "There is one suggestion" : "There are " + number + " suggestions") + ", use up and down arrow keys to navigate and enter to validate.";
+			 }
 			}
 		}/}
 
