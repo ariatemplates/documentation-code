@@ -13,7 +13,7 @@
 	            recursive : true
 	        }]
 	    }/}
-		<div id="exampleDiv" style="width: 100px; height: 70px; margin-left:0px; background: url(http://ariatemplates.com/images/logo-page.png) no-repeat; position: relative;"></div>
+		<div id="exampleDiv" style="width: 100px; height: 70px; margin-left:0px; background: url(/images/logo-page.png) no-repeat; position: relative;"></div>
         <button {on click "onClick"/}>Animate</button>
 	{/macro}
 

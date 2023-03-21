@@ -10,49 +10,49 @@
             <h1>Box</h1>
             <div class="section">
                 <h2>Background</h2>
-                <div id="backgroundId" style="width: 100px; height: 70px; background: url(http://ariatemplates.com/images/logo-page.png) no-repeat;"></div>
+                <div id="backgroundId" style="width: 100px; height: 70px; background: url(/images/logo-page.png) no-repeat;"></div>
                 <button {on click "animateBackground"/}>Animate</button>
             </div>
             <div class="section">
                 <h2>Borders</h2>
-                <div id="borderId" style="width: 100px; height: 70px; background: url(http://ariatemplates.com/images/logo-page.png) no-repeat; border: 1px solid blue;"></div>
+                <div id="borderId" style="width: 100px; height: 70px; background: url(/images/logo-page.png) no-repeat; border: 1px solid blue;"></div>
                 <button {on click "animateBorders"/}>Animate</button>
             </div>
             <div class="section">
                 <h2>Outline width</h2>
-                <div id="outlineWidthId" style="width: 100px; height: 70px; background: url(http://ariatemplates.com/images/logo-page.png) no-repeat;  outline: blue dotted 1px;"></div>
+                <div id="outlineWidthId" style="width: 100px; height: 70px; background: url(/images/logo-page.png) no-repeat;  outline: blue dotted 1px;"></div>
                 <button {on click "animateOutlineWidth"/}>Animate</button>
             </div>
             <div class="section">
                 <h2>Position</h2>
-                <div id="positionId" style="width: 100px; height: 70px; background: url(http://ariatemplates.com/images/logo-page.png) no-repeat; position: relative;"></div>
+                <div id="positionId" style="width: 100px; height: 70px; background: url(/images/logo-page.png) no-repeat; position: relative;"></div>
                 <button {on click "animatePosition"/}>Animate</button>
             </div>
             <div class="section">
                 <h2>Size</h2>
-                <div id="sizeId" style="width: 100px; height: 30px; background: url(http://ariatemplates.com/images/logo-page.png) no-repeat;"></div>
+                <div id="sizeId" style="width: 100px; height: 30px; background: url(/images/logo-page.png) no-repeat;"></div>
                 <button {on click "animateSize"/}>Animate</button>
             </div>
             <div class="section">
                 <h2>Min size</h2>
-                <div id="minsizeId" style="min-width: 150px; min-height: 70px; width: 100px; height: 30px; background: url(http://ariatemplates.com/images/logo-page.png) no-repeat;"></div>
+                <div id="minsizeId" style="min-width: 150px; min-height: 70px; width: 100px; height: 30px; background: url(/images/logo-page.png) no-repeat;"></div>
                 <button {on click "animateMinsize"/}>Animate</button>
             </div>
             <div class="section">
                 <h2>Max size</h2>
-                <div id="maxsizeId" style="width: 150px; height: 70px; max-width: 100px; max-height: 30px; background: url(http://ariatemplates.com/images/logo-page.png) no-repeat;"></div>
+                <div id="maxsizeId" style="width: 150px; height: 70px; max-width: 100px; max-height: 30px; background: url(/images/logo-page.png) no-repeat;"></div>
                 <button {on click "animateMaxsize"/}>Animate</button>
             </div>
             <div class="section" style="borders: 1px solid blue;">
                 <h2>Margin</h2>
                 <div style="border: 1px solid blue; display: inline-block;">
-                    <div id="marginId" style="width: 100px; height: 70px; background: url(http://ariatemplates.com/images/logo-page.png) no-repeat;"></div>
+                    <div id="marginId" style="width: 100px; height: 70px; background: url(/images/logo-page.png) no-repeat;"></div>
                 </div>
                 <button {on click "animateMargin"/}>Animate</button>
             </div>
             <div class="section" style="borders: 1px solid blue;">
                 <h2>Padding</h2>
-                <div id="paddingId" style="width: 100px; height: 70px; background: url(http://ariatemplates.com/images/logo-page.png) no-repeat;border: 1px solid blue;"></div>
+                <div id="paddingId" style="width: 100px; height: 70px; background: url(/images/logo-page.png) no-repeat;border: 1px solid blue;"></div>
                 <button {on click "animatePadding"/}>Animate</button>
             </div>
 
@@ -101,7 +101,7 @@
             <div class="section">
                 <h2>Scroll</h2>
                 <div id="scrollId" style="height: 90px; overflow: scroll;">
-                    <div style="width: 300px; height: 200px; margin-left:0px; background: url(http://ariatemplates.com/images/logo-page.png) no-repeat;"></div>
+                    <div style="width: 300px; height: 200px; margin-left:0px; background: url(/images/logo-page.png) no-repeat;"></div>
                 </div>
                 <button {on click "animateScroll"/}>Animate</button>
             </div>

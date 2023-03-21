@@ -1,4 +1,4 @@
-This contains all the code snippets/samples/guides used on ariatemplates.com documentation.
+This contains all the code snippets/samples/guides used on previous ariatemplates.com documentation.
 The usermanual is composed of markdown files in which you have the ability to display some code snippets (`/snippets`),
 or insert some live samples (`/samples`).
 

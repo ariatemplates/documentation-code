@@ -95,9 +95,9 @@
                 <input {on click {fn: inputCB, scope: this, args : "input"}/} />
             </div>
         {elseif this.data.element == "link"/}
-            <a {on click {fn: inputCB, scope: this, args : "link"}/} id="project-name-val" href="http://www.ariatemplates.com"> Aria Templates</a>
+            <a {on click {fn: inputCB, scope: this, args : "link"}/} id="project-name-val" href="/"> Aria Templates</a>
         {elseif this.data.element == "button"/}
-            <form action="http://www.ariatemplates.com">
+            <form action="/">
                 <input {on click {fn: inputCB, scope: this, args : "button"}/} type="submit" value="visit AT.com">
             </form>
         {elseif this.data.element == "checkbox"/}
